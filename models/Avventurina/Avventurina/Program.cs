@@ -62,7 +62,7 @@ app.MapPost("/choose-move", async (HttpContext context) =>
     {
         // a new game (or a restarted one) starts with clean caches
         if (memory.Moves == 0 || r.Position.Ply < memory.LastPly) { parallel.Clear(); memory.Keys.Clear(); }
-        var result = parallel.Search(root, memory.Keys, Math.Max(20, r.ThinkTimeMs - margin));
+        var result = parallel.Search(root, memory.Keys, Math.Clamp(r.ThinkTimeMs - margin, 20, 10000));
         var chosen = legal.FirstOrDefault(m => m.From - 1 == result.Best.From && m.To - 1 == result.Best.To
             && Mask(m.Captures) == result.Best.Captured);
         if (chosen is null)
