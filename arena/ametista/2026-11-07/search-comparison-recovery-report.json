@@ -1,0 +1,120 @@
+{
+  "complete": true,
+  "totals": {
+    "v14": {
+      "games": 16,
+      "wins": 1,
+      "draws": 2,
+      "losses": 13,
+      "points": 4,
+      "score": 0.125
+    },
+    "v16": {
+      "games": 16,
+      "wins": 1,
+      "draws": 0,
+      "losses": 15,
+      "points": 2,
+      "score": 0.0625
+    }
+  },
+  "pairedComparisons": [
+    {
+      "seed": 375101,
+      "v14": 0.0,
+      "v16": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 375102,
+      "v16": 0.0,
+      "v14": 0.25,
+      "candidateMinusBaseline": -0.25
+    },
+    {
+      "seed": 375103,
+      "v14": 0.0,
+      "v16": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 375104,
+      "v16": 0.0,
+      "v14": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 375105,
+      "v14": 0.0,
+      "v16": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 375106,
+      "v16": 0.0,
+      "v14": 0.25,
+      "candidateMinusBaseline": -0.25
+    },
+    {
+      "seed": 375107,
+      "v14": 0.0,
+      "v16": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 375108,
+      "v16": 0.5,
+      "v14": 0.5,
+      "candidateMinusBaseline": 0.0
+    }
+  ],
+  "pending": [],
+  "realGamesCreated": 0,
+  "automaticallySelectedVersion": null,
+  "limitations": [
+    "These opening pairs are development, not a confirmation of superiority.",
+    "All numbers are descriptive; no automatic model or weight selection.",
+    "Concurrent load and different hardware resources across agents remain relevant."
+  ],
+  "recovery": {
+    "originalSelection": "search-comparison-selection.json",
+    "originalAttempt": {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375105.json",
+      "variant": "v16",
+      "seed": 375105,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375105"
+    },
+    "reason": "35-second HTTP timeout on Kingsrow turn at ply148; process terminal confirmed; no performance outcome assigned",
+    "interruptedMatchId": "497fffcd785a4ed58ec869bdd3b90c71",
+    "repeatPolicy": "Repeat both colors with fresh IDs, retain original completed loss and interrupted game separately; no weights/binary/configuration changes",
+    "originalAttemptGames": 2,
+    "originalAttemptCompleted": 1,
+    "originalAttemptInterrupted": 1,
+    "plannedTotalStartsIncludingOriginalAttempt": 34,
+    "resumeIndex": 9,
+    "causalAttribution": "unknown; shared load is a possible confound, not established cause"
+  },
+  "retainedOriginalAttemptsExcludedFromPairedComparison": [
+    {
+      "matchId": "d5131bed9d45441690a3e36d7604a6f3",
+      "white": "ametista",
+      "black": "kingsrow",
+      "completed": true,
+      "winner": -1,
+      "reason": "blocked",
+      "plies": 122,
+      "error": null
+    },
+    {
+      "matchId": "497fffcd785a4ed58ec869bdd3b90c71",
+      "white": "kingsrow",
+      "black": "ametista",
+      "completed": false,
+      "winner": null,
+      "reason": "model-failure",
+      "plies": 148,
+      "error": "The operation was canceled."
+    }
+  ],
+  "auditedStartsIncludingOriginalAttempts": 34
+}

@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-11-07T16:33:58.784704+00:00",
+  "passed": true,
+  "checks": [
+    "72 synthetic games, 18 pairs each version",
+    "allwin versus allloss totals",
+    "allwin t arithmetic",
+    "difference Hoeffding range [-1,1]",
+    "allwin support flags",
+    "score Hoeffding range [0,1]",
+    "all 146 input hashes retained",
+    "paired comparison accepts two lanes and distinct opponent instances",
+    "config defaults and UTC spelling normalize successfully",
+    "equal pair arithmetic and no improvement",
+    "equal draws not superiority",
+    "mismatched cores rejected even with internally matching config/schedule",
+    "duplicate ID across variants rejected",
+    "existing output rejected unchanged"
+  ],
+  "realGamesCreated": 0,
+  "syntheticFixtureOnly": true,
+  "fixtureLocation": "TemporaryDirectory outside repository and shared competition store; removed after checks",
+  "pythonOptimizationEnabled": true,
+  "scriptSha256": "e13e1c95095542cb9e9392c4693f51703b12ece8c0c97791cee7415548c9fdcd",
+  "limitations": [
+    "Synthetic audit flags exercise validation and arithmetic only; no rule replay or motor execution."
+  ]
+}

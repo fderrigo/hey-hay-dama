@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-11-07T10:58:43.9311598+00:00",
+  "games": 4,
+  "completed": 4,
+  "moves": 487,
+  "allRecorded": true,
+  "legalReplay": true,
+  "fullSchedule": true,
+  "pairedOpenings": true,
+  "uniqueOpeningLines": 2,
+  "completePairs": 2,
+  "pairedScore": 0.25,
+  "approximate95Lower": null,
+  "approximate95Upper": null,
+  "intervalMethod": "t approximation by opening pair; not reported below 18 complete pairs",
+  "superioritySupported": false
+}

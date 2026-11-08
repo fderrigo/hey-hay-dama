@@ -1,0 +1,217 @@
+[
+  {
+    "candidate": 0,
+    "fitness": 0.5,
+    "sigma": 1
+  },
+  {
+    "candidate": 25,
+    "fitness": 0.5,
+    "sigma": 1
+  },
+  {
+    "candidate": 50,
+    "fitness": 0.5,
+    "sigma": 1
+  },
+  {
+    "candidate": 75,
+    "fitness": 0.625,
+    "sigma": 1.1
+  },
+  {
+    "candidate": 100,
+    "fitness": 0.625,
+    "sigma": 1.1
+  },
+  {
+    "candidate": 125,
+    "fitness": 0.625,
+    "sigma": 1.1
+  },
+  {
+    "candidate": 150,
+    "fitness": 0.625,
+    "sigma": 0.8250000000000001
+  },
+  {
+    "candidate": 175,
+    "fitness": 0.625,
+    "sigma": 0.8250000000000001
+  },
+  {
+    "candidate": 200,
+    "fitness": 0.625,
+    "sigma": 0.8250000000000001
+  },
+  {
+    "candidate": 225,
+    "fitness": 0.625,
+    "sigma": 0.61875
+  },
+  {
+    "candidate": 250,
+    "fitness": 0.625,
+    "sigma": 0.61875
+  },
+  {
+    "candidate": 275,
+    "fitness": 0.625,
+    "sigma": 0.61875
+  },
+  {
+    "candidate": 300,
+    "fitness": 0.625,
+    "sigma": 0.46406250000000004
+  },
+  {
+    "candidate": 325,
+    "fitness": 0.625,
+    "sigma": 0.46406250000000004
+  },
+  {
+    "candidate": 350,
+    "fitness": 0.625,
+    "sigma": 0.46406250000000004
+  },
+  {
+    "candidate": 375,
+    "fitness": 0.625,
+    "sigma": 0.34804687500000003
+  },
+  {
+    "candidate": 400,
+    "fitness": 0.625,
+    "sigma": 0.34804687500000003
+  },
+  {
+    "candidate": 425,
+    "fitness": 0.625,
+    "sigma": 0.34804687500000003
+  },
+  {
+    "candidate": 450,
+    "fitness": 0.625,
+    "sigma": 0.26103515625
+  },
+  {
+    "candidate": 475,
+    "fitness": 0.625,
+    "sigma": 0.26103515625
+  },
+  {
+    "candidate": 500,
+    "fitness": 0.625,
+    "sigma": 0.26103515625
+  },
+  {
+    "candidate": 525,
+    "fitness": 0.625,
+    "sigma": 0.19577636718750002
+  },
+  {
+    "candidate": 550,
+    "fitness": 0.625,
+    "sigma": 0.19577636718750002
+  },
+  {
+    "candidate": 575,
+    "fitness": 0.625,
+    "sigma": 0.19577636718750002
+  },
+  {
+    "candidate": 600,
+    "fitness": 0.625,
+    "sigma": 0.14683227539062502
+  },
+  {
+    "candidate": 625,
+    "fitness": 0.625,
+    "sigma": 0.14683227539062502
+  },
+  {
+    "candidate": 650,
+    "fitness": 0.625,
+    "sigma": 0.14683227539062502
+  },
+  {
+    "candidate": 675,
+    "fitness": 0.625,
+    "sigma": 0.11012420654296876
+  },
+  {
+    "candidate": 700,
+    "fitness": 0.625,
+    "sigma": 0.11012420654296876
+  },
+  {
+    "candidate": 725,
+    "fitness": 0.625,
+    "sigma": 0.11012420654296876
+  },
+  {
+    "candidate": 750,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 775,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 800,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 825,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 850,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 875,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 900,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 925,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 950,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 975,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 1000,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 1025,
+    "fitness": 0.625,
+    "sigma": 0.1
+  },
+  {
+    "candidate": 1050,
+    "fitness": 0.625,
+    "sigma": 0.1
+  }
+]

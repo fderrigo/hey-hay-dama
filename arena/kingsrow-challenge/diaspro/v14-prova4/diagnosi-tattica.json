@@ -1,0 +1,686 @@
+{
+  "games": 4,
+  "decisions": 162,
+  "avoidable": 17,
+  "avoidableExchanges": 3,
+  "summaries": [
+    {
+      "matchId": "5e5f53c5bf8e410d8c336dd956181f75",
+      "plies": 67,
+      "finalMaterial": -7,
+      "maximumMaterial": 1,
+      "maximumPly": 4,
+      "finalPieces": 0,
+      "finalKings": 0,
+      "result": "blocked"
+    },
+    {
+      "matchId": "6ce9d0604bd84216a5da108113e23808",
+      "plies": 76,
+      "finalMaterial": -7,
+      "maximumMaterial": 3,
+      "maximumPly": 49,
+      "finalPieces": 0,
+      "finalKings": 0,
+      "result": "blocked"
+    },
+    {
+      "matchId": "064943fa5fb143fe835d4a15eff385b2",
+      "plies": 113,
+      "finalMaterial": -13,
+      "maximumMaterial": 4,
+      "maximumPly": 60,
+      "finalPieces": 0,
+      "finalKings": 0,
+      "result": "blocked"
+    },
+    {
+      "matchId": "a68b30371fb0423286d8c03112c3a93d",
+      "plies": 94,
+      "finalMaterial": -7,
+      "maximumMaterial": 9,
+      "maximumPly": 85,
+      "finalPieces": 0,
+      "finalKings": 0,
+      "result": "blocked"
+    }
+  ],
+  "records": [
+    {
+      "matchId": "5e5f53c5bf8e410d8c336dd956181f75",
+      "ply": 8,
+      "chosen": "5-10",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -232.68723,
+      "alternatives": [
+        {
+          "id": "6-11",
+          "value": 32.564857,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "9-13",
+          "value": -83.73729,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "6-10",
+          "value": -96.07922,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "12-16",
+          "value": -100.59042,
+          "risk": 0,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "5e5f53c5bf8e410d8c336dd956181f75",
+      "ply": 14,
+      "chosen": "12-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -135.33575,
+      "alternatives": [
+        {
+          "id": "11-15",
+          "value": -10.198135,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "9-13",
+          "value": -57.01423,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "11-14",
+          "value": -64.44768,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "10-13",
+          "value": -67.184944,
+          "risk": 0,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "5e5f53c5bf8e410d8c336dd956181f75",
+      "ply": 20,
+      "chosen": "9-13",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -187.0476,
+      "alternatives": [
+        {
+          "id": "4-7",
+          "value": -72.761665,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "3-7",
+          "value": -74.93886,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "9-13",
+          "value": -187.0476,
+          "risk": 112,
+          "exchange": 0
+        },
+        {
+          "id": "11-14",
+          "value": -195.00867,
+          "risk": 112,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "5e5f53c5bf8e410d8c336dd956181f75",
+      "ply": 40,
+      "chosen": "17-21",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 112,
+      "minimumExchange": 0,
+      "chosenValue": -761.56,
+      "alternatives": [
+        {
+          "id": "15-19",
+          "value": -572.3498,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "14-19",
+          "value": -573.6986,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "14-18",
+          "value": -580.16565,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "17-21",
+          "value": -761.56,
+          "risk": 112,
+          "exchange": 112
+        }
+      ]
+    },
+    {
+      "matchId": "6ce9d0604bd84216a5da108113e23808",
+      "ply": 9,
+      "chosen": "26-21",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -207.69365,
+      "alternatives": [
+        {
+          "id": "23-19",
+          "value": -54.14347,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "27-22",
+          "value": -61.258724,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "26-22",
+          "value": -68.43582,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "25-21",
+          "value": -70.25431,
+          "risk": 0,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "6ce9d0604bd84216a5da108113e23808",
+      "ply": 13,
+      "chosen": "20-16",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -207.54231,
+      "alternatives": [
+        {
+          "id": "21-18",
+          "value": -63.27761,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "29-26",
+          "value": -67.56792,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "23-19",
+          "value": -185.60188,
+          "risk": 112,
+          "exchange": 0
+        },
+        {
+          "id": "28-24",
+          "value": -199.38852,
+          "risk": 112,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "6ce9d0604bd84216a5da108113e23808",
+      "ply": 17,
+      "chosen": "22-19",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -159.13383,
+      "alternatives": [
+        {
+          "id": "23-19",
+          "value": -8.936508,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "25-21",
+          "value": -79.282104,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "22-18",
+          "value": -83.42905,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "28-24",
+          "value": -86.15564,
+          "risk": 0,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "6ce9d0604bd84216a5da108113e23808",
+      "ply": 37,
+      "chosen": "18-14",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 112,
+      "minimumExchange": 0,
+      "chosenValue": -296.44556,
+      "alternatives": [
+        {
+          "id": "25-21",
+          "value": -217.37762,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "31-27",
+          "value": -232.32545,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "18-14",
+          "value": -296.44556,
+          "risk": 112,
+          "exchange": 112
+        },
+        {
+          "id": "19-14",
+          "value": -298.04108,
+          "risk": 112,
+          "exchange": 112
+        }
+      ]
+    },
+    {
+      "matchId": "064943fa5fb143fe835d4a15eff385b2",
+      "ply": 8,
+      "chosen": "12-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -84.711685,
+      "alternatives": [
+        {
+          "id": "12-16",
+          "value": -23.965427,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "7-11",
+          "value": -76.49685,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "6-11",
+          "value": -81.193146,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "5-10",
+          "value": -84.080345,
+          "risk": 0,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "064943fa5fb143fe835d4a15eff385b2",
+      "ply": 10,
+      "chosen": "7-14-23",
+      "chosenRisk": 112,
+      "minimumRisk": 112,
+      "chosenExchange": 112,
+      "minimumExchange": 0,
+      "chosenValue": -133.77765,
+      "alternatives": [
+        {
+          "id": "7-14-21",
+          "value": -295.90143,
+          "risk": 224,
+          "exchange": 0
+        },
+        {
+          "id": "7-14-23",
+          "value": -133.77765,
+          "risk": 112,
+          "exchange": 112
+        }
+      ]
+    },
+    {
+      "matchId": "064943fa5fb143fe835d4a15eff385b2",
+      "ply": 18,
+      "chosen": "6-11",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -163.82314,
+      "alternatives": [
+        {
+          "id": "7-12",
+          "value": -37.786983,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "7-11",
+          "value": -39.121006,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "13-17",
+          "value": -94.19978,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "10-14",
+          "value": -155.47,
+          "risk": 112,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "064943fa5fb143fe835d4a15eff385b2",
+      "ply": 34,
+      "chosen": "13-17",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -249.26944,
+      "alternatives": [
+        {
+          "id": "7-12",
+          "value": -101.13507,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "13-17",
+          "value": -249.26944,
+          "risk": 112,
+          "exchange": 0
+        },
+        {
+          "id": "7-11",
+          "value": -172.28923,
+          "risk": 112,
+          "exchange": 112
+        },
+        {
+          "id": "8-12",
+          "value": -289.6805,
+          "risk": 112,
+          "exchange": 112
+        }
+      ]
+    },
+    {
+      "matchId": "064943fa5fb143fe835d4a15eff385b2",
+      "ply": 40,
+      "chosen": "12-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": 182.15413,
+      "alternatives": [
+        {
+          "id": "12-16",
+          "value": -117.34699,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "12-15",
+          "value": 182.15413,
+          "risk": 112,
+          "exchange": 0
+        },
+        {
+          "id": "18-22",
+          "value": 86.00372,
+          "risk": 112,
+          "exchange": 112
+        },
+        {
+          "id": "17-21",
+          "value": 1.9768219,
+          "risk": 112,
+          "exchange": 112
+        }
+      ]
+    },
+    {
+      "matchId": "064943fa5fb143fe835d4a15eff385b2",
+      "ply": 82,
+      "chosen": "18-22",
+      "chosenRisk": 336,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -698.7718,
+      "alternatives": [
+        {
+          "id": "30-26",
+          "value": -479.95743,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "30-27",
+          "value": -481.35245,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "18-13",
+          "value": -490.03885,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "18-21",
+          "value": -490.29337,
+          "risk": 0,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "a68b30371fb0423286d8c03112c3a93d",
+      "ply": 15,
+      "chosen": "26-22",
+      "chosenRisk": 224,
+      "minimumRisk": 112,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -279.90182,
+      "alternatives": [
+        {
+          "id": "27-22",
+          "value": -158.68724,
+          "risk": 112,
+          "exchange": 0
+        },
+        {
+          "id": "27-23",
+          "value": -217.81184,
+          "risk": 112,
+          "exchange": 0
+        },
+        {
+          "id": "28-24",
+          "value": -290.153,
+          "risk": 112,
+          "exchange": 0
+        },
+        {
+          "id": "26-22",
+          "value": -279.90182,
+          "risk": 224,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "a68b30371fb0423286d8c03112c3a93d",
+      "ply": 29,
+      "chosen": "16-12",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -137.04227,
+      "alternatives": [
+        {
+          "id": "25-21",
+          "value": -75.68016,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "23-19",
+          "value": -78.423325,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "31-28",
+          "value": -84.18048,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "16-12",
+          "value": -137.04227,
+          "risk": 112,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "a68b30371fb0423286d8c03112c3a93d",
+      "ply": 33,
+      "chosen": "27-23",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -82.932144,
+      "alternatives": [
+        {
+          "id": "16-12",
+          "value": -80.67891,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "25-21",
+          "value": -90.76901,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "31-28",
+          "value": -104.55999,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "27-23",
+          "value": -82.932144,
+          "risk": 112,
+          "exchange": 0
+        }
+      ]
+    },
+    {
+      "matchId": "a68b30371fb0423286d8c03112c3a93d",
+      "ply": 39,
+      "chosen": "20-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenExchange": 0,
+      "minimumExchange": 0,
+      "chosenValue": -319.82114,
+      "alternatives": [
+        {
+          "id": "25-21",
+          "value": -80.35882,
+          "risk": 0,
+          "exchange": 0
+        },
+        {
+          "id": "20-15",
+          "value": -319.82114,
+          "risk": 112,
+          "exchange": 0
+        },
+        {
+          "id": "13-10",
+          "value": -407.7766,
+          "risk": 224,
+          "exchange": 224
+        },
+        {
+          "id": "16-12",
+          "value": -465.067,
+          "risk": 224,
+          "exchange": 224
+        }
+      ]
+    }
+  ]
+}

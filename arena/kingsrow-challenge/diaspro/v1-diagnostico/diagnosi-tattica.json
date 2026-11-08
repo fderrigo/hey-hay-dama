@@ -1,0 +1,2927 @@
+{
+  "games": 18,
+  "decisions": 296,
+  "avoidable": 101,
+  "records": [
+    {
+      "matchId": "5b0b11ea4d9548d9804a262ce31049ae",
+      "ply": 8,
+      "chosen": "7-11",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "12-16",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "6-11",
+          "value": -7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "6-10",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": -2.2888184E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "5b0b11ea4d9548d9804a262ce31049ae",
+      "ply": 12,
+      "chosen": "12-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "6-10",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "11-15",
+          "value": 2.2888184E-05,
+          "risk": 0
+        },
+        {
+          "id": "3-7",
+          "value": 2.2888184E-05,
+          "risk": 0
+        },
+        {
+          "id": "12-16",
+          "value": 7.6293945E-06,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "5b0b11ea4d9548d9804a262ce31049ae",
+      "ply": 16,
+      "chosen": "15-20",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "3-7",
+          "value": 2.2888184E-05,
+          "risk": 0
+        },
+        {
+          "id": "5-10",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "6-10",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "11-14",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "5b0b11ea4d9548d9804a262ce31049ae",
+      "ply": 20,
+      "chosen": "11-15",
+      "chosenRisk": 448,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "9-13",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "5-10",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "6-10",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "17-21",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "5b0b11ea4d9548d9804a262ce31049ae",
+      "ply": 22,
+      "chosen": "17-21",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "6-10",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "5-10",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "6-11",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "17-21",
+          "value": 6.1035156E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "5b0b11ea4d9548d9804a262ce31049ae",
+      "ply": 24,
+      "chosen": "9-13",
+      "chosenRisk": 224,
+      "minimumRisk": 112,
+      "chosenValue": 0.00012207031,
+      "alternatives": [
+        {
+          "id": "2-6",
+          "value": -6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "9-13",
+          "value": 0.00012207031,
+          "risk": 224
+        }
+      ]
+    },
+    {
+      "matchId": "5b0b11ea4d9548d9804a262ce31049ae",
+      "ply": 30,
+      "chosen": "1-5",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "10-13",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "10-14",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "1-5",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "804e42c3da024c2085040afb4252a9d5",
+      "ply": 9,
+      "chosen": "14-10",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "23-19",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "23-20",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "24-20",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "30-26",
+          "value": 7.6293945E-06,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "804e42c3da024c2085040afb4252a9d5",
+      "ply": 11,
+      "chosen": "22-18",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "23-20",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "29-26",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "22-19",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "24-20",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "804e42c3da024c2085040afb4252a9d5",
+      "ply": 21,
+      "chosen": "26-22",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "23-20",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": 1.5258789E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "804e42c3da024c2085040afb4252a9d5",
+      "ply": 31,
+      "chosen": "21-18",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "21-17",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "21-18",
+          "value": 3.0517578E-05,
+          "risk": 112
+        },
+        {
+          "id": "15-12",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "23-20",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "804e42c3da024c2085040afb4252a9d5",
+      "ply": 33,
+      "chosen": "15-11",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "23-19",
+          "value": 6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "23-20",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "15-11",
+          "value": 6.1035156E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "804e42c3da024c2085040afb4252a9d5",
+      "ply": 35,
+      "chosen": "23-19",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "23-20",
+          "value": -6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "23-19",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 448
+        }
+      ]
+    },
+    {
+      "matchId": "804e42c3da024c2085040afb4252a9d5",
+      "ply": 41,
+      "chosen": "15-11",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "28-23",
+          "value": 6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "28-24",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "15-11",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "15-12",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "8295da106a9b4ea9967c92891b024af5",
+      "ply": 10,
+      "chosen": "10-14",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "12-16",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "13-17",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "7-11",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "3-6",
+          "value": -7.6293945E-06,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "8295da106a9b4ea9967c92891b024af5",
+      "ply": 16,
+      "chosen": "3-6",
+      "chosenRisk": 448,
+      "minimumRisk": 112,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "2-5",
+          "value": 1.5258789E-05,
+          "risk": 112
+        },
+        {
+          "id": "14-18",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "8-12",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "13-17",
+          "value": -1.5258789E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "8295da106a9b4ea9967c92891b024af5",
+      "ply": 20,
+      "chosen": "14-18",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "13-18",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "14-18",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "8-12",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "4-7",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "8295da106a9b4ea9967c92891b024af5",
+      "ply": 22,
+      "chosen": "4-7",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "2-5",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "8-12",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "2-6",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "8295da106a9b4ea9967c92891b024af5",
+      "ply": 24,
+      "chosen": "1-5",
+      "chosenRisk": 336,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "2-5",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "18-21",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "18-22",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "8295da106a9b4ea9967c92891b024af5",
+      "ply": 26,
+      "chosen": "18-22",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "2-6",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "18-22",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "18-21",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "8295da106a9b4ea9967c92891b024af5",
+      "ply": 28,
+      "chosen": "2-5",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "2-6",
+          "value": -6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "2-5",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "04922aa53fc94a999379cb9083b1aad6",
+      "ply": 9,
+      "chosen": "14-11",
+      "chosenRisk": 224,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "22-18",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "32-28",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "21-18",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "04922aa53fc94a999379cb9083b1aad6",
+      "ply": 15,
+      "chosen": "26-22",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "31-27",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "23-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "32-28",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "18-14",
+          "value": -3.0517578E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "04922aa53fc94a999379cb9083b1aad6",
+      "ply": 19,
+      "chosen": "18-13",
+      "chosenRisk": 224,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "23-19",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "18-14",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "21-17",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "29-26",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "04922aa53fc94a999379cb9083b1aad6",
+      "ply": 23,
+      "chosen": "21-17",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "23-19",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "21-17",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "29-26",
+          "value": 3.0517578E-05,
+          "risk": 112
+        },
+        {
+          "id": "21-18",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "ae53362358b1493699289ef980d1dd97",
+      "ply": 12,
+      "chosen": "24-28",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "12-15",
+          "value": 5.722046E-06,
+          "risk": 0
+        },
+        {
+          "id": "11-14",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "11-15",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "ae53362358b1493699289ef980d1dd97",
+      "ply": 18,
+      "chosen": "11-15",
+      "chosenRisk": 448,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "10-14",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "12-15",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "2-6",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "13-17",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "ae53362358b1493699289ef980d1dd97",
+      "ply": 20,
+      "chosen": "3-7",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "12-15",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "3-7",
+          "value": 3.0517578E-05,
+          "risk": 112
+        },
+        {
+          "id": "10-14",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "3-6",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "ae53362358b1493699289ef980d1dd97",
+      "ply": 24,
+      "chosen": "10-14",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "12-15",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "10-14",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "13-17",
+          "value": -6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "13-18",
+          "value": -0,
+          "risk": 224
+        }
+      ]
+    },
+    {
+      "matchId": "ae53362358b1493699289ef980d1dd97",
+      "ply": 30,
+      "chosen": "14-19",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "14-19",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "5-10",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "14-18",
+          "value": -6.1035156E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "ae53362358b1493699289ef980d1dd97",
+      "ply": 32,
+      "chosen": "5-10",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "5-10",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "231450778d4d4a3dbecd3351e86a1011",
+      "ply": 9,
+      "chosen": "19-14",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "21-17",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "21-18",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "231450778d4d4a3dbecd3351e86a1011",
+      "ply": 15,
+      "chosen": "31-27",
+      "chosenRisk": 336,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "21-17",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "21-18",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "30-27",
+          "value": -3.0517578E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "231450778d4d4a3dbecd3351e86a1011",
+      "ply": 17,
+      "chosen": "21-17",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "26-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "21-17",
+          "value": 3.0517578E-05,
+          "risk": 112
+        },
+        {
+          "id": "27-23",
+          "value": 3.0517578E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "231450778d4d4a3dbecd3351e86a1011",
+      "ply": 21,
+      "chosen": "17-13",
+      "chosenRisk": 224,
+      "minimumRisk": 112,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "21-18",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "29-25",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "30-27",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "17-13",
+          "value": -0,
+          "risk": 224
+        }
+      ]
+    },
+    {
+      "matchId": "231450778d4d4a3dbecd3351e86a1011",
+      "ply": 25,
+      "chosen": "29-26",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "30-26",
+          "value": 6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "21-17",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "29-26",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "21-18",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "957fb234c8534bbcb61343a145e66465",
+      "ply": 22,
+      "chosen": "18-21",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "18-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "19-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "18-21",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "19-23",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "957fb234c8534bbcb61343a145e66465",
+      "ply": 38,
+      "chosen": "10-14",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "12-16",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "10-14",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "12-15",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "13-18",
+          "value": -6.1035156E-05,
+          "risk": 224
+        }
+      ]
+    },
+    {
+      "matchId": "957fb234c8534bbcb61343a145e66465",
+      "ply": 46,
+      "chosen": "12-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "12-16",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "12-15",
+          "value": 6.1035156E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "8e81c64a963f4b18bbc52032bc401756",
+      "ply": 9,
+      "chosen": "23-19",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "23-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "24-20",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "8e81c64a963f4b18bbc52032bc401756",
+      "ply": 21,
+      "chosen": "18-13",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "29-26",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "30-26",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "8e81c64a963f4b18bbc52032bc401756",
+      "ply": 25,
+      "chosen": "26-21",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "13-9",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "8e81c64a963f4b18bbc52032bc401756",
+      "ply": 31,
+      "chosen": "24-20",
+      "chosenRisk": 448,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "23-20",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "23-19",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "25-21",
+          "value": -1.5258789E-05,
+          "risk": 112
+        },
+        {
+          "id": "24-20",
+          "value": 6.1035156E-05,
+          "risk": 448
+        }
+      ]
+    },
+    {
+      "matchId": "15946298953b4d9c94896a2668f034f9",
+      "ply": 8,
+      "chosen": "11-15",
+      "chosenRisk": 448,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "6-10",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "12-15",
+          "value": -7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "12-16",
+          "value": -7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "5-10",
+          "value": -7.6293945E-06,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "15946298953b4d9c94896a2668f034f9",
+      "ply": 18,
+      "chosen": "18-21",
+      "chosenRisk": 224,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "7-12",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "8-12",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "3-6",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "7-11",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "15946298953b4d9c94896a2668f034f9",
+      "ply": 22,
+      "chosen": "14-19",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "4-7",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "8-12",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "1-5",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "3-6",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "15946298953b4d9c94896a2668f034f9",
+      "ply": 26,
+      "chosen": "3-6",
+      "chosenRisk": 224,
+      "minimumRisk": 112,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "3-7",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "4-7",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "5-10",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "8-12",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "15946298953b4d9c94896a2668f034f9",
+      "ply": 28,
+      "chosen": "4-7",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "8-12",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "4-7",
+          "value": 6.1035156E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "15946298953b4d9c94896a2668f034f9",
+      "ply": 32,
+      "chosen": "12-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "12-16",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "12-15",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "41b74badeec641b0ad906f5b1fb86bcb",
+      "ply": 7,
+      "chosen": "20-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "26-22",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "21-17",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "41b74badeec641b0ad906f5b1fb86bcb",
+      "ply": 9,
+      "chosen": "21-18",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "21-17",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "24-20",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -3.0517578E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "41b74badeec641b0ad906f5b1fb86bcb",
+      "ply": 13,
+      "chosen": "27-22",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "25-21",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "30-26",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "41b74badeec641b0ad906f5b1fb86bcb",
+      "ply": 17,
+      "chosen": "17-13",
+      "chosenRisk": 224,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "22-19",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "30-27",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "22-18",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "41b74badeec641b0ad906f5b1fb86bcb",
+      "ply": 23,
+      "chosen": "25-21",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "19-14",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "25-21",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "24-20",
+          "value": 1.5258789E-05,
+          "risk": 112
+        },
+        {
+          "id": "28-23",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "41b74badeec641b0ad906f5b1fb86bcb",
+      "ply": 25,
+      "chosen": "31-27",
+      "chosenRisk": 336,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "21-17",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "21-18",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "41b74badeec641b0ad906f5b1fb86bcb",
+      "ply": 33,
+      "chosen": "20-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "28-23",
+          "value": 6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "28-24",
+          "value": -6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "20-15",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "20-16",
+          "value": 6.1035156E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "65b6e178c26b4d7baa10c8264ecacc1e",
+      "ply": 8,
+      "chosen": "7-12",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "8-12",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "10-14",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "6-11",
+          "value": -7.6293945E-06,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "65b6e178c26b4d7baa10c8264ecacc1e",
+      "ply": 12,
+      "chosen": "11-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "9-13",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "10-14",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "11-14",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "3-7",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "65b6e178c26b4d7baa10c8264ecacc1e",
+      "ply": 20,
+      "chosen": "13-18",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 2.2888184E-05,
+      "alternatives": [
+        {
+          "id": "19-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "5-9",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "6-11",
+          "value": -7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "8-12",
+          "value": -7.6293945E-06,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "65b6e178c26b4d7baa10c8264ecacc1e",
+      "ply": 22,
+      "chosen": "10-13",
+      "chosenRisk": 448,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "19-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "8-12",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "5-9",
+          "value": 1.5258789E-05,
+          "risk": 112
+        },
+        {
+          "id": "6-11",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "65b6e178c26b4d7baa10c8264ecacc1e",
+      "ply": 24,
+      "chosen": "15-20",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "8-12",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "19-23",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "5-9",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "15-20",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "65b6e178c26b4d7baa10c8264ecacc1e",
+      "ply": 32,
+      "chosen": "2-5",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "2-6",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "2-5",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "23-27",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "deeac4e0004643eebaacbf48d26d3fb3",
+      "ply": 9,
+      "chosen": "15-12",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "15-12",
+          "value": 1.5258789E-05,
+          "risk": 112
+        },
+        {
+          "id": "25-21",
+          "value": 1.5258789E-05,
+          "risk": 112
+        },
+        {
+          "id": "17-13",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "deeac4e0004643eebaacbf48d26d3fb3",
+      "ply": 11,
+      "chosen": "26-22",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "26-21",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "25-21",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "deeac4e0004643eebaacbf48d26d3fb3",
+      "ply": 17,
+      "chosen": "24-20",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 2.2888184E-05,
+      "alternatives": [
+        {
+          "id": "27-23",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "deeac4e0004643eebaacbf48d26d3fb3",
+      "ply": 19,
+      "chosen": "17-13",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "27-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -3.0517578E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "deeac4e0004643eebaacbf48d26d3fb3",
+      "ply": 21,
+      "chosen": "26-22",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "27-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": 3.0517578E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "deeac4e0004643eebaacbf48d26d3fb3",
+      "ply": 23,
+      "chosen": "22-18",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "25-21",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "22-18",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "deeac4e0004643eebaacbf48d26d3fb3",
+      "ply": 31,
+      "chosen": "28-23",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "19-15",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "18-14",
+          "value": -6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "18-13",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "deeac4e0004643eebaacbf48d26d3fb3",
+      "ply": 41,
+      "chosen": "31-28",
+      "chosenRisk": 336,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "32-28",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "31-27",
+          "value": -6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "31-28",
+          "value": -0,
+          "risk": 336
+        }
+      ]
+    },
+    {
+      "matchId": "9b88696df7e64b7fbc11d02e34dd1ed7",
+      "ply": 8,
+      "chosen": "10-13",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "11-14",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "4-8",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "12-16",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "9b88696df7e64b7fbc11d02e34dd1ed7",
+      "ply": 12,
+      "chosen": "12-15",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "9-13",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "1-5",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "4-8",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "2-5",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "9b88696df7e64b7fbc11d02e34dd1ed7",
+      "ply": 20,
+      "chosen": "11-15",
+      "chosenRisk": 448,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "4-8",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "5-10",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "6-10",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "7-12",
+          "value": -7.6293945E-06,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "9b88696df7e64b7fbc11d02e34dd1ed7",
+      "ply": 30,
+      "chosen": "8-12",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "7-12",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "8-12",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "1-5",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "7-11",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "9b88696df7e64b7fbc11d02e34dd1ed7",
+      "ply": 34,
+      "chosen": "1-5",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "11-15",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "1-5",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "b7bdebd58eb947bab937db373b7aa992",
+      "ply": 29,
+      "chosen": "19-14",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "25-21",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "29-26",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "19-14",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "16-12",
+          "value": -3.0517578E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "b7bdebd58eb947bab937db373b7aa992",
+      "ply": 31,
+      "chosen": "25-21",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "29-26",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "25-21",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "16-12",
+          "value": -6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "32-28",
+          "value": -6.1035156E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "b7bdebd58eb947bab937db373b7aa992",
+      "ply": 33,
+      "chosen": "16-12",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "29-26",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "16-12",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "32-28",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "b74a5d0e383e4fc9ad0f30a45e020cf2",
+      "ply": 18,
+      "chosen": "13-18",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "2-6",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "4-8",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "12-15",
+          "value": -7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "13-17",
+          "value": -2.2888184E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "b74a5d0e383e4fc9ad0f30a45e020cf2",
+      "ply": 22,
+      "chosen": "16-20",
+      "chosenRisk": 224,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "2-6",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "5-9",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "4-8",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "7-11",
+          "value": 1.5258789E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "b74a5d0e383e4fc9ad0f30a45e020cf2",
+      "ply": 26,
+      "chosen": "18-21",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "7-11",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "7-12",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "2-5",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "b74a5d0e383e4fc9ad0f30a45e020cf2",
+      "ply": 32,
+      "chosen": "10-13",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "7-12",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "7-11",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "10-13",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "10-14",
+          "value": 3.0517578E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "b74a5d0e383e4fc9ad0f30a45e020cf2",
+      "ply": 36,
+      "chosen": "4-7",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "1-5",
+          "value": -6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "4-7",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "9-13",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "02b85b8a3b32464aadc84612981b8fc7",
+      "ply": 9,
+      "chosen": "23-20",
+      "chosenRisk": 448,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "23-19",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "21-18",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "21-17",
+          "value": -7.6293945E-06,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "02b85b8a3b32464aadc84612981b8fc7",
+      "ply": 13,
+      "chosen": "19-14",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "19-14",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "02b85b8a3b32464aadc84612981b8fc7",
+      "ply": 21,
+      "chosen": "29-26",
+      "chosenRisk": 224,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "24-20",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -6.1035156E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "bc9743766fdb4bf0acdfcc817039a224",
+      "ply": 8,
+      "chosen": "6-13",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "5-14",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "6-13",
+          "value": 1.5258789E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "bc9743766fdb4bf0acdfcc817039a224",
+      "ply": 26,
+      "chosen": "15-19",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 1.5258789E-05,
+      "alternatives": [
+        {
+          "id": "11-14",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "4-8",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "9-13",
+          "value": 7.6293945E-06,
+          "risk": 0
+        },
+        {
+          "id": "1-5",
+          "value": -3.8146973E-06,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "bc9743766fdb4bf0acdfcc817039a224",
+      "ply": 34,
+      "chosen": "2-6",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "1-5",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "11-14",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "11-15",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "18-21",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "bc9743766fdb4bf0acdfcc817039a224",
+      "ply": 36,
+      "chosen": "1-5",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "11-15",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "18-21",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "4-7",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "1-5",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "bc9743766fdb4bf0acdfcc817039a224",
+      "ply": 44,
+      "chosen": "20-23",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "21-25",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "4-7",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "20-23",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "21-26",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "bc9743766fdb4bf0acdfcc817039a224",
+      "ply": 46,
+      "chosen": "21-26",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "21-25",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "4-7",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "21-26",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "24-28",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "bc9743766fdb4bf0acdfcc817039a224",
+      "ply": 48,
+      "chosen": "24-28",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "4-7",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "24-28",
+          "value": 6.1035156E-05,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "fcdc0c234dc147d19a151128e7653cca",
+      "ply": 9,
+      "chosen": "22-18",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "28-23",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "25-21",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "26-21",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "fcdc0c234dc147d19a151128e7653cca",
+      "ply": 15,
+      "chosen": "18-14",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "27-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": -1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "fcdc0c234dc147d19a151128e7653cca",
+      "ply": 17,
+      "chosen": "26-21",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "27-23",
+          "value": 1.5258789E-05,
+          "risk": 0
+        },
+        {
+          "id": "26-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "29-25",
+          "value": -1.5258789E-05,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "fcdc0c234dc147d19a151128e7653cca",
+      "ply": 19,
+      "chosen": "14-10",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 3.0517578E-05,
+      "alternatives": [
+        {
+          "id": "29-26",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "27-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "28-23",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "30-26",
+          "value": -0,
+          "risk": 0
+        }
+      ]
+    },
+    {
+      "matchId": "fcdc0c234dc147d19a151128e7653cca",
+      "ply": 27,
+      "chosen": "22-18",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "32-28",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "29-26",
+          "value": -6.1035156E-05,
+          "risk": 0
+        },
+        {
+          "id": "22-18",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "22-19",
+          "value": -0,
+          "risk": 112
+        }
+      ]
+    },
+    {
+      "matchId": "fcdc0c234dc147d19a151128e7653cca",
+      "ply": 29,
+      "chosen": "23-20",
+      "chosenRisk": 448,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "32-28",
+          "value": 3.0517578E-05,
+          "risk": 0
+        },
+        {
+          "id": "27-22",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "23-19",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "29-26",
+          "value": -0,
+          "risk": 336
+        }
+      ]
+    },
+    {
+      "matchId": "fcdc0c234dc147d19a151128e7653cca",
+      "ply": 35,
+      "chosen": "17-13",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": -0,
+      "alternatives": [
+        {
+          "id": "32-28",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "17-13",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "31-27",
+          "value": -0,
+          "risk": 112
+        },
+        {
+          "id": "31-28",
+          "value": -6.1035156E-05,
+          "risk": 336
+        }
+      ]
+    },
+    {
+      "matchId": "fcdc0c234dc147d19a151128e7653cca",
+      "ply": 37,
+      "chosen": "31-27",
+      "chosenRisk": 112,
+      "minimumRisk": 0,
+      "chosenValue": 6.1035156E-05,
+      "alternatives": [
+        {
+          "id": "32-28",
+          "value": -0,
+          "risk": 0
+        },
+        {
+          "id": "31-27",
+          "value": 6.1035156E-05,
+          "risk": 112
+        },
+        {
+          "id": "31-28",
+          "value": -0,
+          "risk": 336
+        }
+      ]
+    }
+  ]
+}

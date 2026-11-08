@@ -1,0 +1,219 @@
+{
+  "candidate": "ametista",
+  "games": [
+    {
+      "matchId": "608db3ae00ad49e4b65c3f2fa44bc73f",
+      "seed": 20261107,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 82,
+      "decisions": 38,
+      "searchedDecisions": 32,
+      "meanDepthSearchedOnly": 9.84,
+      "meanMsSearchedOnly": 855.91,
+      "meanNodesSearchedOnly": 366013.5,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": -1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 43,
+      "firstOpponentKingPly": 42,
+      "finalMaterial": {
+        "ply": 82,
+        "menDifference": -4,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 99856384,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "c24dbfbd33b64fc69b76cfc138c7524a",
+      "seed": 20261107,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 147,
+      "decisions": 70,
+      "searchedDecisions": 61,
+      "meanDepthSearchedOnly": 12.3,
+      "meanMsSearchedOnly": 893.95,
+      "meanNodesSearchedOnly": 710116.51,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 30,
+      "firstOpponentKingPly": 37,
+      "finalMaterial": {
+        "ply": 147,
+        "menDifference": 0,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 105328640,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "297a3b4c63b74d0a90070020f59290c5",
+      "seed": 20261108,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 86,
+      "decisions": 40,
+      "searchedDecisions": 31,
+      "meanDepthSearchedOnly": 13.19,
+      "meanMsSearchedOnly": 853.68,
+      "meanNodesSearchedOnly": 1042465.48,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": -1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 51,
+      "firstOpponentKingPly": 42,
+      "finalMaterial": {
+        "ply": 86,
+        "menDifference": 0,
+        "kingDifference": -2
+      },
+      "candidatePeakBytes": 105328640,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "869e546840b446a6aa7288fda7d7c39b",
+      "seed": 20261108,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 143,
+      "decisions": 68,
+      "searchedDecisions": 62,
+      "meanDepthSearchedOnly": 13.45,
+      "meanMsSearchedOnly": 878.06,
+      "meanNodesSearchedOnly": 1471201.21,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 36,
+      "firstOpponentKingPly": 43,
+      "finalMaterial": {
+        "ply": 143,
+        "menDifference": 0,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 105328640,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "c132e70559234c28aeccb934fb5b3d17",
+      "seed": 20261109,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 120,
+      "decisions": 57,
+      "searchedDecisions": 51,
+      "meanDepthSearchedOnly": 12.75,
+      "meanMsSearchedOnly": 870.16,
+      "meanNodesSearchedOnly": 1177616.49,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 51,
+      "firstOpponentKingPly": 48,
+      "finalMaterial": {
+        "ply": 120,
+        "menDifference": -1,
+        "kingDifference": -2
+      },
+      "candidatePeakBytes": 105328640,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "f36c24d54d7546709999a5d2762f23eb",
+      "seed": 20261109,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 79,
+      "decisions": 36,
+      "searchedDecisions": 28,
+      "meanDepthSearchedOnly": 13.25,
+      "meanMsSearchedOnly": 825.18,
+      "meanNodesSearchedOnly": 1234629.89,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 44,
+      "firstOpponentKingPly": 43,
+      "finalMaterial": {
+        "ply": 79,
+        "menDifference": 0,
+        "kingDifference": -2
+      },
+      "candidatePeakBytes": 105328640,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "2887c7f68f404d72bd705bf87fd71eb6",
+      "seed": 20261110,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 174,
+      "decisions": 84,
+      "searchedDecisions": 79,
+      "meanDepthSearchedOnly": 12.27,
+      "meanMsSearchedOnly": 920.08,
+      "meanNodesSearchedOnly": 1017605.99,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": -1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 57,
+      "firstOpponentKingPly": 46,
+      "finalMaterial": {
+        "ply": 174,
+        "menDifference": 0,
+        "kingDifference": -3
+      },
+      "candidatePeakBytes": 105328640,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "6d4fe735ffe54bbe9b0dd1a53357453c",
+      "seed": 20261110,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 121,
+      "decisions": 57,
+      "searchedDecisions": 52,
+      "meanDepthSearchedOnly": 11.06,
+      "meanMsSearchedOnly": 867.23,
+      "meanNodesSearchedOnly": 626969.1,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 50,
+      "firstOpponentKingPly": 47,
+      "finalMaterial": {
+        "ply": 121,
+        "menDifference": -2,
+        "kingDifference": -2
+      },
+      "candidatePeakBytes": 105328640,
+      "opponentPeakBytes": 191565824
+    }
+  ],
+  "notes": [
+    "Only complete JSONL records; this is not an independent legality audit.",
+    "Time/depth means exclude depth-zero decisions, generally forced moves.",
+    "Peak working set is a process-lifetime upper bound, not a per-game isolated measurement.",
+    "Material differences are counts, not engine evaluation labels."
+  ]
+}

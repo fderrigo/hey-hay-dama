@@ -1,0 +1,9 @@
+{
+  "decidedAt": "2026-11-07T17:39:17.886892+00:00",
+  "retained": "search-v14/manual-v4",
+  "rejectedForPromotion": "search-v17-contactguard/manual-v4",
+  "reason": "Complete new 18-opening paired confirmation: v14 1W7D28L, v17 0W6D30L. Candidate score lower by 4.1667 percentage points; intervals include zero. No demonstrated improvement; preserve both versions and all outcomes.",
+  "firstConfirmationUnchanged": true,
+  "otherExperiment": "Human-data experiment remains separate and unpromoted.",
+  "automaticSelection": false
+}

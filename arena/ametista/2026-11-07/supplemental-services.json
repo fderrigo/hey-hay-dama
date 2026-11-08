@@ -1,0 +1,50 @@
+﻿[
+    {
+        "port":  9015,
+        "logicalProcessor":  0,
+        "processId":  36652,
+        "command":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/kingsrow-build/bin/Kingsrow/release/Kingsrow.dll --urls http://127.0.0.1:9015 --Kingsrow:Dll C:/Users/filip/source/repos/weight-space-games/artifacts/kingsrow/runtime/app/engines/kr_italian64.dll --Logging:LogLevel:Default Warning",
+        "affinity":  1,
+        "workingSetBytes":  113614848
+    },
+    {
+        "port":  9016,
+        "logicalProcessor":  0,
+        "processId":  39904,
+        "command":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-final-publish/Ametista.dll --urls http://127.0.0.1:9016 --Logging:LogLevel:Default Warning",
+        "affinity":  1,
+        "workingSetBytes":  60203008
+    },
+    {
+        "port":  9018,
+        "logicalProcessor":  0,
+        "processId":  17728,
+        "command":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-contact-publish-telemetry/Ametista.ContactSearch.dll --urls http://127.0.0.1:9018 --Logging:LogLevel:Default Warning",
+        "affinity":  1,
+        "workingSetBytes":  82657280
+    },
+    {
+        "port":  9041,
+        "logicalProcessor":  4,
+        "processId":  43056,
+        "command":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/kingsrow-build/bin/Kingsrow/release/Kingsrow.dll --urls http://127.0.0.1:9041 --Kingsrow:Dll C:/Users/filip/source/repos/weight-space-games/artifacts/kingsrow/runtime/app/engines/kr_italian64.dll --Logging:LogLevel:Default Warning",
+        "affinity":  16,
+        "workingSetBytes":  99762176
+    },
+    {
+        "port":  9042,
+        "logicalProcessor":  4,
+        "processId":  14584,
+        "command":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-final-publish/Ametista.dll --urls http://127.0.0.1:9042 --Logging:LogLevel:Default Warning",
+        "affinity":  16,
+        "workingSetBytes":  52879360
+    },
+    {
+        "port":  9043,
+        "logicalProcessor":  4,
+        "processId":  48224,
+        "command":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-contact-publish-telemetry/Ametista.ContactSearch.dll --urls http://127.0.0.1:9043 --Logging:LogLevel:Default Warning",
+        "affinity":  16,
+        "workingSetBytes":  51060736
+    }
+]

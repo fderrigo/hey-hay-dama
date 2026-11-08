@@ -1,0 +1,27 @@
+{
+  "model": "avventurina",
+  "version": "a7",
+  "frozenAtUtc": "2026-11-07T12:51:00Z",
+  "announcedInChat": "arena/kingsrow-challenge/chat.md, messaggio AGENTE-B delle 13:52 ora locale (12:52 UTC)",
+  "build": "dotnet build models/Avventurina/Avventurina -c Release, uscita in una directory temporanea svc-final; servizi avviati da quella directory per tutte e quattro le serie",
+  "sha256": {
+    "Avventurina.dll": "f67f8d3b6bdb5cecb694a53533decd699e963a18efdcf06b44c1501909e74c77",
+    "Avventurina.Core.dll": "297264b4a300bd5a83ad008f19cf4e89b9b36315c9465bddf691563e31fa5fcf",
+    "appsettings.json": "9036949131ca38ef2af6d83fa5fe5c37ee2322510f64fc82cc9d8766e7a7dc3c",
+    "sources": "9d6d97cae72791bfaa684b5258d87b82f5132aa9c34e00aed057d5b38967c3cf (concatenazione dei file .cs di Avventurina.Core e Avventurina in ordine alfabetico di percorso)",
+    "tablebases": "407b8c1182fea4398231c59825520da79352ee0dc2ab1d40526d6c6e4f611647 (85 file .tb, sha256sum dei file ordinati, poi sha256 dell'elenco)"
+  },
+  "service": {
+    "MarginMs": 100, "TableBits": 21, "TablebasePieces": 5,
+    "TablebaseDirectory": "%TEMP%\avventurina-tb",
+    "notb-7001": "come sopra con Avventurina:Tablebase=false"
+  },
+  "series": {
+    "tb-7001": "9021 / Kingsrow 9025, processore logico 4",
+    "tb-7101": "9022 / Kingsrow 9027, processore logico 6",
+    "tb-7201": "9023 / Kingsrow 9030, processore logico 9",
+    "notb-7001": "9024 / Kingsrow 9029, processore logico 10"
+  },
+  "kingsrowSha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+  "note": "Gli hash dei binari non sono nei manifest delle serie perché il runner non li registra; sono stati calcolati prima dell'avvio e pubblicati in chat. La sola versione 'a7' è riportata dall'health di ogni servizio nei manifest."
+}

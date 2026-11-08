@@ -1,0 +1,7 @@
+﻿{
+    "detail":  "ExpectedHealth mismatch rejected before match creation; fallback opponent URI also cannot issue HTTP requests",
+    "beforeAnyGame":  true,
+    "checkedAt":  "2026-11-07T12:00:09.4664027Z",
+    "wrongSearchVersionRejected":  true,
+    "realGames":  0
+}

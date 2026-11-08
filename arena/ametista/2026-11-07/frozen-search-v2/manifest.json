@@ -1,0 +1,32 @@
+[
+  {
+    "source": "models/Ametista/Board.cs",
+    "snapshot": "Board.cs.txt",
+    "sha256": "76d783c78a342e7386c8e9ec73224198e5c40a77482320cd5eb87a88cb6c004f"
+  },
+  {
+    "source": "models/Ametista/Network.cs",
+    "snapshot": "Network.cs.txt",
+    "sha256": "402de50bfa83360597d7b6952b435034752045a3549f942281a4246b95922029"
+  },
+  {
+    "source": "models/Ametista/Program.cs",
+    "snapshot": "Program.cs.txt",
+    "sha256": "4f9a9f98457881eff309277c55cb65f968c3557bf0b73edae43300e9d0df9224"
+  },
+  {
+    "source": "models/Ametista/Search.cs",
+    "snapshot": "Search.cs.txt",
+    "sha256": "d892907c10d3d34473e6ebf7d087aa8b63009817cd7d7e272251ec5f3ad65fee"
+  },
+  {
+    "source": "models/Ametista/Verification.cs",
+    "snapshot": "Verification.cs.txt",
+    "sha256": "5b23cba176e72a8f22680a429dfba9f0d9024529a51ef690201f4dfdc322e8f0"
+  },
+  {
+    "source": "models/Ametista/Models/ametista-v1.json",
+    "snapshot": "ametista-v1.json",
+    "sha256": "8e4c50adb407cd19700e9f27bb2d55d81c69b6212cf3bf182263ecd5d3482606"
+  }
+]

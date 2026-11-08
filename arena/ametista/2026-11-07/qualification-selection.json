@@ -1,0 +1,61 @@
+{
+    "source":  "test",
+    "createdAt":  "2026-11-07T12:52:18.4640946+00:00",
+    "candidateBinary":  "A6F68D65A0734421AF05536ADE7CB5AA3A159255A548A18B4175DD603E0ADF5E",
+    "selection":  "manual",
+    "schedule":  [
+                     {
+                         "config":  "arena/ametista/2026-11-07/qualification-v4-seed846201.json",
+                         "variant":  "v4",
+                         "seed":  846201,
+                         "output":  "arena/ametista/2026-11-07/qualification-v4-seed846201"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/qualification-v13-seed846201.json",
+                         "variant":  "v13",
+                         "seed":  846201,
+                         "output":  "arena/ametista/2026-11-07/qualification-v13-seed846201"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/qualification-v13-seed846202.json",
+                         "variant":  "v13",
+                         "seed":  846202,
+                         "output":  "arena/ametista/2026-11-07/qualification-v13-seed846202"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/qualification-v4-seed846202.json",
+                         "variant":  "v4",
+                         "seed":  846202,
+                         "output":  "arena/ametista/2026-11-07/qualification-v4-seed846202"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/qualification-v4-seed846203.json",
+                         "variant":  "v4",
+                         "seed":  846203,
+                         "output":  "arena/ametista/2026-11-07/qualification-v4-seed846203"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/qualification-v13-seed846203.json",
+                         "variant":  "v13",
+                         "seed":  846203,
+                         "output":  "arena/ametista/2026-11-07/qualification-v13-seed846203"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/qualification-v13-seed846204.json",
+                         "variant":  "v13",
+                         "seed":  846204,
+                         "output":  "arena/ametista/2026-11-07/qualification-v13-seed846204"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/qualification-v4-seed846204.json",
+                         "variant":  "v4",
+                         "seed":  846204,
+                         "output":  "arena/ametista/2026-11-07/qualification-v4-seed846204"
+                     }
+                 ],
+    "baselineBinary":  "C61138AFCFDEC166A40D2295296AD4CEBE1A337A0BB1BDF42433FB6A4BFE5F8C",
+    "warmup":  false,
+    "baseline":  "manual-v2-search-v4",
+    "automaticWeightUpdates":  false,
+    "candidate":  "manual-v3-search-v13"
+}

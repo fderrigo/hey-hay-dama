@@ -1,0 +1,177 @@
+{
+  "stage": "learning",
+  "now": "2026-11-06T16:59:17.6087339+00:00",
+  "deadline": "2026-11-06T17:21:44+00:00",
+  "games": 6171,
+  "updates": 885616,
+  "memories": 8721,
+  "recent": [
+    {
+      "Phase": "train",
+      "Opponent": "kimberlite",
+      "games": 38,
+      "finished": 38,
+      "wins": 5,
+      "draws": 8,
+      "losses": 25,
+      "interrupted": 0,
+      "winRate": 0.13157894736842105
+    },
+    {
+      "Phase": "train",
+      "Opponent": "agata",
+      "games": 38,
+      "finished": 38,
+      "wins": 0,
+      "draws": 6,
+      "losses": 32,
+      "interrupted": 0,
+      "winRate": 0
+    },
+    {
+      "Phase": "train",
+      "Opponent": "opale",
+      "games": 38,
+      "finished": 38,
+      "wins": 6,
+      "draws": 13,
+      "losses": 19,
+      "interrupted": 0,
+      "winRate": 0.15789473684210525
+    },
+    {
+      "Phase": "periodic",
+      "Opponent": "opale",
+      "games": 2,
+      "finished": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "interrupted": 0,
+      "winRate": 1
+    },
+    {
+      "Phase": "periodic",
+      "Opponent": "kimberlite",
+      "games": 2,
+      "finished": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "interrupted": 0,
+      "winRate": 1
+    },
+    {
+      "Phase": "periodic",
+      "Opponent": "agata",
+      "games": 2,
+      "finished": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "interrupted": 0,
+      "winRate": 0.5
+    }
+  ],
+  "totals": [
+    {
+      "Phase": "baseline",
+      "Opponent": "opale",
+      "games": 4,
+      "finished": 4,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "interrupted": 0,
+      "winRate": 0
+    },
+    {
+      "Phase": "baseline",
+      "Opponent": "kimberlite",
+      "games": 4,
+      "finished": 4,
+      "wins": 0,
+      "draws": 2,
+      "losses": 2,
+      "interrupted": 0,
+      "winRate": 0
+    },
+    {
+      "Phase": "baseline",
+      "Opponent": "agata",
+      "games": 4,
+      "finished": 4,
+      "wins": 0,
+      "draws": 0,
+      "losses": 4,
+      "interrupted": 0,
+      "winRate": 0
+    },
+    {
+      "Phase": "train",
+      "Opponent": "opale",
+      "games": 2050,
+      "finished": 2050,
+      "wins": 160,
+      "draws": 649,
+      "losses": 1241,
+      "interrupted": 0,
+      "winRate": 0.07804878048780488
+    },
+    {
+      "Phase": "train",
+      "Opponent": "kimberlite",
+      "games": 2049,
+      "finished": 2049,
+      "wins": 183,
+      "draws": 780,
+      "losses": 1086,
+      "interrupted": 0,
+      "winRate": 0.08931185944363104
+    },
+    {
+      "Phase": "train",
+      "Opponent": "agata",
+      "games": 2048,
+      "finished": 2048,
+      "wins": 3,
+      "draws": 377,
+      "losses": 1668,
+      "interrupted": 0,
+      "winRate": 0.00146484375
+    },
+    {
+      "Phase": "periodic",
+      "Opponent": "opale",
+      "games": 4,
+      "finished": 4,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "interrupted": 0,
+      "winRate": 1
+    },
+    {
+      "Phase": "periodic",
+      "Opponent": "kimberlite",
+      "games": 4,
+      "finished": 4,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "interrupted": 0,
+      "winRate": 1
+    },
+    {
+      "Phase": "periodic",
+      "Opponent": "agata",
+      "games": 4,
+      "finished": 4,
+      "wins": 1,
+      "draws": 2,
+      "losses": 1,
+      "interrupted": 0,
+      "winRate": 0.25
+    }
+  ]
+}

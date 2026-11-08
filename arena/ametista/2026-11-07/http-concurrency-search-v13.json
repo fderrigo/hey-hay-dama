@@ -1,0 +1,61 @@
+{
+  "realGames": 0,
+  "purpose": "Single-position HTTP busy/cancellation fixtures; no match created",
+  "first": {
+    "status": 200,
+    "elapsedMs": 3027.42,
+    "body": {
+      "protocolVersion": "dama-model/v1",
+      "moveId": "21-18",
+      "comment": "Ametista manual-v3: depth 9, nodes 195328, score 2.",
+      "diagnostics": {
+        "depth": 9,
+        "nodes": 195328,
+        "score": 2,
+        "risk": 0,
+        "milliseconds": 3006,
+        "cacheHits": 7109,
+        "previousTurnCacheHits": 0,
+        "evaluationCacheHits": 8940,
+        "aspirationRetries": 0
+      }
+    }
+  },
+  "concurrent": {
+    "status": 503,
+    "elapsedMs": 38.67,
+    "body": {
+      "error": "Ametista is busy. Retry after the active search."
+    }
+  },
+  "afterAbort": [
+    {
+      "status": 503,
+      "elapsedMs": 14.86,
+      "body": {
+        "error": "Ametista is busy. Retry after the active search."
+      }
+    },
+    {
+      "status": 200,
+      "elapsedMs": 20.33,
+      "body": {
+        "protocolVersion": "dama-model/v1",
+        "moveId": "21-17",
+        "comment": "Ametista manual-v3: depth 4, nodes 1536, score 10.",
+        "diagnostics": {
+          "depth": 4,
+          "nodes": 1536,
+          "score": 10,
+          "risk": 0,
+          "milliseconds": 11,
+          "cacheHits": 48,
+          "previousTurnCacheHits": 0,
+          "evaluationCacheHits": 111,
+          "aspirationRetries": 0
+        }
+      }
+    }
+  ],
+  "releasedAfterAbortMs": 85.57
+}

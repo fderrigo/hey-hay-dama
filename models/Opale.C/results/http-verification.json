@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "health": {
+    "status": "ok",
+    "model": "Opale C manual v3",
+    "protocolVersion": "dama-model/v1",
+    "units": 5648,
+    "parameters": 39484
+  },
+  "checks": [
+    "health and protocol",
+    "opaque ID returned, white, 119.28ms",
+    "opaque ID returned, black, 37.49ms",
+    "complete multi-capture opaque ID",
+    "10 invalid requests rejected with 400/415",
+    "32 concurrent requests deterministic and legal"
+  ],
+  "gamesPlayed": 0,
+  "concurrentMaxMs": 29.854899970814586
+}

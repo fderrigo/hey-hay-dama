@@ -1,0 +1,23 @@
+{
+  "startedAt": "2026-11-07T10:43:10.0711363+00:00",
+  "games": 2,
+  "seed": 5001,
+  "source": "test",
+  "thinkTimeMs": 1100,
+  "openingPlies": 6,
+  "plyLimit": 400,
+  "avventurina": {
+    "status": "ok",
+    "protocolVersion": "dama-model/v1",
+    "model": "Avventurina",
+    "version": "a1",
+    "tablebasePieces": 0
+  },
+  "rival": {
+    "status": "ok",
+    "name": "Kingsrow Italian(x64) 1.19e",
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "rules": "italian-draughts-8x8"
+  },
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition"
+}

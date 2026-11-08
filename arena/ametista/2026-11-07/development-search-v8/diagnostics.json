@@ -1,0 +1,219 @@
+{
+  "candidate": "ametista",
+  "games": [
+    {
+      "matchId": "14570e16a7084425aea4bfca37024d6d",
+      "seed": 20261107,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 64,
+      "decisions": 29,
+      "searchedDecisions": 23,
+      "meanDepthSearchedOnly": 10.7,
+      "meanMsSearchedOnly": 794,
+      "meanNodesSearchedOnly": 620159.22,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": -1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 43,
+      "firstOpponentKingPly": 34,
+      "finalMaterial": {
+        "ply": 64,
+        "menDifference": -4,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 93130752,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "80f2119f4b68466386174851be344011",
+      "seed": 20261107,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 145,
+      "decisions": 69,
+      "searchedDecisions": 62,
+      "meanDepthSearchedOnly": 11.5,
+      "meanMsSearchedOnly": 880.26,
+      "meanNodesSearchedOnly": 569422.06,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 36,
+      "firstOpponentKingPly": 39,
+      "finalMaterial": {
+        "ply": 145,
+        "menDifference": -1,
+        "kingDifference": -3
+      },
+      "candidatePeakBytes": 99999744,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "f2c9f196b50445a8a1c85997f79f4d93",
+      "seed": 20261108,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 86,
+      "decisions": 40,
+      "searchedDecisions": 34,
+      "meanDepthSearchedOnly": 10.41,
+      "meanMsSearchedOnly": 863.32,
+      "meanNodesSearchedOnly": 533945.47,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": -1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 41,
+      "firstOpponentKingPly": 34,
+      "finalMaterial": {
+        "ply": 86,
+        "menDifference": -4,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 99999744,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "46ffd7866a394b85af783794d878f855",
+      "seed": 20261108,
+      "candidateColor": "black",
+      "winner": 0,
+      "plies": 227,
+      "decisions": 110,
+      "searchedDecisions": 104,
+      "meanDepthSearchedOnly": 12.48,
+      "meanMsSearchedOnly": 1000.99,
+      "meanNodesSearchedOnly": 887148.31,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 48,
+      "firstOpponentKingPly": 55,
+      "finalMaterial": {
+        "ply": 227,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "candidatePeakBytes": 99999744,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "a9ff23d876334675a6fc04d7a58404ae",
+      "seed": 20261109,
+      "candidateColor": "white",
+      "winner": 0,
+      "plies": 92,
+      "decisions": 43,
+      "searchedDecisions": 37,
+      "meanDepthSearchedOnly": 15.03,
+      "meanMsSearchedOnly": 1000.41,
+      "meanNodesSearchedOnly": 780315.68,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 55,
+      "firstOpponentKingPly": 50,
+      "finalMaterial": {
+        "ply": 92,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "candidatePeakBytes": 99999744,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "9354af8a55e84506ba1335edf40934f2",
+      "seed": 20261109,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 75,
+      "decisions": 34,
+      "searchedDecisions": 29,
+      "meanDepthSearchedOnly": 11.34,
+      "meanMsSearchedOnly": 762.45,
+      "meanNodesSearchedOnly": 772531.52,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 46,
+      "firstOpponentKingPly": 37,
+      "finalMaterial": {
+        "ply": 75,
+        "menDifference": -3,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 99999744,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "553d4e772eef448b843b048dbed65fa4",
+      "seed": 20261110,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 216,
+      "decisions": 105,
+      "searchedDecisions": 96,
+      "meanDepthSearchedOnly": 12.54,
+      "meanMsSearchedOnly": 944.1,
+      "meanNodesSearchedOnly": 615038.28,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": -1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 39,
+      "firstOpponentKingPly": 42,
+      "finalMaterial": {
+        "ply": 216,
+        "menDifference": 0,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 99999744,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "f7de79793e724ec1826e0693b2b719d9",
+      "seed": 20261110,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 107,
+      "decisions": 50,
+      "searchedDecisions": 42,
+      "meanDepthSearchedOnly": 11.38,
+      "meanMsSearchedOnly": 932.4,
+      "meanNodesSearchedOnly": 544350.31,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 1,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 48,
+      "firstOpponentKingPly": 43,
+      "finalMaterial": {
+        "ply": 107,
+        "menDifference": 0,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 99999744,
+      "opponentPeakBytes": 191565824
+    }
+  ],
+  "notes": [
+    "Only complete JSONL records; this is not an independent legality audit.",
+    "Time/depth means exclude depth-zero decisions, generally forced moves.",
+    "Peak working set is a process-lifetime upper bound, not a per-game isolated measurement.",
+    "Material differences are counts, not engine evaluation labels."
+  ]
+}

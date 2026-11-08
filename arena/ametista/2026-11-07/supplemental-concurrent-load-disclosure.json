@@ -1,0 +1,22 @@
+{
+  "recordedAt": "2026-11-07T17:20:17.603814+00:00",
+  "source": "arena/kingsrow-challenge/chat.md AGENTE-B header18:19:00",
+  "reportedWindowLocal": [
+    "2026-11-07T18:07:00+01:00",
+    "2026-11-07T18:20:00+01:00"
+  ],
+  "logicalProcessor": 4,
+  "reportedCpuSeconds": 2,
+  "provenance": "Self-reported by AGENTE-B, not independently measured. End time is as reported, minute precision; header predates stated end.",
+  "reportedWork": "Python training mistakenly pinned to CPU4; stopped by owner.",
+  "futureResources": {
+    "otherTrainingCpu": 6,
+    "otherMatchCpus": [
+      9,
+      10
+    ],
+    "otherTrainingPeakMemoryEstimateMB": 500
+  },
+  "action": "Keep all scheduled matches unchanged. No selective reruns or results removal. Analyze elapsed times descriptively; cannot isolate causal impact.",
+  "measuredPerformanceEffect": null
+}

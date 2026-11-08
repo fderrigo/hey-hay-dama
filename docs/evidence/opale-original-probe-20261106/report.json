@@ -1,0 +1,41 @@
+{
+  "weightsPath": "src/Dama.Web/Models/opale-v1.json",
+  "results": [
+    {
+      "Phase": "probe-standard",
+      "Opponent": "kimberlite",
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "interrupted": 0
+    },
+    {
+      "Phase": "probe-standard",
+      "Opponent": "agata",
+      "games": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "interrupted": 0
+    },
+    {
+      "Phase": "probe-openings",
+      "Opponent": "kimberlite",
+      "games": 24,
+      "wins": 13,
+      "draws": 5,
+      "losses": 6,
+      "interrupted": 0
+    },
+    {
+      "Phase": "probe-openings",
+      "Opponent": "agata",
+      "games": 24,
+      "wins": 2,
+      "draws": 6,
+      "losses": 16,
+      "interrupted": 0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "weightsVersion": "manual-v3",
+  "compiledInference": true,
+  "compiledInterpretedAgreement": true,
+  "exclusiveKingCases": 4,
+  "positions": 9015,
+  "transitions": 40898,
+  "legalTransitions": true,
+  "networkSymmetry": true,
+  "evaluationQuietInvariant": true,
+  "searchReferencePositions": 32,
+  "aspirationReferenceCases": 12,
+  "previousTurnCacheHits": 607,
+  "historyCases": 4,
+  "search": {
+    "move": {
+      "from": 22,
+      "to": 19,
+      "captures": 0,
+      "promotes": false,
+      "code": 630
+    },
+    "score": 3,
+    "depth": 7,
+    "nodes": 39936,
+    "milliseconds": 214,
+    "risk": 0,
+    "cacheHits": 1900,
+    "previousTurnCacheHits": 0,
+    "evaluationCacheHits": 1944,
+    "aspirationRetries": 0
+  },
+  "cornerProbe": {
+    "move": {
+      "from": 4,
+      "to": 9,
+      "captures": 0,
+      "promotes": false,
+      "code": 292
+    },
+    "score": 29991,
+    "depth": 8,
+    "nodes": 1190,
+    "milliseconds": 3,
+    "risk": 0,
+    "cacheHits": 12,
+    "previousTurnCacheHits": 0,
+    "evaluationCacheHits": 324,
+    "aspirationRetries": 1
+  },
+  "realGames": 0
+}

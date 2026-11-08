@@ -1,0 +1,26 @@
+{
+  "createdAt": "2026-11-07T13:40:25.874167+00:00",
+  "source": "test",
+  "baselineSearch": "search-v14",
+  "candidateSearch": "choose manually after fixed-depth cost/correctness comparison of v15/v16",
+  "weights": "same file for both, manually selected after pressure comparison completes",
+  "seeds": [
+    375101,
+    375102,
+    375103,
+    375104,
+    375105,
+    375106,
+    375107,
+    375108
+  ],
+  "gamesPerVersion": 16,
+  "searchMs": 1000,
+  "colors": "both",
+  "order": "two-color pairs per seed, baseline first on even index and candidate first on odd index",
+  "startAfter": "pressure comparison and functional/cost checks complete",
+  "automaticWeightUpdates": false,
+  "confirmationSetUsed": false,
+  "purpose": "Check original search implementation changes on eight fresh development openings before final freeze",
+  "limitations": "Development comparison; no final-test tuning or claim of superiority from a small maximum."
+}

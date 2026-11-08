@@ -1,0 +1,34 @@
+{
+  "createdAt": "2026-11-07T17:24:23.676624+00:00",
+  "candidate": "search-v18-human-outcome",
+  "parentSearch": "search-v14",
+  "manualWeightsSha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+  "learnedModelPlan": "human-data-plan.json",
+  "combination": "Static value = unchanged manual-v4 value + round(100 * learned outcome prediction). Risk unchanged; terminal and draw scores unchanged.",
+  "learnedScale": 100,
+  "training": "Only zero-initialized linear neuron is fitted; manual network is never trained or altered.",
+  "eligibility": "Both validation and temporal-test equal-game MSE must be strictly below the training-fitted constant baseline; all technical verification must pass. This is a declared filter, not an independent test of final playing-engine selection.",
+  "seeds": [
+    570401,
+    570402,
+    570403
+  ],
+  "colors": "both",
+  "games": 6,
+  "source": "test",
+  "searchMs": 1000,
+  "protocolReserveMs": 100,
+  "threads": 1,
+  "logicalProcessor": 0,
+  "opponent": "same Kingsrow9015 instance if still healthy; capture actual PID/hash at start",
+  "startCondition": "After completion and audit of frozen 72-game confirmation; before local18:45 to leave time for bounded exploratory run and final documentation.",
+  "deadline": "2026-11-07T18:28:21Z",
+  "stop": "No new games after deadline. Preserve any interruptions. No automatic retries, weight adjustment or model promotion.",
+  "limits": [
+    "No paired manual-v4 control on these three openings; no causal claim for learned contribution.",
+    "Outcome predictor may duplicate material signals already in manual evaluation.",
+    "Scale100 is a fixed manual hypothesis, not learned calibration.",
+    "Six games are exploratory; no general superiority claim.",
+    "If offline filter fails or checks/resources/time are insufficient, do not run games and preserve rejected experiment."
+  ]
+}

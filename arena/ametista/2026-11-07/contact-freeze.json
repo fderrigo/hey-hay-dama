@@ -1,0 +1,100 @@
+{
+  "frozenAt": "2026-11-07T16:09:24.373364+00:00",
+  "health": {
+    "status": "ok",
+    "model": "Ametista",
+    "version": "manual-v4",
+    "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+    "search": "search-v17-contactguard",
+    "architecture": "original-risk-aware-pvs",
+    "threads": 1,
+    "compiledInference": true
+  },
+  "process": {
+    "ProcessId": 17728,
+    "CommandLine": "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-contact-publish-telemetry/Ametista.ContactSearch.dll --urls http://127.0.0.1:9018 --Logging:LogLevel:Default Warning"
+  },
+  "searchThreads": 1,
+  "logicalProcessor": 0,
+  "weightsChanged": false,
+  "files": [
+    {
+      "path": "experiments\\Ametista.ContactSearch\\Program.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-contact-v17\\Program.cs",
+      "sha256": "c3eb7386906387ee1cc244896febd2b7ff048aa399abfcff01e71e291f94c2da"
+    },
+    {
+      "path": "experiments\\Ametista.ContactSearch\\Search.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-contact-v17\\Search.cs",
+      "sha256": "d4150cd86b0906ee2aad52269b03678b671a24d3f5d9397c5b15713224d2a2ee"
+    },
+    {
+      "path": "experiments\\Ametista.ContactSearch\\Verification.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-contact-v17\\Verification.cs",
+      "sha256": "286e183e9b886096a434fda9862ad964e5a8091b36dee64c3e768a1ded0e2927"
+    },
+    {
+      "path": "experiments\\Ametista.ContactSearch\\Ametista.ContactSearch.csproj",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-contact-v17\\Ametista.ContactSearch.csproj",
+      "sha256": "0648b9f505c4d8278577c77a63f58192850fb1882a1acc62bb15b8d965f26e11"
+    },
+    {
+      "path": "models\\Ametista\\Board.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-contact-v17\\Board.cs",
+      "sha256": "dbb54412d33a4713e14504015bc15ba41e0eb6eb8a296b34c6e328eb2254bda2"
+    },
+    {
+      "path": "models\\Ametista\\Network.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-contact-v17\\Network.cs",
+      "sha256": "8ea978619f4331bbedb1acb32f2f234d40567a00cf4f6328880bcf40d49c2805"
+    },
+    {
+      "path": "models\\Ametista\\InferenceCompiler.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-contact-v17\\InferenceCompiler.cs",
+      "sha256": "f706c929d31d48a1b9c42f0bcd538676473daa14870b37249318a5a5663a5699"
+    },
+    {
+      "path": "models\\Ametista\\Models\\ametista-v4.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-contact-v17\\ametista-v4.json",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138"
+    },
+    {
+      "path": "artifacts\\ametista-contact-publish-telemetry\\Ametista.ContactSearch.dll",
+      "sha256": "a681afb05f782d0aa918030060bbbbb80a9675b89aa33c83877d6ed3befe4a76"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570201.json",
+      "sha256": "0ae12d048c8053fbd848184049d8ed1b5054735d3928d2d2d90780576686573d"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570201.json",
+      "sha256": "a242dc8444fc0543cf6564a96d3d8d302ebf89a9e63c546637742b31d9d3421e"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570202.json",
+      "sha256": "f68e50a94d829c75b8d6b16975814be0d8d70b60a3b70ca833f79e487ba55a37"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570202.json",
+      "sha256": "e1bb41abacc18bbecaecfaff616506c1a75d1b7d43c74c69774eeffe6a55e0f1"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570203.json",
+      "sha256": "a49a1ee8baa6c5340ecdc2ea1b1fcb1c3e28747dda9298b27c2a8ecf4a1f87c1"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570203.json",
+      "sha256": "c53bcc9f2222c921a298abb39a45bd2b4f34f1902aaea029ee5cba105094dc82"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570204.json",
+      "sha256": "42c290b11dfe453b6af5fb2bb43daef846cbfa967b9706b16e96d7e27f832dcd"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570204.json",
+      "sha256": "7854ee094f86147f15b6796fd65428ba4af16b132217142b6a5377c73fdead6c"
+    }
+  ],
+  "selection": "contact-comparison-selection.json",
+  "firstConfirmationUnchanged": true
+}

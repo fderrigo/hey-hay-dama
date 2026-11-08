@@ -1,0 +1,26 @@
+﻿{
+    "processes":  [
+                      {
+                          "ProcessId":  43056,
+                          "CommandLine":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/kingsrow-build/bin/Kingsrow/release/Kingsrow.dll --urls http://127.0.0.1:9041 --Kingsrow:Dll C:/Users/filip/source/repos/weight-space-games/artifacts/kingsrow/runtime/app/engines/kr_italian64.dll --Logging:LogLevel:Default Warning",
+                          "CreationDate":  "\/Date(1794069355017)\/"
+                      },
+                      {
+                          "ProcessId":  14584,
+                          "CommandLine":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-final-publish/Ametista.dll --urls http://127.0.0.1:9042 --Logging:LogLevel:Default Warning",
+                          "CreationDate":  "\/Date(1794069355070)\/"
+                      },
+                      {
+                          "ProcessId":  48224,
+                          "CommandLine":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-contact-publish-telemetry/Ametista.ContactSearch.dll --urls http://127.0.0.1:9043 --Logging:LogLevel:Default Warning",
+                          "CreationDate":  "\/Date(1794069355133)\/"
+                      },
+                      {
+                          "ProcessId":  17728,
+                          "CommandLine":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-contact-publish-telemetry/Ametista.ContactSearch.dll --urls http://127.0.0.1:9018 --Logging:LogLevel:Default Warning",
+                          "CreationDate":  "\/Date(1794067696861)\/"
+                      }
+                  ],
+    "reason":  "Both supplemental lanes completed and final integrity passed; only own idle services stopped",
+    "stoppedAt":  "2026-11-07T17:38:21.6511716Z"
+}

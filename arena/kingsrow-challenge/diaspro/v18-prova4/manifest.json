@@ -1,0 +1,52 @@
+{
+  "startedAt": "2026-11-07T15:42:15.4963588+00:00",
+  "seed": 31001,
+  "games": 4,
+  "openingPlies": 6,
+  "plyLimit": 400,
+  "thinkTimeMs": 1100,
+  "effectiveSearchMs": 1000,
+  "threads": 1,
+  "memoryLimitMiB": 1024,
+  "ponder": false,
+  "source": "test",
+  "kingsrow": {
+    "id": "kingsrow",
+    "name": "Kingsrow Italian 1.19e",
+    "version": "1.19e",
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "endpoint": "http://127.0.0.1:9026/choose-move"
+  },
+  "diaspro": {
+    "id": "diaspro",
+    "name": "Diaspro",
+    "version": "diaspro-v18-bitnet",
+    "sha256": "9c371b73117083a43f2f732e6e39f5d66aed57b6331563ed6aaf90c6fc7596a0",
+    "endpoint": "http://127.0.0.1:9017/choose-move"
+  },
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition",
+  "rules": "italian-draughts-8x8",
+  "training": false,
+  "endgameDatabases": false,
+  "kingsrowOpeningBook": "bundled; engine defaults",
+  "diasproSearch": "bitboard-pvs-tt-native-leaves-move-hints",
+  "diasproArchitecture": "relational graph with self-play TD(0) linear head, native-bitboard leaf evaluation, PVS/TT and per-game move-ordering memory",
+  "logicalProcessor": 2,
+  "buildConfiguration": "Release",
+  "diasproSources": {
+    "models/Diaspro/ManualWeights.cs": "24bf0075bf02f94623ac677e4ccd3e3beb943e35ac052403d9d433e3e83658a0",
+    "models/Diaspro/Network.cs": "c130113ae7fa12be64faa15b97aed4bf70bfac443f192ef4ff4a6d34c3154b92",
+    "models/Diaspro/FastRules.cs": "8141d369a78185c1461b53174f0824389212fbd03286749317e4e5381e39e026",
+    "models/Diaspro/Bitboard.cs": "cc8aaf4c838e3841e34ae69d1ecac9b74f612d22928e80143512151eb00ccfc8",
+    "models/Diaspro/DeepSearch.cs": "49a15866e9bddff40d892cc6ad6ae71da7f4d6e84d2c35b58bed98ab7fb68bce",
+    "models/Diaspro/Endgame.cs": "0f68688a4703fae67e617846392f1037aa3410114d0ef462b61b05f1e3f20130",
+    "models/Diaspro/Search.cs": "c6ea2ddb0ab4f9ce64912c151a2dabdfc5d8c11183835660f9a81321c19b3cb1",
+    "models/Diaspro/Policy.cs": "4fbb03d1dd947687d488caab3df709bbd505161dbdb17eaf090403d452305939",
+    "models/Diaspro/PositionMemory.cs": "dec53a56640b14f2d84ec4864e4002d9cb47aee1e10118a3b947087377525db3",
+    "models/Diaspro/Program.cs": "26a426b0cfeadd242a76b6f477d383de39aa9a1472ebce6c96fa9f6b26c79f59",
+    "experiments/Dama.DiasproMatch/Program.cs": "89511472283ef6f0311e009a333de8dce5dfda89bc6924745e1ef3cd7757af48",
+    "experiments/Dama.DiasproMatch/Audit.cs": "4e804e5cab9b63946696de44b6e8ca8ed97d1f6341477a73ee5d6b48c2ea8eef",
+    "experiments/Dama.DiasproLearn/Program.cs": "44e0d4548b2c2e38bac2f14cca3b4c64d1ace25372b5f53e28bea4e7c5424723",
+    "experiments/Dama.DiasproLearn/LearningAudit.cs": "3c90516ab288a27eac32bce186209e099b2b0c1ae98f41a69ec1c330adbe23a3"
+  }
+}

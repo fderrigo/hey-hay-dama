@@ -1,0 +1,63 @@
+{
+    "source":  "test",
+    "binary":  "CFE1962056FC09972470BBA7C2BFFAB334087BA6A56D787AB69051214F31C377",
+    "createdAt":  "2026-11-07T13:18:21.6438921+00:00",
+    "warmup":  false,
+    "selection":  "manual",
+    "candidateVariant":  "manual-v4",
+    "schedule":  [
+                     {
+                         "config":  "arena/ametista/2026-11-07/pressure-manual-v3-seed20261107.json",
+                         "variant":  "manual-v3",
+                         "seed":  20261107,
+                         "output":  "arena/ametista/2026-11-07/pressure-manual-v3-seed20261107"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/pressure-manual-v4-seed20261107.json",
+                         "variant":  "manual-v4",
+                         "seed":  20261107,
+                         "output":  "arena/ametista/2026-11-07/pressure-manual-v4-seed20261107"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/pressure-manual-v4-seed20261108.json",
+                         "variant":  "manual-v4",
+                         "seed":  20261108,
+                         "output":  "arena/ametista/2026-11-07/pressure-manual-v4-seed20261108"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/pressure-manual-v3-seed20261108.json",
+                         "variant":  "manual-v3",
+                         "seed":  20261108,
+                         "output":  "arena/ametista/2026-11-07/pressure-manual-v3-seed20261108"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/pressure-manual-v3-seed20261109.json",
+                         "variant":  "manual-v3",
+                         "seed":  20261109,
+                         "output":  "arena/ametista/2026-11-07/pressure-manual-v3-seed20261109"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/pressure-manual-v4-seed20261109.json",
+                         "variant":  "manual-v4",
+                         "seed":  20261109,
+                         "output":  "arena/ametista/2026-11-07/pressure-manual-v4-seed20261109"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/pressure-manual-v4-seed20261110.json",
+                         "variant":  "manual-v4",
+                         "seed":  20261110,
+                         "output":  "arena/ametista/2026-11-07/pressure-manual-v4-seed20261110"
+                     },
+                     {
+                         "config":  "arena/ametista/2026-11-07/pressure-manual-v3-seed20261110.json",
+                         "variant":  "manual-v3",
+                         "seed":  20261110,
+                         "output":  "arena/ametista/2026-11-07/pressure-manual-v3-seed20261110"
+                     }
+                 ],
+    "baselineVariant":  "manual-v3",
+    "baseline":  "manual-v3-search-v14",
+    "automaticWeightUpdates":  false,
+    "sameBinary":  true,
+    "candidate":  "manual-v4-search-v14"
+}

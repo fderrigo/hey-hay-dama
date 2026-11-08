@@ -1,0 +1,21 @@
+{
+  "id": "37c6bb0886c64890ac3d2eb6d322244f",
+  "source": "test",
+  "white": {
+    "id": "ai:ametista",
+    "name": "Ametista",
+    "kind": "ai"
+  },
+  "black": {
+    "id": "human:943beb34d86ff609f7763b1148ab31ff4b733f33d89a7e0b9b4aefc4c6d304e1",
+    "name": "Ametista-Verify",
+    "kind": "human"
+  },
+  "startedAt": "2026-11-07T14:48:40.1968612+00:00",
+  "updatedAt": "2026-11-07T14:50:25.733306+00:00",
+  "status": "interrupted",
+  "winner": null,
+  "reason": "integration-check-complete",
+  "plies": 0,
+  "type": "human-ai"
+}

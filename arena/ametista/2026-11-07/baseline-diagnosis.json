@@ -1,0 +1,441 @@
+[
+  {
+    "id": "092308ab5cf94748b150d2499f74bef8",
+    "opaleColor": "black",
+    "plies": 63,
+    "firstMaterialDeficit": 35,
+    "largeDrops": [
+      {
+        "ply": 19,
+        "move": "29-22-15",
+        "materialDrop": -2
+      },
+      {
+        "ply": 41,
+        "move": "7-4",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 61,
+        "move": "23-16",
+        "materialDrop": -3.1
+      },
+      {
+        "ply": 63,
+        "move": "10-3",
+        "materialDrop": -3.1
+      }
+    ]
+  },
+  {
+    "id": "161c788353674736a5966b81ad52c6bf",
+    "opaleColor": "white",
+    "plies": 48,
+    "firstMaterialDeficit": 6,
+    "largeDrops": [
+      {
+        "ply": 20,
+        "move": "8-15-24",
+        "materialDrop": -2
+      },
+      {
+        "ply": 32,
+        "move": "6-15-22-29",
+        "materialDrop": -5.1
+      }
+    ]
+  },
+  {
+    "id": "0ee24b11b5784cfd9861e186f4902581",
+    "opaleColor": "black",
+    "plies": 83,
+    "firstMaterialDeficit": 31,
+    "largeDrops": [
+      {
+        "ply": 27,
+        "move": "23-14-5",
+        "materialDrop": -2
+      },
+      {
+        "ply": 31,
+        "move": "5-2",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 43,
+        "move": "22-15-6",
+        "materialDrop": -2.0
+      },
+      {
+        "ply": 83,
+        "move": "15-24",
+        "materialDrop": -3.1
+      }
+    ]
+  },
+  {
+    "id": "291b82b3f70b42eea71315bec10de280",
+    "opaleColor": "white",
+    "plies": 44,
+    "firstMaterialDeficit": 6,
+    "largeDrops": [
+      {
+        "ply": 12,
+        "move": "8-15-24-31",
+        "materialDrop": -5.1
+      },
+      {
+        "ply": 18,
+        "move": "7-14-23",
+        "materialDrop": -2.0
+      },
+      {
+        "ply": 44,
+        "move": "23-32",
+        "materialDrop": -3.1
+      }
+    ]
+  },
+  {
+    "id": "c299482af0d9462e9d31b03908e99c45",
+    "opaleColor": "black",
+    "plies": 67,
+    "firstMaterialDeficit": 5,
+    "largeDrops": [
+      {
+        "ply": 9,
+        "move": "26-19-10",
+        "materialDrop": -2
+      },
+      {
+        "ply": 37,
+        "move": "6-2",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 55,
+        "move": "6-3",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 61,
+        "move": "5-2",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 65,
+        "move": "6-15-8",
+        "materialDrop": -4.1
+      }
+    ]
+  },
+  {
+    "id": "29cb46e57d3e4a8d97d1484402ecb613",
+    "opaleColor": "white",
+    "plies": 64,
+    "firstMaterialDeficit": 16,
+    "largeDrops": [
+      {
+        "ply": 16,
+        "move": "11-18-25",
+        "materialDrop": -2
+      },
+      {
+        "ply": 30,
+        "move": "25-29",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 48,
+        "move": "28-31",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 54,
+        "move": "7-14-23-30",
+        "materialDrop": -5.1
+      },
+      {
+        "ply": 64,
+        "move": "27-20",
+        "materialDrop": -3.1
+      }
+    ]
+  },
+  {
+    "id": "0e2797009a954eeb8e262625e5a41060",
+    "opaleColor": "black",
+    "plies": 49,
+    "firstMaterialDeficit": 3,
+    "largeDrops": [
+      {
+        "ply": 19,
+        "move": "26-19-12",
+        "materialDrop": -2
+      },
+      {
+        "ply": 33,
+        "move": "7-3",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 37,
+        "move": "3-10-1",
+        "materialDrop": -2.0
+      }
+    ]
+  },
+  {
+    "id": "a14c7513ad004cafbefbc896a73199df",
+    "opaleColor": "white",
+    "plies": 54,
+    "firstMaterialDeficit": 6,
+    "largeDrops": [
+      {
+        "ply": 24,
+        "move": "14-23-32",
+        "materialDrop": -4.1
+      },
+      {
+        "ply": 50,
+        "move": "10-17-26",
+        "materialDrop": -2.0
+      }
+    ]
+  },
+  {
+    "id": "ca4a850f9c9044ac8b197d77fe3706bd",
+    "opaleColor": "black",
+    "plies": 47,
+    "firstMaterialDeficit": 7,
+    "largeDrops": [
+      {
+        "ply": 27,
+        "move": "20-11-2",
+        "materialDrop": -4.1
+      },
+      {
+        "ply": 39,
+        "move": "5-14-7",
+        "materialDrop": -2.0
+      }
+    ]
+  },
+  {
+    "id": "436e53f62c0c45e8ac289a4c2f660885",
+    "opaleColor": "white",
+    "plies": 52,
+    "firstMaterialDeficit": 4,
+    "largeDrops": [
+      {
+        "ply": 42,
+        "move": "15-22-31",
+        "materialDrop": -4.1
+      },
+      {
+        "ply": 46,
+        "move": "25-29",
+        "materialDrop": -2.1
+      }
+    ]
+  },
+  {
+    "id": "427d6f3dc9904207b240afaebc8a80c0",
+    "opaleColor": "black",
+    "plies": 39,
+    "firstMaterialDeficit": 19,
+    "largeDrops": [
+      {
+        "ply": 19,
+        "move": "18-11-2",
+        "materialDrop": -4.1
+      },
+      {
+        "ply": 25,
+        "move": "27-18-9-2",
+        "materialDrop": -5.1
+      },
+      {
+        "ply": 33,
+        "move": "6-15-8",
+        "materialDrop": -2.0
+      }
+    ]
+  },
+  {
+    "id": "80332ade91a1479d87a40dd4b1234abd",
+    "opaleColor": "white",
+    "plies": 46,
+    "firstMaterialDeficit": 6,
+    "largeDrops": [
+      {
+        "ply": 12,
+        "move": "8-15-24",
+        "materialDrop": -2
+      },
+      {
+        "ply": 22,
+        "move": "13-22-31",
+        "materialDrop": -4.1
+      }
+    ]
+  },
+  {
+    "id": "e18eec4205d349928469507d44718bfc",
+    "opaleColor": "black",
+    "plies": 65,
+    "firstMaterialDeficit": 5,
+    "largeDrops": [
+      {
+        "ply": 9,
+        "move": "27-18-9",
+        "materialDrop": -2
+      },
+      {
+        "ply": 29,
+        "move": "23-14-5",
+        "materialDrop": -2
+      },
+      {
+        "ply": 31,
+        "move": "5-1",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 43,
+        "move": "13-22",
+        "materialDrop": -3.1
+      },
+      {
+        "ply": 51,
+        "move": "19-12-3",
+        "materialDrop": -4.1
+      }
+    ]
+  },
+  {
+    "id": "61b9590ff47b4ccfa8a304011bf4ad97",
+    "opaleColor": "white",
+    "plies": 58,
+    "firstMaterialDeficit": 22,
+    "largeDrops": [
+      {
+        "ply": 34,
+        "move": "14-23-30",
+        "materialDrop": -4.1
+      },
+      {
+        "ply": 40,
+        "move": "26-29",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 50,
+        "move": "26-19-12",
+        "materialDrop": -2.0
+      },
+      {
+        "ply": 56,
+        "move": "15-8",
+        "materialDrop": -3.1
+      }
+    ]
+  },
+  {
+    "id": "fc1fccae47434dceb5caf8bde6412cca",
+    "opaleColor": "black",
+    "plies": 69,
+    "firstMaterialDeficit": 39,
+    "largeDrops": [
+      {
+        "ply": 39,
+        "move": "7-3",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 51,
+        "move": "11-20-27",
+        "materialDrop": -4.1
+      },
+      {
+        "ply": 59,
+        "move": "5-2",
+        "materialDrop": -2.1
+      }
+    ]
+  },
+  {
+    "id": "dff452789ce34aebb66d51d253c3f721",
+    "opaleColor": "white",
+    "plies": 54,
+    "firstMaterialDeficit": 4,
+    "largeDrops": [
+      {
+        "ply": 26,
+        "move": "25-29",
+        "materialDrop": -2.1
+      }
+    ]
+  },
+  {
+    "id": "abc4673186e942a4be737679dcd3e8e6",
+    "opaleColor": "black",
+    "plies": 51,
+    "firstMaterialDeficit": 7,
+    "largeDrops": [
+      {
+        "ply": 7,
+        "move": "28-19-10",
+        "materialDrop": -2
+      },
+      {
+        "ply": 15,
+        "move": "26-19-10",
+        "materialDrop": -2
+      },
+      {
+        "ply": 33,
+        "move": "7-4",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 41,
+        "move": "29-22-13",
+        "materialDrop": -2.0
+      },
+      {
+        "ply": 51,
+        "move": "10-1",
+        "materialDrop": -3.1
+      }
+    ]
+  },
+  {
+    "id": "60d8eadd30574113937d562a8dc825c3",
+    "opaleColor": "white",
+    "plies": 50,
+    "firstMaterialDeficit": 6,
+    "largeDrops": [
+      {
+        "ply": 18,
+        "move": "9-18-25",
+        "materialDrop": -2
+      },
+      {
+        "ply": 30,
+        "move": "25-29",
+        "materialDrop": -2.1
+      },
+      {
+        "ply": 36,
+        "move": "10-17-26",
+        "materialDrop": -2.0
+      },
+      {
+        "ply": 38,
+        "move": "24-31",
+        "materialDrop": -3.1
+      }
+    ]
+  }
+]

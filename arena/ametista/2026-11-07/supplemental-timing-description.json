@@ -1,0 +1,1626 @@
+{
+  "at": "2026-11-07T17:42:02.706440+00:00",
+  "source": "Completed supplemental72 only; runner elapsed wall times and registry intervals",
+  "reportedWindow": [
+    "2026-11-07T18:07:00+01:00",
+    "2026-11-07T18:20:00+01:00"
+  ],
+  "grouping": "Whole match overlaps reported window; not precise per-move exposure",
+  "limitations": [
+    "Other agent workload/CPU seconds are self-reported; actual activity interval not independently observed.",
+    "Positions, colors and number of forced moves differ between groups.",
+    "Elapsed time includes protocol and scheduling, not isolated CPU time.",
+    "No causal estimate or selective result exclusion.",
+    "Opening material equality would not establish theoretical balance."
+  ],
+  "groups": [
+    {
+      "cpu": 0,
+      "variant": "v14",
+      "period": "after",
+      "games": 5,
+      "decisions": 276,
+      "meanElapsedMs": 800.8727942028986,
+      "medianElapsedMs": 1001.1635,
+      "p95ElapsedMs": 1005.4738,
+      "maxElapsedMs": 1179.3154,
+      "medianDepth": 13.0
+    },
+    {
+      "cpu": 0,
+      "variant": "v14",
+      "period": "before",
+      "games": 7,
+      "decisions": 469,
+      "meanElapsedMs": 817.395821108742,
+      "medianElapsedMs": 1000.9323,
+      "p95ElapsedMs": 1004.8198,
+      "maxElapsedMs": 1067.7144,
+      "medianDepth": 14
+    },
+    {
+      "cpu": 0,
+      "variant": "v14",
+      "period": "overlaps-reported-window",
+      "games": 6,
+      "decisions": 391,
+      "meanElapsedMs": 804.598426342711,
+      "medianElapsedMs": 1001.2135,
+      "p95ElapsedMs": 1009.9171,
+      "maxElapsedMs": 1035.5022,
+      "medianDepth": 14
+    },
+    {
+      "cpu": 0,
+      "variant": "v17",
+      "period": "after",
+      "games": 6,
+      "decisions": 331,
+      "meanElapsedMs": 774.7822574018127,
+      "medianElapsedMs": 1001.0425,
+      "p95ElapsedMs": 1005.9049,
+      "maxElapsedMs": 1086.8788,
+      "medianDepth": 13
+    },
+    {
+      "cpu": 0,
+      "variant": "v17",
+      "period": "before",
+      "games": 8,
+      "decisions": 476,
+      "meanElapsedMs": 771.3484825630252,
+      "medianElapsedMs": 1000.9227000000001,
+      "p95ElapsedMs": 1007.9072,
+      "maxElapsedMs": 1068.3922,
+      "medianDepth": 13.0
+    },
+    {
+      "cpu": 0,
+      "variant": "v17",
+      "period": "overlaps-reported-window",
+      "games": 4,
+      "decisions": 272,
+      "meanElapsedMs": 845.2823930147059,
+      "medianElapsedMs": 1000.9522999999999,
+      "p95ElapsedMs": 1002.996,
+      "maxElapsedMs": 1028.6588,
+      "medianDepth": 13.5
+    },
+    {
+      "cpu": 4,
+      "variant": "v14",
+      "period": "after",
+      "games": 4,
+      "decisions": 244,
+      "meanElapsedMs": 809.0596258196721,
+      "medianElapsedMs": 1001.51675,
+      "p95ElapsedMs": 1007.7167,
+      "maxElapsedMs": 1124.3545,
+      "medianDepth": 12.0
+    },
+    {
+      "cpu": 4,
+      "variant": "v14",
+      "period": "before",
+      "games": 9,
+      "decisions": 509,
+      "meanElapsedMs": 787.9770868369352,
+      "medianElapsedMs": 1001.0633,
+      "p95ElapsedMs": 1007.1058,
+      "maxElapsedMs": 1731.3225,
+      "medianDepth": 13
+    },
+    {
+      "cpu": 4,
+      "variant": "v14",
+      "period": "overlaps-reported-window",
+      "games": 5,
+      "decisions": 281,
+      "meanElapsedMs": 804.0249430604982,
+      "medianElapsedMs": 1001.041,
+      "p95ElapsedMs": 1006.9128,
+      "maxElapsedMs": 1056.7136,
+      "medianDepth": 13
+    },
+    {
+      "cpu": 4,
+      "variant": "v17",
+      "period": "after",
+      "games": 5,
+      "decisions": 327,
+      "meanElapsedMs": 810.4604510703364,
+      "medianElapsedMs": 1001.1734,
+      "p95ElapsedMs": 1005.0974,
+      "maxElapsedMs": 1083.1914,
+      "medianDepth": 12
+    },
+    {
+      "cpu": 4,
+      "variant": "v17",
+      "period": "before",
+      "games": 8,
+      "decisions": 525,
+      "meanElapsedMs": 818.1477687619048,
+      "medianElapsedMs": 1000.9871,
+      "p95ElapsedMs": 1006.9907,
+      "maxElapsedMs": 1092.3851,
+      "medianDepth": 12
+    },
+    {
+      "cpu": 4,
+      "variant": "v17",
+      "period": "overlaps-reported-window",
+      "games": 5,
+      "decisions": 279,
+      "meanElapsedMs": 802.9301752688172,
+      "medianElapsedMs": 1001.0519,
+      "p95ElapsedMs": 1006.9905,
+      "maxElapsedMs": 1061.9198,
+      "medianDepth": 13
+    }
+  ],
+  "winningOpenings": [
+    {
+      "matchId": "4be44b023e10487292fd4401df025709",
+      "variant": "v14",
+      "seed": 570316,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:26:36.9123607+00:00",
+      "finishedAt": "2026-11-07T17:28:03.123206+00:00",
+      "aColor": "white",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 57,
+      "meanElapsedMs": 743.8083894736842,
+      "maxElapsedMs": 1124.3545
+    }
+  ],
+  "games": [
+    {
+      "matchId": "6f504738a4a542bb85180df44d7c6496",
+      "variant": "v14",
+      "seed": 570301,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:38:25.1179881+00:00",
+      "finishedAt": "2026-11-07T16:39:32.9727935+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 46,
+      "meanElapsedMs": 739.7770630434783,
+      "maxElapsedMs": 1038.2074
+    },
+    {
+      "matchId": "74d081d9c58247f0acda094a77a71783",
+      "variant": "v14",
+      "seed": 570301,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:39:33.2634425+00:00",
+      "finishedAt": "2026-11-07T16:41:07.4903994+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 62,
+      "meanElapsedMs": 760.305435483871,
+      "maxElapsedMs": 1008.0636
+    },
+    {
+      "matchId": "4fc8d4442ef04937b86180546e254ea4",
+      "variant": "v17",
+      "seed": 570301,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:41:08.1806214+00:00",
+      "finishedAt": "2026-11-07T16:42:54.6571214+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 67,
+      "meanElapsedMs": 804.8897537313433,
+      "maxElapsedMs": 1037.623
+    },
+    {
+      "matchId": "8e45d9672b0e41b19b708962f3e8ab9d",
+      "variant": "v17",
+      "seed": 570301,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:42:54.9498686+00:00",
+      "finishedAt": "2026-11-07T16:44:26.6993389+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 60,
+      "meanElapsedMs": 788.17912,
+      "maxElapsedMs": 1011.327
+    },
+    {
+      "matchId": "c3384c5ae8804baf8ab20b798caeef48",
+      "variant": "v14",
+      "seed": 570302,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:38:25.1249204+00:00",
+      "finishedAt": "2026-11-07T16:39:40.6447335+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 49,
+      "meanElapsedMs": 761.1669510204082,
+      "maxElapsedMs": 1153.2463
+    },
+    {
+      "matchId": "15d3f661f50a46d5a89d6aea42aa5da9",
+      "variant": "v14",
+      "seed": 570302,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:39:40.9319584+00:00",
+      "finishedAt": "2026-11-07T16:40:51.3214575+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 49,
+      "meanElapsedMs": 725.5589530612245,
+      "maxElapsedMs": 1004.8902
+    },
+    {
+      "matchId": "35efa5bdc132418da709c0241a6a6e77",
+      "variant": "v17",
+      "seed": 570302,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:40:52.0471776+00:00",
+      "finishedAt": "2026-11-07T16:43:19.4970487+00:00",
+      "aColor": "white",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 85,
+      "meanElapsedMs": 896.7612623529412,
+      "maxElapsedMs": 1092.3851
+    },
+    {
+      "matchId": "b4f3dd8dff7e44f5a13d294980e9e863",
+      "variant": "v17",
+      "seed": 570302,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:43:19.7951397+00:00",
+      "finishedAt": "2026-11-07T16:45:06.8115461+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 67,
+      "meanElapsedMs": 824.0458791044776,
+      "maxElapsedMs": 1020.7125
+    },
+    {
+      "matchId": "af31d267073a4108a84841b30d24c4ba",
+      "variant": "v17",
+      "seed": 570303,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:44:27.9338408+00:00",
+      "finishedAt": "2026-11-07T16:45:44.9390307+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 54,
+      "meanElapsedMs": 703.5481333333333,
+      "maxElapsedMs": 1050.372
+    },
+    {
+      "matchId": "a2ac1eb4d51943ba93c3afced481f61c",
+      "variant": "v17",
+      "seed": 570303,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:45:45.2411754+00:00",
+      "finishedAt": "2026-11-07T16:47:26.8290472+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 65,
+      "meanElapsedMs": 765.2793076923077,
+      "maxElapsedMs": 1011.0814
+    },
+    {
+      "matchId": "37eb1207dc124020b2bef6b8bc5df36f",
+      "variant": "v14",
+      "seed": 570303,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:47:27.5549215+00:00",
+      "finishedAt": "2026-11-07T16:49:26.886438+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 73,
+      "meanElapsedMs": 838.8094849315069,
+      "maxElapsedMs": 1005.8333
+    },
+    {
+      "matchId": "c963f1b8c08348678f2a446ecfc7970b",
+      "variant": "v14",
+      "seed": 570303,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:49:27.1797741+00:00",
+      "finishedAt": "2026-11-07T16:50:25.3455342+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 43,
+      "meanElapsedMs": 659.9897488372093,
+      "maxElapsedMs": 1003.4115
+    },
+    {
+      "matchId": "540c88f4c2d642b492e31eb9bc5ad44d",
+      "variant": "v17",
+      "seed": 570304,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:45:07.4979206+00:00",
+      "finishedAt": "2026-11-07T16:46:16.5435778+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 46,
+      "meanElapsedMs": 721.0795456521739,
+      "maxElapsedMs": 1005.0279
+    },
+    {
+      "matchId": "16e6ecf460af4433bd913b67dddffb07",
+      "variant": "v17",
+      "seed": 570304,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:46:16.829057+00:00",
+      "finishedAt": "2026-11-07T16:47:22.8674941+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 47,
+      "meanElapsedMs": 666.5216106382978,
+      "maxElapsedMs": 1006.6314
+    },
+    {
+      "matchId": "c233b791a7f448da88286a011322e0e2",
+      "variant": "v14",
+      "seed": 570304,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:47:23.7753798+00:00",
+      "finishedAt": "2026-11-07T16:48:37.7655823+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 52,
+      "meanElapsedMs": 678.140025,
+      "maxElapsedMs": 1006.2884
+    },
+    {
+      "matchId": "1d60aeb5b1ff4109a27c407a18f9f9b5",
+      "variant": "v14",
+      "seed": 570304,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:48:38.0704086+00:00",
+      "finishedAt": "2026-11-07T16:50:30.7432172+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 68,
+      "meanElapsedMs": 815.8393867647059,
+      "maxElapsedMs": 1006.6268
+    },
+    {
+      "matchId": "89e2d6ed3ccb4242a4d217f352d73ede",
+      "variant": "v14",
+      "seed": 570305,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:50:25.993244+00:00",
+      "finishedAt": "2026-11-07T16:51:48.2161871+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 56,
+      "meanElapsedMs": 724.2245339285714,
+      "maxElapsedMs": 1002.5879
+    },
+    {
+      "matchId": "85628e37cda744ad844b81e27244b4a9",
+      "variant": "v14",
+      "seed": 570305,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:51:48.5296729+00:00",
+      "finishedAt": "2026-11-07T16:55:39.1904624+00:00",
+      "aColor": "black",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 126,
+      "meanElapsedMs": 954.325242063492,
+      "maxElapsedMs": 1038.3105
+    },
+    {
+      "matchId": "d517947b2d4d4cb1b63a8e7283ebd8e3",
+      "variant": "v17",
+      "seed": 570305,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:55:40.0087838+00:00",
+      "finishedAt": "2026-11-07T16:57:01.0258394+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 55,
+      "meanElapsedMs": 733.3108836363637,
+      "maxElapsedMs": 1027.3055
+    },
+    {
+      "matchId": "a25d125e76d94806ba5fe10333a647a8",
+      "variant": "v17",
+      "seed": 570305,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:57:01.3245804+00:00",
+      "finishedAt": "2026-11-07T16:58:06.7217054+00:00",
+      "aColor": "black",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 42,
+      "meanElapsedMs": 811.3045309523809,
+      "maxElapsedMs": 1014.199
+    },
+    {
+      "matchId": "ee9d7cf161764968a6c8307c373c31e3",
+      "variant": "v14",
+      "seed": 570306,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:50:31.4396698+00:00",
+      "finishedAt": "2026-11-07T16:51:51.590615+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 53,
+      "meanElapsedMs": 740.1382132075472,
+      "maxElapsedMs": 1027.3013
+    },
+    {
+      "matchId": "da6a5d251b2a499cbc38003cbdbf13ca",
+      "variant": "v14",
+      "seed": 570306,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:51:51.8848174+00:00",
+      "finishedAt": "2026-11-07T16:53:51.3595634+00:00",
+      "aColor": "black",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 68,
+      "meanElapsedMs": 928.0047588235294,
+      "maxElapsedMs": 1015.7069
+    },
+    {
+      "matchId": "2c19e3d9acc849cc9b69c2a59a2f15bc",
+      "variant": "v17",
+      "seed": 570306,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:53:52.2333331+00:00",
+      "finishedAt": "2026-11-07T16:55:31.9631371+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 63,
+      "meanElapsedMs": 788.1037682539683,
+      "maxElapsedMs": 1039.4901
+    },
+    {
+      "matchId": "239d3642695e45a9a7d8eb818f307eae",
+      "variant": "v17",
+      "seed": 570306,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:55:32.2503332+00:00",
+      "finishedAt": "2026-11-07T16:57:00.1448258+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 58,
+      "meanElapsedMs": 783.8823051724138,
+      "maxElapsedMs": 1004.885
+    },
+    {
+      "matchId": "fc89182419e641e9a008389ebba126db",
+      "variant": "v17",
+      "seed": 570307,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T16:58:07.5586024+00:00",
+      "finishedAt": "2026-11-07T17:00:15.911821+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 78,
+      "meanElapsedMs": 812.6043038461538,
+      "maxElapsedMs": 1068.3922
+    },
+    {
+      "matchId": "8dd33325bb9b488eade5f9958c447df9",
+      "variant": "v17",
+      "seed": 570307,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T17:00:16.2160262+00:00",
+      "finishedAt": "2026-11-07T17:01:42.9863376+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 55,
+      "meanElapsedMs": 734.886149090909,
+      "maxElapsedMs": 1011.7259
+    },
+    {
+      "matchId": "4ec1c4e6e72a4ab6b270f30a6947c127",
+      "variant": "v14",
+      "seed": 570307,
+      "cpu": 0,
+      "period": "before",
+      "startedAt": "2026-11-07T17:01:44.4447325+00:00",
+      "finishedAt": "2026-11-07T17:03:27.7843856+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 63,
+      "meanElapsedMs": 821.8373365079365,
+      "maxElapsedMs": 1067.7144
+    },
+    {
+      "matchId": "8800e331f1f143fb8721a963f4f22209",
+      "variant": "v14",
+      "seed": 570307,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:03:28.0771078+00:00",
+      "finishedAt": "2026-11-07T17:07:25.4268859+00:00",
+      "aColor": "black",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 129,
+      "meanElapsedMs": 941.3567302325581,
+      "maxElapsedMs": 1035.5022
+    },
+    {
+      "matchId": "36e9c3ffb8f94e598e889ada4b0f0c40",
+      "variant": "v17",
+      "seed": 570308,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:57:00.9617082+00:00",
+      "finishedAt": "2026-11-07T16:58:20.4767131+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 51,
+      "meanElapsedMs": 765.2089431372549,
+      "maxElapsedMs": 1038.3266
+    },
+    {
+      "matchId": "fad58bd7e5b24dd2bacbe876cf4a7133",
+      "variant": "v17",
+      "seed": 570308,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T16:58:20.8343353+00:00",
+      "finishedAt": "2026-11-07T17:01:37.5335785+00:00",
+      "aColor": "black",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 108,
+      "meanElapsedMs": 920.8727351851852,
+      "maxElapsedMs": 1031.0182
+    },
+    {
+      "matchId": "5afa6beb15c140a49666016226cf9fdb",
+      "variant": "v14",
+      "seed": 570308,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T17:01:38.6261965+00:00",
+      "finishedAt": "2026-11-07T17:02:48.704105+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 47,
+      "meanElapsedMs": 759.2888957446809,
+      "maxElapsedMs": 1362.2778
+    },
+    {
+      "matchId": "58efb84316fd498a8e5b31edbb2f2b60",
+      "variant": "v14",
+      "seed": 570308,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T17:02:49.0332899+00:00",
+      "finishedAt": "2026-11-07T17:04:10.8198308+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 52,
+      "meanElapsedMs": 790.132698076923,
+      "maxElapsedMs": 1731.3225
+    },
+    {
+      "matchId": "fc45d4f6240546baa065d685f95228a5",
+      "variant": "v14",
+      "seed": 570309,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:07:26.1346199+00:00",
+      "finishedAt": "2026-11-07T17:09:03.1172762+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 62,
+      "meanElapsedMs": 749.4684467741936,
+      "maxElapsedMs": 1023.0957
+    },
+    {
+      "matchId": "16a1dd79fd134b70ab753e410852f18b",
+      "variant": "v14",
+      "seed": 570309,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:09:03.4298715+00:00",
+      "finishedAt": "2026-11-07T17:09:59.4211529+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 39,
+      "meanElapsedMs": 644.9990769230769,
+      "maxElapsedMs": 1006.7718
+    },
+    {
+      "matchId": "dcd5010d4f734b1b9626adaece6a1241",
+      "variant": "v17",
+      "seed": 570309,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:10:00.2783593+00:00",
+      "finishedAt": "2026-11-07T17:11:37.4692637+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 62,
+      "meanElapsedMs": 779.6481935483871,
+      "maxElapsedMs": 1012.8665
+    },
+    {
+      "matchId": "e832575921ef4141bd0688c136d87a54",
+      "variant": "v17",
+      "seed": 570309,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:11:37.7770303+00:00",
+      "finishedAt": "2026-11-07T17:13:26.8184489+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 66,
+      "meanElapsedMs": 820.8485424242424,
+      "maxElapsedMs": 1005.8011
+    },
+    {
+      "matchId": "0f32436cb1f34275a494e82ba956661e",
+      "variant": "v14",
+      "seed": 570310,
+      "cpu": 4,
+      "period": "before",
+      "startedAt": "2026-11-07T17:04:12.090461+00:00",
+      "finishedAt": "2026-11-07T17:06:05.2091093+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 71,
+      "meanElapsedMs": 822.3279014084507,
+      "maxElapsedMs": 1086.4291
+    },
+    {
+      "matchId": "0701aaa370d74fadad7c206433471a50",
+      "variant": "v14",
+      "seed": 570310,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:06:05.5231592+00:00",
+      "finishedAt": "2026-11-07T17:07:55.3031071+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 68,
+      "meanElapsedMs": 801.6315220588235,
+      "maxElapsedMs": 1017.7847
+    },
+    {
+      "matchId": "366821d221e2461181d909925030f2e9",
+      "variant": "v17",
+      "seed": 570310,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:07:56.2375642+00:00",
+      "finishedAt": "2026-11-07T17:09:47.4845237+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 67,
+      "meanElapsedMs": 846.1895970149254,
+      "maxElapsedMs": 1041.75
+    },
+    {
+      "matchId": "e1ae92b2253a47fc9848de7a968faf26",
+      "variant": "v17",
+      "seed": 570310,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:09:47.7707658+00:00",
+      "finishedAt": "2026-11-07T17:10:49.6803473+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 43,
+      "meanElapsedMs": 692.762253488372,
+      "maxElapsedMs": 1004.601
+    },
+    {
+      "matchId": "9fcdf3071e1d4e78a1f896b41de49b9a",
+      "variant": "v17",
+      "seed": 570311,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:13:27.4936871+00:00",
+      "finishedAt": "2026-11-07T17:16:22.3341877+00:00",
+      "aColor": "white",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 97,
+      "meanElapsedMs": 939.5870051546392,
+      "maxElapsedMs": 1028.6588
+    },
+    {
+      "matchId": "74350e99c62e4d869f9fa666590d489b",
+      "variant": "v17",
+      "seed": 570311,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:16:22.6349054+00:00",
+      "finishedAt": "2026-11-07T17:17:36.664974+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 47,
+      "meanElapsedMs": 771.5463744680851,
+      "maxElapsedMs": 1004.0676
+    },
+    {
+      "matchId": "b2cc810e5f6e412daea6f5168befec55",
+      "variant": "v14",
+      "seed": 570311,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:17:37.3035663+00:00",
+      "finishedAt": "2026-11-07T17:19:05.5135262+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 57,
+      "meanElapsedMs": 767.2595929824562,
+      "maxElapsedMs": 1026.4053
+    },
+    {
+      "matchId": "02cfd8de468b4f13936c5085c0fadf1b",
+      "variant": "v14",
+      "seed": 570311,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:19:05.8236762+00:00",
+      "finishedAt": "2026-11-07T17:19:49.3187262+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 34,
+      "meanElapsedMs": 552.6743617647058,
+      "maxElapsedMs": 1032.4316
+    },
+    {
+      "matchId": "b6911330d7dd4607bad0ccf3871cd340",
+      "variant": "v17",
+      "seed": 570312,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:10:50.6003851+00:00",
+      "finishedAt": "2026-11-07T17:12:11.0491743+00:00",
+      "aColor": "white",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 48,
+      "meanElapsedMs": 877.701525,
+      "maxElapsedMs": 1061.9198
+    },
+    {
+      "matchId": "072501c72ea042d5b273eccf7e71c858",
+      "variant": "v17",
+      "seed": 570312,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:12:11.3512076+00:00",
+      "finishedAt": "2026-11-07T17:13:22.7629224+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 47,
+      "meanElapsedMs": 752.9854595744681,
+      "maxElapsedMs": 1004.3072
+    },
+    {
+      "matchId": "5048f8422a244d32bb738cf725dc5ee6",
+      "variant": "v14",
+      "seed": 570312,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:13:23.4826313+00:00",
+      "finishedAt": "2026-11-07T17:15:09.8176814+00:00",
+      "aColor": "white",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 62,
+      "meanElapsedMs": 873.3071338709677,
+      "maxElapsedMs": 1033.3284
+    },
+    {
+      "matchId": "7f3c18f86da24fd3a382a6fd1e53b8fa",
+      "variant": "v14",
+      "seed": 570312,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:15:10.1219124+00:00",
+      "finishedAt": "2026-11-07T17:16:34.829608+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 53,
+      "meanElapsedMs": 805.5406490566038,
+      "maxElapsedMs": 1006.7037
+    },
+    {
+      "matchId": "f4806b5386694f2790613474f675c767",
+      "variant": "v14",
+      "seed": 570313,
+      "cpu": 0,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:19:50.382766+00:00",
+      "finishedAt": "2026-11-07T17:21:45.6222669+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 70,
+      "meanElapsedMs": 843.0890528571429,
+      "maxElapsedMs": 1034.9407
+    },
+    {
+      "matchId": "28207bdd068c44578cd509396c446e85",
+      "variant": "v14",
+      "seed": 570313,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:21:45.9242604+00:00",
+      "finishedAt": "2026-11-07T17:23:20.5997393+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 60,
+      "meanElapsedMs": 803.755505,
+      "maxElapsedMs": 1016.8956
+    },
+    {
+      "matchId": "2eb05d29ff364bfc8a4e2cfff54cefb6",
+      "variant": "v17",
+      "seed": 570313,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:23:21.432217+00:00",
+      "finishedAt": "2026-11-07T17:24:40.2437414+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 54,
+      "meanElapsedMs": 719.2594351851852,
+      "maxElapsedMs": 1086.8788
+    },
+    {
+      "matchId": "33214ec9286c4644b8986b3e0d60928b",
+      "variant": "v17",
+      "seed": 570313,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:24:40.5434356+00:00",
+      "finishedAt": "2026-11-07T17:26:23.0769548+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 62,
+      "meanElapsedMs": 829.3406161290322,
+      "maxElapsedMs": 1012.5293
+    },
+    {
+      "matchId": "85683a5700394b80aa4d896c004631ee",
+      "variant": "v14",
+      "seed": 570314,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:16:35.5579945+00:00",
+      "finishedAt": "2026-11-07T17:18:18.7069619+00:00",
+      "aColor": "white",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 62,
+      "meanElapsedMs": 857.4300145161291,
+      "maxElapsedMs": 1056.7136
+    },
+    {
+      "matchId": "283cffaff4ba4e18897f3c66120da5eb",
+      "variant": "v14",
+      "seed": 570314,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:18:19.0258753+00:00",
+      "finishedAt": "2026-11-07T17:19:04.4642277+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 36,
+      "meanElapsedMs": 595.0196638888889,
+      "maxElapsedMs": 1020.6093
+    },
+    {
+      "matchId": "2e19b853cc664663b3a9612a5745151a",
+      "variant": "v17",
+      "seed": 570314,
+      "cpu": 4,
+      "period": "overlaps-reported-window",
+      "startedAt": "2026-11-07T17:19:05.2826632+00:00",
+      "finishedAt": "2026-11-07T17:21:07.4598635+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 74,
+      "meanElapsedMs": 811.0006648648649,
+      "maxElapsedMs": 1047.5163
+    },
+    {
+      "matchId": "a33299d2c3b24ff7bc9d4795729b1cc1",
+      "variant": "v17",
+      "seed": 570314,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:21:07.7642967+00:00",
+      "finishedAt": "2026-11-07T17:22:56.3214822+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 12,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 66,
+      "meanElapsedMs": 830.883243939394,
+      "maxElapsedMs": 1006.0906
+    },
+    {
+      "matchId": "31c61c1311ae4f7a8c6437330a96cc5a",
+      "variant": "v17",
+      "seed": 570315,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:26:24.1433609+00:00",
+      "finishedAt": "2026-11-07T17:28:05.9550664+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 65,
+      "meanElapsedMs": 772.0989553846154,
+      "maxElapsedMs": 1036.9401
+    },
+    {
+      "matchId": "c54675e59b11406aa2bc274363c7c686",
+      "variant": "v17",
+      "seed": 570315,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:28:06.2523552+00:00",
+      "finishedAt": "2026-11-07T17:29:18.823463+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 47,
+      "meanElapsedMs": 769.048685106383,
+      "maxElapsedMs": 1016.0847
+    },
+    {
+      "matchId": "b99fcac90ae54d8e91ade4b6cba6dcc3",
+      "variant": "v14",
+      "seed": 570315,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:29:19.7796984+00:00",
+      "finishedAt": "2026-11-07T17:30:34.6455747+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 52,
+      "meanElapsedMs": 736.8939865384615,
+      "maxElapsedMs": 1179.3154
+    },
+    {
+      "matchId": "63b007270a42470badefa90b376be65a",
+      "variant": "v14",
+      "seed": 570315,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:30:34.9553227+00:00",
+      "finishedAt": "2026-11-07T17:31:40.9846303+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 11,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 48,
+      "meanElapsedMs": 669.3276458333333,
+      "maxElapsedMs": 1005.3479
+    },
+    {
+      "matchId": "d706b53778db498fa035332711ea8b60",
+      "variant": "v17",
+      "seed": 570316,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:22:57.1947419+00:00",
+      "finishedAt": "2026-11-07T17:25:47.3504216+00:00",
+      "aColor": "white",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 96,
+      "meanElapsedMs": 909.6492291666667,
+      "maxElapsedMs": 1083.1914
+    },
+    {
+      "matchId": "0a9b2a18686f4b68ae99423f39026343",
+      "variant": "v17",
+      "seed": 570316,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:25:47.6544282+00:00",
+      "finishedAt": "2026-11-07T17:26:35.7620815+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 37,
+      "meanElapsedMs": 576.7761108108108,
+      "maxElapsedMs": 1004.9051
+    },
+    {
+      "matchId": "4be44b023e10487292fd4401df025709",
+      "variant": "v14",
+      "seed": 570316,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:26:36.9123607+00:00",
+      "finishedAt": "2026-11-07T17:28:03.123206+00:00",
+      "aColor": "white",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 57,
+      "meanElapsedMs": 743.8083894736842,
+      "maxElapsedMs": 1124.3545
+    },
+    {
+      "matchId": "51de34383722454a89087b13e6daef70",
+      "variant": "v14",
+      "seed": 570316,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:28:03.418868+00:00",
+      "finishedAt": "2026-11-07T17:28:47.3763939+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 12,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 32,
+      "meanElapsedMs": 605.83811875,
+      "maxElapsedMs": 1028.2213
+    },
+    {
+      "matchId": "5ab05700e90d4d42af3a5fd1c0e3a398",
+      "variant": "v14",
+      "seed": 570317,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:31:41.8464508+00:00",
+      "finishedAt": "2026-11-07T17:33:27.625036+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 63,
+      "meanElapsedMs": 860.617846031746,
+      "maxElapsedMs": 1037.3501
+    },
+    {
+      "matchId": "dfda4c7483b84a478124088abbf1928d",
+      "variant": "v14",
+      "seed": 570317,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:33:27.9262179+00:00",
+      "finishedAt": "2026-11-07T17:34:56.6398002+00:00",
+      "aColor": "black",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 53,
+      "meanElapsedMs": 908.4985339622641,
+      "maxElapsedMs": 1031.5166
+    },
+    {
+      "matchId": "9514df8fd1b3474b8127226f1df1a9ad",
+      "variant": "v17",
+      "seed": 570317,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:34:57.4902203+00:00",
+      "finishedAt": "2026-11-07T17:36:21.9026028+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 55,
+      "meanElapsedMs": 798.6135872727273,
+      "maxElapsedMs": 1032.5591
+    },
+    {
+      "matchId": "dbc6719489ed4d9bb77a1550e86d5dc7",
+      "variant": "v17",
+      "seed": 570317,
+      "cpu": 0,
+      "period": "after",
+      "startedAt": "2026-11-07T17:36:22.216608+00:00",
+      "finishedAt": "2026-11-07T17:37:34.4695126+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 48,
+      "meanElapsedMs": 748.7152479166667,
+      "maxElapsedMs": 1006.9497
+    },
+    {
+      "matchId": "54b93fd036db41b19e23b04ccdcccbfe",
+      "variant": "v14",
+      "seed": 570318,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:28:48.34916+00:00",
+      "finishedAt": "2026-11-07T17:30:43.0627986+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 70,
+      "meanElapsedMs": 819.9947214285714,
+      "maxElapsedMs": 1059.0438
+    },
+    {
+      "matchId": "f5328c57157249caa1ef57da714a08f7",
+      "variant": "v14",
+      "seed": 570318,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:30:43.3854759+00:00",
+      "finishedAt": "2026-11-07T17:33:16.2063936+00:00",
+      "aColor": "black",
+      "winner": 0,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 85,
+      "meanElapsedMs": 920.3178847058823,
+      "maxElapsedMs": 1060.9216
+    },
+    {
+      "matchId": "4cf1bfe833cd491da30424d55bef4f6a",
+      "variant": "v17",
+      "seed": 570318,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:33:17.308856+00:00",
+      "finishedAt": "2026-11-07T17:34:59.8452528+00:00",
+      "aColor": "white",
+      "winner": -1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 65,
+      "meanElapsedMs": 793.3488507692308,
+      "maxElapsedMs": 1061.028
+    },
+    {
+      "matchId": "da118db1a8e643e8a0caf1f8f58a78f2",
+      "variant": "v17",
+      "seed": 570318,
+      "cpu": 4,
+      "period": "after",
+      "startedAt": "2026-11-07T17:35:00.1720092+00:00",
+      "finishedAt": "2026-11-07T17:36:38.0899032+00:00",
+      "aColor": "black",
+      "winner": 1,
+      "openingMaterial": {
+        "whiteMen": 10,
+        "blackMen": 11,
+        "whiteKings": 0,
+        "blackKings": 0
+      },
+      "decisions": 63,
+      "meanElapsedMs": 792.8183492063492,
+      "maxElapsedMs": 1011.9619
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "decidedAt": "2026-11-07T17:41:02.406209+00:00",
+  "selectedForExploratoryPlay": true,
+  "automaticPromotion": false,
+  "reason": "Both predeclared MSE filters passed; 34 combination checks,512 cross-language cases and full reference-search verification passed.",
+  "limits": "Small offline improvements do not establish playing strength; temporal test used as eligibility filter is not an independent test of final engine selection.",
+  "trainingReportSha256": "9ffe5fe745b3c27aeb314b67c60c502807ab7cf178e229f26f1873c7fb835d99"
+}

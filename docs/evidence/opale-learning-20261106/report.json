@@ -1,0 +1,122 @@
+{
+  "stage": "complete",
+  "now": "2026-11-06T17:08:50.467728+00:00",
+  "deadline": "2026-11-06T17:21:44+00:00",
+  "games": 9264,
+  "updates": 1593040,
+  "memories": 11064,
+  "recent": [
+    {
+      "Phase": "train",
+      "Opponent": "kimberlite",
+      "games": 60,
+      "finished": 60,
+      "wins": 11,
+      "draws": 20,
+      "losses": 29,
+      "interrupted": 0,
+      "winRate": 0.18333333333333332
+    },
+    {
+      "Phase": "train",
+      "Opponent": "agata",
+      "games": 60,
+      "finished": 59,
+      "wins": 7,
+      "draws": 10,
+      "losses": 42,
+      "interrupted": 1,
+      "winRate": 0.11864406779661017
+    }
+  ],
+  "totals": [
+    {
+      "Phase": "baseline",
+      "Opponent": "kimberlite",
+      "games": 6,
+      "finished": 6,
+      "wins": 0,
+      "draws": 3,
+      "losses": 3,
+      "interrupted": 0,
+      "winRate": 0
+    },
+    {
+      "Phase": "baseline",
+      "Opponent": "agata",
+      "games": 6,
+      "finished": 6,
+      "wins": 0,
+      "draws": 0,
+      "losses": 6,
+      "interrupted": 0,
+      "winRate": 0
+    },
+    {
+      "Phase": "train",
+      "Opponent": "kimberlite",
+      "games": 4610,
+      "finished": 4610,
+      "wins": 384,
+      "draws": 1639,
+      "losses": 2587,
+      "interrupted": 0,
+      "winRate": 0.08329718004338395
+    },
+    {
+      "Phase": "train",
+      "Opponent": "agata",
+      "games": 4610,
+      "finished": 4609,
+      "wins": 137,
+      "draws": 774,
+      "losses": 3698,
+      "interrupted": 1,
+      "winRate": 0.0297244521588197
+    },
+    {
+      "Phase": "periodic",
+      "Opponent": "kimberlite",
+      "games": 8,
+      "finished": 8,
+      "wins": 8,
+      "draws": 0,
+      "losses": 0,
+      "interrupted": 0,
+      "winRate": 1
+    },
+    {
+      "Phase": "periodic",
+      "Opponent": "agata",
+      "games": 8,
+      "finished": 8,
+      "wins": 8,
+      "draws": 0,
+      "losses": 0,
+      "interrupted": 0,
+      "winRate": 1
+    },
+    {
+      "Phase": "periodic-neural",
+      "Opponent": "kimberlite",
+      "games": 8,
+      "finished": 8,
+      "wins": 2,
+      "draws": 4,
+      "losses": 2,
+      "interrupted": 0,
+      "winRate": 0.25
+    },
+    {
+      "Phase": "periodic-neural",
+      "Opponent": "agata",
+      "games": 8,
+      "finished": 8,
+      "wins": 0,
+      "draws": 5,
+      "losses": 3,
+      "interrupted": 0,
+      "winRate": 0
+    }
+  ]
+}

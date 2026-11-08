@@ -1,0 +1,43 @@
+{
+  "createdAt": "2026-11-07T17:12:21.261352+00:00",
+  "authorization": "authorization-extension.json",
+  "name": "ametista-human-linear-v1",
+  "scope": "Offline outcome prediction only; not a playing-strength claim or replacement of frozen engines.",
+  "data": {
+    "trainYear": 2004,
+    "validationYear": 2004,
+    "testYear": 2005,
+    "validationRule": "stable game identity SHA256 first 8 hex modulo 5 equals 0",
+    "overlapRule": "Exclude validation positions seen in training, and test positions seen in training or validation; report both counts.",
+    "rights": "FID offers free download. No explicit open-data or training license identified. Local experimental analysis; do not redistribute source PDN or exported positions.",
+    "exclude": "Malformed, illegal, ambiguous, incomplete or inconsistent-result games; no Kingsrow-derived data."
+  },
+  "architecture": {
+    "type": "Single tanh output neuron",
+    "inputs": 128,
+    "encoding": "Four 32-square planes: own men, own kings, enemy men, enemy kings; rotate board 180 degrees for black to move; divide features by sqrt(24).",
+    "initialization": "All weights and bias zero, no pretrained or manual model loaded."
+  },
+  "training": {
+    "epochs": 100,
+    "learningRate": 0.1,
+    "l2": 0.001,
+    "loss": "Mean squared outcome error, equal total weight per training game.",
+    "target": "Published game outcome from side-to-move perspective: -1,0,+1",
+    "algorithm": "Deterministic full-batch gradient descent, fixed configuration, no hyperparameter search or automatic promotion.",
+    "threads": 1
+  },
+  "evaluation": {
+    "metrics": [
+      "Equal-game-weighted MSE",
+      "Constant predictor fitted only on training"
+    ],
+    "limitations": [
+      "Published result need not imply terminal board",
+      "Game outcomes are noisy labels for early positions",
+      "Temporal holdout is not a test against Kingsrow",
+      "Shared machine load; run only after resource coordination"
+    ]
+  },
+  "deadline": "2026-11-07T18:28:21Z"
+}

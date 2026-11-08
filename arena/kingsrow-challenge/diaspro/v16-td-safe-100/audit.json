@@ -1,0 +1,13 @@
+{
+  "verifiedAt": "2026-11-07T16:08:34.8123707+00:00",
+  "games": 100,
+  "moves": 10875,
+  "updates": 10275,
+  "registered": true,
+  "legalReplay": true,
+  "resultsMatchReferee": true,
+  "initialCheckpointVerified": true,
+  "candidateHashVerified": true,
+  "frozenTacticalFeaturesVerified": true,
+  "patternsVerified": false
+}

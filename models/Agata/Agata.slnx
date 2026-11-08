@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Agata/Agata.csproj" />
+  <Project Path="WeightBuilder/WeightBuilder.csproj" />
+  <Project Path="Agata.Tests/Agata.Tests.csproj" />
+  <Project Path="Agata.Eval/Agata.Eval.csproj" />
+</Solution>

@@ -1,0 +1,740 @@
+{
+  "verifiedAt": "2026-11-07T16:00:38.028145+00:00",
+  "allFrozenFilesMatch": true,
+  "frozenSnapshotsMatch": true,
+  "originalOpaleFiles": 7,
+  "inputHashesMatch": true,
+  "normalizedConfigurationsMatch": true,
+  "configurationNormalization": "ISO UTC equivalent and documented defaults protocolReserveMs=100, expectedHealth=null",
+  "finalGamesRegistered": 72,
+  "recordedPeakMemoryWithinLimit": true,
+  "webTestsInterruptedWithoutWinner": [
+    "37c6bb0886c64890ac3d2eb6d322244f",
+    "42ddb5eadf39490c9f2927b33d0a2f6e",
+    "34cfd538503446bd8aa77cc30228ebe5"
+  ],
+  "health": {
+    "status": "ok",
+    "model": "Ametista",
+    "version": "manual-v4",
+    "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+    "search": "search-v14",
+    "architecture": "original-risk-aware-pvs",
+    "threads": 1,
+    "compiledInference": true
+  },
+  "files": [
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Board.cs",
+      "sha256": "dbb54412d33a4713e14504015bc15ba41e0eb6eb8a296b34c6e328eb2254bda2"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\InferenceCompiler.cs",
+      "sha256": "f706c929d31d48a1b9c42f0bcd538676473daa14870b37249318a5a5663a5699"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Network.cs",
+      "sha256": "8ea978619f4331bbedb1acb32f2f234d40567a00cf4f6328880bcf40d49c2805"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Program.cs",
+      "sha256": "f26856b3c39313ba1dc7d8629f18b86bdb28ffc9a2cce49cd59bb300f3a0f7bd"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Search.cs",
+      "sha256": "04229220a3b48346ebf34440a2a9d92c21be4db54b800c00e147ec8bb527c342"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Verification.cs",
+      "sha256": "9afbfc0965eb690482c4963d85ba54905772b50e0c6c23e08d1b66dca9b55965"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Ametista.csproj",
+      "sha256": "e54297b313a5cea2ff69c3904461dd164402a26d0c9d622c166794fa4525b91e"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Models\\ametista-v1.json",
+      "sha256": "8e4c50adb407cd19700e9f27bb2d55d81c69b6212cf3bf182263ecd5d3482606"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Models\\ametista-v2.json",
+      "sha256": "82d6ac2189285598adfba70123d0a28643a7b2942e53751c779f1c3ded911ae4"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Models\\ametista-v3.json",
+      "sha256": "832de82282bd161399bb3af19c8740ec4ec69b4628ef500e3afce4a81992db12"
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Models\\ametista-v4.json",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138"
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Ametista.deps.json",
+      "sha256": "8c6b03f1b93ca82d1507092425108620493f4a43d63d752d22e9ff59908128e9"
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Ametista.dll",
+      "sha256": "8a9c454e0d42bbfafd72adfdbb00ff491a6f8906b88e54230aee9e68099473cd"
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Ametista.runtimeconfig.json",
+      "sha256": "41442586a8262bc96a1c80f82f4d9384c03bfd465d221cbf01fb3563170f9e65"
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Ametista.staticwebassets.endpoints.json",
+      "sha256": "c1686417e8d5c31bba969f12b6f3d2b35e6609adb5ca42f212261a3a02771aac"
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Dama.Engine.dll",
+      "sha256": "0f2c2a30e36a2eb4a0a2eb243e57317d40b49d0f9620c2460a30bc37fe86b3b2"
+    },
+    {
+      "group": "candidate",
+      "path": "arena\\ametista\\2026-11-07\\confirmation-opale-config.json",
+      "sha256": "b5d5515dc4ed3b7b715a4f7ffc0e01a4d23d93b5b02e3304278f3b73acb52c4e"
+    },
+    {
+      "group": "candidate",
+      "path": "arena\\ametista\\2026-11-07\\confirmation-ametista-config.json",
+      "sha256": "af01e5738215baca84878fb4e95f85028a52da24173988d69aa7e6bf59145988"
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts/challenge-audit-v6/bin/Dama.Challenge/release/Dama.Challenge.dll",
+      "sha256": "7c0f78522c34241ea4e2c290df7054b2092017e316906c7e36a002b3b3666567"
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Benchmark.cs",
+      "sha256": "4e96c12d0f3c5ed09ae02ce7769faa00309eabad476495a394e1ec47182d7d99"
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/ManualBuilder.cs",
+      "sha256": "dbf36221c4a77288c72cb942b872927f7a86fe5775c20bec0d07e6d6fb4d2dcd"
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Network.cs",
+      "sha256": "5ed923141053c65e77695c0ce1da140ccb1f9330fa14ccc9128d2cc74947bac5"
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Program.cs",
+      "sha256": "81cc7d345371db3b508ffefd9a4e240baec04985a793b4409d662eb844572c4f"
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Protocol.cs",
+      "sha256": "c4ab679b965dd5c9333ebb804262e14fb0dc485612316516bdbe95b1b6c7957c"
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Verification.cs",
+      "sha256": "719df64bdad9446989d383ceba3d69a228aca69dd08d5ca810798a3dd0ed60ff"
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Models/opale-c-v3.json",
+      "sha256": "3e25fd78df09920a87f2b0c6cdcc53084c5dcfbf7747dd64363a314fe8dfc1e9"
+    }
+  ],
+  "matches": [
+    {
+      "id": "edb1cbc39d094c69bde6738450b7e2ce",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 52,
+      "registrySha256": "6b2858354f24016b020472dfe38668d63bf66eb4545a6050231b84a579ea83ad"
+    },
+    {
+      "id": "ff27b4990e0a41d3aac93027800e4731",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 65,
+      "registrySha256": "206a33501af541cac2e3394d8db87e5a72dc8ff7ade1b083f9ef659313300692"
+    },
+    {
+      "id": "0af979ac22454ba3b0e3b19f4d172f55",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 52,
+      "registrySha256": "329f3222efc31600a7786b10b25cf64d2e3299642d55e57c4a78c7334da779c9"
+    },
+    {
+      "id": "f672b6ba79ed4fce91fb3e25238ae113",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 45,
+      "registrySha256": "648b8399591e0562bc6eaad45abc73d82e52b3910996df94086e352d82966383"
+    },
+    {
+      "id": "8a94cc7efd314d06b5dbe0f14bc18c4c",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 52,
+      "registrySha256": "b35afb1b9d0df71660395ce6e21deb228ee32d797f9610b8037024e34a8c16f0"
+    },
+    {
+      "id": "82bb71572f964663b01988ba94c0801d",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 47,
+      "registrySha256": "b653d5e9ec8ae82c87e472af5a80017bebe04ef44e0cb79790e0e9224e7b3e21"
+    },
+    {
+      "id": "7a2fc577bf724a29a91bd4ea29cfc282",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 52,
+      "registrySha256": "87da366bfcfbcdaba7b871d524ba3b17d64f4d4af3b47ab308e666eba6f0cf2d"
+    },
+    {
+      "id": "11af90d17c60488892061deee3922408",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 63,
+      "registrySha256": "d5f31a2ba7546f99d9f442fce3b1b7d85d497dd4e1ffd3e4838dd6afd4949a9f"
+    },
+    {
+      "id": "d325781c8afe4051b003c9ee8c30d10e",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 48,
+      "registrySha256": "d166b7e6b138c82e97bcfa6ee0add398ffe2d484b24d91a5e4c9c0d22ff04e10"
+    },
+    {
+      "id": "b8be726bf6454cf2a3a1c3efabd5b95c",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 37,
+      "registrySha256": "86b7cb63fd74aa7930191f1a2d95d7155935bba3e0535e0d1793f4dfdd16fbd3"
+    },
+    {
+      "id": "504e8839fbbb4d9197e8ae3544e5783d",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 56,
+      "registrySha256": "622f755889511405b5370e1756915347e0a3421b68992d01cc081b34c8034f67"
+    },
+    {
+      "id": "62af41409d154865a5ae429be5b8c23d",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 49,
+      "registrySha256": "753993b2a5ae31a7ced6b4b1db8848121a77b67bb0dba44a8d8f833acf5460d4"
+    },
+    {
+      "id": "5a10608b4cd1416a88e71e8c72124f80",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 62,
+      "registrySha256": "243e9f76814ba2d26650757503c606e0b712a826a674dd592d7a8631d8e15a01"
+    },
+    {
+      "id": "d06dd3aaa078467abd318e8b00b5dc81",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 39,
+      "registrySha256": "340cc23c90add3684ba732326964c1b39fe34cfbe0f330688b4723fadeaa7a27"
+    },
+    {
+      "id": "bfdaa0aaecfd4807aaae07611df417a5",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 46,
+      "registrySha256": "48c665baa81a33af93b3b426645d47886a154c660efb20b2d83398549c65e1fe"
+    },
+    {
+      "id": "af0aac405ab44a87967205f86f32e94f",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 59,
+      "registrySha256": "ecf0df9b943479186a0bf8562a9d8982b0caaa3796d6cc0c89839da000ea1bee"
+    },
+    {
+      "id": "f0a20c9ed0de407babf290edf6b071cc",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 58,
+      "registrySha256": "52f74a98804a7bc83091d2bbc3b147e24ffe735da65b6d0eb4d76a5fe0717983"
+    },
+    {
+      "id": "c3352e0785cf428e9138baa713474740",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 53,
+      "registrySha256": "46ad4d4cd47ec763c8f613a54432a66a092bff239d21f5de62391eb5aa29721b"
+    },
+    {
+      "id": "317f80d535c346178dedcb6826722a9a",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 54,
+      "registrySha256": "fd9fbb3c87aa46a343005ed7c8b732b2269153ef074b4807c68e2bf6d8d5e46e"
+    },
+    {
+      "id": "5b0ca2dda6f046f8afe1f12db0e1a0a4",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 51,
+      "registrySha256": "927333f2623cb7483a0776e6067c68048c4813936100a6e593fed5483fd13098"
+    },
+    {
+      "id": "11ea0cde366a4578909944af194cd648",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 90,
+      "registrySha256": "73bc0b3d23191546dd26617c71106cd38c5f077b2b570016cce90610342ce33a"
+    },
+    {
+      "id": "2c34458c782744459d2d8a7197ee0f7b",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 51,
+      "registrySha256": "4a7afa0365bbd183710cb8d2966c558062b6c0516c08ab29c6992c03a14c0f73"
+    },
+    {
+      "id": "c1f0642eacf74e5687423be249b2fff4",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 50,
+      "registrySha256": "f1f2d2eb5c78eb71c0594dcac3b74efd0a5352f17d57139d1b0e417e90d5f840"
+    },
+    {
+      "id": "94f1af723bec427bb191a7da6497d771",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 51,
+      "registrySha256": "4756426a7f714330d046b6079502da1de537e9252641480cca87aebd39bb2b05"
+    },
+    {
+      "id": "0b17b0925e8c48bca391b12f30bd1fb5",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 58,
+      "registrySha256": "29635cf312247a85e2655cfd9fda453c58c1bc2033d50be969b9273142ee0fc0"
+    },
+    {
+      "id": "2d93ca2165d749b79c58dc51d41f0cf4",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 59,
+      "registrySha256": "3b027d9631bf4f0574b355bb8ceefd01b4061568ab180b6f00197eefe63c242d"
+    },
+    {
+      "id": "4bedf25fa4c546cfa1b690c7e3b6d566",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 48,
+      "registrySha256": "30c3b14747fd9387a6d3ada8ef26ab9eda02c054e8eec5ece6d77917805e0f06"
+    },
+    {
+      "id": "eac6539a4e574772b389f81bbfcf5c8c",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 49,
+      "registrySha256": "ccc82716c4089c9ca257f14ece126d2752c05b4b31d6a05cdbf0729ddee6ca1f"
+    },
+    {
+      "id": "56686a17b2d2442f9d32b0f869dec277",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 66,
+      "registrySha256": "1996e05348656de29c4e87c62c2403dcdb5732b041ecb2df8aecd89caedbe337"
+    },
+    {
+      "id": "7d7580a2020142c680d976edb998450b",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 59,
+      "registrySha256": "2cbb9d6c6d495c55c69592138288f1e5dd744ccf03d99aa6457c2e67f93cf57f"
+    },
+    {
+      "id": "472256fefe30473384d853696254d3cf",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 58,
+      "registrySha256": "59d4d739b250cdb3ad9b98cd6d6e9719516b7060ae51291dd1e6fb219d34b1d7"
+    },
+    {
+      "id": "7b1f1eba4d0f4b19ac3222b6fd515386",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 45,
+      "registrySha256": "0b4602a7398f974c11feafbda48cfce8d0ea9dce591f45fd077f5593d458ba23"
+    },
+    {
+      "id": "7657fccf21cc44dbbfdb06bf82d92e3c",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 40,
+      "registrySha256": "9c051ee68b139a6edbf96374969918e8791fe7eb1ee9f13882d3a3148158c278"
+    },
+    {
+      "id": "9f1a40921a26407da5236c29e183fd55",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 43,
+      "registrySha256": "fc7cc6ac3dd0de2317a803ee8f7835a02c6ed35c114153d2b0751c24a0288a5d"
+    },
+    {
+      "id": "190e51a7be58471aa2ae83c0af0978d7",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 56,
+      "registrySha256": "9b93fb3b122d129848a3ab8fb9de91130cfaffeff24e0f5079aa7aa06225798f"
+    },
+    {
+      "id": "a4490e1f05bf4dcd90eff8f0aa65b75e",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 81,
+      "registrySha256": "49119d00cca832c2a125233f605626bd539005d28263115dd1c09daa00dd0318"
+    },
+    {
+      "id": "2567d9778fe247ec9226688fab8c6925",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 114,
+      "registrySha256": "0a2110e1ac24f69ad9671b92910f2332625aea3eb5596b2e6ae5387dfc8ba4c9"
+    },
+    {
+      "id": "75a5865068774066b0552b7af893f682",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 91,
+      "registrySha256": "d7d9ee113a4b7bd904e307ed63369a839d65e0024bc1649776b4faa7e476c0b9"
+    },
+    {
+      "id": "e9e09ecce18a407c9ae4986f0b5bc9a1",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 78,
+      "registrySha256": "d3567d2c58c440e940080073ba171b049d244412260ebd28650d2e71a7b3489d"
+    },
+    {
+      "id": "814ffc2fea6e457c81866fa2165365b3",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 0,
+      "plies": 137,
+      "registrySha256": "83aac0e621f3a9cbd8b5b1df62a7702295a1ca2d4d44a6369b41fe93d432324a"
+    },
+    {
+      "id": "cfb1ae7a0d5743bd8cf387ee49b02a35",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 118,
+      "registrySha256": "044ab5b3da16efe3a95479c8f784c3c93af7c841887a3c379bed4af805209570"
+    },
+    {
+      "id": "7ab5eaef915c4dff8640a2e7a7dd6622",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 85,
+      "registrySha256": "c1be27e4bd9ade8d1371fb6d081daeea5e2c26f87081ffc164583c00317f2509"
+    },
+    {
+      "id": "72b18e18f72e4f03be9b53fbe0bad901",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 108,
+      "registrySha256": "6fddb9080598bb38daaa7a022978b581d1c60c9e929f93b44df4db57b863a341"
+    },
+    {
+      "id": "8233b7573b7e4624b0de037fff9d29ba",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 135,
+      "registrySha256": "fed7259e2e9d7e708fe51e9ac62d9c5f6c6a137af8a3dc8677ff7131dfd2dbf8"
+    },
+    {
+      "id": "0febc678294f473cb3a533a819030285",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 86,
+      "registrySha256": "98c985ed66308009a472fc74c8d47ca9a58c8b53ccc4dfe5152f0e90eb016835"
+    },
+    {
+      "id": "dea59da8b7ef4dd2bc1ee3f7090e10d4",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 125,
+      "registrySha256": "df590758134dcbaaef7c918ea37246cef6e3d1c54d846bb09745ce93e061f95f"
+    },
+    {
+      "id": "4cb07f3b94944b03b3262708a066ee97",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 146,
+      "registrySha256": "79cd6b289c41ac0243596673f4c048d8c7f6e894bbe5900ff34740d88c85de24"
+    },
+    {
+      "id": "1f316b3b6680430a9bcc9728bf10a062",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 125,
+      "registrySha256": "52043abd2654a2e11f467a8066024bd1d71d906f0348d262c0f07882e5e51d10"
+    },
+    {
+      "id": "95de0986534c43b2982b906c56d6c1f0",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 155,
+      "registrySha256": "5c39da09105eddf9dc6db2720288f82778f9098c8bb75fc46038ff61c855edfa"
+    },
+    {
+      "id": "6bc279d744d4413683ce6316d0ab2f8c",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 75,
+      "registrySha256": "3aa027b300f91cf4dd49262ca4a8350c87ebb063163b9e5d9f7243224b600b51"
+    },
+    {
+      "id": "902ff030eac74bc6a1b00c222ba2cb2c",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 112,
+      "registrySha256": "76b937b87d01c7fa8bfa09f274df0b14b1a6c29a31c7ad8dbda786590e114016"
+    },
+    {
+      "id": "6163955ffd034a8dbff07c8ca427d170",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 0,
+      "plies": 118,
+      "registrySha256": "406a9f49d10c0ddc3ca9751d01de4ab7f48228ceffb0ffe6141a152a659163d4"
+    },
+    {
+      "id": "a0c81ec8f8554de7b5ddf47598bcec1d",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 150,
+      "registrySha256": "e7d32811556d94ec14a1c353c92c0cb5665a68c55632a63846c130b4f9a51854"
+    },
+    {
+      "id": "51a79b8ce63841429cdbe1a3061829e5",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 131,
+      "registrySha256": "53e0a0c67dec5349ad92b0f52be885de49e1d8d9535650bdc0ad912e41a59eab"
+    },
+    {
+      "id": "94b1ef670f95498b874a2dd0f1a10075",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 132,
+      "registrySha256": "07a2dfd9631c651a45b4afc534756c88f66a139547d2299155781273865dcbb2"
+    },
+    {
+      "id": "e0d58e887e864d09925336ad0bc4a107",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 125,
+      "registrySha256": "1cd48a6673b28b5360a1b205339b7734cc9e3a912d17384d6b0829d6116d81c9"
+    },
+    {
+      "id": "a03fe0ba68fd461698ef2d2686c42f37",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 151,
+      "registrySha256": "1d1619d1ee1a9d5c7bfb31c1711c33783c400f74f7c699bb12f822b5c3f151a7"
+    },
+    {
+      "id": "c6128fb3cb7542d48cf17c4330cf3c30",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 73,
+      "registrySha256": "3bbd20dc1a558e25ab5fdc62ec23b3b7e8ad8df4600e493da68a982ae3d1b3a9"
+    },
+    {
+      "id": "874c711718cf453ba78d4a9a048e0441",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 150,
+      "registrySha256": "8f3e537c7246992e33f060c02a5d40f489d6bf3ae8a4f885f54c19f84ea4d8d2"
+    },
+    {
+      "id": "00bdb5ab895148778e20018d2f3b98e1",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 117,
+      "registrySha256": "8937fcf1e94c16f94ee4d976a0dc6d52948b94d5c3efa2de3b6d8ab8aed21d37"
+    },
+    {
+      "id": "2a8088af34df478ba7f4eb60d49065d9",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 116,
+      "registrySha256": "53f2d9ea850b5d28b5b8f8a7cf79ec65e88cd88d7853101aae38d2a639daf5f3"
+    },
+    {
+      "id": "c127b0dd32a3467a963cfcbaf5109f15",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 0,
+      "plies": 84,
+      "registrySha256": "0bb2234d56834749be414b9f7d0af83cc48abc627987d5a67002621f9cbe506e"
+    },
+    {
+      "id": "14fc5ec0ec4d4e71aa183881823425c2",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 126,
+      "registrySha256": "b855c996df4f0f57abb5f9d0c0ac9dc058a4a08e8c9923e8f6e4f216bc3c8bb6"
+    },
+    {
+      "id": "7e6309bf726240ddb394f5832fa2953d",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 83,
+      "registrySha256": "44f5f45775131d5bd7a258e8747553e931ea388066ba043804e4ee485e69638d"
+    },
+    {
+      "id": "ee5c915e38c4401c91c7d60012d26249",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 156,
+      "registrySha256": "ac9c6257270c267918030cf6230301d8169864761fd6d6fbe7675a3f489b2334"
+    },
+    {
+      "id": "c10667e6679a4a07b16fa95e3760db1f",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 95,
+      "registrySha256": "d9b1107d67e0663f5d96af5bbe5a35ffbb585ea7da7dc5d26b514763a035da07"
+    },
+    {
+      "id": "9cdd706039be4b1ba14e15fa8645d866",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 103,
+      "registrySha256": "7c75888422d29214a1c349e916d1cf17a957f39fd46705457cab18d346a4b768"
+    },
+    {
+      "id": "30a3e646d25c4e978b48d870980a52fb",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 67,
+      "registrySha256": "2f83ef352cdef90f366aee945721107eb69916e08f246df57f2b784875822cf7"
+    },
+    {
+      "id": "659fec48c2764aec9ffa5ab2f4e07a89",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 118,
+      "registrySha256": "fe09bf4dc651b532e8f959cbcfedea66d62885fcfb2462bdd1faad4fee789bb9"
+    },
+    {
+      "id": "18250289bbb54b48aa52a8532d78569f",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 1,
+      "plies": 107,
+      "registrySha256": "e8f52fd30431c5b733d56768e1dbe22da0cbd2a0e5c3195b0a93d66438f4a90d"
+    },
+    {
+      "id": "1b1d55c44cfd4bd093af5c00a5df6333",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": -1,
+      "plies": 70,
+      "registrySha256": "16ae8ec81f5bda70933d6c1469f6285c62fc6ab1adc759e8209359eecf2a95b3"
+    },
+    {
+      "id": "f25dd76df3d64413b05a4b962a7051c9",
+      "source": "benchmark",
+      "status": "finished",
+      "winner": 0,
+      "plies": 243,
+      "registrySha256": "82d4cd11a34c70d64a48d45466e52eda347cb29e61d17932ba12fcaa94e06fe8"
+    }
+  ],
+  "limitations": [
+    "Hash and registry checks do not certify equal CPU time",
+    "No originality or absence-of-copying theorem is claimed by hashes"
+  ]
+}

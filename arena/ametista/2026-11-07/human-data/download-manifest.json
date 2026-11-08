@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-07T17:10:28.146844+00:00",
+  "downloadOnly": true,
+  "licenseVerified": false,
+  "files": [
+    {
+      "url": "https://www.fid.it/download/pdn/ci2005ita.zip",
+      "sha256": "3aeda4d1418da1fd701b9f87319aed0f31f94e509b9216dc9d8d74b4912febaf",
+      "files": [
+        {
+          "name": "ci2005ita.pdn",
+          "size": 106481
+        }
+      ]
+    },
+    {
+      "url": "https://www.fid.it/download/pdn/ci2004ita.zip",
+      "sha256": "1bee2b69c75dd821caf2f4a42871a3c9598f4876809d06d09cd786814bdeab58",
+      "files": [
+        {
+          "name": "ci2004ita.pdn",
+          "size": 125082
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2054 @@
+[
+  {
+    "games": 50,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "games": 100,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 150,
+    "wins": 2,
+    "draws": 2,
+    "losses": 2,
+    "score": 0.5,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 1,
+        "draws": 1,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 1,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 200,
+    "wins": 2,
+    "draws": 2,
+    "losses": 2,
+    "score": 0.5,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "games": 250,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 1,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 300,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 350,
+    "wins": 3,
+    "draws": 0,
+    "losses": 3,
+    "score": 0.5,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 400,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 450,
+    "wins": 3,
+    "draws": 1,
+    "losses": 2,
+    "score": 0.5833,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 1,
+        "draws": 1,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 500,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "games": 550,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 600,
+    "wins": 1,
+    "draws": 2,
+    "losses": 3,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 1,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 650,
+    "wins": 1,
+    "draws": 3,
+    "losses": 2,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 1,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 700,
+    "wins": 2,
+    "draws": 2,
+    "losses": 2,
+    "score": 0.5,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 750,
+    "wins": 1,
+    "draws": 2,
+    "losses": 3,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 800,
+    "wins": 2,
+    "draws": 2,
+    "losses": 2,
+    "score": 0.5,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 850,
+    "wins": 0,
+    "draws": 1,
+    "losses": 5,
+    "score": 0.0833,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 900,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 950,
+    "wins": 2,
+    "draws": 2,
+    "losses": 2,
+    "score": 0.5,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1000,
+    "wins": 2,
+    "draws": 2,
+    "losses": 2,
+    "score": 0.5,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1050,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1100,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1150,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1200,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1250,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1300,
+    "wins": 0,
+    "draws": 3,
+    "losses": 3,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1350,
+    "wins": 1,
+    "draws": 0,
+    "losses": 5,
+    "score": 0.1667,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1400,
+    "wins": 2,
+    "draws": 2,
+    "losses": 2,
+    "score": 0.5,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1450,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1500,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1550,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1600,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1650,
+    "wins": 1,
+    "draws": 0,
+    "losses": 5,
+    "score": 0.1667,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1700,
+    "wins": 1,
+    "draws": 0,
+    "losses": 5,
+    "score": 0.1667,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1750,
+    "wins": 1,
+    "draws": 2,
+    "losses": 3,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1800,
+    "wins": 1,
+    "draws": 2,
+    "losses": 3,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1850,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1900,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 1950,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2000,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2050,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2100,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2150,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2200,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2250,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 1,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2300,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2350,
+    "wins": 2,
+    "draws": 2,
+    "losses": 2,
+    "score": 0.5,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2400,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 1,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2450,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2500,
+    "wins": 0,
+    "draws": 2,
+    "losses": 4,
+    "score": 0.1667,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2550,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "games": 2600,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2650,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2700,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2750,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2800,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2850,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      }
+    ]
+  },
+  {
+    "games": 2900,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 1,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 2950,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3000,
+    "wins": 0,
+    "draws": 2,
+    "losses": 4,
+    "score": 0.1667,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3050,
+    "wins": 0,
+    "draws": 2,
+    "losses": 4,
+    "score": 0.1667,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3100,
+    "wins": 1,
+    "draws": 0,
+    "losses": 5,
+    "score": 0.1667,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3150,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3200,
+    "wins": 0,
+    "draws": 1,
+    "losses": 5,
+    "score": 0.0833,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3250,
+    "wins": 1,
+    "draws": 0,
+    "losses": 5,
+    "score": 0.1667,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3300,
+    "wins": 2,
+    "draws": 1,
+    "losses": 3,
+    "score": 0.4167,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3350,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3400,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3450,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3500,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "score": 0.25,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 1,
+        "losses": 1
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3550,
+    "wins": 1,
+    "draws": 0,
+    "losses": 5,
+    "score": 0.1667,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3600,
+    "wins": 1,
+    "draws": 2,
+    "losses": 3,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3650,
+    "wins": 1,
+    "draws": 2,
+    "losses": 3,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 2,
+        "losses": 0
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 1,
+        "draws": 0,
+        "losses": 1
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3700,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3750,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  },
+  {
+    "games": 3800,
+    "wins": 2,
+    "draws": 0,
+    "losses": 4,
+    "score": 0.3333,
+    "opponents": [
+      {
+        "opponent": "opale",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      },
+      {
+        "opponent": "material-greedy",
+        "wins": 2,
+        "draws": 0,
+        "losses": 0
+      },
+      {
+        "opponent": "search-depth-3",
+        "wins": 0,
+        "draws": 0,
+        "losses": 2
+      }
+    ]
+  }
+]

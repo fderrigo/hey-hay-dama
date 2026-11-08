@@ -1,0 +1,25 @@
+{
+  "startedAt": "2026-11-07T12:21:51.4269148+00:00",
+  "games": 24,
+  "seed": 6301,
+  "source": "test",
+  "thinkTimeMs": 200,
+  "openingPlies": 6,
+  "plyLimit": 400,
+  "avventurina": {
+    "status": "ok",
+    "protocolVersion": "dama-model/v1",
+    "model": "Avventurina",
+    "version": "a7o6e4",
+    "tablebasePieces": 5
+  },
+  "rival": {
+    "status": "ok",
+    "name": "Kingsrow Italian(x64)[5] 1.19e",
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "rules": "italian-draughts-8x8"
+  },
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition",
+  "lockFile": "matches-9029.lock",
+  "affinity": "Avventurina 9024 e Kingsrow 9029 sul processore logico 10"
+}

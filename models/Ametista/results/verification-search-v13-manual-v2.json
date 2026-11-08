@@ -1,0 +1,60 @@
+{
+  "weightsVersion": "manual-v2",
+  "compiledInference": true,
+  "compiledInterpretedAgreement": true,
+  "exclusiveKingCases": 0,
+  "positions": 9015,
+  "transitions": 40898,
+  "legalTransitions": true,
+  "networkSymmetry": true,
+  "evaluationQuietInvariant": true,
+  "searchReferencePositions": 32,
+  "aspirationReferenceCases": 12,
+  "previousTurnCacheHits": 620,
+  "historyCases": 4,
+  "horizonCases": 4,
+  "reductionCases": 5,
+  "verifiedReductions": 117,
+  "verifiedReductionResearches": 22,
+  "search": {
+    "move": {
+      "from": 20,
+      "to": 17,
+      "captures": 0,
+      "promotes": false,
+      "code": 564
+    },
+    "score": 2,
+    "depth": 9,
+    "nodes": 193695,
+    "milliseconds": 204,
+    "risk": 0,
+    "cacheHits": 7063,
+    "previousTurnCacheHits": 0,
+    "evaluationCacheHits": 8849,
+    "aspirationRetries": 0,
+    "lateReductions": 1676,
+    "reductionResearches": 138
+  },
+  "cornerProbe": {
+    "move": {
+      "from": 4,
+      "to": 9,
+      "captures": 0,
+      "promotes": false,
+      "code": 292
+    },
+    "score": 29991,
+    "depth": 8,
+    "nodes": 1190,
+    "milliseconds": 0,
+    "risk": 0,
+    "cacheHits": 12,
+    "previousTurnCacheHits": 0,
+    "evaluationCacheHits": 324,
+    "aspirationRetries": 1,
+    "lateReductions": 0,
+    "reductionResearches": 0
+  },
+  "realGames": 0
+}

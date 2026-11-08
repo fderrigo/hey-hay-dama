@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-11-07T14:56:19.346382+00:00",
+  "attempts": [
+    {
+      "report": "web-final-check.json",
+      "matchId": "37c6bb0886c64890ac3d2eb6d322244f",
+      "passed": false,
+      "plies": 0,
+      "status": "interrupted",
+      "winner": null
+    },
+    {
+      "report": "web-final-check-v2.json",
+      "matchId": "42ddb5eadf39490c9f2927b33d0a2f6e",
+      "passed": false,
+      "plies": 0,
+      "status": "interrupted",
+      "winner": null
+    },
+    {
+      "report": "web-final-check-v3.json",
+      "matchId": "34cfd538503446bd8aa77cc30228ebe5",
+      "passed": true,
+      "plies": 1,
+      "status": "interrupted",
+      "winner": null
+    }
+  ],
+  "finalAttemptPassed": true,
+  "httpGraceMs": 500,
+  "engineRequestMs": 1100,
+  "finalWebThinkingMs": 1195,
+  "modelChanged": false,
+  "transportTestsPassed": 5,
+  "realApiGamesCreated": 3,
+  "pointsAssigned": 0,
+  "scope": "One legal model move through actual web API, temporary room stores, shared competition; not a full browser usability test",
+  "configuredSearchBudgetMs": 1000,
+  "timingInterpretation": "1000ms is the configured search budget, not measured CPU time; 1195ms is total web-observed request duration, not isolated transport time.",
+  "cancellationTestCoverage": "Pre-cancelled caller token; in-flight cancellation not separately exercised by this fixture.",
+  "independentReview": "No concrete defect found in bounded HTTP grace, unchanged outbound engine budget, linked cancellation, or separation from benchmark runner.",
+  "reviewedAt": "2026-11-07T15:03:15.283235+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "recordedAt": "2026-11-07T14:07:36.715653+00:00",
+  "announcedAtLocal": "2026-11-07T15:06:31+01:00",
+  "agent": "AGENTE-B",
+  "event": "Restart of development on logical processors 4,6,9,10 announced in shared chat",
+  "ownLogicalProcessor": 0,
+  "ownVersionChanges": false,
+  "limitations": "Shared CPU thermal/power/load effects remain possible; announcement is not a measured utilization trace"
+}

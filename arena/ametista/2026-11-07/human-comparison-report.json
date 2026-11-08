@@ -1,0 +1,203 @@
+{
+  "analyzedAt": "2026-11-07T18:01:37.635432+00:00",
+  "complete": true,
+  "realGamesCreated": 0,
+  "gamesAnalyzed": 12,
+  "kind": "post-declaration exploratory paired control",
+  "declarationContext": "Extension decided after observing first two v18 losses, before completion of six candidate games. Not part of initial six-game plan; exploratory only.",
+  "variants": {
+    "v18": {
+      "games": 6,
+      "wins": 1,
+      "draws": 1,
+      "losses": 4,
+      "winRate": 0.16666666666666666,
+      "score": 0.25
+    },
+    "v14": {
+      "games": 6,
+      "wins": 1,
+      "draws": 3,
+      "losses": 2,
+      "winRate": 0.16666666666666666,
+      "score": 0.4166666666666667
+    }
+  },
+  "pairedScoreDifference": -0.16666666666666669,
+  "pairs": [
+    {
+      "seed": 570401,
+      "baseline": 0.5,
+      "candidate": 0.0,
+      "difference": -0.5
+    },
+    {
+      "seed": 570402,
+      "baseline": 0.25,
+      "candidate": 0.5,
+      "difference": 0.25
+    },
+    {
+      "seed": 570403,
+      "baseline": 0.5,
+      "candidate": 0.25,
+      "difference": -0.25
+    }
+  ],
+  "games": [
+    {
+      "variant": "v18",
+      "matchId": "fd94fe54c1794f7ab487ea28f84b7821",
+      "seed": 570401,
+      "color": "white",
+      "outcome": "losses",
+      "plies": 144,
+      "openingWhiteMen": 10,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v18",
+      "matchId": "d91e22b1d2384b1988b2c73a37905abd",
+      "seed": 570401,
+      "color": "black",
+      "outcome": "losses",
+      "plies": 143,
+      "openingWhiteMen": 10,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v18",
+      "matchId": "fca3010e52074ddf9476fccf3f14ebcc",
+      "seed": 570402,
+      "color": "white",
+      "outcome": "wins",
+      "plies": 91,
+      "openingWhiteMen": 11,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v18",
+      "matchId": "ca869f94319e418692263783280a571e",
+      "seed": 570402,
+      "color": "black",
+      "outcome": "losses",
+      "plies": 93,
+      "openingWhiteMen": 11,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v18",
+      "matchId": "132d6b256cb84665ac9bd508e7336908",
+      "seed": 570403,
+      "color": "white",
+      "outcome": "draws",
+      "plies": 172,
+      "openingWhiteMen": 11,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v18",
+      "matchId": "21cc1e40865b4936931ca3396a6044ae",
+      "seed": 570403,
+      "color": "black",
+      "outcome": "losses",
+      "plies": 69,
+      "openingWhiteMen": 11,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v14",
+      "matchId": "d841f0747d58470c9dd72b571e9be505",
+      "seed": 570401,
+      "color": "white",
+      "outcome": "draws",
+      "plies": 91,
+      "openingWhiteMen": 10,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v14",
+      "matchId": "0d3a0554e7b445078cb0a8be7285c2e8",
+      "seed": 570401,
+      "color": "black",
+      "outcome": "draws",
+      "plies": 165,
+      "openingWhiteMen": 10,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v14",
+      "matchId": "f534c8f16be547fdbbe1e0941b6febb3",
+      "seed": 570402,
+      "color": "white",
+      "outcome": "draws",
+      "plies": 139,
+      "openingWhiteMen": 11,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v14",
+      "matchId": "e250174d7d69415aa3a59676fb012756",
+      "seed": 570402,
+      "color": "black",
+      "outcome": "losses",
+      "plies": 69,
+      "openingWhiteMen": 11,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v14",
+      "matchId": "2a2826f9c90147ed84cc9c1f402e0d59",
+      "seed": 570403,
+      "color": "white",
+      "outcome": "wins",
+      "plies": 113,
+      "openingWhiteMen": 11,
+      "openingBlackMen": 11
+    },
+    {
+      "variant": "v14",
+      "matchId": "9d335786b04a46669fcb07633004ef9c",
+      "seed": 570403,
+      "color": "black",
+      "outcome": "losses",
+      "plies": 91,
+      "openingWhiteMen": 11,
+      "openingBlackMen": 11
+    }
+  ],
+  "automaticallyPromoted": false,
+  "superiorityClaimed": false,
+  "inputSha256": {
+    "arena\\ametista\\2026-11-07\\human-control-extension.json": "420788cfbf913e88bb76c9e679a83409b0ff2329ff7a7cb0460a638af02ac89d",
+    "arena\\ametista\\2026-11-07\\human-play-plan.json": "4165b252fc3399424f2980f3d23f377398c762e154d47e99657ceab2b9972777",
+    "arena\\ametista\\2026-11-07\\human-exploratory-v18.json": "58a34227d3eb0ec36a7252487eb5113d396534567a7594eb545121a4b5c77c02",
+    "arena\\ametista\\2026-11-07\\human-exploratory-v18\\manifest.json": "576b2cf13da405c13736d96905ddd0694ee7937563110f7901ae204a01f90980",
+    "arena\\ametista\\2026-11-07\\human-exploratory-v18\\audit.json": "784d795fb6e3cda2a586d2619eb14d3a0340b62b5dc84a24f745d1e55dd7cc40",
+    "arena\\ametista\\2026-11-07\\human-exploratory-v18\\games.jsonl": "a5be8487a23c9ab01014c16c8638b803561aa59cc35fcdaec328666830d84fdc",
+    "src\\Dama.Web\\App_Data\\competition\\fd94fe54c1794f7ab487ea28f84b7821.json": "1e4490c2dbeb03c11044b7d3e091551fd022b4430408252c79b302224c0ab1cb",
+    "src\\Dama.Web\\App_Data\\competition\\d91e22b1d2384b1988b2c73a37905abd.json": "a83fae708cb1e7a50e05ce5a085344558e30bc065580521d6b418e895fcc21a2",
+    "src\\Dama.Web\\App_Data\\competition\\fca3010e52074ddf9476fccf3f14ebcc.json": "f22401066bd836c52b71bcbad260f0c6330447141febf0ea594f1756eb961082",
+    "src\\Dama.Web\\App_Data\\competition\\ca869f94319e418692263783280a571e.json": "81a9da8f64c48989c463c51a03ee0d7bdde846be4677c9e3baba6c1a242b3e5c",
+    "src\\Dama.Web\\App_Data\\competition\\132d6b256cb84665ac9bd508e7336908.json": "01d2039e93b01fc284c4724a1b290681161e0fe39a2f65cec7f45ec48c712f94",
+    "src\\Dama.Web\\App_Data\\competition\\21cc1e40865b4936931ca3396a6044ae.json": "e84dbeb626e3c04e2475249dc007075f83d0ffe0b217cb55e20df6d330e195c1",
+    "arena\\ametista\\2026-11-07\\human-control-v14.json": "9ee778d5c8096df958f461577ab85f15ba2954b72fa767187207de41fc3b0302",
+    "arena\\ametista\\2026-11-07\\human-control-v14\\manifest.json": "6baa3f444d96b31adbe96e16f3faaf5e569756735955a0dc476e2b817788f3ec",
+    "arena\\ametista\\2026-11-07\\human-control-v14\\audit.json": "0fe22798cf4749be9ba8a3fcf5b67b107c52ca42dd8267f970258ac40b5ae141",
+    "arena\\ametista\\2026-11-07\\human-control-v14\\games.jsonl": "d1961575066ffb31cf56a21fc64f084880610d1e50cf9a0087b5a66c9a28c3f2",
+    "src\\Dama.Web\\App_Data\\competition\\d841f0747d58470c9dd72b571e9be505.json": "64495003a8782b7500bb9324e5720ddbae8ab4cf485d1d496b03a1c14063ad25",
+    "src\\Dama.Web\\App_Data\\competition\\0d3a0554e7b445078cb0a8be7285c2e8.json": "970df1cea474b6632f338f021be8ca2aa5da29dedd690d6d230fa7f32e64c1f1",
+    "src\\Dama.Web\\App_Data\\competition\\f534c8f16be547fdbbe1e0941b6febb3.json": "073fd8938d07f775496ac00b2c59996f994a45bdac5072d699519450efdfec13",
+    "src\\Dama.Web\\App_Data\\competition\\e250174d7d69415aa3a59676fb012756.json": "77867a0e9f7c130f95decb512b1a62bea10c5577f38912033c2cb891d70b41d0",
+    "src\\Dama.Web\\App_Data\\competition\\2a2826f9c90147ed84cc9c1f402e0d59.json": "cbe9633fd922c1fcd20df85711ff14c62b916696b70c5b3dc741e80e7ac802b7",
+    "src\\Dama.Web\\App_Data\\competition\\9d335786b04a46669fcb07633004ef9c.json": "3533860d55995e0b4a9181cc3d0face4bbf0a772417d7ff2f629025932dd6dcd",
+    "arena\\ametista\\2026-11-07\\human-data\\learned-v1\\report.json": "9ffe5fe745b3c27aeb314b67c60c502807ab7cf178e229f26f1873c7fb835d99"
+  },
+  "limitations": [
+    "Only three opening pairs; no general improvement or superiority inference.",
+    "Control extension declared after observing first two candidate losses; not independent preregistered confirmation.",
+    "Control follows candidate in time; shared load and runtime warmup differ.",
+    "Equal material at the opening does not establish theoretical balance.",
+    "Offline outcome-prediction improvement and playing strength are separate measurements."
+  ]
+}

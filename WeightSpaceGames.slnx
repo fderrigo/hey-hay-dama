@@ -1,0 +1,41 @@
+<Solution>
+  <Folder Name="/experiments/">
+    <Project Path="experiments/Dama.Arena/Dama.Arena.csproj" />
+    <Project Path="experiments/Dama.Neural.Benchmark/Dama.Neural.Benchmark.csproj" />
+    <Project Path="experiments/Dama.SelfImprove/Dama.SelfImprove.csproj" />
+    <Project Path="experiments/Dama.Evolution/Dama.Evolution.csproj" />
+    <Project Path="experiments/Dama.KingsrowMatch/Dama.KingsrowMatch.csproj" />
+    <Project Path="experiments/Dama.DiasproMatch/Dama.DiasproMatch.csproj" />
+    <Project Path="experiments/Dama.DiasproDiagnose/Dama.DiasproDiagnose.csproj" />
+    <Project Path="experiments/Dama.Challenge/Dama.Challenge.csproj" />
+    <Project Path="experiments/Ametista.Profile/Ametista.Profile.csproj" />
+  </Folder>
+  <Folder Name="/models/Klinamite/">
+    <Project Path="models/Klinamite/Klinamite.csproj" />
+    <Project Path="models/Klinamite.Tests/Klinamite.Tests.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Dama.Competition/Dama.Competition.csproj" />
+    <Project Path="src/Dama.Engine/Dama.Engine.csproj" />
+    <Project Path="src/Dama.Neural/Dama.Neural.csproj" />
+    <Project Path="src/Dama.Web/Dama.Web.csproj" />
+  </Folder>
+  <Folder Name="/models/Kingsrow/">
+    <Project Path="models/Kingsrow/Kingsrow.csproj" />
+  </Folder>
+  <Folder Name="/models/Ametista/">
+    <Project Path="models/Ametista/Ametista.csproj" />
+  </Folder>
+  <Folder Name="/models/Diaspro/">
+    <Project Path="models/Diaspro/Diaspro.csproj" />
+    <Project Path="models/Diaspro.Tests/Diaspro.Tests.csproj" />
+  </Folder>
+  <Folder Name="/models/Avventurina/">
+    <Project Path="models/Avventurina/Avventurina/Avventurina.csproj" />
+    <Project Path="models/Avventurina/Avventurina.Core/Avventurina.Core.csproj" />
+    <Project Path="models/Avventurina/Avventurina.Lab/Avventurina.Lab.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Dama.Tests/Dama.Tests.csproj" />
+  </Folder>
+</Solution>

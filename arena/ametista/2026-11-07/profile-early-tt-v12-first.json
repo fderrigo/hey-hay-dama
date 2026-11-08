@@ -1,0 +1,1004 @@
+{
+  "createdAt": "2026-11-07T12:40:47.861234+00:00",
+  "binary": "C:\\Users\\filip\\source\\repos\\weight-space-games\\artifacts\\ametista-v12\\bin\\Ametista\\release\\Ametista.dll",
+  "searchVersion": "search-v12",
+  "depth": 10,
+  "logicalProcessor": 8,
+  "warmupCalls": 3,
+  "tieredCompilation": "0",
+  "realGames": 0,
+  "samples": [
+    {
+      "sample": 0,
+      "sourceMatch": "bdd5281c9b2c4c4894fec9a19947e009",
+      "ply": 16,
+      "position": {
+        "white": 3824680960,
+        "black": 124094,
+        "kings": 0,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 328.125,
+      "wallMilliseconds": 340.4136,
+      "result": {
+        "Move": {
+          "From": 20,
+          "To": 17,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 564
+        },
+        "Score": -131,
+        "Depth": 10,
+        "Nodes": 295702,
+        "Milliseconds": 334,
+        "Risk": 0,
+        "CacheHits": 12757,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 19293,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 1,
+      "sourceMatch": "bdd5281c9b2c4c4894fec9a19947e009",
+      "ply": 32,
+      "position": {
+        "white": 2760573184,
+        "black": 6325478,
+        "kings": 0,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 125,
+      "wallMilliseconds": 151.4347,
+      "result": {
+        "Move": {
+          "From": 17,
+          "To": 12,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 401
+        },
+        "Score": -381,
+        "Depth": 10,
+        "Nodes": 126137,
+        "Milliseconds": 142,
+        "Risk": 1,
+        "CacheHits": 9428,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 12319,
+        "AspirationRetries": 1
+      }
+    },
+    {
+      "sample": 2,
+      "sourceMatch": "bdd5281c9b2c4c4894fec9a19947e009",
+      "ply": 48,
+      "position": {
+        "white": 2147483905,
+        "black": 36002,
+        "kings": 2049,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 31.25,
+      "wallMilliseconds": 22.8444,
+      "result": {
+        "Move": {
+          "From": 31,
+          "To": 27,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 895
+        },
+        "Score": -29986,
+        "Depth": 9,
+        "Nodes": 18391,
+        "Milliseconds": 17,
+        "Risk": 1,
+        "CacheHits": 1535,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 2630,
+        "AspirationRetries": 6
+      }
+    },
+    {
+      "sample": 3,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 16,
+      "position": {
+        "white": 4120903680,
+        "black": 4277807,
+        "kings": 0,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 0,
+      "wallMilliseconds": 5.3754,
+      "result": {
+        "Move": {
+          "From": 26,
+          "To": 19,
+          "Captures": 4194304,
+          "Promotes": false,
+          "Code": 632
+        },
+        "Score": -237,
+        "Depth": 0,
+        "Nodes": 0,
+        "Milliseconds": 0,
+        "Risk": 2,
+        "CacheHits": 0,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 0,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 4,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 32,
+      "position": {
+        "white": 568983552,
+        "black": 1074762,
+        "kings": 0,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 125,
+      "wallMilliseconds": 117.7067,
+      "result": {
+        "Move": {
+          "From": 19,
+          "To": 15,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 499
+        },
+        "Score": -229,
+        "Depth": 10,
+        "Nodes": 111730,
+        "Milliseconds": 112,
+        "Risk": 0,
+        "CacheHits": 7514,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 9157,
+        "AspirationRetries": 2
+      }
+    },
+    {
+      "sample": 5,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 48,
+      "position": {
+        "white": 9470720,
+        "black": 671088714,
+        "kings": 536870912,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 78.125,
+      "wallMilliseconds": 111.5245,
+      "result": {
+        "Move": {
+          "From": 23,
+          "To": 19,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 631
+        },
+        "Score": -212,
+        "Depth": 10,
+        "Nodes": 107618,
+        "Milliseconds": 106,
+        "Risk": 0,
+        "CacheHits": 9398,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 20674,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 6,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 64,
+      "position": {
+        "white": 33088,
+        "black": 1073741830,
+        "kings": 1073741892,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 31.25,
+      "wallMilliseconds": 23.6401,
+      "result": {
+        "Move": {
+          "From": 15,
+          "To": 11,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 367
+        },
+        "Score": -115,
+        "Depth": 10,
+        "Nodes": 25319,
+        "Milliseconds": 18,
+        "Risk": 1,
+        "CacheHits": 2434,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 5469,
+        "AspirationRetries": 4
+      }
+    },
+    {
+      "sample": 7,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 80,
+      "position": {
+        "white": 2308,
+        "black": 270338,
+        "kings": 272388,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 15.625,
+      "wallMilliseconds": 54.3058,
+      "result": {
+        "Move": {
+          "From": 2,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 162
+        },
+        "Score": -7,
+        "Depth": 10,
+        "Nodes": 41928,
+        "Milliseconds": 32,
+        "Risk": 0,
+        "CacheHits": 2310,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 12379,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 8,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 96,
+      "position": {
+        "white": 526592,
+        "black": 262178,
+        "kings": 788512,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 46.875,
+      "wallMilliseconds": 41.3459,
+      "result": {
+        "Move": {
+          "From": 19,
+          "To": 14,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 467
+        },
+        "Score": -1,
+        "Depth": 10,
+        "Nodes": 49548,
+        "Milliseconds": 36,
+        "Risk": 0,
+        "CacheHits": 2945,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 15117,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 9,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 112,
+      "position": {
+        "white": 16672,
+        "black": 67117058,
+        "kings": 67133472,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 46.875,
+      "wallMilliseconds": 51.5507,
+      "result": {
+        "Move": {
+          "From": 5,
+          "To": 2,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 69
+        },
+        "Score": -7,
+        "Depth": 10,
+        "Nodes": 63715,
+        "Milliseconds": 46,
+        "Risk": 0,
+        "CacheHits": 4147,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 19041,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 10,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 128,
+      "position": {
+        "white": 2308,
+        "black": 266242,
+        "kings": 268292,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 46.875,
+      "wallMilliseconds": 47.7946,
+      "result": {
+        "Move": {
+          "From": 2,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 162
+        },
+        "Score": -7,
+        "Depth": 10,
+        "Nodes": 59855,
+        "Milliseconds": 42,
+        "Risk": 0,
+        "CacheHits": 4430,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 20507,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 11,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 144,
+      "position": {
+        "white": 2308,
+        "black": 1310722,
+        "kings": 1312772,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 46.875,
+      "wallMilliseconds": 51.7239,
+      "result": {
+        "Move": {
+          "From": 2,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 162
+        },
+        "Score": -7,
+        "Depth": 10,
+        "Nodes": 68962,
+        "Milliseconds": 46,
+        "Risk": 0,
+        "CacheHits": 5350,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 24768,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 12,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 16,
+      "position": {
+        "white": 3554164736,
+        "black": 2135294,
+        "kings": 0,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 0,
+      "wallMilliseconds": 6.3011,
+      "result": {
+        "Move": {
+          "From": 25,
+          "To": 18,
+          "Captures": 2097152,
+          "Promotes": false,
+          "Code": 600
+        },
+        "Score": -106,
+        "Depth": 0,
+        "Nodes": 0,
+        "Milliseconds": 0,
+        "Risk": 1,
+        "CacheHits": 0,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 0,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 13,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 32,
+      "position": {
+        "white": 63979520,
+        "black": 102598,
+        "kings": 0,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 125,
+      "wallMilliseconds": 128.1548,
+      "result": {
+        "Move": {
+          "From": 25,
+          "To": 21,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 697
+        },
+        "Score": -483,
+        "Depth": 10,
+        "Nodes": 123026,
+        "Milliseconds": 123,
+        "Risk": 0,
+        "CacheHits": 9687,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 10502,
+        "AspirationRetries": 7
+      }
+    },
+    {
+      "sample": 14,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 48,
+      "position": {
+        "white": 16778240,
+        "black": 33947792,
+        "kings": 0,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 15.625,
+      "wallMilliseconds": 19.388,
+      "result": {
+        "Move": {
+          "From": 10,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 170
+        },
+        "Score": -507,
+        "Depth": 10,
+        "Nodes": 21338,
+        "Milliseconds": 14,
+        "Risk": 3,
+        "CacheHits": 3424,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 5778,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 15,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 64,
+      "position": {
+        "white": 16778240,
+        "black": 34734464,
+        "kings": 34604032,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 31.25,
+      "wallMilliseconds": 43.5697,
+      "result": {
+        "Move": {
+          "From": 10,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 202
+        },
+        "Score": -696,
+        "Depth": 10,
+        "Nodes": 38166,
+        "Milliseconds": 38,
+        "Risk": 0,
+        "CacheHits": 3312,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 14532,
+        "AspirationRetries": 7
+      }
+    },
+    {
+      "sample": 16,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 80,
+      "position": {
+        "white": 16779264,
+        "black": 3227776,
+        "kings": 1067008,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 0,
+      "wallMilliseconds": 8.6387,
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 25,
+          "Captures": 2113536,
+          "Promotes": false,
+          "Code": 33555242
+        },
+        "Score": -606,
+        "Depth": 0,
+        "Nodes": 0,
+        "Milliseconds": 0,
+        "Risk": 4,
+        "CacheHits": 0,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 0,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 17,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 16,
+      "position": {
+        "white": 4178313216,
+        "black": 134543,
+        "kings": 0,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 406.25,
+      "wallMilliseconds": 710.3053,
+      "result": {
+        "Move": {
+          "From": 19,
+          "To": 15,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 499
+        },
+        "Score": -127,
+        "Depth": 10,
+        "Nodes": 434794,
+        "Milliseconds": 705,
+        "Risk": 0,
+        "CacheHits": 30540,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 44262,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 18,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 32,
+      "position": {
+        "white": 629145604,
+        "black": 134234394,
+        "kings": 134217732,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 265.625,
+      "wallMilliseconds": 537.0112,
+      "result": {
+        "Move": {
+          "From": 2,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 162
+        },
+        "Score": -114,
+        "Depth": 10,
+        "Nodes": 238052,
+        "Milliseconds": 527,
+        "Risk": 0,
+        "CacheHits": 14467,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 29062,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 19,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 48,
+      "position": {
+        "white": 83935232,
+        "black": 1180200,
+        "kings": 1064960,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 156.25,
+      "wallMilliseconds": 297.6679,
+      "result": {
+        "Move": {
+          "From": 14,
+          "To": 18,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 590
+        },
+        "Score": -132,
+        "Depth": 10,
+        "Nodes": 108248,
+        "Milliseconds": 285,
+        "Risk": 0,
+        "CacheHits": 6636,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 11317,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 20,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 64,
+      "position": {
+        "white": 16814080,
+        "black": 536887304,
+        "kings": 536891392,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 62.5,
+      "wallMilliseconds": 98.1243,
+      "result": {
+        "Move": {
+          "From": 24,
+          "To": 20,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 664
+        },
+        "Score": -195,
+        "Depth": 10,
+        "Nodes": 49418,
+        "Milliseconds": 87,
+        "Risk": 0,
+        "CacheHits": 3686,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 10809,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 21,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 80,
+      "position": {
+        "white": 1088,
+        "black": 2162696,
+        "kings": 2163712,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 46.875,
+      "wallMilliseconds": 69.386,
+      "result": {
+        "Move": {
+          "From": 6,
+          "To": 2,
+          "Captures": 0,
+          "Promotes": true,
+          "Code": 70
+        },
+        "Score": -121,
+        "Depth": 10,
+        "Nodes": 31271,
+        "Milliseconds": 61,
+        "Risk": 0,
+        "CacheHits": 1558,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 10762,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 22,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 96,
+      "position": {
+        "white": 18432,
+        "black": 139272,
+        "kings": 157696,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 31.25,
+      "wallMilliseconds": 49.2204,
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 203
+        },
+        "Score": -121,
+        "Depth": 10,
+        "Nodes": 32855,
+        "Milliseconds": 38,
+        "Risk": 0,
+        "CacheHits": 1902,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 10499,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 23,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 112,
+      "position": {
+        "white": 1152,
+        "black": 37748744,
+        "kings": 37749888,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 62.5,
+      "wallMilliseconds": 96.8512,
+      "result": {
+        "Move": {
+          "From": 10,
+          "To": 14,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 458
+        },
+        "Score": -117,
+        "Depth": 10,
+        "Nodes": 60240,
+        "Milliseconds": 84,
+        "Risk": 1,
+        "CacheHits": 2979,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 24407,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 24,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 128,
+      "position": {
+        "white": 18432,
+        "black": 67117064,
+        "kings": 67135488,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 31.25,
+      "wallMilliseconds": 66.4877,
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 203
+        },
+        "Score": -121,
+        "Depth": 10,
+        "Nodes": 40287,
+        "Milliseconds": 52,
+        "Risk": 1,
+        "CacheHits": 2380,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 13408,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 25,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 144,
+      "position": {
+        "white": 18432,
+        "black": 2105472,
+        "kings": 2123776,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 93.75,
+      "wallMilliseconds": 89.0178,
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 203
+        },
+        "Score": -121,
+        "Depth": 10,
+        "Nodes": 59014,
+        "Milliseconds": 82,
+        "Risk": 0,
+        "CacheHits": 2864,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 21668,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 26,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 160,
+      "position": {
+        "white": 134217792,
+        "black": 393344,
+        "kings": 134611008,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 93.75,
+      "wallMilliseconds": 119.5383,
+      "result": {
+        "Move": {
+          "From": 6,
+          "To": 11,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 358
+        },
+        "Score": -130,
+        "Depth": 10,
+        "Nodes": 93208,
+        "Milliseconds": 110,
+        "Risk": 0,
+        "CacheHits": 6637,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 30381,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 27,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 176,
+      "position": {
+        "white": 8390656,
+        "black": 6291584,
+        "kings": 14682112,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 31.25,
+      "wallMilliseconds": 62.226,
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 203
+        },
+        "Score": -130,
+        "Depth": 10,
+        "Nodes": 36868,
+        "Milliseconds": 52,
+        "Risk": 0,
+        "CacheHits": 2370,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 11838,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 28,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 192,
+      "position": {
+        "white": 8390656,
+        "black": 272629888,
+        "kings": 281020416,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 0,
+      "wallMilliseconds": 19.8675,
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 15,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 491
+        },
+        "Score": -117,
+        "Depth": 10,
+        "Nodes": 18224,
+        "Milliseconds": 13,
+        "Risk": 0,
+        "CacheHits": 916,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 6215,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 29,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 208,
+      "position": {
+        "white": 526336,
+        "black": 2359296,
+        "kings": 2885632,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 31.25,
+      "wallMilliseconds": 27.7484,
+      "result": {
+        "Move": {
+          "From": 19,
+          "To": 14,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 467
+        },
+        "Score": -11,
+        "Depth": 10,
+        "Nodes": 28429,
+        "Milliseconds": 21,
+        "Risk": 0,
+        "CacheHits": 1097,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 10422,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 30,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 224,
+      "position": {
+        "white": 3072,
+        "black": 139264,
+        "kings": 142336,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 31.25,
+      "wallMilliseconds": 32.3798,
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 203
+        },
+        "Score": -11,
+        "Depth": 10,
+        "Nodes": 20497,
+        "Milliseconds": 25,
+        "Risk": 1,
+        "CacheHits": 559,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 7257,
+        "AspirationRetries": 0
+      }
+    },
+    {
+      "sample": 31,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 240,
+      "position": {
+        "white": 16448,
+        "black": 139264,
+        "kings": 155712,
+        "turn": 1
+      },
+      "processCpuMilliseconds": 15.625,
+      "wallMilliseconds": 57.6935,
+      "result": {
+        "Move": {
+          "From": 14,
+          "To": 10,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 334
+        },
+        "Score": -11,
+        "Depth": 10,
+        "Nodes": 33130,
+        "Milliseconds": 46,
+        "Risk": 0,
+        "CacheHits": 1039,
+        "PreviousTurnCacheHits": 0,
+        "EvaluationCacheHits": 12316,
+        "AspirationRetries": 0
+      }
+    }
+  ]
+}

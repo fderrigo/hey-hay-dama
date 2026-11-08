@@ -1,0 +1,36 @@
+{
+  "selectedAt": "2026-11-07T14:45:04.894174+00:00",
+  "search": "search-v14",
+  "weights": "manual-v4",
+  "weightsSha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+  "manualSelection": true,
+  "training": false,
+  "reason": "Same win count, two additional draws for v14; no evidence supporting replacement by v16 in this development sample",
+  "evidence": "search-comparison-recovery-report.json",
+  "developmentResults": {
+    "v14": {
+      "games": 16,
+      "wins": 1,
+      "draws": 2,
+      "losses": 13,
+      "points": 4,
+      "score": 0.125
+    },
+    "v16": {
+      "games": 16,
+      "wins": 1,
+      "draws": 0,
+      "losses": 15,
+      "points": 2,
+      "score": 0.0625
+    }
+  },
+  "limitations": [
+    "Eight opening pairs are development, not a final superiority test",
+    "Both wins on the last opening started Black with two extra men",
+    "One technical interruption, complete original attempts retained and full pair repeated",
+    "Shared CPU load changed"
+  ],
+  "packagingChange": "Program defaults and --verify load distributed manual-v4; search/network restored exactly from v14 snapshot",
+  "confirmationStarted": false
+}

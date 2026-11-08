@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-11-07T11:23:47.7985659+00:00",
+  "games": 18,
+  "moves": 985,
+  "uniqueOpeningLines": 9,
+  "registered": true,
+  "legalReplay": true,
+  "balancedColors": true,
+  "pairedOpenings": true,
+  "resultsMatchReferee": true,
+  "checkpointVersion": "diaspro-v3",
+  "checkpointSha256": "8d633451cdcf224ba717652ca49a11bce85419018bb427f2774ae2a804250c3c",
+  "checkpointMatchesManifest": true,
+  "wins": 0,
+  "draws": 0,
+  "losses": 18,
+  "interrupted": 0,
+  "score": 0,
+  "pairScoreStandardDeviation": 0,
+  "pairScore95Margin": 0,
+  "score95Low": 0,
+  "score95High": 0
+}

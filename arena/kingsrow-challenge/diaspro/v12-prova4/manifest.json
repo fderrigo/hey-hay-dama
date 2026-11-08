@@ -1,0 +1,36 @@
+{
+  "startedAt": "2026-11-07T12:29:57.252083+00:00",
+  "seed": 31001,
+  "games": 4,
+  "openingPlies": 6,
+  "plyLimit": 400,
+  "thinkTimeMs": 1100,
+  "effectiveSearchMs": 1000,
+  "threads": 1,
+  "memoryLimitMiB": 1024,
+  "ponder": false,
+  "source": "test",
+  "kingsrow": {
+    "id": "kingsrow",
+    "name": "Kingsrow Italian 1.19e",
+    "version": "1.19e",
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "endpoint": "http://127.0.0.1:9026/choose-move"
+  },
+  "diaspro": {
+    "id": "diaspro",
+    "name": "Diaspro",
+    "version": "diaspro-v12",
+    "sha256": "d219a7783393847790a8fd2335535e0858603d4d9fe6789b1d708db3ec764845",
+    "endpoint": "http://127.0.0.1:9017/choose-move"
+  },
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition",
+  "rules": "italian-draughts-8x8",
+  "training": false,
+  "endgameDatabases": false,
+  "kingsrowOpeningBook": "bundled; engine defaults",
+  "diasproSearch": "iterative-alpha-beta",
+  "diasproArchitecture": "manual relational graph, alpha-beta and per-game episodic position memory",
+  "logicalProcessor": 2,
+  "buildConfiguration": "Release"
+}

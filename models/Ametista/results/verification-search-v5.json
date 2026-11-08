@@ -1,0 +1,36 @@
+{
+  "positions": 9015,
+  "transitions": 40898,
+  "legalTransitions": true,
+  "networkSymmetry": true,
+  "searchReferencePositions": 32,
+  "search": {
+    "move": {
+      "from": 22,
+      "to": 19,
+      "captures": 0,
+      "promotes": false,
+      "code": 630
+    },
+    "score": -4,
+    "depth": 10,
+    "nodes": 79360,
+    "milliseconds": 208,
+    "risk": 0
+  },
+  "cornerProbe": {
+    "move": {
+      "from": 4,
+      "to": 9,
+      "captures": 0,
+      "promotes": false,
+      "code": 292
+    },
+    "score": 29991,
+    "depth": 8,
+    "nodes": 494,
+    "milliseconds": 0,
+    "risk": 0
+  },
+  "realGames": 0
+}

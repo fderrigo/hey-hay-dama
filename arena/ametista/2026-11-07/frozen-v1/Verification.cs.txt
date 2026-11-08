@@ -1,0 +1,54 @@
+using System.Text.Json;
+using Dama.Engine;
+
+namespace Ametista;
+
+public static class Verification
+{
+    public static void Run()
+    {
+        var network=new Network(Network.ManualV1());
+        var buffer=new FastMove[MoveGenerator.Capacity];
+        int positions=0, transitions=0;
+        void Check(Position p)
+        {
+            var board=Board.From(p);
+            if(!board.ToPosition().Board.SequenceEqual(p.Board)) throw new InvalidDataException("Encoding mismatch.");
+            var legal=Rules.LegalMoves(p);
+            var expected=legal.Select(m=>Board.From(Rules.Apply(p,m))).ToHashSet();
+            int count=MoveGenerator.Generate(board,buffer);
+            var actual=buffer.Take(count).Select(board.Apply).ToHashSet();
+            if(!expected.SetEquals(actual)) throw new InvalidDataException($"Move mismatch at {p.Key}: referee {expected.Count}, fast {actual.Count}");
+            var rotated=new Position(p.Board.Reverse().Select(x=>-x).ToArray(),-p.Turn,0,p.QuietKingPlyCount);
+            if(network.Evaluate(board)!=network.Evaluate(Board.From(rotated))) throw new InvalidDataException("Network rotation symmetry mismatch.");
+            positions++; transitions+=count;
+        }
+        Check(Position.Initial()); Check(Position.Initial() with {Turn=-1});
+        var random=new Random(834719);
+        for(int i=0;i<6000;i++) {
+            var array=new int[32]; var squares=Enumerable.Range(0,32).OrderBy(_=>random.Next()).ToArray();
+            int a=random.Next(1,13),b=random.Next(1,13);
+            for(int j=0;j<a+b;j++) {
+                int side=j<a?1:-1,s=squares[j];
+                bool king=random.Next(3)==0||(side==1?s<4:s>=28);
+                array[s]=side*(king?2:1);
+            }
+            Check(new Position(array,i%2==0?1:-1,0,random.Next(80)));
+        }
+        var path="arena/kingsrow/2026-11-07/games.jsonl";
+        if(File.Exists(path)) foreach(var line in File.ReadLines(path)) {
+            using var doc=JsonDocument.Parse(line);
+            foreach(var frame in doc.RootElement.GetProperty("frames").EnumerateArray())
+                Check(new Position(frame.GetProperty("board").EnumerateArray().Select(x=>x.GetInt32()).ToArray(),frame.GetProperty("turn").GetInt32()));
+        }
+        var engine=new Search(network);
+        var initial=Board.From(Position.Initial());
+        var decision=engine.Choose(initial,"synthetic-initial",200,new Dictionary<ulong,int>{{initial.Key,1}});
+        if(!Rules.LegalMoves(Position.Initial()).Any(m=>Board.From(Rules.Apply(Position.Initial(),m))==initial.Apply(decision.Move))) throw new InvalidDataException("Illegal search result.");
+        if(decision.Milliseconds>350) throw new InvalidDataException("Search exceeded timing tolerance.");
+        var report=new {positions,transitions,legalTransitions=true,networkSymmetry=true,search=decision,realGames=0};
+        Directory.CreateDirectory("models/Ametista/results");
+        File.WriteAllText("models/Ametista/results/verification-v1.json",JsonSerializer.Serialize(report,Network.JsonOptions));
+        Console.WriteLine(JsonSerializer.Serialize(report));
+    }
+}

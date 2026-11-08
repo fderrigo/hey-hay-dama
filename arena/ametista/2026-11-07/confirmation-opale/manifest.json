@@ -1,0 +1,57 @@
+{
+  "startedAt": "2026-11-07T14:56:19.8124235+00:00",
+  "config": {
+    "a": {
+      "id": "opale",
+      "name": "Opale C",
+      "version": "manual-v3-preserved-control",
+      "sha256": "3e25fd78df09920a87f2b0c6cdcc53084c5dcfbf7747dd64363a314fe8dfc1e9",
+      "endpoint": "http://127.0.0.1:9014/choose-move",
+      "searchMs": 1000,
+      "processId": 31888,
+      "protocolReserveMs": 25,
+      "expectedHealth": {
+        "model": "Opale C manual v3",
+        "protocolVersion": "dama-model/v1"
+      }
+    },
+    "b": {
+      "id": "kingsrow",
+      "name": "Kingsrow Italian",
+      "version": "1.19e",
+      "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+      "endpoint": "http://127.0.0.1:9015/choose-move",
+      "searchMs": 1000,
+      "processId": 36652,
+      "protocolReserveMs": 100,
+      "expectedHealth": null
+    },
+    "seeds": [
+      812734,
+      912893,
+      722319,
+      164251,
+      725913,
+      652931,
+      413597,
+      991273,
+      582391,
+      308417,
+      647821,
+      235687,
+      864193,
+      571249,
+      439627,
+      783451,
+      126839,
+      957263
+    ],
+    "source": "benchmark",
+    "deadline": "2026-11-07T18:28:21+00:00",
+    "matchLock": "arena/kingsrow-challenge/matches-9015.lock",
+    "logicalProcessor": 0
+  },
+  "openingPlies": 6,
+  "plyLimit": 400,
+  "training": false
+}

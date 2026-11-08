@@ -1,0 +1,63 @@
+{
+  "createdAt": "2026-11-07T13:21:08.736436+00:00",
+  "realGamesCreated": 0,
+  "scope": "Observed roots of the preceding manual-v3/search-v10 games; not hypothetical search leaves or predictions of strength. Counts only, no parameter selection.",
+  "games": [
+    {
+      "matchId": "9f49b18d055f47a9ae0286725924d10e",
+      "candidateDecisions": 48,
+      "ownKingMajority": 0,
+      "enemyKingMajority": 16,
+      "equalKingCounts": 32
+    },
+    {
+      "matchId": "07aeeaa671ba4a3a87f65a853ea635a3",
+      "candidateDecisions": 69,
+      "ownKingMajority": 39,
+      "enemyKingMajority": 3,
+      "equalKingCounts": 27
+    },
+    {
+      "matchId": "928bab6c6f734703b2336d30ce08a51f",
+      "candidateDecisions": 38,
+      "ownKingMajority": 1,
+      "enemyKingMajority": 10,
+      "equalKingCounts": 27
+    },
+    {
+      "matchId": "89b49c40a3604d128e407ed0e29e3c72",
+      "candidateDecisions": 82,
+      "ownKingMajority": 61,
+      "enemyKingMajority": 0,
+      "equalKingCounts": 21
+    },
+    {
+      "matchId": "7a98e32c41f44001b6d713e2def67a7e",
+      "candidateDecisions": 56,
+      "ownKingMajority": 11,
+      "enemyKingMajority": 8,
+      "equalKingCounts": 37
+    },
+    {
+      "matchId": "6999b11fc3b6478c8d6c3103d21f5e58",
+      "candidateDecisions": 43,
+      "ownKingMajority": 0,
+      "enemyKingMajority": 10,
+      "equalKingCounts": 33
+    },
+    {
+      "matchId": "59e7d8e8832a4e1aafa56e4d1af5762e",
+      "candidateDecisions": 69,
+      "ownKingMajority": 22,
+      "enemyKingMajority": 14,
+      "equalKingCounts": 33
+    },
+    {
+      "matchId": "123c296ad5ba45939114b9f973d99805",
+      "candidateDecisions": 56,
+      "ownKingMajority": 3,
+      "enemyKingMajority": 20,
+      "equalKingCounts": 33
+    }
+  ]
+}

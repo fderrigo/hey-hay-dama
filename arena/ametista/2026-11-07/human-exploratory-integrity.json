@@ -1,0 +1,42 @@
+{
+  "verifiedAt": "2026-11-07T17:51:45.208867+00:00",
+  "filesAndSnapshotsMatch": 22,
+  "registeredCompletedGames": 6,
+  "matchIds": [
+    "fd94fe54c1794f7ab487ea28f84b7821",
+    "d91e22b1d2384b1988b2c73a37905abd",
+    "fca3010e52074ddf9476fccf3f14ebcc",
+    "ca869f94319e418692263783280a571e",
+    "132d6b256cb84665ac9bd508e7336908",
+    "21cc1e40865b4936931ca3396a6044ae"
+  ],
+  "postRunService": {
+    "port": 9019,
+    "pid": 39388,
+    "state": "Not running at post-run check",
+    "sessionExitCode": 1,
+    "logOutput": "",
+    "cause": "Unknown; no independent evidence of termination cause",
+    "healthRecheckAvailable": false
+  },
+  "startupHealth": {
+    "status": "ok",
+    "model": "Ametista Human Outcome",
+    "version": "manual-v4+human-linear-v1",
+    "manualVersion": "manual-v4",
+    "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+    "manualSha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+    "humanSha256": "caec486b6f36fd08b66b7e7d05ed015348198dcdd806df0a7bf24663404f64e2",
+    "humanVersion": "ametista-human-linear-v1",
+    "humanContributionScale": 100,
+    "search": "search-v18-human-outcome",
+    "architecture": "original-v14-plus-human-outcome",
+    "threads": 1,
+    "compiledInference": true
+  },
+  "realGamesCreated": 0,
+  "maximumRecordedProcessBytes": 191565824,
+  "limitations": [
+    "Current post-run health unavailable. Startup health, frozen files and completed audited match records are preserved separately."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "round": "conferma",
+  "auditor": "AGENTE-C",
+  "success": true,
+  "matches": 294,
+  "verifiedMoves": 34629,
+  "naturalOutcomes": 289,
+  "interrupted": 5,
+  "interruptionReason": "ply-limit",
+  "modelFailures": 0,
+  "pairedOpenings": 147,
+  "openingSeed": 149043909,
+  "openingSeedsReproduced": true,
+  "allBoardsAndTurnsVerified": true,
+  "allRegistryEntriesVerified": true,
+  "versionsAndHashesMatchFrozenEntries": true,
+  "gamesPlayedDuringAudit": 0,
+  "standings": [
+    {"model":"agata","version":"v9","wins":69,"draws":91,"losses":31,"interrupted":5,"points":229},
+    {"model":"opale","version":"manual-v3","wins":40,"draws":107,"losses":48,"interrupted":1,"points":187},
+    {"model":"klinamite","version":"v3","wins":30,"draws":102,"losses":60,"interrupted":4,"points":162}
+  ],
+  "limitations": [
+    "Five matches reached the ply cap and have no natural result or points.",
+    "This round does not compare old and new versions against identical opponents and openings.",
+    "Agata extra measurement uses nonstable model IDs; it is separate from this audited round.",
+    "Paired openings should be accounted for in statistical uncertainty estimates."
+  ]
+}

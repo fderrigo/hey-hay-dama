@@ -1,0 +1,77 @@
+{
+  "definition": "Per-side HTTP wall-clock frame.ms; nearest-rank percentiles, excludes opening moves; not internal search time",
+  "batches": {
+    "notb-7001": {
+      "avventurina": {
+        "count": 686,
+        "p50": 879,
+        "p95": 1008,
+        "p99": 1031,
+        "max": 1352,
+        "over1100": 1
+      },
+      "kingsrow": {
+        "count": 689,
+        "p50": 997,
+        "p95": 1012,
+        "p99": 1025,
+        "max": 1064,
+        "over1100": 0
+      }
+    },
+    "tb-7001": {
+      "avventurina": {
+        "count": 674,
+        "p50": 893,
+        "p95": 1018,
+        "p99": 1039,
+        "max": 2180,
+        "over1100": 4
+      },
+      "kingsrow": {
+        "count": 678,
+        "p50": 1003,
+        "p95": 1027,
+        "p99": 1071,
+        "max": 2143,
+        "over1100": 3
+      }
+    },
+    "tb-7101": {
+      "avventurina": {
+        "count": 839,
+        "p50": 895,
+        "p95": 1009,
+        "p99": 1021,
+        "max": 2483,
+        "over1100": 2
+      },
+      "kingsrow": {
+        "count": 841,
+        "p50": 1002,
+        "p95": 1013,
+        "p99": 1039,
+        "max": 2585,
+        "over1100": 3
+      }
+    },
+    "tb-7201": {
+      "avventurina": {
+        "count": 673,
+        "p50": 833,
+        "p95": 1008,
+        "p99": 1020,
+        "max": 1109,
+        "over1100": 1
+      },
+      "kingsrow": {
+        "count": 677,
+        "p50": 999,
+        "p95": 1013,
+        "p99": 1028,
+        "max": 1152,
+        "over1100": 2
+      }
+    }
+  }
+}

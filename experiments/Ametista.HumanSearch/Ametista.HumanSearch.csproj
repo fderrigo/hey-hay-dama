@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Dama.Engine/Dama.Engine.csproj" />
+    <Compile Include="../../models/Ametista/Board.cs" Link="Board.cs" />
+    <Compile Include="../../models/Ametista/InferenceCompiler.cs" Link="InferenceCompiler.cs" />
+    <Content Include="../../models/Ametista/Models/ametista-v4.json" Link="Models/ametista-v4.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

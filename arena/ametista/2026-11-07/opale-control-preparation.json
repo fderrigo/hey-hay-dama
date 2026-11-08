@@ -1,0 +1,106 @@
+{
+    "sourceHashesUnchanged":  true,
+    "realGamesCreated":  0,
+    "createdAt":  "2026-11-07T13:01:35.9870907+00:00",
+    "weightsSha256":  "3E25FD78DF09920A87F2B0C6CDCC53084C5DCFBF7747DD64363A314FE8DFC1E9",
+    "binaryFiles":  [
+                        {
+                            "file":  "Agata.deps.json",
+                            "Hash":  "44456854AAC70FC61C8770F4010729C1444FB3D2122D6F4E9427C0F470CC2042"
+                        },
+                        {
+                            "file":  "Agata.dll",
+                            "Hash":  "A57BB75064611DC2D466AB0FF580043FE34559360006739A197806DC8C70B44C"
+                        },
+                        {
+                            "file":  "Agata.exe",
+                            "Hash":  "FC6D5324E3E31CBCDC43A2C6ED2078DDC397D205EDA5B0471621EF2987497DE5"
+                        },
+                        {
+                            "file":  "Agata.pdb",
+                            "Hash":  "5CC3B3B6785D4782F7427E7B279BCE301BC8BD93AA5C63AE9E89FC49E24290EB"
+                        },
+                        {
+                            "file":  "Agata.runtimeconfig.json",
+                            "Hash":  "41442586A8262BC96A1C80F82F4D9384C03BFD465D221CBF01FB3563170F9E65"
+                        },
+                        {
+                            "file":  "Agata.staticwebassets.endpoints.json",
+                            "Hash":  "EB6525C892AFDA953A2560F151F9C5E5BC6E79EF6741D886488AC450262C91E3"
+                        },
+                        {
+                            "file":  "appsettings.json",
+                            "Hash":  "17F349CE51BC50BAD74E1753A686C47BEDC5C073124E81D5B4018E81CFB4D573"
+                        },
+                        {
+                            "file":  "Dama.Competition.dll",
+                            "Hash":  "7B1CAC8531E90761A74B4DD60456F166FF58F1FD8009B00A180D8D2D1507DE0B"
+                        },
+                        {
+                            "file":  "Dama.Competition.pdb",
+                            "Hash":  "2BDF231A84F35D2E8DAE2496D3A0C8516F2AA5CBE97F9B8A93C8AF3ED8B9BF05"
+                        },
+                        {
+                            "file":  "Dama.Engine.dll",
+                            "Hash":  "E0D1BB772EF34E14B8B5F4B9714EAE50B2BF299B226B4B16483E13906636497D"
+                        },
+                        {
+                            "file":  "Dama.Engine.pdb",
+                            "Hash":  "73EB217826C2EBF151F150345A12FF63C08FE9A523CBA07BE7FC9542CB2C9EFF"
+                        },
+                        {
+                            "file":  "Dama.Neural.deps.json",
+                            "Hash":  "491939ADE8A378D80A96EAA8A2610A9D9ADA4833C616611F5B0D195573B135D7"
+                        },
+                        {
+                            "file":  "Dama.Neural.dll",
+                            "Hash":  "AF334364D59C4A09D7133339DFCA3F96BE514430ADDC9C06FAB0277B440A333F"
+                        },
+                        {
+                            "file":  "Dama.Neural.exe",
+                            "Hash":  "8EDDA0E58D251E03388E07841CF29CDC8D29C994A970C9E08BC270330BFD5C7D"
+                        },
+                        {
+                            "file":  "Dama.Neural.pdb",
+                            "Hash":  "56A030A003F79772DB66A2D37E93AA6CE3F53D9F706741366FDB8D39D73F4323"
+                        },
+                        {
+                            "file":  "Dama.Neural.runtimeconfig.json",
+                            "Hash":  "41442586A8262BC96A1C80F82F4D9384C03BFD465D221CBF01FB3563170F9E65"
+                        },
+                        {
+                            "file":  "Dama.Neural.staticwebassets.endpoints.json",
+                            "Hash":  "EB6525C892AFDA953A2560F151F9C5E5BC6E79EF6741D886488AC450262C91E3"
+                        },
+                        {
+                            "file":  "Opale.C.deps.json",
+                            "Hash":  "2EBEFB9A04157B9BEE6C09CED1FC196B20C3578DD437726718D15BCAF1570912"
+                        },
+                        {
+                            "file":  "Opale.C.dll",
+                            "Hash":  "7916BF4824E31BFC98573B7DC0119332659D96572A230E735B4956D32EAA9243"
+                        },
+                        {
+                            "file":  "Opale.C.exe",
+                            "Hash":  "3A5DE288E4237D84240F96F22067E516D26F12BC366BD36CEC7380EBABCD8033"
+                        },
+                        {
+                            "file":  "Opale.C.pdb",
+                            "Hash":  "8C83DA55DC8574C4C8A6110D9DB30C8E35DD0866143F2C060C62401D95F1491A"
+                        },
+                        {
+                            "file":  "Opale.C.runtimeconfig.json",
+                            "Hash":  "41442586A8262BC96A1C80F82F4D9384C03BFD465D221CBF01FB3563170F9E65"
+                        },
+                        {
+                            "file":  "Opale.C.staticwebassets.endpoints.json",
+                            "Hash":  "EB6525C892AFDA953A2560F151F9C5E5BC6E79EF6741D886488AC450262C91E3"
+                        }
+                    ],
+    "effectiveSearchMs":  1000,
+    "notes":  "Prepared only. Do not generate confirmation openings or play control before final Ametista freeze.",
+    "model":  "Opale C manual v3",
+    "protocolReserveMs":  25,
+    "weightsPath":  "models/Opale.C/Models/opale-c-v3.json",
+    "httpThinkTimeMs":  1025
+}

@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-11-07T15:26:41.714883+00:00",
+  "phase": "confirmation in progress; not final attestation",
+  "allMatch": true,
+  "checks": [
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Board.cs",
+      "expected": "dbb54412d33a4713e14504015bc15ba41e0eb6eb8a296b34c6e328eb2254bda2",
+      "actual": "dbb54412d33a4713e14504015bc15ba41e0eb6eb8a296b34c6e328eb2254bda2",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\InferenceCompiler.cs",
+      "expected": "f706c929d31d48a1b9c42f0bcd538676473daa14870b37249318a5a5663a5699",
+      "actual": "f706c929d31d48a1b9c42f0bcd538676473daa14870b37249318a5a5663a5699",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Network.cs",
+      "expected": "8ea978619f4331bbedb1acb32f2f234d40567a00cf4f6328880bcf40d49c2805",
+      "actual": "8ea978619f4331bbedb1acb32f2f234d40567a00cf4f6328880bcf40d49c2805",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Program.cs",
+      "expected": "f26856b3c39313ba1dc7d8629f18b86bdb28ffc9a2cce49cd59bb300f3a0f7bd",
+      "actual": "f26856b3c39313ba1dc7d8629f18b86bdb28ffc9a2cce49cd59bb300f3a0f7bd",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Search.cs",
+      "expected": "04229220a3b48346ebf34440a2a9d92c21be4db54b800c00e147ec8bb527c342",
+      "actual": "04229220a3b48346ebf34440a2a9d92c21be4db54b800c00e147ec8bb527c342",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Verification.cs",
+      "expected": "9afbfc0965eb690482c4963d85ba54905772b50e0c6c23e08d1b66dca9b55965",
+      "actual": "9afbfc0965eb690482c4963d85ba54905772b50e0c6c23e08d1b66dca9b55965",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Ametista.csproj",
+      "expected": "e54297b313a5cea2ff69c3904461dd164402a26d0c9d622c166794fa4525b91e",
+      "actual": "e54297b313a5cea2ff69c3904461dd164402a26d0c9d622c166794fa4525b91e",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Models\\ametista-v1.json",
+      "expected": "8e4c50adb407cd19700e9f27bb2d55d81c69b6212cf3bf182263ecd5d3482606",
+      "actual": "8e4c50adb407cd19700e9f27bb2d55d81c69b6212cf3bf182263ecd5d3482606",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Models\\ametista-v2.json",
+      "expected": "82d6ac2189285598adfba70123d0a28643a7b2942e53751c779f1c3ded911ae4",
+      "actual": "82d6ac2189285598adfba70123d0a28643a7b2942e53751c779f1c3ded911ae4",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Models\\ametista-v3.json",
+      "expected": "832de82282bd161399bb3af19c8740ec4ec69b4628ef500e3afce4a81992db12",
+      "actual": "832de82282bd161399bb3af19c8740ec4ec69b4628ef500e3afce4a81992db12",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "models\\Ametista\\Models\\ametista-v4.json",
+      "expected": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+      "actual": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Ametista.deps.json",
+      "expected": "8c6b03f1b93ca82d1507092425108620493f4a43d63d752d22e9ff59908128e9",
+      "actual": "8c6b03f1b93ca82d1507092425108620493f4a43d63d752d22e9ff59908128e9",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Ametista.dll",
+      "expected": "8a9c454e0d42bbfafd72adfdbb00ff491a6f8906b88e54230aee9e68099473cd",
+      "actual": "8a9c454e0d42bbfafd72adfdbb00ff491a6f8906b88e54230aee9e68099473cd",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Ametista.runtimeconfig.json",
+      "expected": "41442586a8262bc96a1c80f82f4d9384c03bfd465d221cbf01fb3563170f9e65",
+      "actual": "41442586a8262bc96a1c80f82f4d9384c03bfd465d221cbf01fb3563170f9e65",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Ametista.staticwebassets.endpoints.json",
+      "expected": "c1686417e8d5c31bba969f12b6f3d2b35e6609adb5ca42f212261a3a02771aac",
+      "actual": "c1686417e8d5c31bba969f12b6f3d2b35e6609adb5ca42f212261a3a02771aac",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts\\ametista-final-publish\\Dama.Engine.dll",
+      "expected": "0f2c2a30e36a2eb4a0a2eb243e57317d40b49d0f9620c2460a30bc37fe86b3b2",
+      "actual": "0f2c2a30e36a2eb4a0a2eb243e57317d40b49d0f9620c2460a30bc37fe86b3b2",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "arena\\ametista\\2026-11-07\\confirmation-opale-config.json",
+      "expected": "b5d5515dc4ed3b7b715a4f7ffc0e01a4d23d93b5b02e3304278f3b73acb52c4e",
+      "actual": "b5d5515dc4ed3b7b715a4f7ffc0e01a4d23d93b5b02e3304278f3b73acb52c4e",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "arena\\ametista\\2026-11-07\\confirmation-ametista-config.json",
+      "expected": "af01e5738215baca84878fb4e95f85028a52da24173988d69aa7e6bf59145988",
+      "actual": "af01e5738215baca84878fb4e95f85028a52da24173988d69aa7e6bf59145988",
+      "match": true
+    },
+    {
+      "group": "candidate",
+      "path": "artifacts/challenge-audit-v6/bin/Dama.Challenge/release/Dama.Challenge.dll",
+      "expected": "7c0f78522c34241ea4e2c290df7054b2092017e316906c7e36a002b3b3666567",
+      "actual": "7c0f78522c34241ea4e2c290df7054b2092017e316906c7e36a002b3b3666567",
+      "match": true
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Benchmark.cs",
+      "expected": "4e96c12d0f3c5ed09ae02ce7769faa00309eabad476495a394e1ec47182d7d99",
+      "actual": "4e96c12d0f3c5ed09ae02ce7769faa00309eabad476495a394e1ec47182d7d99",
+      "match": true
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/ManualBuilder.cs",
+      "expected": "dbf36221c4a77288c72cb942b872927f7a86fe5775c20bec0d07e6d6fb4d2dcd",
+      "actual": "dbf36221c4a77288c72cb942b872927f7a86fe5775c20bec0d07e6d6fb4d2dcd",
+      "match": true
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Network.cs",
+      "expected": "5ed923141053c65e77695c0ce1da140ccb1f9330fa14ccc9128d2cc74947bac5",
+      "actual": "5ed923141053c65e77695c0ce1da140ccb1f9330fa14ccc9128d2cc74947bac5",
+      "match": true
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Program.cs",
+      "expected": "81cc7d345371db3b508ffefd9a4e240baec04985a793b4409d662eb844572c4f",
+      "actual": "81cc7d345371db3b508ffefd9a4e240baec04985a793b4409d662eb844572c4f",
+      "match": true
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Protocol.cs",
+      "expected": "c4ab679b965dd5c9333ebb804262e14fb0dc485612316516bdbe95b1b6c7957c",
+      "actual": "c4ab679b965dd5c9333ebb804262e14fb0dc485612316516bdbe95b1b6c7957c",
+      "match": true
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Verification.cs",
+      "expected": "719df64bdad9446989d383ceba3d69a228aca69dd08d5ca810798a3dd0ed60ff",
+      "actual": "719df64bdad9446989d383ceba3d69a228aca69dd08d5ca810798a3dd0ed60ff",
+      "match": true
+    },
+    {
+      "group": "originalOpale",
+      "path": "models/Opale.C/Models/opale-c-v3.json",
+      "expected": "3e25fd78df09920a87f2b0c6cdcc53084c5dcfbf7747dd64363a314fe8dfc1e9",
+      "actual": "3e25fd78df09920a87f2b0c6cdcc53084c5dcfbf7747dd64363a314fe8dfc1e9",
+      "match": true
+    }
+  ]
+}

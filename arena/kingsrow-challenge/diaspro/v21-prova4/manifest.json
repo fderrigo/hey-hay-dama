@@ -1,0 +1,53 @@
+{
+  "startedAt": "2026-11-07T16:45:36.5068078+00:00",
+  "seed": 31001,
+  "games": 4,
+  "openingPlies": 6,
+  "plyLimit": 400,
+  "thinkTimeMs": 1100,
+  "effectiveSearchMs": 1000,
+  "threads": 1,
+  "memoryLimitMiB": 1024,
+  "ponder": false,
+  "source": "test",
+  "kingsrow": {
+    "id": "kingsrow",
+    "name": "Kingsrow Italian 1.19e",
+    "version": "1.19e",
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "endpoint": "http://127.0.0.1:9026/choose-move"
+  },
+  "diaspro": {
+    "id": "diaspro",
+    "name": "Diaspro",
+    "version": "diaspro-v21-outcome",
+    "sha256": "e76c26f30b2a07fd605175299ece4b00538351ac6638b24fe4151052d15f27cd",
+    "endpoint": "http://127.0.0.1:9017/choose-move"
+  },
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition",
+  "rules": "italian-draughts-8x8",
+  "training": false,
+  "endgameDatabases": false,
+  "kingsrowOpeningBook": "bundled; engine defaults",
+  "diasproSearch": "bitboard-pvs-tt-native-leaves-move-hints",
+  "diasproArchitecture": "relational graph with episode-end self-play outcome strategic and symmetric square/near-pattern heads, native-bitboard leaf evaluation, PVS/TT and per-game move-ordering memory",
+  "logicalProcessor": 2,
+  "buildConfiguration": "Release",
+  "diasproSources": {
+    "models/Diaspro/ManualWeights.cs": "3327ef932d698824c17bacbd98ae0f893b4d102ce429aa9ad1a55f39ef363e9c",
+    "models/Diaspro/LearnedPatterns.cs": "e5835c183e0c2a7b88dd95df02ec39a84ed6b605a5501f8f43cf1387576acf42",
+    "models/Diaspro/Network.cs": "4fa107c3dc6835e11f7b066c6bc40310fa22bee00c610a0b3f40d18b193996c0",
+    "models/Diaspro/FastRules.cs": "8141d369a78185c1461b53174f0824389212fbd03286749317e4e5381e39e026",
+    "models/Diaspro/Bitboard.cs": "cc8aaf4c838e3841e34ae69d1ecac9b74f612d22928e80143512151eb00ccfc8",
+    "models/Diaspro/DeepSearch.cs": "49a15866e9bddff40d892cc6ad6ae71da7f4d6e84d2c35b58bed98ab7fb68bce",
+    "models/Diaspro/Endgame.cs": "0f68688a4703fae67e617846392f1037aa3410114d0ef462b61b05f1e3f20130",
+    "models/Diaspro/Search.cs": "c6ea2ddb0ab4f9ce64912c151a2dabdfc5d8c11183835660f9a81321c19b3cb1",
+    "models/Diaspro/Policy.cs": "4fbb03d1dd947687d488caab3df709bbd505161dbdb17eaf090403d452305939",
+    "models/Diaspro/PositionMemory.cs": "dec53a56640b14f2d84ec4864e4002d9cb47aee1e10118a3b947087377525db3",
+    "models/Diaspro/Program.cs": "8dd4108608f511975747a37424961e4786ba010c9f0367031ad44a989febd35c",
+    "experiments/Dama.DiasproMatch/Program.cs": "b1a1b87e172f94329c5aae8a48467e5135a1633bf5a50b90334654ae0fd0145e",
+    "experiments/Dama.DiasproMatch/Audit.cs": "4e804e5cab9b63946696de44b6e8ca8ed97d1f6341477a73ee5d6b48c2ea8eef",
+    "experiments/Dama.DiasproLearn/Program.cs": "27cb609841ac488a8b813413e029400639d6668fa7b4f9e222d3b19b1c700578",
+    "experiments/Dama.DiasproLearn/LearningAudit.cs": "6075580fa89c07e7d1561c4f02c6a3fe0094aac498209e8f317358177696e00a"
+  }
+}

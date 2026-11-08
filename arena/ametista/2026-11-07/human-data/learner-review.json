@@ -1,0 +1,13 @@
+{
+  "verifiedAt": "2026-11-07T17:16:06.226911+00:00",
+  "scriptSha256": "ff72c824a704ced411a90d42fac8b617db988ae215a1c08a8891e741d541012c",
+  "checks": {
+    "maxGradientError": 4.6498360717350806e-11,
+    "perspectiveEquivalent": true,
+    "syntheticInitialLoss": 1.0,
+    "syntheticFinalLoss": 0.0072525535104272666,
+    "realGames": 0
+  },
+  "review": "Read-only independent review: gradient/split/zero-init/baseline correct. Fixed initial-byte provenance capture and immutability checks; validate nonempty splits before fitting.",
+  "trainingPerformed": false
+}

@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-11-07T17:03:14.085043+00:00",
+  "authority": "direct user message in this thread",
+  "userMessage": "SIATE CORRETTI SI HO AUTORIZZATO",
+  "context": "Confirms colleague announcement allowing training and public datasets; applies to Ametista future experiments",
+  "trainingAllowed": true,
+  "publicDatasetsAllowed": true,
+  "kingsrowCopyingAllowed": false,
+  "pretrainedFineTuningAllowed": false,
+  "existingConfirmationsRemainFrozen": true,
+  "deadlineUnchanged": "2026-11-07T18:28:21Z",
+  "scope": "New separate experiments; provenance and data rights recorded; no retroactive changes to frozen candidates or reported conditions"
+}

@@ -1,0 +1,33 @@
+{
+    "deadline":  "2026-11-07T18:28:21Z",
+    "source":  "test",
+    "b":  {
+              "id":  "kingsrow",
+              "name":  "Kingsrow Italian",
+              "processId":  36652,
+              "sha256":  "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+              "searchMs":  1000,
+              "endpoint":  "http://127.0.0.1:9015/choose-move",
+              "version":  "1.19e"
+          },
+    "seeds":  [
+                  846201
+              ],
+    "a":  {
+              "id":  "ametista",
+              "name":  "Ametista",
+              "processId":  39460,
+              "sha256":  "82d6ac2189285598adfba70123d0a28643a7b2942e53751c779f1c3ded911ae4",
+              "searchMs":  1000,
+              "endpoint":  "http://127.0.0.1:9018/choose-move",
+              "version":  "manual-v2-search-v4",
+              "expectedHealth":  {
+                                     "sha256":  "82d6ac2189285598adfba70123d0a28643a7b2942e53751c779f1c3ded911ae4",
+                                     "search":  "search-v4",
+                                     "model":  "Ametista",
+                                     "version":  "manual-v2"
+                                 }
+          },
+    "matchLock":  "arena/kingsrow-challenge/matches-9015.lock",
+    "logicalProcessor":  0
+}

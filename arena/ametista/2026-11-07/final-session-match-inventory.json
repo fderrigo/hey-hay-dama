@@ -1,0 +1,2503 @@
+{
+  "verifiedAt": "2026-11-07T18:05:47.085922+00:00",
+  "scope": "Ametista eight-hour session: all game replay IDs under this experiment plus three explicit web checks; includes Opale control, all exploratory versions, technical retries and interruptions.",
+  "uniqueMatches": 309,
+  "duplicateReplayIds": [],
+  "recordedPlies": 35353,
+  "counts": [
+    {
+      "source": "benchmark",
+      "status": "finished",
+      "count": 144
+    },
+    {
+      "source": "test",
+      "status": "finished",
+      "count": 161
+    },
+    {
+      "source": "test",
+      "status": "interrupted",
+      "count": 4
+    }
+  ],
+  "matches": [
+    {
+      "matchId": "2567d9778fe247ec9226688fab8c6925",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 114,
+      "registrySha256": "0a2110e1ac24f69ad9671b92910f2332625aea3eb5596b2e6ae5387dfc8ba4c9"
+    },
+    {
+      "matchId": "75a5865068774066b0552b7af893f682",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 91,
+      "registrySha256": "d7d9ee113a4b7bd904e307ed63369a839d65e0024bc1649776b4faa7e476c0b9"
+    },
+    {
+      "matchId": "e9e09ecce18a407c9ae4986f0b5bc9a1",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 78,
+      "registrySha256": "d3567d2c58c440e940080073ba171b049d244412260ebd28650d2e71a7b3489d"
+    },
+    {
+      "matchId": "814ffc2fea6e457c81866fa2165365b3",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 137,
+      "registrySha256": "83aac0e621f3a9cbd8b5b1df62a7702295a1ca2d4d44a6369b41fe93d432324a"
+    },
+    {
+      "matchId": "cfb1ae7a0d5743bd8cf387ee49b02a35",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 118,
+      "registrySha256": "044ab5b3da16efe3a95479c8f784c3c93af7c841887a3c379bed4af805209570"
+    },
+    {
+      "matchId": "7ab5eaef915c4dff8640a2e7a7dd6622",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 85,
+      "registrySha256": "c1be27e4bd9ade8d1371fb6d081daeea5e2c26f87081ffc164583c00317f2509"
+    },
+    {
+      "matchId": "72b18e18f72e4f03be9b53fbe0bad901",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 108,
+      "registrySha256": "6fddb9080598bb38daaa7a022978b581d1c60c9e929f93b44df4db57b863a341"
+    },
+    {
+      "matchId": "8233b7573b7e4624b0de037fff9d29ba",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 135,
+      "registrySha256": "fed7259e2e9d7e708fe51e9ac62d9c5f6c6a137af8a3dc8677ff7131dfd2dbf8"
+    },
+    {
+      "matchId": "0febc678294f473cb3a533a819030285",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 86,
+      "registrySha256": "98c985ed66308009a472fc74c8d47ca9a58c8b53ccc4dfe5152f0e90eb016835"
+    },
+    {
+      "matchId": "dea59da8b7ef4dd2bc1ee3f7090e10d4",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 125,
+      "registrySha256": "df590758134dcbaaef7c918ea37246cef6e3d1c54d846bb09745ce93e061f95f"
+    },
+    {
+      "matchId": "4cb07f3b94944b03b3262708a066ee97",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 146,
+      "registrySha256": "79cd6b289c41ac0243596673f4c048d8c7f6e894bbe5900ff34740d88c85de24"
+    },
+    {
+      "matchId": "1f316b3b6680430a9bcc9728bf10a062",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 125,
+      "registrySha256": "52043abd2654a2e11f467a8066024bd1d71d906f0348d262c0f07882e5e51d10"
+    },
+    {
+      "matchId": "95de0986534c43b2982b906c56d6c1f0",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 155,
+      "registrySha256": "5c39da09105eddf9dc6db2720288f82778f9098c8bb75fc46038ff61c855edfa"
+    },
+    {
+      "matchId": "6bc279d744d4413683ce6316d0ab2f8c",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 75,
+      "registrySha256": "3aa027b300f91cf4dd49262ca4a8350c87ebb063163b9e5d9f7243224b600b51"
+    },
+    {
+      "matchId": "902ff030eac74bc6a1b00c222ba2cb2c",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 112,
+      "registrySha256": "76b937b87d01c7fa8bfa09f274df0b14b1a6c29a31c7ad8dbda786590e114016"
+    },
+    {
+      "matchId": "6163955ffd034a8dbff07c8ca427d170",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 118,
+      "registrySha256": "406a9f49d10c0ddc3ca9751d01de4ab7f48228ceffb0ffe6141a152a659163d4"
+    },
+    {
+      "matchId": "a0c81ec8f8554de7b5ddf47598bcec1d",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 150,
+      "registrySha256": "e7d32811556d94ec14a1c353c92c0cb5665a68c55632a63846c130b4f9a51854"
+    },
+    {
+      "matchId": "51a79b8ce63841429cdbe1a3061829e5",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 131,
+      "registrySha256": "53e0a0c67dec5349ad92b0f52be885de49e1d8d9535650bdc0ad912e41a59eab"
+    },
+    {
+      "matchId": "94b1ef670f95498b874a2dd0f1a10075",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 132,
+      "registrySha256": "07a2dfd9631c651a45b4afc534756c88f66a139547d2299155781273865dcbb2"
+    },
+    {
+      "matchId": "e0d58e887e864d09925336ad0bc4a107",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 125,
+      "registrySha256": "1cd48a6673b28b5360a1b205339b7734cc9e3a912d17384d6b0829d6116d81c9"
+    },
+    {
+      "matchId": "a03fe0ba68fd461698ef2d2686c42f37",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 151,
+      "registrySha256": "1d1619d1ee1a9d5c7bfb31c1711c33783c400f74f7c699bb12f822b5c3f151a7"
+    },
+    {
+      "matchId": "c6128fb3cb7542d48cf17c4330cf3c30",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 73,
+      "registrySha256": "3bbd20dc1a558e25ab5fdc62ec23b3b7e8ad8df4600e493da68a982ae3d1b3a9"
+    },
+    {
+      "matchId": "874c711718cf453ba78d4a9a048e0441",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 150,
+      "registrySha256": "8f3e537c7246992e33f060c02a5d40f489d6bf3ae8a4f885f54c19f84ea4d8d2"
+    },
+    {
+      "matchId": "00bdb5ab895148778e20018d2f3b98e1",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 117,
+      "registrySha256": "8937fcf1e94c16f94ee4d976a0dc6d52948b94d5c3efa2de3b6d8ab8aed21d37"
+    },
+    {
+      "matchId": "2a8088af34df478ba7f4eb60d49065d9",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 116,
+      "registrySha256": "53f2d9ea850b5d28b5b8f8a7cf79ec65e88cd88d7853101aae38d2a639daf5f3"
+    },
+    {
+      "matchId": "c127b0dd32a3467a963cfcbaf5109f15",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 84,
+      "registrySha256": "0bb2234d56834749be414b9f7d0af83cc48abc627987d5a67002621f9cbe506e"
+    },
+    {
+      "matchId": "14fc5ec0ec4d4e71aa183881823425c2",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 126,
+      "registrySha256": "b855c996df4f0f57abb5f9d0c0ac9dc058a4a08e8c9923e8f6e4f216bc3c8bb6"
+    },
+    {
+      "matchId": "7e6309bf726240ddb394f5832fa2953d",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 83,
+      "registrySha256": "44f5f45775131d5bd7a258e8747553e931ea388066ba043804e4ee485e69638d"
+    },
+    {
+      "matchId": "ee5c915e38c4401c91c7d60012d26249",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 156,
+      "registrySha256": "ac9c6257270c267918030cf6230301d8169864761fd6d6fbe7675a3f489b2334"
+    },
+    {
+      "matchId": "c10667e6679a4a07b16fa95e3760db1f",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 95,
+      "registrySha256": "d9b1107d67e0663f5d96af5bbe5a35ffbb585ea7da7dc5d26b514763a035da07"
+    },
+    {
+      "matchId": "9cdd706039be4b1ba14e15fa8645d866",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 103,
+      "registrySha256": "7c75888422d29214a1c349e916d1cf17a957f39fd46705457cab18d346a4b768"
+    },
+    {
+      "matchId": "30a3e646d25c4e978b48d870980a52fb",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 67,
+      "registrySha256": "2f83ef352cdef90f366aee945721107eb69916e08f246df57f2b784875822cf7"
+    },
+    {
+      "matchId": "659fec48c2764aec9ffa5ab2f4e07a89",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 118,
+      "registrySha256": "fe09bf4dc651b532e8f959cbcfedea66d62885fcfb2462bdd1faad4fee789bb9"
+    },
+    {
+      "matchId": "18250289bbb54b48aa52a8532d78569f",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 107,
+      "registrySha256": "e8f52fd30431c5b733d56768e1dbe22da0cbd2a0e5c3195b0a93d66438f4a90d"
+    },
+    {
+      "matchId": "1b1d55c44cfd4bd093af5c00a5df6333",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 70,
+      "registrySha256": "16ae8ec81f5bda70933d6c1469f6285c62fc6ab1adc759e8209359eecf2a95b3"
+    },
+    {
+      "matchId": "f25dd76df3d64413b05a4b962a7051c9",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 243,
+      "registrySha256": "82d4cd11a34c70d64a48d45466e52eda347cb29e61d17932ba12fcaa94e06fe8"
+    },
+    {
+      "matchId": "edb1cbc39d094c69bde6738450b7e2ce",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 52,
+      "registrySha256": "6b2858354f24016b020472dfe38668d63bf66eb4545a6050231b84a579ea83ad"
+    },
+    {
+      "matchId": "ff27b4990e0a41d3aac93027800e4731",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 65,
+      "registrySha256": "206a33501af541cac2e3394d8db87e5a72dc8ff7ade1b083f9ef659313300692"
+    },
+    {
+      "matchId": "0af979ac22454ba3b0e3b19f4d172f55",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 52,
+      "registrySha256": "329f3222efc31600a7786b10b25cf64d2e3299642d55e57c4a78c7334da779c9"
+    },
+    {
+      "matchId": "f672b6ba79ed4fce91fb3e25238ae113",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 45,
+      "registrySha256": "648b8399591e0562bc6eaad45abc73d82e52b3910996df94086e352d82966383"
+    },
+    {
+      "matchId": "8a94cc7efd314d06b5dbe0f14bc18c4c",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 52,
+      "registrySha256": "b35afb1b9d0df71660395ce6e21deb228ee32d797f9610b8037024e34a8c16f0"
+    },
+    {
+      "matchId": "82bb71572f964663b01988ba94c0801d",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 47,
+      "registrySha256": "b653d5e9ec8ae82c87e472af5a80017bebe04ef44e0cb79790e0e9224e7b3e21"
+    },
+    {
+      "matchId": "7a2fc577bf724a29a91bd4ea29cfc282",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 52,
+      "registrySha256": "87da366bfcfbcdaba7b871d524ba3b17d64f4d4af3b47ab308e666eba6f0cf2d"
+    },
+    {
+      "matchId": "11af90d17c60488892061deee3922408",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 63,
+      "registrySha256": "d5f31a2ba7546f99d9f442fce3b1b7d85d497dd4e1ffd3e4838dd6afd4949a9f"
+    },
+    {
+      "matchId": "d325781c8afe4051b003c9ee8c30d10e",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 48,
+      "registrySha256": "d166b7e6b138c82e97bcfa6ee0add398ffe2d484b24d91a5e4c9c0d22ff04e10"
+    },
+    {
+      "matchId": "b8be726bf6454cf2a3a1c3efabd5b95c",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 37,
+      "registrySha256": "86b7cb63fd74aa7930191f1a2d95d7155935bba3e0535e0d1793f4dfdd16fbd3"
+    },
+    {
+      "matchId": "504e8839fbbb4d9197e8ae3544e5783d",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 56,
+      "registrySha256": "622f755889511405b5370e1756915347e0a3421b68992d01cc081b34c8034f67"
+    },
+    {
+      "matchId": "62af41409d154865a5ae429be5b8c23d",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 49,
+      "registrySha256": "753993b2a5ae31a7ced6b4b1db8848121a77b67bb0dba44a8d8f833acf5460d4"
+    },
+    {
+      "matchId": "5a10608b4cd1416a88e71e8c72124f80",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 62,
+      "registrySha256": "243e9f76814ba2d26650757503c606e0b712a826a674dd592d7a8631d8e15a01"
+    },
+    {
+      "matchId": "d06dd3aaa078467abd318e8b00b5dc81",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 39,
+      "registrySha256": "340cc23c90add3684ba732326964c1b39fe34cfbe0f330688b4723fadeaa7a27"
+    },
+    {
+      "matchId": "bfdaa0aaecfd4807aaae07611df417a5",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 46,
+      "registrySha256": "48c665baa81a33af93b3b426645d47886a154c660efb20b2d83398549c65e1fe"
+    },
+    {
+      "matchId": "af0aac405ab44a87967205f86f32e94f",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 59,
+      "registrySha256": "ecf0df9b943479186a0bf8562a9d8982b0caaa3796d6cc0c89839da000ea1bee"
+    },
+    {
+      "matchId": "f0a20c9ed0de407babf290edf6b071cc",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 58,
+      "registrySha256": "52f74a98804a7bc83091d2bbc3b147e24ffe735da65b6d0eb4d76a5fe0717983"
+    },
+    {
+      "matchId": "c3352e0785cf428e9138baa713474740",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 53,
+      "registrySha256": "46ad4d4cd47ec763c8f613a54432a66a092bff239d21f5de62391eb5aa29721b"
+    },
+    {
+      "matchId": "317f80d535c346178dedcb6826722a9a",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 54,
+      "registrySha256": "fd9fbb3c87aa46a343005ed7c8b732b2269153ef074b4807c68e2bf6d8d5e46e"
+    },
+    {
+      "matchId": "5b0ca2dda6f046f8afe1f12db0e1a0a4",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 51,
+      "registrySha256": "927333f2623cb7483a0776e6067c68048c4813936100a6e593fed5483fd13098"
+    },
+    {
+      "matchId": "11ea0cde366a4578909944af194cd648",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 90,
+      "registrySha256": "73bc0b3d23191546dd26617c71106cd38c5f077b2b570016cce90610342ce33a"
+    },
+    {
+      "matchId": "2c34458c782744459d2d8a7197ee0f7b",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 51,
+      "registrySha256": "4a7afa0365bbd183710cb8d2966c558062b6c0516c08ab29c6992c03a14c0f73"
+    },
+    {
+      "matchId": "c1f0642eacf74e5687423be249b2fff4",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 50,
+      "registrySha256": "f1f2d2eb5c78eb71c0594dcac3b74efd0a5352f17d57139d1b0e417e90d5f840"
+    },
+    {
+      "matchId": "94f1af723bec427bb191a7da6497d771",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 51,
+      "registrySha256": "4756426a7f714330d046b6079502da1de537e9252641480cca87aebd39bb2b05"
+    },
+    {
+      "matchId": "0b17b0925e8c48bca391b12f30bd1fb5",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 58,
+      "registrySha256": "29635cf312247a85e2655cfd9fda453c58c1bc2033d50be969b9273142ee0fc0"
+    },
+    {
+      "matchId": "2d93ca2165d749b79c58dc51d41f0cf4",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 59,
+      "registrySha256": "3b027d9631bf4f0574b355bb8ceefd01b4061568ab180b6f00197eefe63c242d"
+    },
+    {
+      "matchId": "4bedf25fa4c546cfa1b690c7e3b6d566",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 48,
+      "registrySha256": "30c3b14747fd9387a6d3ada8ef26ab9eda02c054e8eec5ece6d77917805e0f06"
+    },
+    {
+      "matchId": "eac6539a4e574772b389f81bbfcf5c8c",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 49,
+      "registrySha256": "ccc82716c4089c9ca257f14ece126d2752c05b4b31d6a05cdbf0729ddee6ca1f"
+    },
+    {
+      "matchId": "56686a17b2d2442f9d32b0f869dec277",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 66,
+      "registrySha256": "1996e05348656de29c4e87c62c2403dcdb5732b041ecb2df8aecd89caedbe337"
+    },
+    {
+      "matchId": "7d7580a2020142c680d976edb998450b",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 59,
+      "registrySha256": "2cbb9d6c6d495c55c69592138288f1e5dd744ccf03d99aa6457c2e67f93cf57f"
+    },
+    {
+      "matchId": "472256fefe30473384d853696254d3cf",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 58,
+      "registrySha256": "59d4d739b250cdb3ad9b98cd6d6e9719516b7060ae51291dd1e6fb219d34b1d7"
+    },
+    {
+      "matchId": "7b1f1eba4d0f4b19ac3222b6fd515386",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 45,
+      "registrySha256": "0b4602a7398f974c11feafbda48cfce8d0ea9dce591f45fd077f5593d458ba23"
+    },
+    {
+      "matchId": "7657fccf21cc44dbbfdb06bf82d92e3c",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 40,
+      "registrySha256": "9c051ee68b139a6edbf96374969918e8791fe7eb1ee9f13882d3a3148158c278"
+    },
+    {
+      "matchId": "9f1a40921a26407da5236c29e183fd55",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 43,
+      "registrySha256": "fc7cc6ac3dd0de2317a803ee8f7835a02c6ed35c114153d2b0751c24a0288a5d"
+    },
+    {
+      "matchId": "190e51a7be58471aa2ae83c0af0978d7",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 56,
+      "registrySha256": "9b93fb3b122d129848a3ab8fb9de91130cfaffeff24e0f5079aa7aa06225798f"
+    },
+    {
+      "matchId": "a4490e1f05bf4dcd90eff8f0aa65b75e",
+      "replay": "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 81,
+      "registrySha256": "49119d00cca832c2a125233f605626bd539005d28263115dd1c09daa00dd0318"
+    },
+    {
+      "matchId": "0bf29f210d3e4fcbb3026b2cafc3ad0a",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570201\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 128,
+      "registrySha256": "44e4290ff37db16864a60765a017db2aa410b1310aaa558a1cf966678d7678bf"
+    },
+    {
+      "matchId": "dfbb77938b8440b18bf41ab753f67f94",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570201\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 101,
+      "registrySha256": "fc8307e9185570149821627b0a02cdaca7e721f6638625ec6d54372cd246deb3"
+    },
+    {
+      "matchId": "f05ded752b114d3a9d2f1437d53c6bf1",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570202\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 126,
+      "registrySha256": "8b534be6907246232da2ea4479d72b47b2a5d5ded87b7fc6b340289e609858ed"
+    },
+    {
+      "matchId": "5948d4225b8b46ddbb16ff7724ed669f",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570202\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 109,
+      "registrySha256": "aaeadb439c4bf80d045a74bb425524e793ae6c411f6c3055226cf2736bccdf85"
+    },
+    {
+      "matchId": "202ca254a0394a178ad677cd84c9351d",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570203\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 136,
+      "registrySha256": "664b06e4027bfb2b76e7f813ab8d19ac1a2f83b4b4c69efae4dd15928f1eafe7"
+    },
+    {
+      "matchId": "88fec4f292bf43a1a71f190d52eed904",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570203\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 83,
+      "registrySha256": "a5943fa1b992da61073d139d8dbe2ed6d24f43178315d4cddb0590f05d8d19a1"
+    },
+    {
+      "matchId": "99091c26467645e4bfe69df3000c4187",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570204\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 185,
+      "registrySha256": "070810c4e78f9b06ca2390f376814e1f4b13918b5e00a0550ee32a6326b7bafe"
+    },
+    {
+      "matchId": "3a9bbc3769764a8c95e5ab6b58c84ac9",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570204\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 73,
+      "registrySha256": "ff162452e935bc4b29d78ff0fa1bbde7d59f99db9c55d11cb0e49b53e8612248"
+    },
+    {
+      "matchId": "8330b36b31394a889b314a47a6d37d12",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570201\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 134,
+      "registrySha256": "1b267c590e8f092c347965a0ebee6bc005eaf1d507e113d69243acba82423875"
+    },
+    {
+      "matchId": "1e6add425ff14ee29bb12c4ed39e8722",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570201\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 107,
+      "registrySha256": "09f6f259d66665351f28de61fbfcd4972c04f463179f46175bcded19840e4864"
+    },
+    {
+      "matchId": "7544684c22d54c5f8bad63f744ef6018",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570202\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 120,
+      "registrySha256": "704e6bb0f7a06fcb63e2eb4d3ee380fc5c2cfa5e980bb40f618f9e285a638550"
+    },
+    {
+      "matchId": "821b1abb02b74ab0b454c25597e2396a",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570202\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 109,
+      "registrySha256": "6b5e46a39370ccb6f4c13b782a33f67baee5589632bbae1eabfb017c91951949"
+    },
+    {
+      "matchId": "ea00853eb51443ed859043154f462e98",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570203\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 236,
+      "registrySha256": "361a254aed7d07f1e46e494369629525dbe4b8cd80690c4bb4f7e4412d76a76a"
+    },
+    {
+      "matchId": "109bad45a09243e0994d029fb29f1f76",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570203\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 125,
+      "registrySha256": "dcbe5f4e8d4819935a35e1cc08060e3ce49e00e68446774150d62e6264d8a6f9"
+    },
+    {
+      "matchId": "f14d2bc38fc247b4935e14560973b4a1",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570204\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 167,
+      "registrySha256": "80834643ad645bbe8a293b9272a0bf244c4e0667908bec9061b77633a08e0605"
+    },
+    {
+      "matchId": "16a4163e35844a64a5f0656903610de6",
+      "replay": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570204\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 93,
+      "registrySha256": "69bc316c4b24563d1aa785ba4f93abb7af9c9dd6e7f2ff9001201a28176d759b"
+    },
+    {
+      "matchId": "9f49b18d055f47a9ae0286725924d10e",
+      "replay": "arena\\ametista\\2026-11-07\\development-manual-v3-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 102,
+      "registrySha256": "d8e79a43d7b8e63e9c4642ac8b99280ce0b90cc8e867b461042c7c066ca14ad7"
+    },
+    {
+      "matchId": "07aeeaa671ba4a3a87f65a853ea635a3",
+      "replay": "arena\\ametista\\2026-11-07\\development-manual-v3-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 144,
+      "registrySha256": "f2f4bc960396c9280f6111c69382b952bcb16becd1bf2ebca9a00a91c08bae0b"
+    },
+    {
+      "matchId": "928bab6c6f734703b2336d30ce08a51f",
+      "replay": "arena\\ametista\\2026-11-07\\development-manual-v3-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 82,
+      "registrySha256": "ca27c45523a3a076d2023f3696a45fdd5b479d6f6b70976c2dcf61d60a77240e"
+    },
+    {
+      "matchId": "89b49c40a3604d128e407ed0e29e3c72",
+      "replay": "arena\\ametista\\2026-11-07\\development-manual-v3-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 171,
+      "registrySha256": "cf7c8f3a1286daf83e3db83c79bd66ad2b1781e4910c5c46ce033c5cd9fbf1aa"
+    },
+    {
+      "matchId": "7a98e32c41f44001b6d713e2def67a7e",
+      "replay": "arena\\ametista\\2026-11-07\\development-manual-v3-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 118,
+      "registrySha256": "1352f2bdbd85c3c63d81b032fd833a93aee75a7b98161a883b28964ce8504e5e"
+    },
+    {
+      "matchId": "6999b11fc3b6478c8d6c3103d21f5e58",
+      "replay": "arena\\ametista\\2026-11-07\\development-manual-v3-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 93,
+      "registrySha256": "2d76b962e59c1a3c9117e2da58154d613a1bc61c0cbb6291dea167d0842ffb47"
+    },
+    {
+      "matchId": "59e7d8e8832a4e1aafa56e4d1af5762e",
+      "replay": "arena\\ametista\\2026-11-07\\development-manual-v3-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 144,
+      "registrySha256": "95e687f39acc8056e84a2747af715970bd372c7f3c33d4c1a46b55abe6896d9c"
+    },
+    {
+      "matchId": "123c296ad5ba45939114b9f973d99805",
+      "replay": "arena\\ametista\\2026-11-07\\development-manual-v3-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 119,
+      "registrySha256": "6f91d6b028988910681ebb5b9975ff8dd50f8e87490a2f1b795ffb80197a4eb0"
+    },
+    {
+      "matchId": "92cb6ead7bb8468bb8b7b6922ba2a4f0",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 76,
+      "registrySha256": "f61a659b46d7f25ffc05eb42f6ae32a9e4dc52b142a0a2a19895960b602d1b34"
+    },
+    {
+      "matchId": "44d7069c163b413a945d561d7b42e06b",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 178,
+      "registrySha256": "efd48366c78828a813a0f7df6314dbcc9b1ba2704421dd0d7d9c30985d4f8ea3"
+    },
+    {
+      "matchId": "830d2737d80844ca9a91314286980a65",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 98,
+      "registrySha256": "37df44a357282d7f8d8432495280449943611c2f5f223dfdb2f5252c4b76c7bf"
+    },
+    {
+      "matchId": "fab9724d9098409da50def794d83bcb5",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 199,
+      "registrySha256": "c7f90e92f2321b970dd27ce4a7cb2f994d361c53c0d5750f926a10fc832d3915"
+    },
+    {
+      "matchId": "827ad64550404d6493edbe39a5b67415",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 116,
+      "registrySha256": "d2595ef1366b9a4cb9cb1c94cedc334bc3ca176b0506d8b60690f4dbc169dd76"
+    },
+    {
+      "matchId": "395da150f1274e2490628a21354bd4d1",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 164,
+      "registrySha256": "8c976e33ea7f25f01fdd77be53e4aa02f7877e00ef1105f5bc57fc479bfa5d2a"
+    },
+    {
+      "matchId": "999833fe4894441292460c52a604d1c1",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 142,
+      "registrySha256": "9fd3707739b0931b9812c33a81bd3aa590478c509eabf86187364e4d0653ce30"
+    },
+    {
+      "matchId": "aba33de9d03d4de1aaaa02fc85bee24f",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v10\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 197,
+      "registrySha256": "f8799f8cee084d4ab649019f0bc314aee6558455dc8890776c436dcae0c3823a"
+    },
+    {
+      "matchId": "3acc7c8037694b39aab41f65187c239e",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v2\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 76,
+      "registrySha256": "5c5015874419377fab2452c869e7e619f1c8d387bbdd7edeabfb5145dbfb6e84"
+    },
+    {
+      "matchId": "dd76ae738f0c4ab59456054f015472fb",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v2\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 100,
+      "registrySha256": "1c909924210e080981538e116d465a787179ac916f212744aac8e0ae900d6730"
+    },
+    {
+      "matchId": "5f96d7a1ecbe4f0aba0cc343d498637b",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v2\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 60,
+      "registrySha256": "2684e6bd10d601e7e2935d65789d9ec7a5b0bd57356a9f984564b203889dab58"
+    },
+    {
+      "matchId": "d63901a91b1543df8746296514584dec",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v2\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 177,
+      "registrySha256": "9b48e325988ff13e6c03242c8972d86d8dd485f94b6d7b7d6731f866bcb6a7ab"
+    },
+    {
+      "matchId": "2dd18a8f0d394feab4885cc966639edc",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v2\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 114,
+      "registrySha256": "695c567cfe5835060e6bac45657bbc3d7b935623cbb7a8c6e14ecb7f9543a850"
+    },
+    {
+      "matchId": "406d88339576403da618e494f4f728f0",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v2\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 117,
+      "registrySha256": "cbd2f3a80618308e1ca5d4c4fdf9344a1ea99ae1f0d9fdad8f6d8c3d33d22401"
+    },
+    {
+      "matchId": "e57702fc1bee464ebda26f2de9eeec49",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v2\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 164,
+      "registrySha256": "f9567a4d3b0ad4004ff7b3a733872fc75fd365fa2d7bde7546005c6ae3756dd8"
+    },
+    {
+      "matchId": "be67d19e0b0f4dea9392d45a31b51c66",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v2\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 85,
+      "registrySha256": "750c37df9d97b5c09aac59efd7a71990c88ef543cef47038d3d33a89749da804"
+    },
+    {
+      "matchId": "bdd5281c9b2c4c4894fec9a19947e009",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v3\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 62,
+      "registrySha256": "05f27d6efb83777be9cfe451db80725dc3a6f0515ed080e067764423e90a56fb"
+    },
+    {
+      "matchId": "a667e0214d6e4acc95b893ee5f512674",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v3\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 151,
+      "registrySha256": "60b43fd26a39234d8c040ec54450678086f0e6e488c0c13b0fdfd6e89bc3e150"
+    },
+    {
+      "matchId": "e235e44dcf294f3d9be63fd62928c33e",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v3\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 84,
+      "registrySha256": "a5fd46745b0c1bf3d36d12b1c586e249e073e81fa2c8f579920f32a1624b4388"
+    },
+    {
+      "matchId": "bd03082ee91d40cab85e749d75a5a0db",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v3\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 241,
+      "registrySha256": "f52663e4c653a2e067eb5f7873e01effb27ecd27d119b44e901a3769cc9ce2c0"
+    },
+    {
+      "matchId": "bc840a8d754948519940fc9a6203d764",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v3\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 116,
+      "registrySha256": "6a0de4960a7a8a1656431d9aa6b7e7c217df7b85b066038cff8f6d62302c9f39"
+    },
+    {
+      "matchId": "24a9010d54c740308db87677615a747f",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v3\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 125,
+      "registrySha256": "f8419f98961ce520b245e364ae029cccdada4a99a69e6ad56d87ff480088a0ad"
+    },
+    {
+      "matchId": "c367b7a586b34616a4974a183b90a809",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v3\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 154,
+      "registrySha256": "5ee3caa079b1a9882e3f9ddecc003a83c19dde92e8c891a2ffbb8ffd0cd7ff67"
+    },
+    {
+      "matchId": "2d94b4cf26f547238bdbdc51f8e4fac9",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v3\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 137,
+      "registrySha256": "240162fae32b1dac473f72f4c48885ba70b18005e5c56c7dd79bdec823d9510e"
+    },
+    {
+      "matchId": "fa7f420b752f47dcad745ccac43f1cab",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v4\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 56,
+      "registrySha256": "9d82cb4ea33016dc459ca1cf2910ff02a8db14646899cd91a25c2408eb1a3244"
+    },
+    {
+      "matchId": "81e6190944e54284a1b97a9dab67ff41",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v4\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 235,
+      "registrySha256": "a7aabd35d34eb2164bce12ed5ecca08753296893408626d760d32cbdefcfcfb1"
+    },
+    {
+      "matchId": "5d61095520cd4b1f94f5a88b399c5318",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v4\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 100,
+      "registrySha256": "ee32e44b887d8a8d2cf24edb08834bbb9d91779d479a0cc424a40c1c0e7c0ada"
+    },
+    {
+      "matchId": "01770c86a11847dc8d8ea941dd5780cb",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v4\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 188,
+      "registrySha256": "586a58c2eb6de05acf83882a964df1d34b4bfba2a412219d5f60d4ca735b9589"
+    },
+    {
+      "matchId": "84ef88ad57c64e418b72b2c84d172492",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v4\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 132,
+      "registrySha256": "713f2d17636612abd4f23ffe103bdf4eb6b595a67680bc589be2375a291bf2bb"
+    },
+    {
+      "matchId": "c4f2d6ff670e4ea79423d9c6d5b832ef",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v4\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 127,
+      "registrySha256": "679f381b8c9e302a8d4f894db45f43a9c8f43032db43db182aa9329cadfdd598"
+    },
+    {
+      "matchId": "b5cd2ce4143b45d68b7a94826fb5e4f4",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v4\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 81,
+      "registrySha256": "51ec77e04139413d92678738d3f4269c4df6ede7e765b88233ae663bd31e6a6d"
+    },
+    {
+      "matchId": "060fb41b2b13457dad97e2d7cb5ea3ed",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v4\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 113,
+      "registrySha256": "916f0ac4e9ab552ca61d81559f0cdb5336a09b9e96e3a11bec40cb101cdaf4d7"
+    },
+    {
+      "matchId": "227b50716efa4dda8603b9e29787e257",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v6\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 62,
+      "registrySha256": "3854271d471ed21af15a47a3b7e54ff1fb720681cf98553856a830be8660a949"
+    },
+    {
+      "matchId": "5b5465ecc4bc4d63b796938de2f3a454",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v6\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 163,
+      "registrySha256": "374e8eb5484d7ff954d8ed802507115911817fc85831c609db4fbe67c8265482"
+    },
+    {
+      "matchId": "f14297135c524ac78d692ccc843327d4",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v6\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 84,
+      "registrySha256": "5f04ceb15e3dcaf6382688fab143792a1f8f7bc17a07d73b8cd3b20fb1135b57"
+    },
+    {
+      "matchId": "c2e4b72dcfd149a8b7b3b270bd0d980f",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v6\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 163,
+      "registrySha256": "2f8c3d74a0387fa270711b1698402860afee7e427822fd04b29080cfcbd49703"
+    },
+    {
+      "matchId": "c6afb29adf4a44c59a4f96cf0f3a40a6",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v6\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 140,
+      "registrySha256": "8ed0e5cdf4f5cd31eb22ec6273294d4ae091d96534932c1fdf73770de239d448"
+    },
+    {
+      "matchId": "4fed0d6bff8a4189aece629130e0afc7",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v6\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 125,
+      "registrySha256": "f938123bae0a308161ee5a883d26ecf8a11ba704f413fcb29894bd7534cf63c7"
+    },
+    {
+      "matchId": "43e03eed20ea41f5ba6900ff4a7a4333",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v6\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 110,
+      "registrySha256": "6155014c9089588cb561fae3dbf97c21d246b9ec4b1cbe856eb42946be470526"
+    },
+    {
+      "matchId": "72114a1f491340e38df3065f9604442b",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v6\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 73,
+      "registrySha256": "a95fb85eb68163dbd8dc7d2205ec9d48c56ca42cefa82c43b79bc6ebc7437d07"
+    },
+    {
+      "matchId": "14570e16a7084425aea4bfca37024d6d",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v8\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 64,
+      "registrySha256": "7d159169cc1c92af503636673a8a7feacd17c51a9033d3137519b7e20a931e37"
+    },
+    {
+      "matchId": "80f2119f4b68466386174851be344011",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v8\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 145,
+      "registrySha256": "545d65954f89a90f4996163583dbb714b5dbcf26a80ea4d53b96360b7619d9fd"
+    },
+    {
+      "matchId": "f2c9f196b50445a8a1c85997f79f4d93",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v8\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 86,
+      "registrySha256": "d84ba0e1527d920ac9e2446ca17c8153293228fa9432df088636d5a530d54f9e"
+    },
+    {
+      "matchId": "46ffd7866a394b85af783794d878f855",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v8\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 227,
+      "registrySha256": "9591192c19f7d7aef74cef069eb4f02becf2bac0d8e15b5934fb7a63777b9580"
+    },
+    {
+      "matchId": "a9ff23d876334675a6fc04d7a58404ae",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v8\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 92,
+      "registrySha256": "8e29a99b77fb741a83c3dd7249f10eae7f12d24a6e066d31ece40859e25b25c7"
+    },
+    {
+      "matchId": "9354af8a55e84506ba1335edf40934f2",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v8\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 75,
+      "registrySha256": "dab195a52b59b025d1bd2b45714d8e7c43ac1a4bf55ef7a62164be7aa79e76f2"
+    },
+    {
+      "matchId": "553d4e772eef448b843b048dbed65fa4",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v8\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 216,
+      "registrySha256": "6da0e8f57fbb06e74e42f61af13c5fc89fd77518985b4099af78125bc38f1f95"
+    },
+    {
+      "matchId": "f7de79793e724ec1826e0693b2b719d9",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v8\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 107,
+      "registrySha256": "4ed248f646ebb55e30a50a7365984382271c84a4a7c4663abf4754799dac4136"
+    },
+    {
+      "matchId": "608db3ae00ad49e4b65c3f2fa44bc73f",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v9\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 82,
+      "registrySha256": "3c8b0830a1865819c2be19a80da46f775e9f9fcb7aea8c3cfaed46f678f232cb"
+    },
+    {
+      "matchId": "c24dbfbd33b64fc69b76cfc138c7524a",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v9\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 147,
+      "registrySha256": "960f5b13f93f16e04efab9dd4c74c5e9237b78ea535b78fff85a1d30b7b19277"
+    },
+    {
+      "matchId": "297a3b4c63b74d0a90070020f59290c5",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v9\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 86,
+      "registrySha256": "7d9571e869c38104d81a89175764b19ed4daa59e1e856080b948c72f81e48183"
+    },
+    {
+      "matchId": "869e546840b446a6aa7288fda7d7c39b",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v9\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 143,
+      "registrySha256": "0df1e0ffcf34e6606529cc9c0fde2878d901001aabe5cf12d26d1458854d9509"
+    },
+    {
+      "matchId": "c132e70559234c28aeccb934fb5b3d17",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v9\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 120,
+      "registrySha256": "e7cff8fc84a3ffed9359a7ba311a37550a67e217768579ea31a42b2c94ab68ff"
+    },
+    {
+      "matchId": "f36c24d54d7546709999a5d2762f23eb",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v9\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 79,
+      "registrySha256": "fcd793a9da4309519109cb9474da571eb70e14cdbefc6cb1035ed2b7bc275d12"
+    },
+    {
+      "matchId": "2887c7f68f404d72bd705bf87fd71eb6",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v9\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 174,
+      "registrySha256": "b814dcb85ce3b4207a7eea57e19ad19105f215e5d42fb5f495b0f8d481d7c1b5"
+    },
+    {
+      "matchId": "6d4fe735ffe54bbe9b0dd1a53357453c",
+      "replay": "arena\\ametista\\2026-11-07\\development-search-v9\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 121,
+      "registrySha256": "03560262fb68947868caeb6ffa8bb6b9931a6c1f254c088c0ba1fdd1e5764468"
+    },
+    {
+      "matchId": "fa8a579e40ad4fe5ab1457253db5e23a",
+      "replay": "arena\\ametista\\2026-11-07\\development-v1\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 68,
+      "registrySha256": "275b3721667b667258112b6a08b7caf91ccb053dc0531dc242c076bdbac29992"
+    },
+    {
+      "matchId": "52fc4c24bb8a4cc18c39e58470b175ee",
+      "replay": "arena\\ametista\\2026-11-07\\development-v1\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 247,
+      "registrySha256": "bf9ff060ea1aaeaeb5399313ad8a1c8dd930e80ec1bbfdc48aee9a011b42f4d2"
+    },
+    {
+      "matchId": "560d0abb0c084d519c54e3b89e727b26",
+      "replay": "arena\\ametista\\2026-11-07\\development-v1\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 66,
+      "registrySha256": "b0390aa5b52f9e253bd445615e06864dd6753c96973ee832ebcf09a5b6608221"
+    },
+    {
+      "matchId": "7e0551984da74b10890ebeaa56211354",
+      "replay": "arena\\ametista\\2026-11-07\\development-v1\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 106,
+      "registrySha256": "f1314b34a3a85b1b910c1e605a7c95f6086d7dec4a0be8e9bb92e666d841547d"
+    },
+    {
+      "matchId": "d841f0747d58470c9dd72b571e9be505",
+      "replay": "arena\\ametista\\2026-11-07\\human-control-v14\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 91,
+      "registrySha256": "64495003a8782b7500bb9324e5720ddbae8ab4cf485d1d496b03a1c14063ad25"
+    },
+    {
+      "matchId": "0d3a0554e7b445078cb0a8be7285c2e8",
+      "replay": "arena\\ametista\\2026-11-07\\human-control-v14\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 165,
+      "registrySha256": "970df1cea474b6632f338f021be8ca2aa5da29dedd690d6d230fa7f32e64c1f1"
+    },
+    {
+      "matchId": "f534c8f16be547fdbbe1e0941b6febb3",
+      "replay": "arena\\ametista\\2026-11-07\\human-control-v14\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 139,
+      "registrySha256": "073fd8938d07f775496ac00b2c59996f994a45bdac5072d699519450efdfec13"
+    },
+    {
+      "matchId": "e250174d7d69415aa3a59676fb012756",
+      "replay": "arena\\ametista\\2026-11-07\\human-control-v14\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 69,
+      "registrySha256": "77867a0e9f7c130f95decb512b1a62bea10c5577f38912033c2cb891d70b41d0"
+    },
+    {
+      "matchId": "2a2826f9c90147ed84cc9c1f402e0d59",
+      "replay": "arena\\ametista\\2026-11-07\\human-control-v14\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 113,
+      "registrySha256": "cbe9633fd922c1fcd20df85711ff14c62b916696b70c5b3dc741e80e7ac802b7"
+    },
+    {
+      "matchId": "9d335786b04a46669fcb07633004ef9c",
+      "replay": "arena\\ametista\\2026-11-07\\human-control-v14\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 91,
+      "registrySha256": "3533860d55995e0b4a9181cc3d0face4bbf0a772417d7ff2f629025932dd6dcd"
+    },
+    {
+      "matchId": "fd94fe54c1794f7ab487ea28f84b7821",
+      "replay": "arena\\ametista\\2026-11-07\\human-exploratory-v18\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 144,
+      "registrySha256": "1e4490c2dbeb03c11044b7d3e091551fd022b4430408252c79b302224c0ab1cb"
+    },
+    {
+      "matchId": "d91e22b1d2384b1988b2c73a37905abd",
+      "replay": "arena\\ametista\\2026-11-07\\human-exploratory-v18\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 143,
+      "registrySha256": "a83fae708cb1e7a50e05ce5a085344558e30bc065580521d6b418e895fcc21a2"
+    },
+    {
+      "matchId": "fca3010e52074ddf9476fccf3f14ebcc",
+      "replay": "arena\\ametista\\2026-11-07\\human-exploratory-v18\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 91,
+      "registrySha256": "f22401066bd836c52b71bcbad260f0c6330447141febf0ea594f1756eb961082"
+    },
+    {
+      "matchId": "ca869f94319e418692263783280a571e",
+      "replay": "arena\\ametista\\2026-11-07\\human-exploratory-v18\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 93,
+      "registrySha256": "81a9da8f64c48989c463c51a03ee0d7bdde846be4677c9e3baba6c1a242b3e5c"
+    },
+    {
+      "matchId": "132d6b256cb84665ac9bd508e7336908",
+      "replay": "arena\\ametista\\2026-11-07\\human-exploratory-v18\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 172,
+      "registrySha256": "01d2039e93b01fc284c4724a1b290681161e0fe39a2f65cec7f45ec48c712f94"
+    },
+    {
+      "matchId": "21cc1e40865b4936931ca3396a6044ae",
+      "replay": "arena\\ametista\\2026-11-07\\human-exploratory-v18\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 69,
+      "registrySha256": "e84dbeb626e3c04e2475249dc007075f83d0ffe0b217cb55e20df6d330e195c1"
+    },
+    {
+      "matchId": "f37bb0ba201f432c9f7e9350e6fd6f18",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v3-seed20261107\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 84,
+      "registrySha256": "77baee85450467530bdad61c06a2d77b8e03da733b9110588179a83f7d28f7a2"
+    },
+    {
+      "matchId": "e72509a0a3524a10a3c5fddb2e17a788",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v3-seed20261107\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 180,
+      "registrySha256": "080ab75b807678a8327d1f75966a13cd0e44fde67937087ee7a719f2cfdd27a2"
+    },
+    {
+      "matchId": "50b1d8b7de8f4aad9d6fd3102fda380d",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v3-seed20261108\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 66,
+      "registrySha256": "0f618b0c71c4377c5658428b5fc43f620e82d499924d885078c0f59a2a610ad0"
+    },
+    {
+      "matchId": "ab37c44c289e474ca74f6a38d20f6f0d",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v3-seed20261108\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 152,
+      "registrySha256": "52f9362fcc656829df1117eb8ebf1a23e8ebfe94cca505206138ade8a504a16a"
+    },
+    {
+      "matchId": "893b0d0ce0904f229ecb2a1725c6767d",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v3-seed20261109\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 132,
+      "registrySha256": "3804786d6eb21ea24b380f6ba5faeed349a7123e3fcf467fdece8adeb21bd402"
+    },
+    {
+      "matchId": "f701182be9b5415d8ddb9d2b05b3d1cb",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v3-seed20261109\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 129,
+      "registrySha256": "c5b3de9fd65bd7b84578eff1781ef3c6d9dd352abf387e4f37e86651a1334269"
+    },
+    {
+      "matchId": "c9536873c8e240eabe00c49a2515a0dc",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v3-seed20261110\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 120,
+      "registrySha256": "05501250e4c9f18ab8d22b8a0dc515377f3bfb5641b8055e23b37a5b3cd71852"
+    },
+    {
+      "matchId": "63abc27d3f9646268256940d3e72e7c1",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v3-seed20261110\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 125,
+      "registrySha256": "65ff1e29620f33fd23dd1adfa7ed45615f594fb90078556e7b4d5449b4540b77"
+    },
+    {
+      "matchId": "742c4e5abcd345a5b268e3f7bbd23682",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v4-seed20261107\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 64,
+      "registrySha256": "ebe54a2621ac52388e81f38ffbe717c715132ec429bcfec4599c564f760e6899"
+    },
+    {
+      "matchId": "7bb2a0b160d646238e22b36250e74135",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v4-seed20261107\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 140,
+      "registrySha256": "46c27677c285d8951afcf14e98aa55eae8c24342bdc9f54c2e29aba09bee9598"
+    },
+    {
+      "matchId": "fd1f0bd09d744c23be314d60c479aa2e",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v4-seed20261108\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 62,
+      "registrySha256": "b75cf26f9480f7b6a4c91a2c07ef02cdd061328b2a9d2f8e4c54d064fba67229"
+    },
+    {
+      "matchId": "cf9f5c2c113b4e04b7f8a4f6ec9dfeea",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v4-seed20261108\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 188,
+      "registrySha256": "1c9bb96c3b67287795392c003e79a1767a4ea083a451b17a8e829fc43beec440"
+    },
+    {
+      "matchId": "e6a686808870450eb50c834ea03affd3",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v4-seed20261109\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 100,
+      "registrySha256": "4451c4d770fe8d5fb453e1db5cd911929e8b75c5878a1e02a1f4c1f5136cb055"
+    },
+    {
+      "matchId": "4ccf116376f64993955dfb449494c6bb",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v4-seed20261109\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 133,
+      "registrySha256": "40d4e3bff0d6b90b930b4fdf7c5e60d16cf5aa0bd849211fc2c89ec715ae1e16"
+    },
+    {
+      "matchId": "fff6564a721042dab4517fad8ce97c6e",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v4-seed20261110\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 181,
+      "registrySha256": "aaa9eb009875d938df1589e418347a27105ac074f7125ea9f4b1b027378769d6"
+    },
+    {
+      "matchId": "de423e9612f1404aa8f3e6f6d2bb80cf",
+      "replay": "arena\\ametista\\2026-11-07\\pressure-manual-v4-seed20261110\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 139,
+      "registrySha256": "fdc145a3c539adddecb1ce2a0b0710746ece91f3d69b183d4e62bca7918c229d"
+    },
+    {
+      "matchId": "4a58c41b8b024b8b8cd5f641e34a9134",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v13-seed846201\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 152,
+      "registrySha256": "756c14433e12ed24dffe10329b2d4d34c30fbf390a4a201b5c49b8ad08d5e2b2"
+    },
+    {
+      "matchId": "b7fef806df23409cbb097b7ac6362450",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v13-seed846201\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 101,
+      "registrySha256": "32d303429de0be19d5b3ebe9b1539e65b147ffba1007871b81a145889789d9ea"
+    },
+    {
+      "matchId": "e4fbc0f5e15e4450af88b98ba66ea395",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v13-seed846202\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 90,
+      "registrySha256": "b67cdb75a73f49d0dd8a5fb432e780ac38ffeda6718a9e20b85094eff998d2c7"
+    },
+    {
+      "matchId": "cc285d36ff7744bebc015bc740fc5174",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v13-seed846202\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 157,
+      "registrySha256": "4f63e013c1d465897c3f25bc9a29be9e2cb11d22c6dbed725728d1b5670f40cc"
+    },
+    {
+      "matchId": "575537ded4aa4092b46570ca8797e6eb",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v13-seed846203\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 108,
+      "registrySha256": "b1060b34a999370b1cf9f95e15584cb8834a5c48ac1ff53ae9eae8b78bd1b059"
+    },
+    {
+      "matchId": "cf704463a733407a8d8baaddec6badd4",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v13-seed846203\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 133,
+      "registrySha256": "5fdaf7be8dc55188f8787a3440b9d30a9cf098578837e50ae01ef590b98cae17"
+    },
+    {
+      "matchId": "f44693eda5074e89a43985de5f2ffb74",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v13-seed846204\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 112,
+      "registrySha256": "382d91da847dfc33fb732de14c012d9c356caa554f934a32362194faa9e35ac9"
+    },
+    {
+      "matchId": "ca6de029c40f48a9af891fdc1936f1ff",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v13-seed846204\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 112,
+      "registrySha256": "4e8c3165f1dc3d8132e3f6dec56157bb25c83fade2ace6967c53e5cfee8a63ad"
+    },
+    {
+      "matchId": "25246232d84a4e9cadd4e2f0e3dbde3f",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v4-seed846201\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 138,
+      "registrySha256": "9ada6439b5ce54a96925be7c2c0cb398277efe86bc54a0f5379ab935af83662a"
+    },
+    {
+      "matchId": "870a03b1861e4f86b75e0036ff1f16a0",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v4-seed846201\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 115,
+      "registrySha256": "9ee47c5a3a45201d5a3646695d38eaa6d316ae0411959d1e6bf8954e51369223"
+    },
+    {
+      "matchId": "cbcd93f922e64dff861aef325c1f6082",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v4-seed846202\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 86,
+      "registrySha256": "a309b0acd44337fc15afca9cc8fcf633c57520e0df7ecd7b5da83d073eabb728"
+    },
+    {
+      "matchId": "f7ca7cc1e60940518470f86ed56111d4",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v4-seed846202\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 99,
+      "registrySha256": "041aedf797892631389135c76f842629587e4efa54a83bb207e7c7b8d918f8ae"
+    },
+    {
+      "matchId": "fe46cbd155394bc58f1a42e95ce14dec",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v4-seed846203\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 110,
+      "registrySha256": "8e63d780990f32900d66bb2d2917c32398ff47eb03fe067f4115654e1c5e45cd"
+    },
+    {
+      "matchId": "79e93d147ba64d51ace528967751c466",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v4-seed846203\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 137,
+      "registrySha256": "b806187a974c0da8e1dd91126180199a30b15c3145e12d9657f0b1520435fbe7"
+    },
+    {
+      "matchId": "a85c1610d73d4d7181a1caf7a286a167",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v4-seed846204\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 76,
+      "registrySha256": "d23f82fcedabbdee18fc6d62835852791329b1f049a08922f9d12d8aa24fcc38"
+    },
+    {
+      "matchId": "88263009a67246978b59112ded588241",
+      "replay": "arena\\ametista\\2026-11-07\\qualification-v4-seed846204\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 275,
+      "registrySha256": "13f007cad11fbcc8597781ce2788dd7adca9808b6b5dedd573e6186e92b0badd"
+    },
+    {
+      "matchId": "329ae1233b3f40fa90701e6cefd89928",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375101\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 142,
+      "registrySha256": "6812bcf98b5009e4687b4fcd60e0fa6b1d43770f0b5b666007dede6a5cf5c5ff"
+    },
+    {
+      "matchId": "cacfec1ec12c40caa72d3887da6590d0",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375101\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 91,
+      "registrySha256": "38ed86a672c29969b0999d7d8e61bf14b8acf66800ac9c382d5e64153597b711"
+    },
+    {
+      "matchId": "1512239652814ed7b5fb006f525319b2",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375102\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 148,
+      "registrySha256": "b80805515049fb39b8f996f9508250fb617228a3b3391b6315734ca32aeabce5"
+    },
+    {
+      "matchId": "dd9136d05c0049c0900ea40cd89e7e85",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375102\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 71,
+      "registrySha256": "773986f1bfc70d1a938ff42dc2bc17035115bc497f784e3b3112dbf66d7eb664"
+    },
+    {
+      "matchId": "774b4ffd313547538fc4c8020674781c",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375103\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 110,
+      "registrySha256": "fb779484b95f52b8065180cbca68af18d4384ae4fd7479c8b219e2237e1850b2"
+    },
+    {
+      "matchId": "1299832ed78a497d88ebcc4f2a083876",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375103\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 109,
+      "registrySha256": "3a5587d6596480fcdd1e73cf5747955c4f9c0299864602b690d90a0de12b778b"
+    },
+    {
+      "matchId": "5609e36ae3e040ea809285ab849fa7aa",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375104\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 70,
+      "registrySha256": "55062637b83ed0ee2c39cdf14bfcc4066782f6994fea14b4dd54dbd8c0773065"
+    },
+    {
+      "matchId": "9d53ecf11ad6461da3a417b28cd512a4",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375104\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 117,
+      "registrySha256": "9dfcb46609d609ceb87a2918abfc6fc5251b3deb78ab3c864cbf7aae2dee723b"
+    },
+    {
+      "matchId": "74c6327bb6334b70a93328a3a1d27d55",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375105\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 90,
+      "registrySha256": "ad5132046796682b7b073be31957b00aee14ecb5b4a4850675265a0ed4e90ceb"
+    },
+    {
+      "matchId": "76fbfbf073484938be5ce86e65ba05f4",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375105\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 107,
+      "registrySha256": "6e820cd549cdab1e5ec9c3fcc150df0325f91610a24ef7c6aed7ba046c0ec92d"
+    },
+    {
+      "matchId": "8c6f3a30a1da47e88c8472cba4d63b8c",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375106\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 180,
+      "registrySha256": "f5b6995c9bd014d985c7768023b0394c114989f4d12c592b858d86eb74f51388"
+    },
+    {
+      "matchId": "148549110c8c4b3c82d7b6b088e5963a",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375106\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 95,
+      "registrySha256": "b4f28e10bab9eeabe4212a1d8217cfea519b999b5896e711dd511e2ca585b212"
+    },
+    {
+      "matchId": "44d2c5d6c9d941dba2bc04088d8f246f",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375107\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 114,
+      "registrySha256": "836b6a9a41f5843d6754836aad4cd42c1a9408e58966826b0b3a41be8219adab"
+    },
+    {
+      "matchId": "d6ab322b7ecd47749ac48abd8d3ee219",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375107\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 145,
+      "registrySha256": "5f388cbcfdbd201b6b4dddd1a902b225acfe2a8823c42b883a3792b553db36aa"
+    },
+    {
+      "matchId": "b21f9b07c2c14ffca3bbba2bdb5afbfe",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375108\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 76,
+      "registrySha256": "54ca29b62285ed2fa99a8cde5763ba8a21606569eca5edac7086e3c28f6c4ee4"
+    },
+    {
+      "matchId": "55ece6dd50e245a3bf14d7f972b054bb",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v14-seed375108\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 90,
+      "registrySha256": "e1fa97c607cc0cb27d526c45b0851ca5771e93daab1213c52c4d45305730ea7d"
+    },
+    {
+      "matchId": "a6eb2adf2a044cdd803a9960f4daca64",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375101\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 132,
+      "registrySha256": "a923f60cda2e60bee9a7b52687a75b5f9da79f817c772d0cbf1cd7def31e4cba"
+    },
+    {
+      "matchId": "39da54acc9fe4913ab3ab860fbd0d00c",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375101\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 119,
+      "registrySha256": "8c1b670a44735b2fb23e530553e6731512e6fb08558e4527156a57c7f0b285fe"
+    },
+    {
+      "matchId": "51a68dedf5e8484ebb6ebaf4fcab7fce",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375102\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 112,
+      "registrySha256": "a8feeaeb4691d9012448edc6dcbdcd28825e4bc5ec18feebe41f6d9fb10a6bda"
+    },
+    {
+      "matchId": "a3bf89c135a3412985e005175981a4f8",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375102\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 115,
+      "registrySha256": "f1dfa2f1ed165385d86f2b84b2173884638f4b0f48ece86f008b24114f2614d9"
+    },
+    {
+      "matchId": "89155c96513642b5aa762abb15655e16",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375103\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 148,
+      "registrySha256": "72e49080235f26c3e65bb7ed1d5d82d7186cde9c6c36523d7e1af665db0dbb7c"
+    },
+    {
+      "matchId": "51775e1df47340f6922c2b4bbc40a37a",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375103\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 107,
+      "registrySha256": "c5b8d6381ac2b287d6e1f24652b28481b6cca9b11a4c169babe78426e601da06"
+    },
+    {
+      "matchId": "80e7d11577df4f22a742ba147dba78d5",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375104\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 92,
+      "registrySha256": "f959bfa2692e2a8aa63721e8a7fddf211d55cac74a75047d2baa1eedf8e3815e"
+    },
+    {
+      "matchId": "82b97475bca247f98b7ead5cae6146c2",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375104\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 131,
+      "registrySha256": "d6c7ff32948f747c5547f4ba01de95042ebd147c183c6035d740b6e824296517"
+    },
+    {
+      "matchId": "d5131bed9d45441690a3e36d7604a6f3",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375105\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 122,
+      "registrySha256": "dce933f9660dac059c8a483045ba33ef1d16dd4e939c7ea73bb6d3df40c1a9dd"
+    },
+    {
+      "matchId": "497fffcd785a4ed58ec869bdd3b90c71",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375105\\games.jsonl",
+      "source": "test",
+      "status": "interrupted",
+      "plies": 148,
+      "registrySha256": "56b9ac9f35349c222a3989ceac354fce284942f80d738f45ccca2ea7eff9341a"
+    },
+    {
+      "matchId": "acaf8a37995f463ba8c2ec8b507ae1f2",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375105-recovery1\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 150,
+      "registrySha256": "36301c3df29c3eabfd261593c3cbf37d2b7f6474115ef40607b9b02094f0f127"
+    },
+    {
+      "matchId": "14d9505184f646faa71e22cb6db52bd8",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375105-recovery1\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 101,
+      "registrySha256": "347a04df2525a781c4de2c6108be37feccac9c1b5aeaab34c4e9e74b6ab6803d"
+    },
+    {
+      "matchId": "c0fed6280c2b4df0bb714c0993643ce4",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375106\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 100,
+      "registrySha256": "430e0490487a168af502930d0eda672b8b1e769b05a62ebb71379bf137933e79"
+    },
+    {
+      "matchId": "6368ec92578947f1ad4938945350f6c0",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375106\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 101,
+      "registrySha256": "f77a765194729482f3d85915168e5bf728fc1f92d223df811f2e2a9543b0361b"
+    },
+    {
+      "matchId": "f1288be823a945e195a01a760e7c495c",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375107\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 106,
+      "registrySha256": "1f83b1969989e1fcc09002483cccb22ba64446568cf63539067cabae42df9e5f"
+    },
+    {
+      "matchId": "ef6486ef90f544caba45e0114de862f4",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375107\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 131,
+      "registrySha256": "897a7d9da192be8d497c76776d7f8bc884f664ebde6db4da8dabc170aa854ee4"
+    },
+    {
+      "matchId": "05fd607ccb344a9688832bb263aabd2d",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375108\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 74,
+      "registrySha256": "7a450e8bbb7fcb0cebcf92df3f099bf7b7328983d55b58fcce959b563afe6fd2"
+    },
+    {
+      "matchId": "7dc301ce9c7d47dcb088bcc4a731879e",
+      "replay": "arena\\ametista\\2026-11-07\\search-comparison-v16-seed375108\\games.jsonl",
+      "source": "test",
+      "status": "finished",
+      "plies": 320,
+      "registrySha256": "dbde6f2bb1ff5558047d1d0d7a5ae7ac4554586f905de7f52e6deddf4d561fc3"
+    },
+    {
+      "matchId": "6f504738a4a542bb85180df44d7c6496",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570301\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 98,
+      "registrySha256": "a9b5e5b6d0117e5fa7c6b5e02493c4882ccad16a998c7422bfc0db39775f2e9c"
+    },
+    {
+      "matchId": "74d081d9c58247f0acda094a77a71783",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570301\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 131,
+      "registrySha256": "dbe8506b0868ccf04616db42d9c0997d5f67c509c698e555377f8fe690121ed6"
+    },
+    {
+      "matchId": "c3384c5ae8804baf8ab20b798caeef48",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570302\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 104,
+      "registrySha256": "0fad1841a99ec660021f1ed13bfba7763feba546a84728c6b8233912f5886e1a"
+    },
+    {
+      "matchId": "15d3f661f50a46d5a89d6aea42aa5da9",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570302\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 105,
+      "registrySha256": "e3f3f6eda63fdbae54736db40d6042992a17abe12e75a99dfcf43dcbf7717219"
+    },
+    {
+      "matchId": "37eb1207dc124020b2bef6b8bc5df36f",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570303\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 152,
+      "registrySha256": "d1d6cabf61740cb0a7b1ff620f767464fb36c0ff861771ac2e9f2bc3dd2f3686"
+    },
+    {
+      "matchId": "c963f1b8c08348678f2a446ecfc7970b",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570303\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 93,
+      "registrySha256": "b0956e64a7bd657ba14714686af60f58b36d5e7e3e25b320016e1269d0b6af43"
+    },
+    {
+      "matchId": "c233b791a7f448da88286a011322e0e2",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570304\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 110,
+      "registrySha256": "74f55b3763b9931c731a5cd8aadb6bf21f99f8056c07e4319a9180f9f2f911a0"
+    },
+    {
+      "matchId": "1d60aeb5b1ff4109a27c407a18f9f9b5",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570304\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 143,
+      "registrySha256": "3a6342d56229e48dfd0d6bf1889103476a9b018dcf40eb9c85f787ee61dcc483"
+    },
+    {
+      "matchId": "89e2d6ed3ccb4242a4d217f352d73ede",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570305\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 118,
+      "registrySha256": "174727235305a8739e3bbc26fc43020f4152a15accebe50ba01ad92b6ddfe522"
+    },
+    {
+      "matchId": "85628e37cda744ad844b81e27244b4a9",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570305\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 259,
+      "registrySha256": "8dc43c3a5ca58f024978a815391aab2dcf43eebc54b12500f4b00066bb1cdd54"
+    },
+    {
+      "matchId": "ee9d7cf161764968a6c8307c373c31e3",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570306\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 112,
+      "registrySha256": "c39a21d8ef65f6e5af4cee1164b3831e40a9129923bcd4cc7e002d2a6804fb5c"
+    },
+    {
+      "matchId": "da6a5d251b2a499cbc38003cbdbf13ca",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570306\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 142,
+      "registrySha256": "d2aa00ac464946c9e7c9f7cfda4a250fce65be8059c6b4512dd1b0b29181a3d8"
+    },
+    {
+      "matchId": "4ec1c4e6e72a4ab6b270f30a6947c127",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570307\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 132,
+      "registrySha256": "51cde8cdeeeab714bf9290ea82cf64b996e38a7e23b9431b5b1fd1e189da5f8a"
+    },
+    {
+      "matchId": "8800e331f1f143fb8721a963f4f22209",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570307\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 264,
+      "registrySha256": "8d430a4ca4d25007d13ee2431aba85d728d389b906917c90b34a65a62261e404"
+    },
+    {
+      "matchId": "5afa6beb15c140a49666016226cf9fdb",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570308\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 100,
+      "registrySha256": "d8f266bfedb018f7770e3eb4e734a211c103dac61aea88761e907784326b7c15"
+    },
+    {
+      "matchId": "58efb84316fd498a8e5b31edbb2f2b60",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570308\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 111,
+      "registrySha256": "58de965245b6433b9fd88de38bce21c0f0923809018e8416968a443d6fc2718c"
+    },
+    {
+      "matchId": "fc45d4f6240546baa065d685f95228a5",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570309\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 130,
+      "registrySha256": "cc8523d74deeac76982ba5b5c462ff583771ce5eead1a6d49a7c95a42c79231e"
+    },
+    {
+      "matchId": "16a1dd79fd134b70ab753e410852f18b",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570309\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 85,
+      "registrySha256": "c8c7f84d464150f74031af7feaf2b455723a6f9d5412506e0ed7b214aec5693f"
+    },
+    {
+      "matchId": "0f32436cb1f34275a494e82ba956661e",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570310\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 148,
+      "registrySha256": "f35800d465edbf26551f06aba68355bc374ac5c9f10f00b715a4150cdf203748"
+    },
+    {
+      "matchId": "0701aaa370d74fadad7c206433471a50",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570310\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 143,
+      "registrySha256": "8d44bf9d6fd77f69f39b6baf08bbdcb5db3aac2eec58b7ad1c7874edea9fdb56"
+    },
+    {
+      "matchId": "b2cc810e5f6e412daea6f5168befec55",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570311\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 120,
+      "registrySha256": "b0136f9719c3462219928046cc1391c52f3eb5fa0ed9d0dfcdf514907d326a7c"
+    },
+    {
+      "matchId": "02cfd8de468b4f13936c5085c0fadf1b",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570311\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 75,
+      "registrySha256": "56f6965dbef64dba2c9bc609ec6416fe10c04451f3fd5e09e79e5ad71fd9f9cf"
+    },
+    {
+      "matchId": "5048f8422a244d32bb738cf725dc5ee6",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570312\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 129,
+      "registrySha256": "2294be9db3d2ae2514d867992ab3e42244ea565e83d075aad81ccfc7efb96d67"
+    },
+    {
+      "matchId": "7f3c18f86da24fd3a382a6fd1e53b8fa",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570312\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 113,
+      "registrySha256": "181cfcf8fd6d7764b1de69d166bcb28fe4357c2f47e96730b9feaf179b76cb6a"
+    },
+    {
+      "matchId": "f4806b5386694f2790613474f675c767",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570313\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 146,
+      "registrySha256": "e275f2f1bfbb3477dc9bd53f413219a8c623f57cb437a63a8dd72918e9a44685"
+    },
+    {
+      "matchId": "28207bdd068c44578cd509396c446e85",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570313\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 127,
+      "registrySha256": "4353eedcd9b296dd76d5888f101e601e0b0bd0d90f755eecce51fe516ef5b20a"
+    },
+    {
+      "matchId": "85683a5700394b80aa4d896c004631ee",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570314\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 130,
+      "registrySha256": "ca677861d5deb843128375d6a7e4805e18433456a968397891fe34b9d04e518c"
+    },
+    {
+      "matchId": "283cffaff4ba4e18897f3c66120da5eb",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570314\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 79,
+      "registrySha256": "feb5d8cfd09298a66732bdaa83c6d96f6f00869ac92b4fd7d7f93d3f5db2e98d"
+    },
+    {
+      "matchId": "b99fcac90ae54d8e91ade4b6cba6dcc3",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570315\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 110,
+      "registrySha256": "80c1714985f735e7be7e5c999e9581f69f485ee2896ba94b1ef72de75310b7fe"
+    },
+    {
+      "matchId": "63b007270a42470badefa90b376be65a",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570315\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 103,
+      "registrySha256": "482af3ff071b7a66565e4459a5e02b2a3de37e40311544f507c0dfe1a39cacae"
+    },
+    {
+      "matchId": "4be44b023e10487292fd4401df025709",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570316\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 119,
+      "registrySha256": "e1f6f2bac832beea89344ff60d778a1b95aa91fd587889f0c8dbb48691daa738"
+    },
+    {
+      "matchId": "51de34383722454a89087b13e6daef70",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570316\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 71,
+      "registrySha256": "6772be9d459f078773a514a8dddba7bef66bb906b146f854b7e2be94da537a6a"
+    },
+    {
+      "matchId": "5ab05700e90d4d42af3a5fd1c0e3a398",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570317\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 132,
+      "registrySha256": "2947e8c7aa278b77c35d804790c72f465e1cacecee3e45ee3562d7916b464215"
+    },
+    {
+      "matchId": "dfda4c7483b84a478124088abbf1928d",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570317\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 112,
+      "registrySha256": "d509a8c11a573fe71c327eb5feaf6aaa1c806657fb4c9ae258b150967b85b38a"
+    },
+    {
+      "matchId": "54b93fd036db41b19e23b04ccdcccbfe",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570318\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 146,
+      "registrySha256": "099b99e00364a3a18fdbd948b04c3d5734c1f8ecb5cbd3928d33e9efdb092607"
+    },
+    {
+      "matchId": "f5328c57157249caa1ef57da714a08f7",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570318\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 177,
+      "registrySha256": "8b29eb075827ab68143da000d93f766e475624e2ca8d58dfb6f5ca02b195992f"
+    },
+    {
+      "matchId": "4fc8d4442ef04937b86180546e254ea4",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570301\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 140,
+      "registrySha256": "0e05c11adac4e8be8995f3f4f3b194237c53c6cf3889ab62d5e53fa0849dd43c"
+    },
+    {
+      "matchId": "8e45d9672b0e41b19b708962f3e8ab9d",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570301\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 127,
+      "registrySha256": "348c6398f5e518a8f41480443f3693b8ea2082a950c1c61171bb685cba45cebb"
+    },
+    {
+      "matchId": "35efa5bdc132418da709c0241a6a6e77",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570302\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 176,
+      "registrySha256": "f70665d44bf23abb389c1139de9b51795e54aadd57300ec1b69ed292df313930"
+    },
+    {
+      "matchId": "b4f3dd8dff7e44f5a13d294980e9e863",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570302\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 141,
+      "registrySha256": "1207d2986a38a9c4d90535e58006ae15aa0840f27cc56d31a173821e54c35f37"
+    },
+    {
+      "matchId": "af31d267073a4108a84841b30d24c4ba",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570303\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 114,
+      "registrySha256": "33e6f69af3fc2a16d09cec59f8a452739ccb392b35765e55721a356bff0ebbe5"
+    },
+    {
+      "matchId": "a2ac1eb4d51943ba93c3afced481f61c",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570303\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 137,
+      "registrySha256": "32b06fa6185408a467c6855ce1ab22f875bd9f70555d87f5146c2bbe3dd7f4fb"
+    },
+    {
+      "matchId": "540c88f4c2d642b492e31eb9bc5ad44d",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570304\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 98,
+      "registrySha256": "28f165ce25a35c346f7dc16daa55a355ab461cad1036fc0df04c31acbfdaa240"
+    },
+    {
+      "matchId": "16e6ecf460af4433bd913b67dddffb07",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570304\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 101,
+      "registrySha256": "98a12ffc388344256e38932bcf7e3a12e53ce6404ded9158a41b8665ed25d84c"
+    },
+    {
+      "matchId": "d517947b2d4d4cb1b63a8e7283ebd8e3",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570305\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 116,
+      "registrySha256": "0da475c22463a17846ef23412373cf776031d0e926d4ae64032cbb522fa8ed83"
+    },
+    {
+      "matchId": "a25d125e76d94806ba5fe10333a647a8",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570305\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 91,
+      "registrySha256": "7560839e4efda836932b60b09ffab29539fdddac7ab060715bf060186009bfc5"
+    },
+    {
+      "matchId": "2c19e3d9acc849cc9b69c2a59a2f15bc",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570306\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 132,
+      "registrySha256": "af46d2f43306e908e10e8276466762124261f0be38081284549be9ac849c4e6e"
+    },
+    {
+      "matchId": "239d3642695e45a9a7d8eb818f307eae",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570306\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 123,
+      "registrySha256": "dac1fe91b7b0c954aa0697380e01f114012773795a1807a873b59b1303c1f54c"
+    },
+    {
+      "matchId": "fc89182419e641e9a008389ebba126db",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570307\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 162,
+      "registrySha256": "957c0cf445d0c3b1f0eecfafee12aec25735d0abec4d43aa453e3edbda9805c1"
+    },
+    {
+      "matchId": "8dd33325bb9b488eade5f9958c447df9",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570307\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 117,
+      "registrySha256": "2ffbc5f7743ecf0a8b03e56dcc69ff4e0255c1fc5d6865e640c7b4c280cadfae"
+    },
+    {
+      "matchId": "36e9c3ffb8f94e598e889ada4b0f0c40",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570308\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 108,
+      "registrySha256": "435cb05cd3155b53a6532fefcfb52a91254216165a537b87c88f32b70282306f"
+    },
+    {
+      "matchId": "fad58bd7e5b24dd2bacbe876cf4a7133",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570308\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 223,
+      "registrySha256": "97566fe8ba8e5b4e7081f230a68ca50f586200b7ed887c12124430dd11853e9d"
+    },
+    {
+      "matchId": "dcd5010d4f734b1b9626adaece6a1241",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570309\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 130,
+      "registrySha256": "fbc567293fa5edcdcd67a02a0e29a2619be6100e0d62e38c9ca07617af0f7280"
+    },
+    {
+      "matchId": "e832575921ef4141bd0688c136d87a54",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570309\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 139,
+      "registrySha256": "ed228f762db717eced03c0ec688c15889a5c37b9ef50ef34e8f39f8970e39752"
+    },
+    {
+      "matchId": "366821d221e2461181d909925030f2e9",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570310\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 140,
+      "registrySha256": "c7e6fcc1504bc1893a0849f056b6887afe09cd4aff2825197c3e53191eb77748"
+    },
+    {
+      "matchId": "e1ae92b2253a47fc9848de7a968faf26",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570310\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 93,
+      "registrySha256": "37fbcf18acedc2da95a179b92a4240600379c827dcfcb2076be51e7307344809"
+    },
+    {
+      "matchId": "9fcdf3071e1d4e78a1f896b41de49b9a",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570311\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 200,
+      "registrySha256": "eab530ddc4997c4daded93b4b4f6e926f4abbc4e56f6df8b5e70a6b16f63a5ed"
+    },
+    {
+      "matchId": "74350e99c62e4d869f9fa666590d489b",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570311\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 101,
+      "registrySha256": "223499473847d42e1470167d0e989851266292eddfd3f5e260941958cda1483b"
+    },
+    {
+      "matchId": "b6911330d7dd4607bad0ccf3871cd340",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570312\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 101,
+      "registrySha256": "3595d38b04ce55e40130e1b33a4cc56e151a9d83855b4f82eb859e137e3a0d6a"
+    },
+    {
+      "matchId": "072501c72ea042d5b273eccf7e71c858",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570312\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 101,
+      "registrySha256": "af2ca7f2c40c6f1b75d5a2f4732f1239e84b8717f36b217246c3983ed12be18d"
+    },
+    {
+      "matchId": "2eb05d29ff364bfc8a4e2cfff54cefb6",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570313\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 114,
+      "registrySha256": "a4f1c46e12f125ceb629890838bc5208dfd9fc9c67a903d0541f413bf938cdd4"
+    },
+    {
+      "matchId": "33214ec9286c4644b8986b3e0d60928b",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570313\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 131,
+      "registrySha256": "f423b6766635829f9584b2c016219acbc02250dc74065a503fc1fa21e37ebdae"
+    },
+    {
+      "matchId": "2e19b853cc664663b3a9612a5745151a",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570314\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 154,
+      "registrySha256": "3737cdf16ce57913f806e6678df51b705f3f4d5004c127876b0dedd3a423a4eb"
+    },
+    {
+      "matchId": "a33299d2c3b24ff7bc9d4795729b1cc1",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570314\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 139,
+      "registrySha256": "85e3420d41542891a8832358f938a14a952116f93ae991092f187ff747be5b8e"
+    },
+    {
+      "matchId": "31c61c1311ae4f7a8c6437330a96cc5a",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570315\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 136,
+      "registrySha256": "319fda43d36a6f9c61cad60cb3f786933138ee5ae55f63b6553a60de8cc27ac8"
+    },
+    {
+      "matchId": "c54675e59b11406aa2bc274363c7c686",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570315\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 101,
+      "registrySha256": "97186c2b900fe29b6f19562e1c765a861727d487226697dca257e7f08475ed7d"
+    },
+    {
+      "matchId": "d706b53778db498fa035332711ea8b60",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570316\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 198,
+      "registrySha256": "d37f38428963a4ba33d8c66bc5aab611433f82f0024e687364014a8670f66b40"
+    },
+    {
+      "matchId": "0a9b2a18686f4b68ae99423f39026343",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570316\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 81,
+      "registrySha256": "b386a791846c2be870d20d1a9c5c08eba66f966370f5416d8689b3796dbd4f86"
+    },
+    {
+      "matchId": "9514df8fd1b3474b8127226f1df1a9ad",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570317\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 116,
+      "registrySha256": "4b7957c99550c07701cee6860e01275c42bbffe84a3f7d8e1a0f21ba663aa2fd"
+    },
+    {
+      "matchId": "dbc6719489ed4d9bb77a1550e86d5dc7",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570317\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 103,
+      "registrySha256": "994d576491b2ed2afa01efea331198d05a894c4bf6573a6393267cc1cac6a8da"
+    },
+    {
+      "matchId": "4cf1bfe833cd491da30424d55bef4f6a",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570318\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 136,
+      "registrySha256": "805769be69fd032773608b25135f98d831674ea5d94eb530d16140d99259781c"
+    },
+    {
+      "matchId": "da118db1a8e643e8a0caf1f8f58a78f2",
+      "replay": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570318\\games.jsonl",
+      "source": "benchmark",
+      "status": "finished",
+      "plies": 133,
+      "registrySha256": "a2dd1b0a8966053666915e7cff7b7c92a757992ce7cdbf23424ccfa47c18f202"
+    },
+    {
+      "matchId": "37c6bb0886c64890ac3d2eb6d322244f",
+      "replay": "web verification",
+      "source": "test",
+      "status": "interrupted",
+      "plies": 0,
+      "registrySha256": "b202c086715eba860ee047d02143fbcd4d27d80a7fed8152127c88d007f6423b"
+    },
+    {
+      "matchId": "42ddb5eadf39490c9f2927b33d0a2f6e",
+      "replay": "web verification",
+      "source": "test",
+      "status": "interrupted",
+      "plies": 0,
+      "registrySha256": "898fc89e5c129e07042bfce2ed53ee39937bd137f84e0bed12d4413c40f99cf8"
+    },
+    {
+      "matchId": "34cfd538503446bd8aa77cc30228ebe5",
+      "replay": "web verification",
+      "source": "test",
+      "status": "interrupted",
+      "plies": 1,
+      "registrySha256": "82205ca87f4067c54159d44ff7cbfbae14ca4354db25db768dea17a032859baf"
+    }
+  ],
+  "limitations": [
+    "Do not interpret aggregate totals as win rate of one fixed model.",
+    "Historical human PDN replays and synthetic diagnostics are not real new matches and are excluded.",
+    "Registry plies include random opening plies and the one-move web check."
+  ]
+}

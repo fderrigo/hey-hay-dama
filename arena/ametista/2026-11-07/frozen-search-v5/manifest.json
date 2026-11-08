@@ -1,0 +1,31 @@
+﻿{
+    "frozenAt":  "2026-11-07T11:24:04.7839956Z",
+    "weights":  "manual-v2",
+    "search":  "search-v5",
+    "files":  [
+                  {
+                      "sha256":  "82d6ac2189285598adfba70123d0a28643a7b2942e53751c779f1c3ded911ae4",
+                      "file":  "ametista-v2.json"
+                  },
+                  {
+                      "sha256":  "dbb54412d33a4713e14504015bc15ba41e0eb6eb8a296b34c6e328eb2254bda2",
+                      "file":  "Board.cs.txt"
+                  },
+                  {
+                      "sha256":  "4eba85ced0fd6925d9ad1579347de5c736ade2e595cdd09d91bdc51eb5d57667",
+                      "file":  "Network.cs.txt"
+                  },
+                  {
+                      "sha256":  "328fa9f09a5bbea5c8436aac0328626e32515ba5e72e807f96b36072984b78c3",
+                      "file":  "Program.cs.txt"
+                  },
+                  {
+                      "sha256":  "1d07d56a67a7b5ea97cc3c7dce113670b8be0230d38a0ddbe160d46ab7d767e6",
+                      "file":  "Search.cs.txt"
+                  },
+                  {
+                      "sha256":  "fbbf3ac07bb3a3cc746dc187c6899ee19a758838881e6902e8917bd2ac61cd7f",
+                      "file":  "Verification.cs.txt"
+                  }
+              ]
+}

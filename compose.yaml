@@ -1,0 +1,11 @@
+services:
+  dama:
+    build: .
+    ports:
+      - "5317:8080"
+    volumes:
+      - dama-games:/app/App_Data
+    restart: unless-stopped
+
+volumes:
+  dama-games:

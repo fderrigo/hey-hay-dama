@@ -1,0 +1,4 @@
+﻿{
+    "ProcessId":  17728,
+    "CommandLine":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-contact-publish-telemetry/Ametista.ContactSearch.dll --urls http://127.0.0.1:9018 --Logging:LogLevel:Default Warning"
+}

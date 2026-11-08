@@ -1,0 +1,63 @@
+{
+  "candidate": "ametista",
+  "games": [
+    {
+      "matchId": "a6eb2adf2a044cdd803a9960f4daca64",
+      "seed": 375101,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 132,
+      "decisions": 63,
+      "searchedDecisions": 57,
+      "meanDepthSearchedOnly": 13.18,
+      "meanMsSearchedOnly": 889.77,
+      "meanNodesSearchedOnly": 1719464.37,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 41,
+      "firstOpponentKingPly": 40,
+      "finalMaterial": {
+        "ply": 132,
+        "menDifference": -1,
+        "kingDifference": -2
+      },
+      "candidatePeakBytes": 116391936,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "39da54acc9fe4913ab3ab860fbd0d00c",
+      "seed": 375101,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 119,
+      "decisions": 56,
+      "searchedDecisions": 50,
+      "meanDepthSearchedOnly": 13.98,
+      "meanMsSearchedOnly": 865.26,
+      "meanNodesSearchedOnly": 2331632.24,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "firstCandidateKingPly": 60,
+      "firstOpponentKingPly": 51,
+      "finalMaterial": {
+        "ply": 119,
+        "menDifference": -1,
+        "kingDifference": -2
+      },
+      "candidatePeakBytes": 116412416,
+      "opponentPeakBytes": 191565824
+    }
+  ],
+  "notes": [
+    "Only complete JSONL records; this is not an independent legality audit.",
+    "Time/depth means exclude depth-zero decisions, generally forced moves.",
+    "Peak working set is a process-lifetime upper bound, not a per-game isolated measurement.",
+    "Material differences are counts, not engine evaluation labels."
+  ]
+}

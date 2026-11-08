@@ -1,0 +1,31 @@
+{
+  "archivedAt": "2026-11-07T17:44:32.162543+00:00",
+  "files": [
+    {
+      "source": "artifacts\\ametista-human-publish\\Ametista.HumanSearch.dll",
+      "file": "Ametista.HumanSearch.dll",
+      "sha256": "1a0d34682bf458a2e17c4c887eb4cf75032e7c92ed186774e1f7b0b3ad8ad9a5"
+    },
+    {
+      "source": "artifacts\\ametista-human-publish\\Dama.Engine.dll",
+      "file": "Dama.Engine.dll",
+      "sha256": "de344eb474f0b659f71311621837f49ccd3091c705a2645185114347c8d75e56"
+    },
+    {
+      "source": "artifacts\\ametista-human-publish\\Ametista.HumanSearch.deps.json",
+      "file": "Ametista.HumanSearch.deps.json",
+      "sha256": "ef4f648ef50f3450d83f2cb05169080fb55af9317c5b047479576adc49f1bcf2"
+    },
+    {
+      "source": "artifacts\\ametista-human-publish\\Ametista.HumanSearch.runtimeconfig.json",
+      "file": "Ametista.HumanSearch.runtimeconfig.json",
+      "sha256": "41442586a8262bc96a1c80f82f4d9384c03bfd465d221cbf01fb3563170f9e65"
+    },
+    {
+      "source": "models\\Ametista\\Models\\ametista-v4.json",
+      "file": "Models/ametista-v4.json",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138"
+    }
+  ],
+  "note": "Publication copy after game launch; binary hashes match pre-game freeze. No Kingsrow binary or source corpus included."
+}

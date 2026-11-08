@@ -1,0 +1,28 @@
+{
+  "declaredAt": "2026-11-07T17:46:17.693554+00:00",
+  "reason": "Use remaining authorized time to add a paired manual-v14 control for interpretation of the human-outcome combination.",
+  "declarationContext": "Extension decided after observing first two v18 losses, before completion of six candidate games. Not part of initial six-game plan; exploratory only.",
+  "candidate": "human-exploratory-v18",
+  "control": "human-control-v14",
+  "seeds": [
+    570401,
+    570402,
+    570403
+  ],
+  "colors": "both",
+  "controlGames": 6,
+  "source": "test",
+  "logicalProcessor": 0,
+  "searchMs": 1000,
+  "threads": 1,
+  "opponent": "Same existing Kingsrow9015 PID36652 if unchanged and healthy.",
+  "startCondition": "Only after all six candidate games complete and audit passes; start before local19:00. Never retry failed matches automatically.",
+  "controlDeadline": "2026-11-07T18:20:00Z",
+  "sessionDeadline": "2026-11-07T18:28:21Z",
+  "analysis": "Preserve all outcomes. Report paired differences only if all six per version complete; otherwise explicitly incomplete. Three opening pairs are exploratory and insufficient for a general improvement claim. No automatic promotion or further weight tuning.",
+  "limitations": [
+    "Chosen after partial candidate results; not independent preregistered confirmation.",
+    "Control follows candidate in time; runtime warming and shared load differ.",
+    "No source, weight or scale changes permitted in either version."
+  ]
+}

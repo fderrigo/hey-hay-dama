@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-07T17:40:04.906824+00:00",
+  "cases": 512,
+  "maxAbsoluteError": 2.0816681711721685e-17,
+  "modelSha256": "caec486b6f36fd08b66b7e7d05ed015348198dcdd806df0a7bf24663404f64e2",
+  "fixtureSha256": "368394a130774c56952641dafb258da95d5db915c88ad6c8109b0d716d91541c",
+  "seed": 271828,
+  "realGames": 0,
+  "passed": true
+}

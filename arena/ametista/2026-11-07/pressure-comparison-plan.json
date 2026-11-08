@@ -1,0 +1,21 @@
+{
+  "createdAt": "2026-11-07T13:09:32.402683+00:00",
+  "source": "test",
+  "baseline": "manual-v3",
+  "candidate": "manual-v4",
+  "search": "search-v14",
+  "sameBinary": true,
+  "seeds": [
+    20261107,
+    20261108,
+    20261109,
+    20261110
+  ],
+  "gamesPerVariant": 8,
+  "searchMs": 1000,
+  "order": "pairs per seed; baseline first for even seed index, candidate first for odd index",
+  "startAfter": "qualification-selection.json schedule completes and audits pass",
+  "automaticWeightUpdates": false,
+  "confirmationSetUsed": false,
+  "limitation": "Reused development openings; only a diagnostic comparison, no independent superiority claim."
+}

@@ -1,0 +1,7 @@
+{
+  "id": "klinamite",
+  "name": "Klinamite",
+  "version": "v3",
+  "endpoint": "http://127.0.0.1:9003/choose-move",
+  "sha256": "5ac514e24fd97371011f901beec0ea27d47fbebb62c7a561412bb42e57100e21"
+}

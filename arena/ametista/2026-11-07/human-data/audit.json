@@ -1,0 +1,54 @@
+{
+  "verifiedAt": "2026-11-07T17:14:05.0835695+00:00",
+  "kind": "historical-human-pdn-replay",
+  "realGamesCreated": 0,
+  "training": false,
+  "games": 343,
+  "acceptedGames": 333,
+  "rejectedGames": 10,
+  "positions": 20931,
+  "verifiedChecks": 12,
+  "sources": [
+    {
+      "sourceYear": 2004,
+      "url": "https://www.fid.it/download/pdn/ci2004ita.zip",
+      "zipSha256": "1bee2b69c75dd821caf2f4a42871a3c9598f4876809d06d09cd786814bdeab58",
+      "pdnSha256": "1eb32f55358222f368751581f2e9fbdf4c885ec7875d6b78ada0e9261fb3c252",
+      "pdnEntry": "ci2004ita.pdn",
+      "encoding": "utf-8",
+      "games": 190,
+      "acceptedGames": 185,
+      "rejectedGames": 5,
+      "positions": 11248
+    },
+    {
+      "sourceYear": 2005,
+      "url": "https://www.fid.it/download/pdn/ci2005ita.zip",
+      "zipSha256": "3aeda4d1418da1fd701b9f87319aed0f31f94e509b9216dc9d8d74b4912febaf",
+      "pdnSha256": "454fd1b1c31e864695c7da1a62016001fecaee192d658bb70a03b6b0582e453c",
+      "pdnEntry": "ci2005ita.pdn",
+      "encoding": "windows-1252",
+      "games": 153,
+      "acceptedGames": 148,
+      "rejectedGames": 5,
+      "positions": 9683
+    }
+  ],
+  "positionsSha256": "c0af0691f6557acd8a0d3e52f32f9e3fd7e944def23ab56eb8bc1eed523825c5",
+  "gameAuditSha256": "9775e222d1aad88fb856ceba1f13576e21106eea2517e7d81ef3435268090508",
+  "conventions": {
+    "board": "32 integers: white man=1,king=2; black=-1,-2",
+    "turn": "1 white, -1 black",
+    "result": "published final outcome from white perspective: 1 white win, 0 draw, -1 black win",
+    "sample": "position BEFORE human move; entire rejected games contribute zero samples",
+    "gameId": "SHA256(year \u002B newline \u002B newline-normalized trimmed full PDN game block)",
+    "notation": "PDN squares 1..32 converted to referee indices 0..31"
+  },
+  "limitations": [
+    "Public download is not an identified open license; no claim of permission to redistribute the corpus.",
+    "Human results can reflect resignation or agreed draws; a nonterminal final board is allowed.",
+    "Ambiguous capture paths, unsupported tokens/setup, unknown or inconsistent results are rejected, never guessed.",
+    "No statistical independence claim for positions from the same game or repeated openings.",
+    "Replay uses current Dama.Engine rules, not an independently certified historical referee."
+  ]
+}

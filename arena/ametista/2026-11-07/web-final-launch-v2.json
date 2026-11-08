@@ -1,0 +1,11 @@
+﻿{
+    "webBinarySha256":  "28A468AA25B243DE9E7B5E8C240E749AEFE42601E119EB936C2AA59725FBDB5F",
+    "checkedAt":  "2026-11-07T14:51:16.4676205+00:00",
+    "verifiedBeforeGameCreation":  true,
+    "configSha256":  "9AAD9F3852BC5F6FC3845A2582701B30BCADAFAD13391D3EA989F8A87B30C075",
+    "webProcessId":  7952,
+    "competitionDirectory":  "C:/Users/filip/source/repos/weight-space-games/src/Dama.Web/App_Data/competition",
+    "explicitEndpoint":  "http://127.0.0.1:9016/choose-move",
+    "command":  "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-final-web-publish/Dama.Web.dll --contentRoot C:/Users/filip/source/repos/weight-space-games/artifacts/ametista-final-web-publish --urls http://127.0.0.1:5323 --environment Production --Arena:DataDirectory C:/Users/filip/source/repos/weight-space-games/artifacts/ametista-final-web-rooms-v2 --Arena:CompetitionDirectory C:/Users/filip/source/repos/weight-space-games/src/Dama.Web/App_Data/competition --Arena:Models:6:Id ametista --Arena:Models:6:Kind http --Arena:Models:6:Enabled true --Arena:Models:6:Endpoint http://127.0.0.1:9016/choose-move --Logging:LogLevel:Default Warning",
+    "temporaryRoomDirectory":  "C:/Users/filip/source/repos/weight-space-games/artifacts/ametista-final-web-rooms-v2"
+}

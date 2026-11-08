@@ -1,0 +1,47 @@
+{
+  "at": "2026-11-07T17:34:22.922784+00:00",
+  "state": "Source prepared and reviewed; no build or training yet",
+  "files": [
+    {
+      "path": "experiments\\Ametista.HumanSearch\\HumanOutcome.cs",
+      "sha256": "9fd606a6174ae79703da744803b71a5d093605772e3dc25870cbd2841e8e2dbd"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\HumanVerification.cs",
+      "sha256": "4cad19c072024fa483506d61374e0f36d694ebb7b6722eec74f016fb082c33ea"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Network.cs",
+      "sha256": "e41ae98b6193b4498fb628f2813b7f9794b7474c71ae3ff0a1dc1c8f3a304529"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Program.cs",
+      "sha256": "37608108cabac207fc457d09ef80ca8843becdc8fa42ffa2a34f2fda88776296"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Search.cs",
+      "sha256": "537ac24ebcfe0924f299782f2602166193ef504e8c67a5bbfd2e3886f1f47b26"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Verification.cs",
+      "sha256": "4483c4c3a1ea514434e8c7efc284c52490380b6583486f5ba604da3cd3eb7940"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Ametista.HumanSearch.csproj",
+      "sha256": "a971fcfe4dc6c0b8e04375a33399f9e30d2663b62003a866a6543ae365bf08b8"
+    },
+    {
+      "path": "experiments\\ametista_human_linear.py",
+      "sha256": "ff72c824a704ced411a90d42fac8b617db988ae215a1c08a8891e741d541012c"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\human-data-plan.json",
+      "sha256": "c499bf3442b9866d4d6c2e426e11dd74c88eacdf4a74ee0bd23fade4a9beff00"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\human-play-plan.json",
+      "sha256": "4165b252fc3399424f2980f3d23f377398c762e154d47e99657ceab2b9972777"
+    }
+  ],
+  "review": "Search differs only by version identifier; manual graph unchanged; separate rounded static contribution; risk unchanged. Numerical fixtures pending execution. Existing manual-only bonus assertions are inapplicable to combined value; verification changes only metadata Version to run general reference tests without those blocks."
+}

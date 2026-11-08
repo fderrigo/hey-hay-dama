@@ -1,0 +1,151 @@
+{
+  "measuredAt": "2026-11-07T18:04:39.5148188+00:00",
+  "kind": "actual-dll-static-inference-cost",
+  "syntheticNotGameWeighted": true,
+  "playingStrengthMeasured": false,
+  "causalGameOutcomeClaim": false,
+  "realGamesCreated": 0,
+  "training": false,
+  "logicalProcessor": 0,
+  "seed": 271828,
+  "boardCount": 1000,
+  "boardsSha256": "6e495ad221f483a6334995d112d8db918b4808ed407ba200fbee6484eb1afcbe",
+  "roundCount": 7,
+  "passes": 200,
+  "evaluationsPerRound": 200000,
+  "warmupPasses": 20,
+  "numericalCombinationChecks": 1000,
+  "manualRiskUnchanged": true,
+  "contributionScale": 100,
+  "baselineCompiledInference": true,
+  "combinedCompiledInference": true,
+  "baselineMedianNanosecondsPerEvaluation": 834.534,
+  "combinedMedianNanosecondsPerEvaluation": 1107.583,
+  "ratioOfMedians": 1.3271873884107779,
+  "medianRoundRatio": 1.2957639634462907,
+  "rounds": [
+    {
+      "number": 1,
+      "order": "baseline-first",
+      "baseline": {
+        "elapsedStopwatchTicks": 2803267,
+        "nanosecondsPerEvaluation": 1401.6335,
+        "checksum": -20283200
+      },
+      "combined": {
+        "elapsedStopwatchTicks": 3261674,
+        "nanosecondsPerEvaluation": 1630.837,
+        "checksum": -17177000
+      },
+      "combinedOverBaseline": 1.1635259859299882
+    },
+    {
+      "number": 2,
+      "order": "combined-first",
+      "baseline": {
+        "elapsedStopwatchTicks": 1636635,
+        "nanosecondsPerEvaluation": 818.3175,
+        "checksum": -20283200
+      },
+      "combined": {
+        "elapsedStopwatchTicks": 2084767,
+        "nanosecondsPerEvaluation": 1042.3835,
+        "checksum": -17177000
+      },
+      "combinedOverBaseline": 1.2738130371157894
+    },
+    {
+      "number": 3,
+      "order": "baseline-first",
+      "baseline": {
+        "elapsedStopwatchTicks": 1587144,
+        "nanosecondsPerEvaluation": 793.572,
+        "checksum": -20283200
+      },
+      "combined": {
+        "elapsedStopwatchTicks": 2056564,
+        "nanosecondsPerEvaluation": 1028.282,
+        "checksum": -17177000
+      },
+      "combinedOverBaseline": 1.2957639634462907
+    },
+    {
+      "number": 4,
+      "order": "combined-first",
+      "baseline": {
+        "elapsedStopwatchTicks": 1635411,
+        "nanosecondsPerEvaluation": 817.7055,
+        "checksum": -20283200
+      },
+      "combined": {
+        "elapsedStopwatchTicks": 1891172,
+        "nanosecondsPerEvaluation": 945.586,
+        "checksum": -17177000
+      },
+      "combinedOverBaseline": 1.156389433604152
+    },
+    {
+      "number": 5,
+      "order": "baseline-first",
+      "baseline": {
+        "elapsedStopwatchTicks": 1669068,
+        "nanosecondsPerEvaluation": 834.534,
+        "checksum": -20283200
+      },
+      "combined": {
+        "elapsedStopwatchTicks": 2215166,
+        "nanosecondsPerEvaluation": 1107.583,
+        "checksum": -17177000
+      },
+      "combinedOverBaseline": 1.3271873884107779
+    },
+    {
+      "number": 6,
+      "order": "combined-first",
+      "baseline": {
+        "elapsedStopwatchTicks": 1697445,
+        "nanosecondsPerEvaluation": 848.7225,
+        "checksum": -20283200
+      },
+      "combined": {
+        "elapsedStopwatchTicks": 2604549,
+        "nanosecondsPerEvaluation": 1302.2745,
+        "checksum": -17177000
+      },
+      "combinedOverBaseline": 1.5343937506075307
+    },
+    {
+      "number": 7,
+      "order": "baseline-first",
+      "baseline": {
+        "elapsedStopwatchTicks": 2391640,
+        "nanosecondsPerEvaluation": 1195.82,
+        "checksum": -20283200
+      },
+      "combined": {
+        "elapsedStopwatchTicks": 3447804,
+        "nanosecondsPerEvaluation": 1723.902,
+        "checksum": -17177000
+      },
+      "combinedOverBaseline": 1.4416065963104816
+    }
+  ],
+  "inputSha256": {
+    "C:\\Users\\filip\\source\\repos\\weight-space-games\\artifacts\\ametista-final-publish\\Ametista.dll": "8a9c454e0d42bbfafd72adfdbb00ff491a6f8906b88e54230aee9e68099473cd",
+    "C:\\Users\\filip\\source\\repos\\weight-space-games\\artifacts\\ametista-inference-probe-build\\bin\\Ametista.InferenceProbe\\release\\Ametista.dll": "8a9c454e0d42bbfafd72adfdbb00ff491a6f8906b88e54230aee9e68099473cd",
+    "C:\\Users\\filip\\source\\repos\\weight-space-games\\artifacts\\ametista-human-publish\\Ametista.HumanSearch.dll": "1a0d34682bf458a2e17c4c887eb4cf75032e7c92ed186774e1f7b0b3ad8ad9a5",
+    "C:\\Users\\filip\\source\\repos\\weight-space-games\\artifacts\\ametista-inference-probe-build\\bin\\Ametista.InferenceProbe\\release\\Ametista.HumanSearch.dll": "1a0d34682bf458a2e17c4c887eb4cf75032e7c92ed186774e1f7b0b3ad8ad9a5",
+    "C:\\Users\\filip\\source\\repos\\weight-space-games\\models\\Ametista\\Models\\ametista-v4.json": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+    "C:\\Users\\filip\\source\\repos\\weight-space-games\\arena\\ametista\\2026-11-07\\human-data\\learned-v1\\model.json": "caec486b6f36fd08b66b7e7d05ed015348198dcdd806df0a7bf24663404f64e2",
+    "C:\\Users\\filip\\source\\repos\\weight-space-games\\artifacts\\ametista-inference-probe-build\\bin\\Ametista.InferenceProbe\\release\\Dama.Engine.dll": "0f2c2a30e36a2eb4a0a2eb243e57317d40b49d0f9620c2460a30bc37fe86b3b2"
+  },
+  "runtime": ".NET 10.0.14",
+  "stopwatchFrequency": 10000000,
+  "limitations": [
+    "Fixed synthetic boards, not reachable-game distribution or game-weighted evaluations.",
+    "Measures static network evaluation without search, evaluation cache, move generation or HTTP.",
+    "DLL identity checked by byte hashes; this is not historical runtime provenance proof.",
+    "Alternating order and warmup reduce but do not eliminate JIT, scheduling or shared-load effects.",
+    "Timing ratio does not explain or establish a cause of game outcomes."
+  ]
+}

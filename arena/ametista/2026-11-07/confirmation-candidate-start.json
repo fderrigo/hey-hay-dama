@@ -1,0 +1,10 @@
+{
+  "startingAt": "2026-11-07T15:06:36.027482+00:00",
+  "freezeVerified": true,
+  "opaleControlCompleted": 36,
+  "opaleControlWins": 0,
+  "opaleControlDraws": 0,
+  "opaleControlLosses": 36,
+  "opaleAuditMoves": 1944,
+  "modelChangesAfterControl": false
+}

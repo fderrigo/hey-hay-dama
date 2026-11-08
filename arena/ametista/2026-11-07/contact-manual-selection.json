@@ -1,0 +1,31 @@
+{
+  "selectedAt": "2026-11-07T16:35:54.596807+00:00",
+  "selection": "manual decision by AGENTE-C after complete audited development",
+  "candidate": "search-v17-contactguard/manual-v4",
+  "baseline": "search-v14/manual-v4",
+  "totals": {
+    "v14": {
+      "games": 8,
+      "wins": 1,
+      "draws": 0,
+      "losses": 7,
+      "points": 2,
+      "score": 0.125
+    },
+    "v17": {
+      "games": 8,
+      "wins": 1,
+      "draws": 1,
+      "losses": 6,
+      "points": 3,
+      "score": 0.1875
+    }
+  },
+  "reason": "Same wins and one additional draw; meets the predeclared strictly higher observed development score criterion",
+  "limitation": "Only four opening pairs and changing shared load; no proven general improvement or superiority",
+  "firstConfirmationRetained": true,
+  "confirmationProtocol": "supplemental-confirmation-protocol.md",
+  "deadline": "2026-11-07T18:28:21Z",
+  "weightsChanged": false,
+  "training": false
+}

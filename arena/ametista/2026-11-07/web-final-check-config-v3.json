@@ -1,0 +1,8 @@
+﻿{
+    "expectedWeightsSha256":  "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+    "webBaseUrl":  "http://127.0.0.1:5323",
+    "reportPath":  "arena/ametista/2026-11-07/web-final-check-v3.json",
+    "expectedSearch":  "search-v14",
+    "modelBaseUrl":  "http://127.0.0.1:9016",
+    "expectedWeightsVersion":  "manual-v4"
+}

@@ -1,0 +1,50 @@
+﻿[
+    {
+        "path":  "artifacts/kingsrow/setup.exe",
+        "sha256":  "08e860d2d6f83d3a175ccc05a1ccfbdddafe48d1b8c874314def67e5fc37c480"
+    },
+    {
+        "path":  "artifacts/kingsrow/runtime/app/engines/kr_italian64.dll",
+        "sha256":  "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3"
+    },
+    {
+        "path":  "artifacts/kingsrow/runtime/app/engines/kr_italian.odb",
+        "sha256":  "e8f890b29973dd72cf92bfe844651c61646912935701d987ab62cae02ca0e7a7"
+    },
+    {
+        "path":  "artifacts/kingsrow/runtime/app/engines/weights_ital_v2.bin",
+        "sha256":  "a66913db173b53cb3473bd22bf2a38a93934cd65be8f5a6fabae91c44090ae0d"
+    },
+    {
+        "path":  "artifacts/kingsrow/runtime/app/engines/weights_nk_ital_v2.bin",
+        "sha256":  "f23deeb1e11cb5e07b65a0f68a64b7d91ff05cc770edc8218cc3c28cb1e0571a"
+    },
+    {
+        "path":  "artifacts/kingsrow/runtime/app/engines/egdb64.dll",
+        "sha256":  "eb3dadda930cd4215f8c658c1683bbecd38391953aacfd2ff2c39f40b7d772f3"
+    },
+    {
+        "path":  "models/Opale.C/Models/opale-c-v3.json",
+        "sha256":  "3e25fd78df09920a87f2b0c6cdcc53084c5dcfbf7747dd64363a314fe8dfc1e9"
+    },
+    {
+        "path":  "artifacts/agata-service/Models/agata-v9.json",
+        "sha256":  "88555cd90598d43b1c398a8e4b8d2906b290a5d144f1f91d3bc06ce33fca00e6"
+    },
+    {
+        "path":  "models/Klinamite/bin/Debug/net10.0/Models/klinamite-v3.json",
+        "sha256":  "5ac514e24fd97371011f901beec0ea27d47fbebb62c7a561412bb42e57100e21"
+    },
+    {
+        "path":  "models/Kingsrow/Program.cs",
+        "sha256":  "b7c46121c025bb804fd9c02c84851dad57a4a8acea88a325c274cd1da94afe33"
+    },
+    {
+        "path":  "models/Kingsrow/NativeEngine.cs",
+        "sha256":  "afbf0c4cf66786068baf258615bb23109206c7f8aadb509c4c36dd345030ffed"
+    },
+    {
+        "path":  "experiments/Dama.KingsrowMatch/Program.cs",
+        "sha256":  "85adca98c8547ad298646ef996842997dbb4ac54fbccc92d23475b78c5706143"
+    }
+]

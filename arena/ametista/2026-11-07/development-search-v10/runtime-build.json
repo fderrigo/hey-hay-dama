@@ -1,0 +1,9 @@
+﻿{
+    "note":  "Same binary planned for subsequent manual-v3 comparison; builder and verification helpers do not change search-v10 inference",
+    "binarySha256":  "5198be5e7024f651245c95ad7c24971f45a25b3ea76ca54fb3eeee5b81bfa025",
+    "sourceSnapshot":  "arena/ametista/2026-11-07/frozen-manual-v3-search-v10",
+    "binary":  "artifacts/ametista-manual-v3/bin/Ametista/release/Ametista.dll",
+    "recordedAt":  "2026-11-07T12:23:03.0694020Z",
+    "weightsSha256":  "82d6ac2189285598adfba70123d0a28643a7b2942e53751c779f1c3ded911ae4",
+    "selectedWeights":  "manual-v2"
+}

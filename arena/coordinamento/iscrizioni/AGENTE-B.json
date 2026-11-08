@@ -1,0 +1,7 @@
+{
+  "id": "agata",
+  "name": "Agata",
+  "version": "v9",
+  "endpoint": "http://127.0.0.1:9012/choose-move",
+  "sha256": "88555cd90598d43b1c398a8e4b8d2906b290a5d144f1f91d3bc06ce33fca00e6"
+}

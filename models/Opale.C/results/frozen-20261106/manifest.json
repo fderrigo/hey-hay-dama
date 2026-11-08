@@ -1,0 +1,15 @@
+{
+  "agent": "AGENTE-C",
+  "started": "2026-11-06T17:47:46.2416715+00:00",
+  "deadline": "2026-11-06T18:08:48+00:00",
+  "seed": 2026110639,
+  "hashes": {
+    "opale-v1": "ec99696f9e0cc4d8b4719230193e57a1f9c5ed7475e5d17c9342675e44bce43d",
+    "opale-c-v2": "47905feda728fb39c07e8c3a23ff903b422ca0189bcc1d0b4c2a4461db6318b8",
+    "kimberlite": "2b4099da279d539f4a8e89dcc0d040138578c616edaa7b5ef433c28467aa20de",
+    "agata": "d342b7f2398560a58bd725af77cc140579d53ac5ee7ed74628a12487bb9c3a5a"
+  },
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition",
+  "protocol": "12 new seeded legal openings of 4/6/8 plies; paired colours and versions; Kimberlite and Agata temperature 0; 96 planned games. Each opening is actually played and registered. No parameter updates, no self-play, natural referee outcomes only.",
+  "limitation": "Small paired comparison of frozen opponent versions; opening pairs are correlated. Not an Elo or tournament-strength estimate."
+}

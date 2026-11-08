@@ -1,0 +1,131 @@
+using System.Text.Json;
+using Dama.Engine;
+
+namespace Ametista;
+
+public static class Verification
+{
+    public static void Run(Network? selected=null)
+    {
+        var network=selected??new Network(Network.ManualV2());
+        int exclusiveKingCases=0;
+        if(network.Definition.Version=="manual-v3") {
+            var baseline=new Network(Network.ManualV2());
+            foreach(var (board,expectedBonus) in new (Board,int)[]{
+                (new(1u<<4,(1u<<25)|(1u<<27),1u<<4,1,0),75),
+                (new((1u<<4)|(1u<<5),(1u<<25)|(1u<<27),(1u<<4)|(1u<<5),1,0),150),
+                (new(1u<<4,1u<<27,(1u<<4)|(1u<<27),1,0),0),
+                (new((1u<<4)|(1u<<5),1u<<27,1u<<27,1,0),-75)}) {
+                if(network.Evaluate(board).Value-baseline.Evaluate(board).Value!=expectedBonus)
+                    throw new InvalidDataException("Exclusive king gate boundary mismatch.");
+                exclusiveKingCases++;
+            }
+        }
+        var buffer=new FastMove[MoveGenerator.Capacity];
+        int positions=0, transitions=0;
+        void Check(Position p)
+        {
+            var board=Board.From(p);
+            if(network.Evaluate(board)!=network.Evaluate(board,interpreted:true))
+                throw new InvalidDataException("Compiled/interpreted inference mismatch.");
+            if(network.Evaluate(board)!=network.Evaluate(board with {Quiet=board.Quiet==0?79:0}))
+                throw new InvalidDataException("Static evaluation depends on quiet count: cache key must include it.");
+            if(network.Evaluate(board)!=network.Evaluate(board,true)) throw new InvalidDataException("Vector/scalar neural encoder mismatch.");
+            if(!board.ToPosition().Board.SequenceEqual(p.Board)) throw new InvalidDataException("Encoding mismatch.");
+            var legal=Rules.LegalMoves(p);
+            if(MoveGenerator.HasCapture(board)!=(legal.Count>0&&legal[0].Captures.Length>0)) throw new InvalidDataException("Capture existence mismatch.");
+            if(legal.Count==0&&MoveGenerator.HasQuiet(board)) throw new InvalidDataException("Quiet terminal mismatch.");
+            var expected=legal.Select(m=>Board.From(Rules.Apply(p,m))).ToHashSet();
+            int count=MoveGenerator.Generate(board,buffer);
+            var actual=buffer.Take(count).Select(board.Apply).ToHashSet();
+            if(!expected.SetEquals(actual)) throw new InvalidDataException($"Move mismatch at {p.Key}: referee {expected.Count}, fast {actual.Count}");
+            var rotated=new Position(p.Board.Reverse().Select(x=>-x).ToArray(),-p.Turn,0,p.QuietKingPlyCount);
+            if(network.Evaluate(board)!=network.Evaluate(Board.From(rotated))) throw new InvalidDataException("Network rotation symmetry mismatch.");
+            positions++; transitions+=count;
+        }
+        Check(Position.Initial()); Check(Position.Initial() with {Turn=-1});
+        for(int s=0;s<32;s++) for(int d=0;d<4;d++) {
+            var to=Geometry.Step[s,d];
+            if(Geometry.Shift(1u<<s,d)!=(to<0?0:1u<<to)) throw new InvalidDataException("Bit shift mismatch.");
+        }
+        var random=new Random(834719);
+        var searchFixtures=new List<Position>();
+        for(int i=0;i<6000;i++) {
+            var array=new int[32]; var squares=Enumerable.Range(0,32).OrderBy(_=>random.Next()).ToArray();
+            int a=random.Next(1,13),b=random.Next(1,13);
+            for(int j=0;j<a+b;j++) {
+                int side=j<a?1:-1,s=squares[j];
+                bool king=random.Next(3)==0||(side==1?s<4:s>=28);
+                array[s]=side*(king?2:1);
+            }
+            var fixture=new Position(array,i%2==0?1:-1,0,random.Next(80));
+            Check(fixture);
+            if(searchFixtures.Count<32&&Rules.LegalMoves(fixture).Count>1&&a+b<=10) searchFixtures.Add(fixture);
+        }
+        var path="arena/kingsrow/2026-11-07/games.jsonl";
+        if(File.Exists(path)) foreach(var line in File.ReadLines(path)) {
+            using var doc=JsonDocument.Parse(line);
+            foreach(var frame in doc.RootElement.GetProperty("frames").EnumerateArray())
+                Check(new Position(frame.GetProperty("board").EnumerateArray().Select(x=>x.GetInt32()).ToArray(),frame.GetProperty("turn").GetInt32()));
+        }
+        var engine=new Search(network);
+        long previousTurnCacheHits=0;
+        foreach(var fixture in searchFixtures) {
+            var b=Board.From(fixture);
+            var result=engine.Choose(b,"reference-"+fixture.Key,5000,new Dictionary<ulong,int>{{b.Key,1}},maximumDepth:3);
+            var seen=new Dictionary<string,int>{{fixture.Key,1}};
+            int expected=Reference(fixture,3,0,seen,network);
+            if(result.Score!=expected) throw new InvalidDataException($"PVS/reference mismatch: {fixture.Key}, fast {result.Score}, exact {expected}, depth {result.Depth}");
+            var reused=engine.Choose(b,"reference-"+fixture.Key,5000,new Dictionary<ulong,int>{{b.Key,1}},maximumDepth:3);
+            if(reused.Score!=expected)throw new InvalidDataException("Cached search differs from independent reference.");
+            previousTurnCacheHits+=reused.PreviousTurnCacheHits;
+        }
+        if(previousTurnCacheHits==0)throw new InvalidDataException("No cross-call cache reuse exercised.");
+        int aspirationReferenceCases=0;
+        foreach(var fixture in searchFixtures.Take(12)) {
+            var board=Board.From(fixture);
+            var result=engine.Choose(board,"aspiration-"+fixture.Key,5000,new Dictionary<ulong,int>{{board.Key,1}},maximumDepth:4);
+            int expected=Reference(fixture,4,0,new Dictionary<string,int>{{fixture.Key,1}},network);
+            if(result.Score!=expected)throw new InvalidDataException("Aspiration/reference mismatch.");
+            aspirationReferenceCases++;
+        }
+        var initial=Board.From(Position.Initial());
+        var corner=new Board(1u<<4,1u<<27,(1u<<4)|(1u<<27),1,2);
+        var cornerResult=engine.Choose(corner,"synthetic-zugzwang",500,new Dictionary<ulong,int>{{corner.Key,1}});
+        var cornerPosition=corner.ToPosition();
+        int cornerReference=Reference(cornerPosition,8,0,new Dictionary<string,int>{{cornerPosition.Key,1}},network);
+        if(cornerResult.Score!=cornerReference||cornerReference!=29991)throw new InvalidDataException("Zugzwang probe not independently confirmed.");
+        if(cornerResult.AspirationRetries==0)throw new InvalidDataException("Aspiration expansion not exercised.");
+        int historyCases=0;
+        foreach(var move in Rules.LegalMoves(cornerPosition)) {
+            var future=Rules.Apply(cornerPosition,move);
+            var remembered=new Dictionary<ulong,int>{{corner.Key,1},{Board.From(future).Key,3}};
+            var repeated=engine.Choose(corner,"synthetic-zugzwang",5000,remembered,maximumDepth:8);
+            int expected=Reference(cornerPosition,8,0,new Dictionary<string,int>{{cornerPosition.Key,1},{future.Key,3}},network);
+            if(repeated.Score!=expected)throw new InvalidDataException("History-dependent cache differs from independent reference.");
+            historyCases++;
+        }
+        var decision=engine.Choose(initial,"synthetic-initial",200,new Dictionary<ulong,int>{{initial.Key,1}});
+        if(!Rules.LegalMoves(Position.Initial()).Any(m=>Board.From(Rules.Apply(Position.Initial(),m))==initial.Apply(decision.Move))) throw new InvalidDataException("Illegal search result.");
+        if(decision.Milliseconds>350) throw new InvalidDataException("Search exceeded timing tolerance.");
+        var report=new {weightsVersion=network.Definition.Version,compiledInference=network.CompiledInference,compiledInterpretedAgreement=true,exclusiveKingCases,positions,transitions,legalTransitions=true,networkSymmetry=true,evaluationQuietInvariant=true,searchReferencePositions=searchFixtures.Count,aspirationReferenceCases,previousTurnCacheHits,historyCases,search=decision,cornerProbe=cornerResult,realGames=0};
+        Directory.CreateDirectory("models/Ametista/results");
+        string suffix=selected is null?"":"-"+network.Definition.Version;
+        File.WriteAllText($"models/Ametista/results/verification-{Search.Version}{suffix}.json",JsonSerializer.Serialize(report,Network.JsonOptions));
+        Console.WriteLine(JsonSerializer.Serialize(report));
+    }
+    private static int Reference(Position p,int depth,int ply,Dictionary<string,int> seen,Network network)
+    {
+        var legal=Rules.LegalMoves(p);var outcome=Rules.GetOutcome(p,seen.GetValueOrDefault(p.Key),legal);
+        if(outcome is not null)return outcome.Winner==0?0:-30000+ply;
+        if(depth<=0&&legal[0].Captures.Length==0)return network.Evaluate(Board.From(p)).Value;
+        bool forcedCapture=legal[0].Captures.Length>0&&legal.Select(m=>Rules.Apply(p,m).Key).Distinct().Count()==1;
+        int best=-30000;
+        foreach(var move in legal) {
+            var next=Rules.Apply(p,move);seen[next.Key]=seen.GetValueOrDefault(next.Key)+1;
+            best=Math.Max(best,-Reference(next,forcedCapture?Math.Max(depth,0):Math.Max(depth,0)-1,ply+1,seen,network));
+            if(--seen[next.Key]==0)seen.Remove(next.Key);
+        }
+        return best;
+    }
+}

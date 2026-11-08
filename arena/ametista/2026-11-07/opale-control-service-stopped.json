@@ -1,0 +1,8 @@
+﻿{
+    "originalFilesChanged":  false,
+    "processId":  31888,
+    "resultsChanged":  false,
+    "workingSetBytesBeforeStop":  17829888,
+    "reason":  "Own control complete and audited; release idle memory during shared host pressure",
+    "stoppedAt":  "2026-11-07T15:14:10.9137843+00:00"
+}

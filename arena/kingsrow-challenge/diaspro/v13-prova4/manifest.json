@@ -1,0 +1,49 @@
+{
+  "startedAt": "2026-11-07T14:35:39.866482+00:00",
+  "seed": 31001,
+  "games": 4,
+  "openingPlies": 6,
+  "plyLimit": 400,
+  "thinkTimeMs": 1100,
+  "effectiveSearchMs": 1000,
+  "threads": 1,
+  "memoryLimitMiB": 1024,
+  "ponder": false,
+  "source": "test",
+  "kingsrow": {
+    "id": "kingsrow",
+    "name": "Kingsrow Italian 1.19e",
+    "version": "1.19e",
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "endpoint": "http://127.0.0.1:9026/choose-move"
+  },
+  "diaspro": {
+    "id": "diaspro",
+    "name": "Diaspro",
+    "version": "diaspro-v13",
+    "sha256": "df334cff0657c495d217eacb355ce0404e5ee6e955a13730ea9cf2fda3db4321",
+    "endpoint": "http://127.0.0.1:9017/choose-move"
+  },
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition",
+  "rules": "italian-draughts-8x8",
+  "training": false,
+  "endgameDatabases": false,
+  "kingsrowOpeningBook": "bundled; engine defaults",
+  "diasproSearch": "bitboard-pvs-tt-simd",
+  "diasproArchitecture": "manual relational graph, bitboard PVS/TT and per-game episodic position memory",
+  "logicalProcessor": 2,
+  "buildConfiguration": "Release",
+  "diasproSources": {
+    "models/Diaspro/ManualWeights.cs": "8e22a31aeb623e67cfa11d1e52f1a7f4183bbf26b171136443ee64b8d8ff3114",
+    "models/Diaspro/Network.cs": "29e9577d5de281f7b2bbcb853101a4e668f534cafcde4e2bb6c013f97fb7da9f",
+    "models/Diaspro/FastRules.cs": "8141d369a78185c1461b53174f0824389212fbd03286749317e4e5381e39e026",
+    "models/Diaspro/Bitboard.cs": "504c3297b99fa93d68efed820d9b9c37ccb7fed13432a13b2ad9a0774a01a38c",
+    "models/Diaspro/DeepSearch.cs": "2aec4f23c9bb75804189559adbd38503eb473f93441ae11e7588b25164692385",
+    "models/Diaspro/Search.cs": "c6ea2ddb0ab4f9ce64912c151a2dabdfc5d8c11183835660f9a81321c19b3cb1",
+    "models/Diaspro/Policy.cs": "4fbb03d1dd947687d488caab3df709bbd505161dbdb17eaf090403d452305939",
+    "models/Diaspro/PositionMemory.cs": "b517de5282f23a125387f282a8bc789ea52061fde05b179f656d59dfc120c37a",
+    "models/Diaspro/Program.cs": "e352784d0796c5672b5c852b66b8e57be2e71fdbdf81816e22473f06d5cf85fb",
+    "experiments/Dama.DiasproMatch/Program.cs": "806410f038d2ddb86e3eff8f0c4eb60e7c2da763d0cd3a17ca11aefbd7c14bef",
+    "experiments/Dama.DiasproMatch/Audit.cs": "4e804e5cab9b63946696de44b6e8ca8ed97d1f6341477a73ee5d6b48c2ea8eef"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "weightsPath": "artifacts/opale-learning-20261106/opale-1705.json",
+  "results": [
+    {
+      "Phase": "probe-standard",
+      "Opponent": "kimberlite",
+      "games": 2,
+      "wins": 0,
+      "draws": 1,
+      "losses": 1,
+      "interrupted": 0
+    },
+    {
+      "Phase": "probe-standard",
+      "Opponent": "agata",
+      "games": 2,
+      "wins": 0,
+      "draws": 1,
+      "losses": 1,
+      "interrupted": 0
+    },
+    {
+      "Phase": "probe-openings",
+      "Opponent": "kimberlite",
+      "games": 24,
+      "wins": 4,
+      "draws": 16,
+      "losses": 4,
+      "interrupted": 0
+    },
+    {
+      "Phase": "probe-openings",
+      "Opponent": "agata",
+      "games": 24,
+      "wins": 1,
+      "draws": 13,
+      "losses": 10,
+      "interrupted": 0
+    }
+  ]
+}

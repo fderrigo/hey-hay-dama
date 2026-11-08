@@ -1,0 +1,3 @@
+# Preserva i byte originali: pesi, snapshot e log sono identificati da SHA256.
+# Evita conversioni CRLF/LF durante add/checkout, anche su Windows.
+* -text

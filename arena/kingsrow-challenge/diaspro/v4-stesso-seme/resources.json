@@ -1,0 +1,10 @@
+{
+  "measuredAt": "2026-11-07T11:31:03Z",
+  "logicalProcessor": 2,
+  "processorAffinityMask": 4,
+  "diaspro": { "pid": 41872, "peakWorkingSetMiB": 70.37, "workingSetMiB": 61.59 },
+  "kingsrow": { "pid": 38416, "peakWorkingSetMiB": 176.46, "workingSetMiB": 119.71 },
+  "memoryLimitMiB": 1024,
+  "searchThreads": 1,
+  "ponder": false
+}

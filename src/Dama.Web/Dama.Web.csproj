@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dama.Engine\Dama.Engine.csproj" />
+    <Content Remove="App_Data/**" />
+    <None Remove="App_Data/**" />
+    <Content Update="Models\*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup><ProjectReference Include="../Dama.Competition/Dama.Competition.csproj" /></ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+{
+  "startedAt": "2026-11-07T10:11:32.849057+00:00",
+  "seed": 20261107,
+  "gamesPerOpponent": 18,
+  "openingPlies": 6,
+  "plyLimit": 400,
+  "kingsrowSearchMs": 200,
+  "opponentBudgetMs": 1000,
+  "kingsrow": {
+    "id": "kingsrow",
+    "name": "Kingsrow Italian 1.19e",
+    "version": "1.19e",
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "endpoint": "http://127.0.0.1:9015/choose-move"
+  },
+  "opponents": [
+    {
+      "id": "klinamite",
+      "name": "Klinamite",
+      "version": "v3",
+      "sha256": "5ac514e24fd97371011f901beec0ea27d47fbebb62c7a561412bb42e57100e21",
+      "endpoint": "http://127.0.0.1:9003/choose-move"
+    },
+    {
+      "id": "agata",
+      "name": "Agata",
+      "version": "v9",
+      "sha256": "88555cd90598d43b1c398a8e4b8d2906b290a5d144f1f91d3bc06ce33fca00e6",
+      "endpoint": "http://127.0.0.1:9012/choose-move"
+    },
+    {
+      "id": "opale",
+      "name": "Opale C",
+      "version": "manual-v3",
+      "sha256": "3e25fd78df09920a87f2b0c6cdcc53084c5dcfbf7747dd64363a314fe8dfc1e9",
+      "endpoint": "http://127.0.0.1:9014/choose-move"
+    }
+  ],
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition",
+  "rules": "italian-draughts-8x8",
+  "training": false,
+  "endgameDatabases": false,
+  "openingBook": "bundled; engine defaults",
+  "newSearchContextEveryMove": true
+}

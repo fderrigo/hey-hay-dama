@@ -1,0 +1,71 @@
+{
+  "realGamesCreated": 0,
+  "readOnlyAnalysis": true,
+  "openings": [
+    {
+      "group": "initial-development",
+      "seed": 20261107,
+      "whiteMen": 11,
+      "blackMen": 12,
+      "whiteKings": 0,
+      "blackKings": 0
+    },
+    {
+      "group": "initial-development",
+      "seed": 20261108,
+      "whiteMen": 11,
+      "blackMen": 12,
+      "whiteKings": 0,
+      "blackKings": 0
+    },
+    {
+      "group": "initial-development",
+      "seed": 20261109,
+      "whiteMen": 11,
+      "blackMen": 11,
+      "whiteKings": 0,
+      "blackKings": 0
+    },
+    {
+      "group": "initial-development",
+      "seed": 20261110,
+      "whiteMen": 10,
+      "blackMen": 11,
+      "whiteKings": 0,
+      "blackKings": 0
+    },
+    {
+      "group": "fresh-development",
+      "seed": 375101,
+      "whiteMen": 11,
+      "blackMen": 11,
+      "whiteKings": 0,
+      "blackKings": 0
+    },
+    {
+      "group": "fresh-development",
+      "seed": 375102,
+      "whiteMen": 11,
+      "blackMen": 11,
+      "whiteKings": 0,
+      "blackKings": 0
+    },
+    {
+      "group": "fresh-development",
+      "seed": 375103,
+      "whiteMen": 11,
+      "blackMen": 11,
+      "whiteKings": 0,
+      "blackKings": 0
+    },
+    {
+      "group": "fresh-development",
+      "seed": 375104,
+      "whiteMen": 11,
+      "blackMen": 12,
+      "whiteKings": 0,
+      "blackKings": 0
+    }
+  ],
+  "limitations": "Only already played development openings; material is not a measure of game-theoretic advantage. Reserved confirmation openings not generated or inspected."
+}

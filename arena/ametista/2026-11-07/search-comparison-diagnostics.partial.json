@@ -1,0 +1,132 @@
+{
+  "complete": false,
+  "games": [
+    {
+      "variant": "v14",
+      "seed": 375101,
+      "color": "white",
+      "depth": 13.12,
+      "ms": 915.33,
+      "nodes": 1623203.29,
+      "plies": 142
+    },
+    {
+      "variant": "v14",
+      "seed": 375101,
+      "color": "black",
+      "depth": 12.35,
+      "ms": 823.38,
+      "nodes": 1614619.76,
+      "plies": 91
+    },
+    {
+      "variant": "v16",
+      "seed": 375101,
+      "color": "white",
+      "depth": 13.18,
+      "ms": 889.77,
+      "nodes": 1719464.37,
+      "plies": 132
+    },
+    {
+      "variant": "v16",
+      "seed": 375101,
+      "color": "black",
+      "depth": 13.98,
+      "ms": 865.26,
+      "nodes": 2331632.24,
+      "plies": 119
+    },
+    {
+      "variant": "v16",
+      "seed": 375102,
+      "color": "white",
+      "depth": 12.81,
+      "ms": 852.74,
+      "nodes": 1803063.7,
+      "plies": 112
+    },
+    {
+      "variant": "v16",
+      "seed": 375102,
+      "color": "black",
+      "depth": 13.87,
+      "ms": 871.04,
+      "nodes": 2064708.24,
+      "plies": 115
+    },
+    {
+      "variant": "v14",
+      "seed": 375102,
+      "color": "white",
+      "depth": 14.57,
+      "ms": 896.73,
+      "nodes": 2342027.33,
+      "plies": 148
+    },
+    {
+      "variant": "v14",
+      "seed": 375102,
+      "color": "black",
+      "depth": 17.65,
+      "ms": 1000.08,
+      "nodes": 2585481.85,
+      "plies": 71
+    },
+    {
+      "variant": "v14",
+      "seed": 375103,
+      "color": "white",
+      "depth": 11.65,
+      "ms": 857.72,
+      "nodes": 1326053.93,
+      "plies": 110
+    },
+    {
+      "variant": "v14",
+      "seed": 375103,
+      "color": "black",
+      "depth": 13.98,
+      "ms": 847.65,
+      "nodes": 1561041.39,
+      "plies": 109
+    },
+    {
+      "variant": "v16",
+      "seed": 375103,
+      "color": "white",
+      "depth": 13.8,
+      "ms": 908.68,
+      "nodes": 2051176.52,
+      "plies": 148
+    },
+    {
+      "variant": "v16",
+      "seed": 375103,
+      "color": "black",
+      "depth": 13.86,
+      "ms": 861.14,
+      "nodes": 1477079.65,
+      "plies": 107
+    },
+    {
+      "variant": "v16",
+      "seed": 375104,
+      "color": "white",
+      "depth": 11.59,
+      "ms": 850.14,
+      "nodes": 1137837.38,
+      "plies": 92
+    },
+    {
+      "variant": "v16",
+      "seed": 375104,
+      "color": "black",
+      "depth": 12.59,
+      "ms": 901.09,
+      "nodes": 1278853.95,
+      "plies": 131
+    }
+  ],
+  "limitations": "Per-game averages from different trajectories; not a causal speed comparison. Forced moves excluded. No weights changed."
+}

@@ -1,0 +1,26 @@
+{
+  "createdAt": "2026-11-07T12:39:10.939091+00:00",
+  "realGames": 0,
+  "weights": "manual-v2",
+  "comparisons": [
+    {
+      "order": "first",
+      "positions": 32,
+      "sameMovesScoresDepthNodes": true,
+      "interpretedCpuMs": 2796.875,
+      "interpretedWallMs": 4369.305,
+      "compiledCpuMs": 2546.875,
+      "compiledWallMs": 4318.1898
+    },
+    {
+      "order": "reverse",
+      "positions": 32,
+      "sameMovesScoresDepthNodes": true,
+      "interpretedCpuMs": 2875.0,
+      "interpretedWallMs": 4334.2013,
+      "compiledCpuMs": 2531.25,
+      "compiledWallMs": 4130.1359
+    }
+  ],
+  "limitation": "Synthetic fixed-depth probes with warmup and tiered compilation disabled; concurrent machine load; not playing strength."
+}

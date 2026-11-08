@@ -1,0 +1,34 @@
+[
+    {
+        "file":  "ametista-v3.json",
+        "Hash":  "832DE82282BD161399BB3AF19C8740EC4EC69B4628EF500E3AFCE4A81992DB12"
+    },
+    {
+        "file":  "ametista-v4.json",
+        "Hash":  "7E8EA1C6A7C897E5D3D5C42A43511A26AD0EBD32DB904FFF670BE488C7913138"
+    },
+    {
+        "file":  "Board.cs.txt",
+        "Hash":  "DBB54412D33A4713E14504015BC15BA41E0EB6EB8A296B34C6E328EB2254BDA2"
+    },
+    {
+        "file":  "InferenceCompiler.cs.txt",
+        "Hash":  "F706C929D31D48A1B9C42F0BCD538676473DAA14870B37249318A5A5663A5699"
+    },
+    {
+        "file":  "Network.cs.txt",
+        "Hash":  "8EA978619F4331BBEDB1ACB32F2F234D40567A00CF4F6328880BCF40D49C2805"
+    },
+    {
+        "file":  "Program.cs.txt",
+        "Hash":  "41FC684E8026965E633A0DFD99CE7DAC25A07B17062D8E7E6A432A690C953CA3"
+    },
+    {
+        "file":  "Search.cs.txt",
+        "Hash":  "04229220A3B48346EBF34440A2A9D92C21BE4DB54B800C00E147EC8BB527C342"
+    },
+    {
+        "file":  "Verification.cs.txt",
+        "Hash":  "9AFBFC0965EB690482C4963D85BA54905772B50E0C6C23E08D1B66DCA9B55965"
+    }
+]

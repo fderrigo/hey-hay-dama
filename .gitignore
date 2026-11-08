@@ -3,3 +3,34 @@ __pycache__/
 *.pyc
 .env
 .env.*
+**/bin/
+**/obj/
+**/App_Data/
+.vs/
+artifacts/
+TestResults/
+*.user
+
+# Materiale redazionale privato; non escludere chat, risultati o pesi sperimentali.
+/editoriale/
+/RESOCONTO_AGENTE-C.md
+/arena/RESOCONTO_KLINAMITE_COMPLETO.md
+/arena/discussione/resoconto_Agata.md
+/mkdir
+# Credenziali e output locali
+*.pfx
+*.p12
+*.key
+*.pem
+.idea/
+.DS_Store
+Thumbs.db
+
+# Lock di coordinamento locali; protocolli e chat sperimentali restano pubblici.
+*.lock
+
+# Protezione aggiuntiva per copie accidentali del dossier e delle chat redazionali.
+/DOSSIER_ARTICOLO*/
+/DOSSIER_ARTICOLO*.zip
+/DOSSIER_ARTICOLO*.zip.sha256
+/CHAT_REDAZIONALE*.md

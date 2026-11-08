@@ -1,0 +1,64 @@
+{
+  "complete": false,
+  "totals": {
+    "v14": {
+      "games": 8,
+      "wins": 0,
+      "draws": 1,
+      "losses": 7,
+      "points": 1,
+      "score": 0.0625
+    },
+    "v16": {
+      "games": 8,
+      "wins": 0,
+      "draws": 0,
+      "losses": 8,
+      "points": 0,
+      "score": 0.0
+    }
+  },
+  "pairedComparisons": [
+    {
+      "seed": 375101,
+      "v14": 0.0,
+      "v16": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 375102,
+      "v16": 0.0,
+      "v14": 0.25,
+      "candidateMinusBaseline": -0.25
+    },
+    {
+      "seed": 375103,
+      "v14": 0.0,
+      "v16": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 375104,
+      "v16": 0.0,
+      "v14": 0.0,
+      "candidateMinusBaseline": 0.0
+    }
+  ],
+  "pending": [
+    "arena/ametista/2026-11-07/search-comparison-v14-seed375105",
+    "arena/ametista/2026-11-07/search-comparison-v16-seed375105",
+    "arena/ametista/2026-11-07/search-comparison-v16-seed375106",
+    "arena/ametista/2026-11-07/search-comparison-v14-seed375106",
+    "arena/ametista/2026-11-07/search-comparison-v14-seed375107",
+    "arena/ametista/2026-11-07/search-comparison-v16-seed375107",
+    "arena/ametista/2026-11-07/search-comparison-v16-seed375108",
+    "arena/ametista/2026-11-07/search-comparison-v14-seed375108"
+  ],
+  "realGamesCreated": 0,
+  "automaticallySelectedVersion": null,
+  "limitations": [
+    "These opening pairs are development, not a confirmation of superiority.",
+    "All numbers are descriptive; no automatic model or weight selection.",
+    "Concurrent load and different hardware resources across agents remain relevant."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "frozenAt": "2026-11-07T17:41:03.525833+00:00",
+  "files": [
+    {
+      "path": "experiments\\Ametista.HumanSearch\\HumanOutcome.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\experiments\\Ametista.HumanSearch\\HumanOutcome.cs",
+      "sha256": "9fd606a6174ae79703da744803b71a5d093605772e3dc25870cbd2841e8e2dbd"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\HumanVerification.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\experiments\\Ametista.HumanSearch\\HumanVerification.cs",
+      "sha256": "4cad19c072024fa483506d61374e0f36d694ebb7b6722eec74f016fb082c33ea"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Network.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\experiments\\Ametista.HumanSearch\\Network.cs",
+      "sha256": "e41ae98b6193b4498fb628f2813b7f9794b7474c71ae3ff0a1dc1c8f3a304529"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Program.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\experiments\\Ametista.HumanSearch\\Program.cs",
+      "sha256": "37608108cabac207fc457d09ef80ca8843becdc8fa42ffa2a34f2fda88776296"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Search.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\experiments\\Ametista.HumanSearch\\Search.cs",
+      "sha256": "537ac24ebcfe0924f299782f2602166193ef504e8c67a5bbfd2e3886f1f47b26"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Verification.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\experiments\\Ametista.HumanSearch\\Verification.cs",
+      "sha256": "4483c4c3a1ea514434e8c7efc284c52490380b6583486f5ba604da3cd3eb7940"
+    },
+    {
+      "path": "experiments\\Ametista.HumanSearch\\Ametista.HumanSearch.csproj",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\experiments\\Ametista.HumanSearch\\Ametista.HumanSearch.csproj",
+      "sha256": "a971fcfe4dc6c0b8e04375a33399f9e30d2663b62003a866a6543ae365bf08b8"
+    },
+    {
+      "path": "models\\Ametista\\Board.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\models\\Ametista\\Board.cs",
+      "sha256": "dbb54412d33a4713e14504015bc15ba41e0eb6eb8a296b34c6e328eb2254bda2"
+    },
+    {
+      "path": "models\\Ametista\\InferenceCompiler.cs",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\models\\Ametista\\InferenceCompiler.cs",
+      "sha256": "f706c929d31d48a1b9c42f0bcd538676473daa14870b37249318a5a5663a5699"
+    },
+    {
+      "path": "models\\Ametista\\Models\\ametista-v4.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\models\\Ametista\\Models\\ametista-v4.json",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\human-data\\learned-v1\\model.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\arena\\ametista\\2026-11-07\\human-data\\learned-v1\\model.json",
+      "sha256": "caec486b6f36fd08b66b7e7d05ed015348198dcdd806df0a7bf24663404f64e2"
+    },
+    {
+      "path": "experiments\\ametista_human_linear.py",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\experiments\\ametista_human_linear.py",
+      "sha256": "ff72c824a704ced411a90d42fac8b617db988ae215a1c08a8891e741d541012c"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\human-data-plan.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\arena\\ametista\\2026-11-07\\human-data-plan.json",
+      "sha256": "c499bf3442b9866d4d6c2e426e11dd74c88eacdf4a74ee0bd23fade4a9beff00"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\human-play-plan.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\arena\\ametista\\2026-11-07\\human-play-plan.json",
+      "sha256": "4165b252fc3399424f2980f3d23f377398c762e154d47e99657ceab2b9972777"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\human-exploratory-v18.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\arena\\ametista\\2026-11-07\\human-exploratory-v18.json",
+      "sha256": "58a34227d3eb0ec36a7252487eb5113d396534567a7594eb545121a4b5c77c02"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\human-data\\manual-play-decision.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\arena\\ametista\\2026-11-07\\human-data\\manual-play-decision.json",
+      "sha256": "c34278a633906b0a1183bcf9d06aa9dfabe0918ea7729636374938bb82a7ad4f"
+    },
+    {
+      "path": "artifacts\\ametista-human-publish\\Ametista.HumanSearch.dll",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\artifacts\\ametista-human-publish\\Ametista.HumanSearch.dll",
+      "sha256": "1a0d34682bf458a2e17c4c887eb4cf75032e7c92ed186774e1f7b0b3ad8ad9a5"
+    },
+    {
+      "path": "artifacts\\ametista-human-publish\\Dama.Engine.dll",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\artifacts\\ametista-human-publish\\Dama.Engine.dll",
+      "sha256": "de344eb474f0b659f71311621837f49ccd3091c705a2645185114347c8d75e56"
+    },
+    {
+      "path": "artifacts\\ametista-human-publish\\Ametista.HumanSearch.deps.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\artifacts\\ametista-human-publish\\Ametista.HumanSearch.deps.json",
+      "sha256": "ef4f648ef50f3450d83f2cb05169080fb55af9317c5b047479576adc49f1bcf2"
+    },
+    {
+      "path": "artifacts\\ametista-human-publish\\Ametista.HumanSearch.runtimeconfig.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\artifacts\\ametista-human-publish\\Ametista.HumanSearch.runtimeconfig.json",
+      "sha256": "41442586a8262bc96a1c80f82f4d9384c03bfd465d221cbf01fb3563170f9e65"
+    },
+    {
+      "path": "artifacts\\ametista-human-publish\\Ametista.HumanSearch.staticwebassets.endpoints.json",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\artifacts\\ametista-human-publish\\Ametista.HumanSearch.staticwebassets.endpoints.json",
+      "sha256": "c1686417e8d5c31bba969f12b6f3d2b35e6609adb5ca42f212261a3a02771aac"
+    },
+    {
+      "path": "artifacts\\challenge-audit-v6\\bin\\Dama.Challenge\\release\\Dama.Challenge.dll",
+      "snapshot": "arena\\ametista\\2026-11-07\\frozen-human-v18\\artifacts\\challenge-audit-v6\\bin\\Dama.Challenge\\release\\Dama.Challenge.dll",
+      "sha256": "7c0f78522c34241ea4e2c290df7054b2092017e316906c7e36a002b3b3666567"
+    }
+  ],
+  "service": {
+    "at": "2026-11-07T17:41:01.8658684Z",
+    "affinity": 1,
+    "processId": 39388,
+    "commandLine": "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-human-publish/Ametista.HumanSearch.dll --urls http://127.0.0.1:9019 --human-weights C:/Users/filip/source/repos/weight-space-games/arena/ametista/2026-11-07/human-data/learned-v1/model.json --Logging:LogLevel:Default Warning",
+    "health": {
+      "status": "ok",
+      "model": "Ametista Human Outcome",
+      "version": "manual-v4+human-linear-v1",
+      "manualVersion": "manual-v4",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+      "manualSha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+      "humanSha256": "caec486b6f36fd08b66b7e7d05ed015348198dcdd806df0a7bf24663404f64e2",
+      "humanVersion": "ametista-human-linear-v1",
+      "humanContributionScale": 100,
+      "search": "search-v18-human-outcome",
+      "architecture": "original-v14-plus-human-outcome",
+      "threads": 1,
+      "compiledInference": true
+    },
+    "createdAt": "/Date(1794073216352)/"
+  },
+  "kingsrowHealth": {
+    "status": "ok",
+    "name": "Kingsrow Italian(x64) 1.19e",
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "rules": "italian-draughts-8x8"
+  },
+  "scale": 100,
+  "searchThreads": 1,
+  "source": "test",
+  "scheduledGames": 6,
+  "deadline": "2026-11-07T18:28:21+00:00",
+  "previousConfirmationsUnchanged": true
+}

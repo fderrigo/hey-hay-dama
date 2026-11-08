@@ -1,0 +1,20 @@
+{
+  "observedAt": "2026-11-07T17:53:12.649182+00:00",
+  "controlManifestStartedAt": "2026-11-07T17:51:18.3349111+00:00",
+  "activeDotnetPid": 39104,
+  "parentBashPid": 26864,
+  "observedCommand": "dotnet artifacts/challenge-audit-v6/bin/Dama.Challenge/release/Dama.Challenge.dll arena/ametista/2026-11-07/human-control-v14.json arena/ametista/2026-11-07/human-control-v14",
+  "ownership": "Not yet attributed; asked colleagues via chat and read-only reviewer.",
+  "duplicateAttempt": {
+    "result": "Refused: Do not overwrite an experiment",
+    "newGamesCreated": 0,
+    "existingOutputPreserved": true
+  },
+  "humanServicePostRun": {
+    "pid": 39388,
+    "port": 9019,
+    "state": "Already stopped before attempted post-run health; no log output",
+    "cause": "Awaiting attribution; do not infer."
+  },
+  "action": "Do not interrupt existing control or repeat matches; monitor its existing files and PID, then use its audit."
+}

@@ -1,0 +1,810 @@
+{
+  "createdAt": "2026-11-07T11:25:46.6913357+00:00",
+  "binary": "C:\\Users\\filip\\source\\repos\\weight-space-games\\artifacts\\ametista-v5\\bin\\Ametista\\release\\Ametista.dll",
+  "searchVersion": "search-v5",
+  "depth": 7,
+  "logicalProcessor": 6,
+  "realGames": 0,
+  "samples": [
+    {
+      "sample": 0,
+      "sourceMatch": "bdd5281c9b2c4c4894fec9a19947e009",
+      "ply": 16,
+      "position": {
+        "white": 3824680960,
+        "black": 124094,
+        "kings": 0,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 20,
+          "To": 17,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 564
+        },
+        "Score": -106,
+        "Depth": 7,
+        "Nodes": 2932,
+        "Milliseconds": 83,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 1,
+      "sourceMatch": "bdd5281c9b2c4c4894fec9a19947e009",
+      "ply": 32,
+      "position": {
+        "white": 2760573184,
+        "black": 6325478,
+        "kings": 0,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 17,
+          "To": 12,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 401
+        },
+        "Score": -388,
+        "Depth": 7,
+        "Nodes": 2237,
+        "Milliseconds": 8,
+        "Risk": 1
+      }
+    },
+    {
+      "sample": 2,
+      "sourceMatch": "bdd5281c9b2c4c4894fec9a19947e009",
+      "ply": 48,
+      "position": {
+        "white": 2147483905,
+        "black": 36002,
+        "kings": 2049,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 0,
+          "To": 4,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 128
+        },
+        "Score": -415,
+        "Depth": 7,
+        "Nodes": 1843,
+        "Milliseconds": 6,
+        "Risk": 1
+      }
+    },
+    {
+      "sample": 3,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 16,
+      "position": {
+        "white": 4120903680,
+        "black": 4277807,
+        "kings": 0,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 26,
+          "To": 19,
+          "Captures": 4194304,
+          "Promotes": false,
+          "Code": 632
+        },
+        "Score": -237,
+        "Depth": 0,
+        "Nodes": 0,
+        "Milliseconds": 0,
+        "Risk": 2
+      }
+    },
+    {
+      "sample": 4,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 32,
+      "position": {
+        "white": 568983552,
+        "black": 1074762,
+        "kings": 0,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 17,
+          "To": 12,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 401
+        },
+        "Score": -220,
+        "Depth": 7,
+        "Nodes": 2531,
+        "Milliseconds": 10,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 5,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 48,
+      "position": {
+        "white": 9470720,
+        "black": 671088714,
+        "kings": 536870912,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 9,
+          "To": 4,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 137
+        },
+        "Score": -195,
+        "Depth": 7,
+        "Nodes": 2927,
+        "Milliseconds": 9,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 6,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 64,
+      "position": {
+        "white": 33088,
+        "black": 1073741830,
+        "kings": 1073741892,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 6,
+          "To": 10,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 326
+        },
+        "Score": -156,
+        "Depth": 7,
+        "Nodes": 1996,
+        "Milliseconds": 6,
+        "Risk": 1
+      }
+    },
+    {
+      "sample": 7,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 80,
+      "position": {
+        "white": 2308,
+        "black": 270338,
+        "kings": 272388,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 2,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 162
+        },
+        "Score": -6,
+        "Depth": 7,
+        "Nodes": 3612,
+        "Milliseconds": 11,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 8,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 96,
+      "position": {
+        "white": 526592,
+        "black": 262178,
+        "kings": 788512,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 19,
+          "To": 14,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 467
+        },
+        "Score": -1,
+        "Depth": 7,
+        "Nodes": 3395,
+        "Milliseconds": 10,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 9,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 112,
+      "position": {
+        "white": 16672,
+        "black": 67117058,
+        "kings": 67133472,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 5,
+          "To": 2,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 69
+        },
+        "Score": -6,
+        "Depth": 7,
+        "Nodes": 4024,
+        "Milliseconds": 12,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 10,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 128,
+      "position": {
+        "white": 2308,
+        "black": 266242,
+        "kings": 268292,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 2,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 162
+        },
+        "Score": -6,
+        "Depth": 7,
+        "Nodes": 4284,
+        "Milliseconds": 15,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 11,
+      "sourceMatch": "a667e0214d6e4acc95b893ee5f512674",
+      "ply": 144,
+      "position": {
+        "white": 2308,
+        "black": 1310722,
+        "kings": 1312772,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 2,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 162
+        },
+        "Score": -6,
+        "Depth": 7,
+        "Nodes": 4478,
+        "Milliseconds": 15,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 12,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 16,
+      "position": {
+        "white": 3554164736,
+        "black": 2135294,
+        "kings": 0,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 25,
+          "To": 18,
+          "Captures": 2097152,
+          "Promotes": false,
+          "Code": 600
+        },
+        "Score": -106,
+        "Depth": 0,
+        "Nodes": 0,
+        "Milliseconds": 0,
+        "Risk": 1
+      }
+    },
+    {
+      "sample": 13,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 32,
+      "position": {
+        "white": 63979520,
+        "black": 102598,
+        "kings": 0,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 22,
+          "To": 18,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 598
+        },
+        "Score": -329,
+        "Depth": 7,
+        "Nodes": 3305,
+        "Milliseconds": 11,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 14,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 48,
+      "position": {
+        "white": 16778240,
+        "black": 33947792,
+        "kings": 0,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 10,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 170
+        },
+        "Score": -452,
+        "Depth": 7,
+        "Nodes": 1712,
+        "Milliseconds": 4,
+        "Risk": 3
+      }
+    },
+    {
+      "sample": 15,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 64,
+      "position": {
+        "white": 16778240,
+        "black": 34734464,
+        "kings": 34604032,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 10,
+          "To": 13,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 426
+        },
+        "Score": -671,
+        "Depth": 7,
+        "Nodes": 1589,
+        "Milliseconds": 4,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 16,
+      "sourceMatch": "e235e44dcf294f3d9be63fd62928c33e",
+      "ply": 80,
+      "position": {
+        "white": 16779264,
+        "black": 3227776,
+        "kings": 1067008,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 25,
+          "Captures": 2113536,
+          "Promotes": false,
+          "Code": 33555242
+        },
+        "Score": -606,
+        "Depth": 0,
+        "Nodes": 0,
+        "Milliseconds": 0,
+        "Risk": 4
+      }
+    },
+    {
+      "sample": 17,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 16,
+      "position": {
+        "white": 4178313216,
+        "black": 134543,
+        "kings": 0,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 27,
+          "To": 23,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 763
+        },
+        "Score": -122,
+        "Depth": 7,
+        "Nodes": 4634,
+        "Milliseconds": 17,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 18,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 32,
+      "position": {
+        "white": 629145604,
+        "black": 134234394,
+        "kings": 134217732,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 2,
+          "To": 5,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 162
+        },
+        "Score": -106,
+        "Depth": 7,
+        "Nodes": 8541,
+        "Milliseconds": 28,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 19,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 48,
+      "position": {
+        "white": 83935232,
+        "black": 1180200,
+        "kings": 1064960,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 15,
+          "To": 11,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 367
+        },
+        "Score": -117,
+        "Depth": 7,
+        "Nodes": 4656,
+        "Milliseconds": 14,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 20,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 64,
+      "position": {
+        "white": 16814080,
+        "black": 536887304,
+        "kings": 536891392,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 24,
+          "To": 20,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 664
+        },
+        "Score": -188,
+        "Depth": 7,
+        "Nodes": 4232,
+        "Milliseconds": 12,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 21,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 80,
+      "position": {
+        "white": 1088,
+        "black": 2162696,
+        "kings": 2163712,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 6,
+          "To": 2,
+          "Captures": 0,
+          "Promotes": true,
+          "Code": 70
+        },
+        "Score": -109,
+        "Depth": 7,
+        "Nodes": 2242,
+        "Milliseconds": 6,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 22,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 96,
+      "position": {
+        "white": 18432,
+        "black": 139272,
+        "kings": 157696,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 203
+        },
+        "Score": -112,
+        "Depth": 7,
+        "Nodes": 2995,
+        "Milliseconds": 7,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 23,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 112,
+      "position": {
+        "white": 1152,
+        "black": 37748744,
+        "kings": 37749888,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 7,
+          "To": 11,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 359
+        },
+        "Score": -112,
+        "Depth": 7,
+        "Nodes": 3150,
+        "Milliseconds": 8,
+        "Risk": 1
+      }
+    },
+    {
+      "sample": 24,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 128,
+      "position": {
+        "white": 18432,
+        "black": 67117064,
+        "kings": 67135488,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 203
+        },
+        "Score": -112,
+        "Depth": 7,
+        "Nodes": 3901,
+        "Milliseconds": 9,
+        "Risk": 1
+      }
+    },
+    {
+      "sample": 25,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 144,
+      "position": {
+        "white": 18432,
+        "black": 2105472,
+        "kings": 2123776,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 15,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 491
+        },
+        "Score": -112,
+        "Depth": 7,
+        "Nodes": 3316,
+        "Milliseconds": 7,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 26,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 160,
+      "position": {
+        "white": 134217792,
+        "black": 393344,
+        "kings": 134611008,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 27,
+          "To": 30,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 987
+        },
+        "Score": -118,
+        "Depth": 7,
+        "Nodes": 5947,
+        "Milliseconds": 21,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 27,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 176,
+      "position": {
+        "white": 8390656,
+        "black": 6291584,
+        "kings": 14682112,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 203
+        },
+        "Score": -127,
+        "Depth": 7,
+        "Nodes": 2744,
+        "Milliseconds": 7,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 28,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 192,
+      "position": {
+        "white": 8390656,
+        "black": 272629888,
+        "kings": 281020416,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 15,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 491
+        },
+        "Score": -102,
+        "Depth": 7,
+        "Nodes": 1801,
+        "Milliseconds": 16,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 29,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 208,
+      "position": {
+        "white": 526336,
+        "black": 2359296,
+        "kings": 2885632,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 19,
+          "To": 14,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 467
+        },
+        "Score": -5,
+        "Depth": 7,
+        "Nodes": 2225,
+        "Milliseconds": 8,
+        "Risk": 0
+      }
+    },
+    {
+      "sample": 30,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 224,
+      "position": {
+        "white": 3072,
+        "black": 139264,
+        "kings": 142336,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 11,
+          "To": 6,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 203
+        },
+        "Score": -5,
+        "Depth": 7,
+        "Nodes": 2134,
+        "Milliseconds": 6,
+        "Risk": 1
+      }
+    },
+    {
+      "sample": 31,
+      "sourceMatch": "bd03082ee91d40cab85e749d75a5a0db",
+      "ply": 240,
+      "position": {
+        "white": 16448,
+        "black": 139264,
+        "kings": 155712,
+        "turn": 1
+      },
+      "result": {
+        "Move": {
+          "From": 14,
+          "To": 10,
+          "Captures": 0,
+          "Promotes": false,
+          "Code": 334
+        },
+        "Score": -5,
+        "Depth": 7,
+        "Nodes": 3276,
+        "Milliseconds": 10,
+        "Risk": 0
+      }
+    }
+  ]
+}

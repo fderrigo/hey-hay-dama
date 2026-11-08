@@ -1,0 +1,36 @@
+{
+  "archivedAt": "2026-11-07T17:10:14.169303+00:00",
+  "files": [
+    {
+      "source": "artifacts\\challenge-audit-v6\\bin\\Dama.Challenge\\release\\Dama.Challenge.dll",
+      "file": "Dama.Challenge.dll",
+      "sha256": "7c0f78522c34241ea4e2c290df7054b2092017e316906c7e36a002b3b3666567",
+      "size": 61440
+    },
+    {
+      "source": "artifacts\\challenge-audit-v6\\bin\\Dama.Challenge\\release\\Dama.Competition.dll",
+      "file": "Dama.Competition.dll",
+      "sha256": "00ca640c7f23d0434f6ed3685447d7bc82f422b44f9ac8444b9b42ce4dd7e3b7",
+      "size": 25088
+    },
+    {
+      "source": "artifacts\\challenge-audit-v6\\bin\\Dama.Challenge\\release\\Dama.Engine.dll",
+      "file": "Dama.Engine.dll",
+      "sha256": "f127de301aa3386115b34402944e2b48144ccf1aac7a424113e26cd2a283eec5",
+      "size": 31232
+    },
+    {
+      "source": "artifacts\\challenge-audit-v6\\bin\\Dama.Challenge\\release\\Dama.Challenge.deps.json",
+      "file": "Dama.Challenge.deps.json",
+      "sha256": "2c6809ae4132ae44be3e88b94cd4d722a95e11de7db9f6c9ab42bfc6a3773e49",
+      "size": 1184
+    },
+    {
+      "source": "artifacts\\challenge-audit-v6\\bin\\Dama.Challenge\\release\\Dama.Challenge.runtimeconfig.json",
+      "file": "Dama.Challenge.runtimeconfig.json",
+      "sha256": "c230a317a54dd960bcbeb5f347f52e18dc665a26f7efda2159fced9a5ac7e097",
+      "size": 342
+    }
+  ],
+  "limitation": "Dependency hashes captured now, not proof of historical loaded dependencies. Exact runner source snapshot not found; current source postdates binary."
+}

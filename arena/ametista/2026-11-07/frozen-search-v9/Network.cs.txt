@@ -1,0 +1,157 @@
+using System.Numerics;
+using System.Text.Json;
+
+namespace Ametista;
+
+public sealed record Node(string Name,float Bias,int[] From,float[] Weights,float ValueWeight,float RiskWeight);
+public sealed record Weights(string Format,string Version,string Construction,int Inputs,Node[] Nodes);
+public readonly record struct Estimate(int Value,int Risk);
+
+// The game encoder computes relational input channels, never future positions.
+// Inference is only affine transforms, ReLU and two linear output heads.
+public sealed class Network
+{
+    public Weights Definition { get; }
+    public Network(Weights weights)
+    {
+        if(weights.Format!="ametista-relu/v1"||weights.Inputs!=24||weights.Nodes.Length is <1 or >128) throw new InvalidDataException("Invalid network.");
+        for(int n=0;n<weights.Nodes.Length;n++) {
+            var node=weights.Nodes[n];
+            if(node.From.Length!=node.Weights.Length||node.From.Any(x=>x<0||x>=24+n)
+                ||!float.IsFinite(node.Bias)||!float.IsFinite(node.ValueWeight)||!float.IsFinite(node.RiskWeight)||node.Weights.Any(x=>!float.IsFinite(x)))
+                throw new InvalidDataException("Non-feed-forward or invalid network.");
+        }
+        Definition=weights;
+    }
+    public static Network Load(string path)=>new(JsonSerializer.Deserialize<Weights>(File.ReadAllText(path),JsonOptions)!);
+    public static readonly JsonSerializerOptions JsonOptions=new(JsonSerializerDefaults.Web){WriteIndented=true};
+
+    public Estimate Evaluate(Board board,bool scalarEncoder=false)
+    {
+        Span<float> x=stackalloc float[152];
+        var a=scalarEncoder?EncodeScalar(board,board.Turn):Encode(board,board.Turn);
+        var b=scalarEncoder?EncodeScalar(board,-board.Turn):Encode(board,-board.Turn);
+        x[0]=a.Men-b.Men; x[1]=a.Kings-b.Kings; x[2]=a.Advance-b.Advance;
+        x[3]=a.Center-b.Center; x[4]=a.Mobility-b.Mobility; x[5]=a.Blocked-b.Blocked;
+        x[6]=a.Support-b.Support; x[7]=a.Isolated-b.Isolated; x[8]=a.Guard-b.Guard;
+        x[9]=a.Runner-b.Runner; x[10]=a.KingCenter-b.KingCenter; x[11]=a.Threatened-b.Threatened;
+        x[12]=a.Men+b.Men; x[13]=a.Kings+b.Kings; x[14]=a.Mobility; x[15]=b.Mobility;
+        x[16]=a.Threatened; x[17]=b.Threatened; x[18]=a.Men; x[19]=b.Men;
+        x[20]=a.Kings; x[21]=b.Kings; x[22]=a.Runner; x[23]=b.Runner;
+        float value=0, risk=0;
+        for(int n=0;n<Definition.Nodes.Length;n++) {
+            var node=Definition.Nodes[n]; float activation=node.Bias;
+            for(int j=0;j<node.From.Length;j++) activation+=x[node.From[j]]*node.Weights[j];
+            activation=Math.Max(0,activation); x[24+n]=activation;
+            value+=activation*node.ValueWeight; risk+=activation*node.RiskWeight;
+        }
+        return new((int)MathF.Round(value),(int)MathF.Round(risk));
+    }
+    private readonly record struct Features(int Men,int Kings,int Advance,int Center,int Mobility,int Blocked,int Support,int Isolated,int Guard,int Runner,int KingCenter,int Threatened);
+    private static bool Runner(Board board,int side,int square)
+    {
+        uint enemy=side==1?board.Black:board.White;
+        var cone=side==1?Geometry.WhiteCone[square]:Geometry.BlackCone[square];
+        var intercept=side==1?Geometry.WhiteIntercept[square]:Geometry.BlackIntercept[square];
+        return (enemy&cone)==0&&(enemy&board.Kings&intercept)==0;
+    }
+    private static Features Encode(Board board,int side)
+    {
+        uint own=side==1?board.White:board.Black, enemy=side==1?board.Black:board.White;
+        uint men=own&~board.Kings, kings=own&board.Kings, free=~board.Occupied;
+        uint a=own&Geometry.Shift(own,0),b=own&Geometry.Shift(own,1),c=own&Geometry.Shift(own,2),d=own&Geometry.Shift(own,3);
+        uint connected=a|b|c|d, doubled=(a&b)|(a&c)|(a&d)|(b&c)|(b&d)|(c&d);
+        int support=BitOperations.PopCount(connected)+BitOperations.PopCount(doubled), isolated=BitOperations.PopCount(own&~connected);
+        int mobility=0, threatened=0;uint mobile=0;
+        for(int direction=0;direction<4;direction++) {
+            uint movers=(side==1?direction<2:direction>=2)?own:kings;
+            mobility+=BitOperations.PopCount(Geometry.Shift(movers,direction)&free);
+            mobile |= movers&Geometry.Shift(free,direction^3);
+            uint vulnerable=Geometry.Shift(enemy&board.Kings,direction)&own;
+            if(side==1?direction>=2:direction<2) vulnerable |= Geometry.Shift(enemy&~board.Kings,direction)&men;
+            threatened+=BitOperations.PopCount(vulnerable&Geometry.Shift(free,direction^3));
+        }
+        int advance=0, center=0, runner=0, kingCenter=0;
+        uint pieces=men;
+        while(pieces!=0) {
+            int s=BitOperations.TrailingZeroCount(pieces);pieces &= pieces-1;
+            int row=s/4,col=row%2+2*(s%4),progress=side==1?7-row:row;
+            advance+=progress;if(row is >=2 and <=5&&col is >=2 and <=5)center++;
+            if(Runner(board,side,s))runner+=progress*progress;
+        }
+        pieces=kings;
+        while(pieces!=0) {
+            int s=BitOperations.TrailingZeroCount(pieces);pieces &= pieces-1;
+            int row=s/4,col=row%2+2*(s%4);
+            kingCenter+=7-(Math.Abs(2*row-7)+Math.Abs(2*col-7))/2;
+        }
+        int guard=BitOperations.PopCount(men&(side==1?0xf0000000u:0x0000000fu));
+        return new(BitOperations.PopCount(men),BitOperations.PopCount(kings),advance,center,mobility,BitOperations.PopCount(own&~mobile),support,isolated,guard,runner,kingCenter,threatened);
+    }
+    private static Features EncodeScalar(Board board,int side)
+    {
+        uint own=side==1?board.White:board.Black, enemy=side==1?board.Black:board.White;
+        uint men=own&~board.Kings, kings=own&board.Kings;
+        int advance=0, center=0, mobility=0, blocked=0, support=0, isolated=0, guard=0, runner=0, kingCenter=0, threatened=0;
+        uint pieces=own;
+        while(pieces!=0) {
+            int s=BitOperations.TrailingZeroCount(pieces); pieces &= pieces-1;
+            bool king=(kings&(1u<<s))!=0;
+            int row=s/4, col=row%2+2*(s%4), progress=side==1?7-row:row;
+            int localMobility=0;
+            for(int d=0;d<4;d++) {
+                int step=Geometry.Step[s,d];
+                if(step<0) continue;
+                if((king||(side==1?d<2:d>=2))&&(board.Occupied&(1u<<step))==0) localMobility++;
+                // Is this piece the middle of an opponent's immediate jump?
+                int other=Geometry.Step[s,d^3];
+                if(other>=0&&(board.Occupied&(1u<<other))==0&&(enemy&(1u<<step))!=0) {
+                    bool enemyKing=(board.Kings&(1u<<step))!=0;
+                    if(enemyKing||!king&&(side==1?d<2:d>=2)) threatened++;
+                }
+            }
+            mobility+=localMobility;
+            if(localMobility==0) blocked++;
+            int neighbors=BitOperations.PopCount(Geometry.Neighbors[s]&own);
+            if(neighbors==0) isolated++; else support+=Math.Min(neighbors,2);
+            if(king) kingCenter+=7-(Math.Abs(2*row-7)+Math.Abs(2*col-7))/2;
+            else {
+                advance+=progress;
+                if(row is >=2 and <=5&&col is >=2 and <=5) center++;
+                if(progress==0) guard++;
+                if(Runner(board,side,s)) runner+=progress*progress;
+            }
+        }
+        return new(BitOperations.PopCount(men),BitOperations.PopCount(kings),advance,center,mobility,blocked,support,isolated,guard,runner,kingCenter,threatened);
+    }
+
+    public static Weights ManualV1()
+    {
+        var nodes=new List<Node>();
+        void Signed(string name,int input,float weight) {
+            nodes.Add(new(name+"+",0,[input],[1],weight,0));
+            nodes.Add(new(name+"-",0,[input],[-1],-weight,0));
+        }
+        Signed("men",0,100); Signed("kings",1,265); Signed("advance",2,2);
+        Signed("center",3,5); Signed("mobility",4,3); Signed("blocked",5,-5);
+        Signed("support",6,2); Signed("isolated",7,-3); Signed("back-guard",8,3);
+        Signed("free-promotion-cone",9,1.5f); Signed("king-centrality",10,2); Signed("threatened",11,-8);
+        int phase=24+nodes.Count;
+        nodes.Add(new("many-men",-6,[12],[1],0,0));
+        nodes.Add(new("late-king-centrality+",0,[10,phase],[1,-64],3,0));
+        nodes.Add(new("late-king-centrality-",0,[10,phase],[-1,-64],-3,0));
+        nodes.Add(new("own-immobility",3,[14],[-1],-15,1));
+        nodes.Add(new("enemy-immobility",3,[15],[-1],15,1));
+        nodes.Add(new("contact-instability",0,[16,17],[1,1],0,1));
+        nodes.Add(new("mobility-imbalance+",-3,[14,15],[1,-1],0,1));
+        nodes.Add(new("mobility-imbalance-",-3,[14,15],[-1,1],0,1));
+        return new("ametista-relu/v1","manual-v1","Independent hand-written relational channels, ReLU phase gates, value and instability heads. No training, imported weights, external data or automatic tuning.",24,nodes.ToArray());
+    }
+    public static Weights ManualV2()
+    {
+        var original=ManualV1();
+        var nodes=original.Nodes.Select(n=>n.Name.StartsWith("free-promotion-cone",StringComparison.Ordinal)
+            ?n with {ValueWeight=n.ValueWeight>0?3:-3}:n).ToArray();
+        return original with {Version="manual-v2",Nodes=nodes,Construction="Manual revision: passed-man channel 3 instead of 1.5, with king interception geometry in the encoder. Motivated by promotion races in development games; no automated fitting or Kingsrow labels."};
+    }
+}

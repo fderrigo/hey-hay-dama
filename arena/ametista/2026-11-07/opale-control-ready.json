@@ -1,0 +1,50 @@
+{
+    "effectiveSearchMs":  1000,
+    "weightsSha256":  "3E25FD78DF09920A87F2B0C6CDCC53084C5DCFBF7747DD64363A314FE8DFC1E9",
+    "sourceFiles":  [
+                        {
+                            "file":  "Benchmark.cs",
+                            "Hash":  "4E96C12D0F3C5ED09AE02CE7769FAA00309EABAD476495A394E1EC47182D7D99"
+                        },
+                        {
+                            "file":  "ManualBuilder.cs",
+                            "Hash":  "DBF36221C4A77288C72CB942B872927F7A86FE5775C20BEC0D07E6D6FB4D2DCD"
+                        },
+                        {
+                            "file":  "Network.cs",
+                            "Hash":  "5ED923141053C65E77695C0CE1DA140CCB1F9330FA14CCC9128D2CC74947BAC5"
+                        },
+                        {
+                            "file":  "Opale.C.csproj",
+                            "Hash":  "925E85166E643CE9BE46276A2D11190A9AD1A91D8458BC8B3B18750617BF132D"
+                        },
+                        {
+                            "file":  "Program.cs",
+                            "Hash":  "81CC7D345371DB3B508FFEFD9A4E240BAEC04985A793B4409D662EB844572C4F"
+                        },
+                        {
+                            "file":  "Protocol.cs",
+                            "Hash":  "C4AB679B965DD5C9333EBB804262E14FB0DC485612316516BDBE95B1B6C7957C"
+                        },
+                        {
+                            "file":  "Verification.cs",
+                            "Hash":  "719DF64BDAD9446989D383CEBA3D69A228ACA69DD08D5CA810798A3DD0ED60FF"
+                        }
+                    ],
+    "realGamesCreated":  0,
+    "rejectionReason":  "Stale existing Release binary exited with old export-only message; zero games played. Rebuilt preserved current sources in separate artifacts path.",
+    "binarySha256":  "560C72B542A939769AC62E3EF39CFE9AD15708B8FCAA41F8299E2D756D002F8C",
+    "health":  {
+                   "status":  "ok",
+                   "model":  "Opale C manual v3",
+                   "protocolVersion":  "dama-model/v1",
+                   "units":  5648,
+                   "parameters":  39484
+               },
+    "logicalProcessor":  0,
+    "protocolReserveMs":  25,
+    "rejectedBinary":  "artifacts/ametista-opale-control/Opale.C.dll",
+    "createdAt":  "2026-11-07T13:02:45.4763528+00:00",
+    "processId":  31888,
+    "binaryPath":  "artifacts/ametista-opale-control-build/bin/Opale.C/release/Opale.C.dll"
+}

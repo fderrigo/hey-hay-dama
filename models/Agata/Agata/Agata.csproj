@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="Models\agata-v1.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Models\agata-v3.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Models\agata-v7.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Models\agata-v8.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Models\agata-v9.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

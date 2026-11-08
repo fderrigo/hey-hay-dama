@@ -1,0 +1,6 @@
+cb9a1e78ad31c08d04e6b086f00ebf3b20db0fdc5f25dc4286e36ea96e8fe7f6 *arena/kingsrow-challenge/diaspro/v4-stesso-seme/implementation/ManualWeights.cs
+ff309c40fb0abf8a1226bee9df869a96e90813e3ebbe52c25efe34a3da70056f *arena/kingsrow-challenge/diaspro/v4-stesso-seme/implementation/Network.cs
+4fbb03d1dd947687d488caab3df709bbd505161dbdb17eaf090403d452305939 *arena/kingsrow-challenge/diaspro/v4-stesso-seme/implementation/Policy.cs
+c905030c0b2cdb6ee48ed93a0a5b09c0dc653de5e550b4d0b1a9897ff4a3ad65 *arena/kingsrow-challenge/diaspro/v4-stesso-seme/implementation/PositionMemory.cs
+f63175abda8a9a38870302e983f195ba30661e3fa062ce7e4b6f8239b1ffd0a6 *arena/kingsrow-challenge/diaspro/v4-stesso-seme/implementation/Program.cs
+78a01d517abc01c20ff21a072c9b17436b32589b7bc6233433ccd7d8a9e85bf4 *arena/kingsrow-challenge/diaspro/v4-stesso-seme/implementation/Protocol.cs

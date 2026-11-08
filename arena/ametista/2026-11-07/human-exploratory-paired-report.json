@@ -1,0 +1,108 @@
+{
+  "createdAt": "2026-11-07T18:00:04Z",
+  "status": "complete",
+  "source": "test",
+  "candidate": {
+    "version": "search-v18-human-outcome",
+    "directory": "human-exploratory-v18",
+    "games": 6,
+    "wins": 1,
+    "draws": 1,
+    "losses": 4,
+    "interrupted": 0,
+    "plies": 712,
+    "points": 3,
+    "score": 0.25
+  },
+  "control": {
+    "version": "search-v14-manual-v4",
+    "directory": "human-control-v14",
+    "games": 6,
+    "wins": 1,
+    "draws": 3,
+    "losses": 2,
+    "interrupted": 0,
+    "plies": 668,
+    "points": 5,
+    "score": 0.4166666666666667
+  },
+  "candidateMinusControlScore": -0.1666666666666667,
+  "candidateMinusControlPercentagePoints": -16.66666666666667,
+  "openings": [
+    {
+      "seed": 570401,
+      "candidate": "0V/0P/2S",
+      "control": "0V/2P/0S",
+      "candidatePairScore": 0.0,
+      "controlPairScore": 0.5,
+      "candidateMinusControl": -0.5,
+      "candidateMatchIds": [
+        "fd94fe54c1794f7ab487ea28f84b7821",
+        "d91e22b1d2384b1988b2c73a37905abd"
+      ],
+      "controlMatchIds": [
+        "d841f0747d58470c9dd72b571e9be505",
+        "0d3a0554e7b445078cb0a8be7285c2e8"
+      ]
+    },
+    {
+      "seed": 570402,
+      "candidate": "1V/0P/1S",
+      "control": "0V/1P/1S",
+      "candidatePairScore": 0.5,
+      "controlPairScore": 0.25,
+      "candidateMinusControl": 0.25,
+      "candidateMatchIds": [
+        "fca3010e52074ddf9476fccf3f14ebcc",
+        "ca869f94319e418692263783280a571e"
+      ],
+      "controlMatchIds": [
+        "f534c8f16be547fdbbe1e0941b6febb3",
+        "e250174d7d69415aa3a59676fb012756"
+      ]
+    },
+    {
+      "seed": 570403,
+      "candidate": "0V/1P/1S",
+      "control": "1V/0P/1S",
+      "candidatePairScore": 0.25,
+      "controlPairScore": 0.5,
+      "candidateMinusControl": -0.25,
+      "candidateMatchIds": [
+        "132d6b256cb84665ac9bd508e7336908",
+        "21cc1e40865b4936931ca3396a6044ae"
+      ],
+      "controlMatchIds": [
+        "2a2826f9c90147ed84cc9c1f402e0d59",
+        "9d335786b04a46669fcb07633004ef9c"
+      ]
+    }
+  ],
+  "verification": {
+    "uniqueMatchIdsPerVersion": 6,
+    "completeColorPairsPerVersion": 3,
+    "allRecorded": true,
+    "allCompetitionRecordsFinished": true,
+    "legalReplay": true,
+    "fullSchedule": true,
+    "errors": 0,
+    "interruptions": 0,
+    "frozenFiles": 22,
+    "frozenPathsChecked": 44,
+    "frozenHashMismatches": 0
+  },
+  "statisticalInference": "Not calculated: the runner does not report paired intervals below 18 complete opening pairs.",
+  "decision": {
+    "improvementDemonstrated": false,
+    "candidatePromoted": false,
+    "mainCandidate": "search-v14-manual-v4",
+    "summary": "The exploratory paired result descriptively favors v14; it does not demonstrate a general causal effect."
+  },
+  "limitations": [
+    "The control extension was declared after the first two candidate losses and was not part of the initial plan.",
+    "Only three openings were used; this is not an independent preregistered confirmation.",
+    "The control followed the candidate in time, with potentially different runtime warming and shared load.",
+    "The offline temporal test was an eligibility filter, not an independent test of final engine selection.",
+    "No selective retries, automatic weight tuning or model promotion were performed."
+  ]
+}

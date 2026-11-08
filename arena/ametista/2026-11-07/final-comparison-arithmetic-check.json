@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "all-loss control versus all-win candidate: score difference +1, win rates 0 and 1, nonzero conservative interval",
+    "all draws: score difference zero, no improvement, conservative interval does not collapse",
+    "mismatched paired opening rejected before report"
+  ],
+  "realGamesCreated": 0,
+  "competitionStoreAccessed": false
+}

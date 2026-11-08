@@ -1,0 +1,449 @@
+{
+  "startedAt": "2026-11-07T17:38:22.505970+00:00",
+  "finishedAt": "2026-11-07T17:38:24.121329+00:00",
+  "elapsedSeconds": 1.6153603999409825,
+  "logicalProcessor": 0,
+  "threads": 1,
+  "planSha256": "c499bf3442b9866d4d6c2e426e11dd74c88eacdf4a74ee0bd23fade4a9beff00",
+  "inputSha256": "c0af0691f6557acd8a0d3e52f32f9e3fd7e944def23ab56eb8bc1eed523825c5",
+  "scriptSha256": "ff72c824a704ced411a90d42fac8b617db988ae215a1c08a8891e741d541012c",
+  "modelSha256": "caec486b6f36fd08b66b7e7d05ed015348198dcdd806df0a7bf24663404f64e2",
+  "initialWeights": "all zero",
+  "constantFromTraining": 0.002655443329289773,
+  "metrics": {
+    "train": {
+      "positions": 9078,
+      "games": 149,
+      "excludedOverlap": 0,
+      "mse": 0.42141931682002576,
+      "constantMse": 0.429523149963008
+    },
+    "validation": {
+      "positions": 1724,
+      "games": 36,
+      "excludedOverlap": 446,
+      "mse": 0.33159054591254516,
+      "constantMse": 0.3332986973274802
+    },
+    "test": {
+      "positions": 8808,
+      "games": 147,
+      "excludedOverlap": 875,
+      "mse": 0.4390621221061818,
+      "constantMse": 0.4421629397742329
+    }
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "objectiveBeforeUpdate": 0.4295302013422822
+    },
+    {
+      "epoch": 1,
+      "objectiveBeforeUpdate": 0.4294344998876256
+    },
+    {
+      "epoch": 2,
+      "objectiveBeforeUpdate": 0.4293401475432589
+    },
+    {
+      "epoch": 3,
+      "objectiveBeforeUpdate": 0.4292466747494101
+    },
+    {
+      "epoch": 4,
+      "objectiveBeforeUpdate": 0.42915382097565313
+    },
+    {
+      "epoch": 5,
+      "objectiveBeforeUpdate": 0.42906144143861924
+    },
+    {
+      "epoch": 6,
+      "objectiveBeforeUpdate": 0.4289694554453365
+    },
+    {
+      "epoch": 7,
+      "objectiveBeforeUpdate": 0.42887781778963735
+    },
+    {
+      "epoch": 8,
+      "objectiveBeforeUpdate": 0.42878650291468096
+    },
+    {
+      "epoch": 9,
+      "objectiveBeforeUpdate": 0.42869549614446834
+    },
+    {
+      "epoch": 10,
+      "objectiveBeforeUpdate": 0.4286047888294127
+    },
+    {
+      "epoch": 11,
+      "objectiveBeforeUpdate": 0.4285143756589618
+    },
+    {
+      "epoch": 12,
+      "objectiveBeforeUpdate": 0.42842425317395494
+    },
+    {
+      "epoch": 13,
+      "objectiveBeforeUpdate": 0.4283344189431452
+    },
+    {
+      "epoch": 14,
+      "objectiveBeforeUpdate": 0.42824487110737236
+    },
+    {
+      "epoch": 15,
+      "objectiveBeforeUpdate": 0.4281556081272431
+    },
+    {
+      "epoch": 16,
+      "objectiveBeforeUpdate": 0.42806662864344985
+    },
+    {
+      "epoch": 17,
+      "objectiveBeforeUpdate": 0.42797793139943296
+    },
+    {
+      "epoch": 18,
+      "objectiveBeforeUpdate": 0.427889515198543
+    },
+    {
+      "epoch": 19,
+      "objectiveBeforeUpdate": 0.42780137888030045
+    },
+    {
+      "epoch": 20,
+      "objectiveBeforeUpdate": 0.42771352130721946
+    },
+    {
+      "epoch": 21,
+      "objectiveBeforeUpdate": 0.42762594135748094
+    },
+    {
+      "epoch": 22,
+      "objectiveBeforeUpdate": 0.427538637920842
+    },
+    {
+      "epoch": 23,
+      "objectiveBeforeUpdate": 0.4274516098963358
+    },
+    {
+      "epoch": 24,
+      "objectiveBeforeUpdate": 0.42736485619096437
+    },
+    {
+      "epoch": 25,
+      "objectiveBeforeUpdate": 0.42727837571894073
+    },
+    {
+      "epoch": 26,
+      "objectiveBeforeUpdate": 0.4271921674012347
+    },
+    {
+      "epoch": 27,
+      "objectiveBeforeUpdate": 0.4271062301652895
+    },
+    {
+      "epoch": 28,
+      "objectiveBeforeUpdate": 0.4270205629448316
+    },
+    {
+      "epoch": 29,
+      "objectiveBeforeUpdate": 0.4269351646797335
+    },
+    {
+      "epoch": 30,
+      "objectiveBeforeUpdate": 0.426850034315907
+    },
+    {
+      "epoch": 31,
+      "objectiveBeforeUpdate": 0.42676517080521403
+    },
+    {
+      "epoch": 32,
+      "objectiveBeforeUpdate": 0.42668057310538593
+    },
+    {
+      "epoch": 33,
+      "objectiveBeforeUpdate": 0.4265962401799509
+    },
+    {
+      "epoch": 34,
+      "objectiveBeforeUpdate": 0.42651217099816324
+    },
+    {
+      "epoch": 35,
+      "objectiveBeforeUpdate": 0.42642836453494004
+    },
+    {
+      "epoch": 36,
+      "objectiveBeforeUpdate": 0.4263448197707933
+    },
+    {
+      "epoch": 37,
+      "objectiveBeforeUpdate": 0.4262615356917696
+    },
+    {
+      "epoch": 38,
+      "objectiveBeforeUpdate": 0.42617851128938805
+    },
+    {
+      "epoch": 39,
+      "objectiveBeforeUpdate": 0.4260957455605813
+    },
+    {
+      "epoch": 40,
+      "objectiveBeforeUpdate": 0.4260132375076367
+    },
+    {
+      "epoch": 41,
+      "objectiveBeforeUpdate": 0.42593098613813984
+    },
+    {
+      "epoch": 42,
+      "objectiveBeforeUpdate": 0.42584899046491786
+    },
+    {
+      "epoch": 43,
+      "objectiveBeforeUpdate": 0.42576724950598527
+    },
+    {
+      "epoch": 44,
+      "objectiveBeforeUpdate": 0.42568576228449023
+    },
+    {
+      "epoch": 45,
+      "objectiveBeforeUpdate": 0.42560452782866154
+    },
+    {
+      "epoch": 46,
+      "objectiveBeforeUpdate": 0.42552354517175683
+    },
+    {
+      "epoch": 47,
+      "objectiveBeforeUpdate": 0.42544281335201384
+    },
+    {
+      "epoch": 48,
+      "objectiveBeforeUpdate": 0.4253623314125984
+    },
+    {
+      "epoch": 49,
+      "objectiveBeforeUpdate": 0.42528209840155773
+    },
+    {
+      "epoch": 50,
+      "objectiveBeforeUpdate": 0.42520211337177194
+    },
+    {
+      "epoch": 51,
+      "objectiveBeforeUpdate": 0.42512237538090797
+    },
+    {
+      "epoch": 52,
+      "objectiveBeforeUpdate": 0.4250428834913732
+    },
+    {
+      "epoch": 53,
+      "objectiveBeforeUpdate": 0.42496363677027077
+    },
+    {
+      "epoch": 54,
+      "objectiveBeforeUpdate": 0.4248846342893557
+    },
+    {
+      "epoch": 55,
+      "objectiveBeforeUpdate": 0.4248058751249919
+    },
+    {
+      "epoch": 56,
+      "objectiveBeforeUpdate": 0.4247273583581088
+    },
+    {
+      "epoch": 57,
+      "objectiveBeforeUpdate": 0.4246490830741612
+    },
+    {
+      "epoch": 58,
+      "objectiveBeforeUpdate": 0.4245710483630874
+    },
+    {
+      "epoch": 59,
+      "objectiveBeforeUpdate": 0.42449325331926996
+    },
+    {
+      "epoch": 60,
+      "objectiveBeforeUpdate": 0.42441569704149457
+    },
+    {
+      "epoch": 61,
+      "objectiveBeforeUpdate": 0.4243383786329144
+    },
+    {
+      "epoch": 62,
+      "objectiveBeforeUpdate": 0.4242612972010103
+    },
+    {
+      "epoch": 63,
+      "objectiveBeforeUpdate": 0.424184451857553
+    },
+    {
+      "epoch": 64,
+      "objectiveBeforeUpdate": 0.4241078417185688
+    },
+    {
+      "epoch": 65,
+      "objectiveBeforeUpdate": 0.4240314659043014
+    },
+    {
+      "epoch": 66,
+      "objectiveBeforeUpdate": 0.42395532353917864
+    },
+    {
+      "epoch": 67,
+      "objectiveBeforeUpdate": 0.4238794137517761
+    },
+    {
+      "epoch": 68,
+      "objectiveBeforeUpdate": 0.4238037356747853
+    },
+    {
+      "epoch": 69,
+      "objectiveBeforeUpdate": 0.4237282884449772
+    },
+    {
+      "epoch": 70,
+      "objectiveBeforeUpdate": 0.42365307120317247
+    },
+    {
+      "epoch": 71,
+      "objectiveBeforeUpdate": 0.4235780830942076
+    },
+    {
+      "epoch": 72,
+      "objectiveBeforeUpdate": 0.4235033232669031
+    },
+    {
+      "epoch": 73,
+      "objectiveBeforeUpdate": 0.4234287908740335
+    },
+    {
+      "epoch": 74,
+      "objectiveBeforeUpdate": 0.42335448507229506
+    },
+    {
+      "epoch": 75,
+      "objectiveBeforeUpdate": 0.4232804050222773
+    },
+    {
+      "epoch": 76,
+      "objectiveBeforeUpdate": 0.42320654988843215
+    },
+    {
+      "epoch": 77,
+      "objectiveBeforeUpdate": 0.423132918839045
+    },
+    {
+      "epoch": 78,
+      "objectiveBeforeUpdate": 0.42305951104620676
+    },
+    {
+      "epoch": 79,
+      "objectiveBeforeUpdate": 0.42298632568578476
+    },
+    {
+      "epoch": 80,
+      "objectiveBeforeUpdate": 0.4229133619373957
+    },
+    {
+      "epoch": 81,
+      "objectiveBeforeUpdate": 0.4228406189843776
+    },
+    {
+      "epoch": 82,
+      "objectiveBeforeUpdate": 0.422768096013764
+    },
+    {
+      "epoch": 83,
+      "objectiveBeforeUpdate": 0.42269579221625597
+    },
+    {
+      "epoch": 84,
+      "objectiveBeforeUpdate": 0.42262370678619754
+    },
+    {
+      "epoch": 85,
+      "objectiveBeforeUpdate": 0.42255183892154924
+    },
+    {
+      "epoch": 86,
+      "objectiveBeforeUpdate": 0.4224801878238633
+    },
+    {
+      "epoch": 87,
+      "objectiveBeforeUpdate": 0.4224087526982581
+    },
+    {
+      "epoch": 88,
+      "objectiveBeforeUpdate": 0.4223375327533945
+    },
+    {
+      "epoch": 89,
+      "objectiveBeforeUpdate": 0.4222665272014513
+    },
+    {
+      "epoch": 90,
+      "objectiveBeforeUpdate": 0.42219573525810117
+    },
+    {
+      "epoch": 91,
+      "objectiveBeforeUpdate": 0.4221251561424881
+    },
+    {
+      "epoch": 92,
+      "objectiveBeforeUpdate": 0.4220547890772034
+    },
+    {
+      "epoch": 93,
+      "objectiveBeforeUpdate": 0.42198463328826324
+    },
+    {
+      "epoch": 94,
+      "objectiveBeforeUpdate": 0.42191468800508647
+    },
+    {
+      "epoch": 95,
+      "objectiveBeforeUpdate": 0.42184495246047266
+    },
+    {
+      "epoch": 96,
+      "objectiveBeforeUpdate": 0.4217754258905795
+    },
+    {
+      "epoch": 97,
+      "objectiveBeforeUpdate": 0.42170610753490195
+    },
+    {
+      "epoch": 98,
+      "objectiveBeforeUpdate": 0.4216369966362512
+    },
+    {
+      "epoch": 99,
+      "objectiveBeforeUpdate": 0.42156809244073334
+    }
+  ],
+  "verification": {
+    "maxGradientError": 4.6498360717350806e-11,
+    "perspectiveEquivalent": true,
+    "syntheticInitialLoss": 1.0,
+    "syntheticFinalLoss": 0.0072525535104272666,
+    "realGames": 0
+  },
+  "realGames": 0,
+  "promoted": false,
+  "playingStrengthMeasured": false,
+  "limitation": "Offline temporal holdout only. Published human outcomes; overlapping encoded positions, including color-swapped rotated equivalents, excluded. No source PDN or exported positions redistributed."
+}

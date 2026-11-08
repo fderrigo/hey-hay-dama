@@ -1,0 +1,441 @@
+{
+  "frozenAt": "2026-11-07T16:37:53.885203+00:00",
+  "files": [
+    {
+      "path": "models\\Ametista\\Board.cs",
+      "sha256": "dbb54412d33a4713e14504015bc15ba41e0eb6eb8a296b34c6e328eb2254bda2"
+    },
+    {
+      "path": "models\\Ametista\\InferenceCompiler.cs",
+      "sha256": "f706c929d31d48a1b9c42f0bcd538676473daa14870b37249318a5a5663a5699"
+    },
+    {
+      "path": "models\\Ametista\\Network.cs",
+      "sha256": "8ea978619f4331bbedb1acb32f2f234d40567a00cf4f6328880bcf40d49c2805"
+    },
+    {
+      "path": "models\\Ametista\\Program.cs",
+      "sha256": "f26856b3c39313ba1dc7d8629f18b86bdb28ffc9a2cce49cd59bb300f3a0f7bd"
+    },
+    {
+      "path": "models\\Ametista\\Search.cs",
+      "sha256": "04229220a3b48346ebf34440a2a9d92c21be4db54b800c00e147ec8bb527c342"
+    },
+    {
+      "path": "models\\Ametista\\Verification.cs",
+      "sha256": "9afbfc0965eb690482c4963d85ba54905772b50e0c6c23e08d1b66dca9b55965"
+    },
+    {
+      "path": "models\\Ametista\\Ametista.csproj",
+      "sha256": "e54297b313a5cea2ff69c3904461dd164402a26d0c9d622c166794fa4525b91e"
+    },
+    {
+      "path": "models\\Ametista\\Models\\ametista-v1.json",
+      "sha256": "8e4c50adb407cd19700e9f27bb2d55d81c69b6212cf3bf182263ecd5d3482606"
+    },
+    {
+      "path": "models\\Ametista\\Models\\ametista-v2.json",
+      "sha256": "82d6ac2189285598adfba70123d0a28643a7b2942e53751c779f1c3ded911ae4"
+    },
+    {
+      "path": "models\\Ametista\\Models\\ametista-v3.json",
+      "sha256": "832de82282bd161399bb3af19c8740ec4ec69b4628ef500e3afce4a81992db12"
+    },
+    {
+      "path": "models\\Ametista\\Models\\ametista-v4.json",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138"
+    },
+    {
+      "path": "artifacts\\ametista-final-publish\\Ametista.deps.json",
+      "sha256": "8c6b03f1b93ca82d1507092425108620493f4a43d63d752d22e9ff59908128e9"
+    },
+    {
+      "path": "artifacts\\ametista-final-publish\\Ametista.dll",
+      "sha256": "8a9c454e0d42bbfafd72adfdbb00ff491a6f8906b88e54230aee9e68099473cd"
+    },
+    {
+      "path": "artifacts\\ametista-final-publish\\Ametista.runtimeconfig.json",
+      "sha256": "41442586a8262bc96a1c80f82f4d9384c03bfd465d221cbf01fb3563170f9e65"
+    },
+    {
+      "path": "artifacts\\ametista-final-publish\\Ametista.staticwebassets.endpoints.json",
+      "sha256": "c1686417e8d5c31bba969f12b6f3d2b35e6609adb5ca42f212261a3a02771aac"
+    },
+    {
+      "path": "artifacts\\ametista-final-publish\\Dama.Engine.dll",
+      "sha256": "0f2c2a30e36a2eb4a0a2eb243e57317d40b49d0f9620c2460a30bc37fe86b3b2"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\confirmation-opale-config.json",
+      "sha256": "b5d5515dc4ed3b7b715a4f7ffc0e01a4d23d93b5b02e3304278f3b73acb52c4e"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\confirmation-ametista-config.json",
+      "sha256": "af01e5738215baca84878fb4e95f85028a52da24173988d69aa7e6bf59145988"
+    },
+    {
+      "path": "artifacts\\challenge-audit-v6\\bin\\Dama.Challenge\\release\\Dama.Challenge.dll",
+      "sha256": "7c0f78522c34241ea4e2c290df7054b2092017e316906c7e36a002b3b3666567"
+    },
+    {
+      "path": "experiments\\Ametista.ContactSearch\\Program.cs",
+      "sha256": "c3eb7386906387ee1cc244896febd2b7ff048aa399abfcff01e71e291f94c2da"
+    },
+    {
+      "path": "experiments\\Ametista.ContactSearch\\Search.cs",
+      "sha256": "d4150cd86b0906ee2aad52269b03678b671a24d3f5d9397c5b15713224d2a2ee"
+    },
+    {
+      "path": "experiments\\Ametista.ContactSearch\\Verification.cs",
+      "sha256": "286e183e9b886096a434fda9862ad964e5a8091b36dee64c3e768a1ded0e2927"
+    },
+    {
+      "path": "experiments\\Ametista.ContactSearch\\Ametista.ContactSearch.csproj",
+      "sha256": "0648b9f505c4d8278577c77a63f58192850fb1882a1acc62bb15b8d965f26e11"
+    },
+    {
+      "path": "models\\Ametista\\Board.cs",
+      "sha256": "dbb54412d33a4713e14504015bc15ba41e0eb6eb8a296b34c6e328eb2254bda2"
+    },
+    {
+      "path": "models\\Ametista\\Network.cs",
+      "sha256": "8ea978619f4331bbedb1acb32f2f234d40567a00cf4f6328880bcf40d49c2805"
+    },
+    {
+      "path": "models\\Ametista\\InferenceCompiler.cs",
+      "sha256": "f706c929d31d48a1b9c42f0bcd538676473daa14870b37249318a5a5663a5699"
+    },
+    {
+      "path": "models\\Ametista\\Models\\ametista-v4.json",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138"
+    },
+    {
+      "path": "artifacts\\ametista-contact-publish-telemetry\\Ametista.ContactSearch.dll",
+      "sha256": "a681afb05f782d0aa918030060bbbbb80a9675b89aa33c83877d6ed3befe4a76"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570201.json",
+      "sha256": "0ae12d048c8053fbd848184049d8ed1b5054735d3928d2d2d90780576686573d"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570201.json",
+      "sha256": "a242dc8444fc0543cf6564a96d3d8d302ebf89a9e63c546637742b31d9d3421e"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570202.json",
+      "sha256": "f68e50a94d829c75b8d6b16975814be0d8d70b60a3b70ca833f79e487ba55a37"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570202.json",
+      "sha256": "e1bb41abacc18bbecaecfaff616506c1a75d1b7d43c74c69774eeffe6a55e0f1"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570203.json",
+      "sha256": "a49a1ee8baa6c5340ecdc2ea1b1fcb1c3e28747dda9298b27c2a8ecf4a1f87c1"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570203.json",
+      "sha256": "c53bcc9f2222c921a298abb39a45bd2b4f34f1902aaea029ee5cba105094dc82"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v17-seed570204.json",
+      "sha256": "42c290b11dfe453b6af5fb2bb43daef846cbfa967b9706b16e96d7e27f832dcd"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-comparison-v14-seed570204.json",
+      "sha256": "7854ee094f86147f15b6796fd65428ba4af16b132217142b6a5377c73fdead6c"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-selection.json",
+      "sha256": "da311c8c181e3f28bac55447274274109edd90165ceb6e4b1c9f80872c6e79cc"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-protocol.md",
+      "sha256": "996ad7d29a693db7c095203401fbacd0761f8b070ae93cd044fc2365a9760d6c"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-services.json",
+      "sha256": "4516d22a5e642878cf5573f8dd45855275eade9e5393c0234206b2f2382d294c"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\contact-manual-selection.json",
+      "sha256": "a712eea26cf59dab01fcfa91c891c4677c3fa6c6822777b2df63f266b25858e0"
+    },
+    {
+      "path": "experiments\\ametista_supplemental_confirmation_report.py",
+      "sha256": "e13e1c95095542cb9e9392c4693f51703b12ece8c0c97791cee7415548c9fdcd"
+    },
+    {
+      "path": "artifacts\\kingsrow-build\\bin\\Kingsrow\\release\\Kingsrow.dll",
+      "sha256": "5a73e2a6cb8513878cae99fff1c3b4a0c404b7b28b28698204ebda4ab39a16c1"
+    },
+    {
+      "path": "artifacts\\kingsrow\\runtime\\app\\engines\\kr_italian64.dll",
+      "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570301.json",
+      "sha256": "731f656b26dfc2e58e6b91c8808e10025b3c6147cddc43b764c0ddda50b0e650"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570301.json",
+      "sha256": "da68582edb90af2d8c1f72708c00e6645e337769bec78fb937b23977ce63bed6"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570302.json",
+      "sha256": "365fff7086fd42075d68f495abc05fc5c55af455e5562c2c4f7be1ef46dc456c"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570302.json",
+      "sha256": "857676048f4a339e697c404df1e2c219a2f177c2c77bd2221b0f0ea8b922118a"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570303.json",
+      "sha256": "64d3e151d33c3dd3a7c3953dca16a601be742e04fc3f446d3d489948a9dfdd25"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570303.json",
+      "sha256": "f80c304b71a80f7646e4ee5598484e3e90b757194b2d91b0f3b72580005dfd6a"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570304.json",
+      "sha256": "119be0ba3103bef343963de8d442b8abb55ef946df1ab5485c2b114c4be06845"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570304.json",
+      "sha256": "61995d259e01f6f91769e08c5318c80b6640eff9023703ed0942353557c52c2d"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570305.json",
+      "sha256": "2017f7bff540774495d11fc46a8c1c183ade57cefc783ba7234bdc9ce3ba6258"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570305.json",
+      "sha256": "c5a21476a025e72797344c1059cfca0e2a104cd50d8415bc8d62a1344a121f4e"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570306.json",
+      "sha256": "047b6bf90a4ed0ea24deebd14c810cc12054ed45edcc12ff26ba04617a94595a"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570306.json",
+      "sha256": "7b4bdac6196bf61a0b26d6aa098b6a754c7d66ec23988407f43b4b2f2ff77f5c"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570307.json",
+      "sha256": "21da6c854168a3aa88fa150312aa103f5f13ac4002045ac337bf180bafb1308e"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570307.json",
+      "sha256": "62b846e42add9db711ce6bdb1810b13bd93141030f7719d42bdcbf623d7b90c7"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570308.json",
+      "sha256": "877a52b88e501176d465dc703a69b4d9f2420b499fcfa654528d8cc00bec275f"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570308.json",
+      "sha256": "6f610953b3a183190c560e86a3a58a54e54aa50be5ad727b8249d22cc40cb6c5"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570309.json",
+      "sha256": "a1a5caa50c4c38fc7f352656f22077d1631eb886406ae5cd36bda70659d54ffe"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570309.json",
+      "sha256": "e93382f579c88e7a8614e673e9ad9413f5c6dbb1bd0e3e6191c632b7945b5506"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570310.json",
+      "sha256": "fc4311c33629a8b1b1fe4c7a8b0eb805480e3f59deffce995784859f02f08a04"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570310.json",
+      "sha256": "f469e1b0cea49cab438942ad779b4d7ff59942edf3fdbbf44dd18cfa273ced8e"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570311.json",
+      "sha256": "7f359ad46e56bb8983543ecab96842bef2437e4983d7c97a449b37432fc3195d"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570311.json",
+      "sha256": "36f15690b258bd7687c77473c69d0a522fe2d26499ded27135debc38445a1912"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570312.json",
+      "sha256": "b7bfe79ee128cab91cb45cce182ed06c28d90ad8aa03f0a69b6cf72d7dcb051f"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570312.json",
+      "sha256": "e523b8dd7918db0e63f2dd4178a6dee2cb6de8cd878bfe2e3edf19ef6379d218"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570313.json",
+      "sha256": "19980d8605da95304ee5500a31019de9a8df40dd5463caa5f8f82f72797ffc92"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570313.json",
+      "sha256": "ffdf155abf3adbab0c183f46532442f2b2ac49fe1e41962bb64ff8761d8fbf10"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570314.json",
+      "sha256": "28445f933d50a30ba66aee48f34ef83a083d85e42f717d96f941fa5138c700e9"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570314.json",
+      "sha256": "6f73814a21c054b7dba5b394765f0554ae733be69c09a08c5e4a6a0b80a404e3"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570315.json",
+      "sha256": "b7f8ade3959edec22bce8229db3e22d0210768b9fc8a2a5d35de262d0e35316c"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570315.json",
+      "sha256": "85bcc775953092566c36144ea19c1750fb2112543fc43d8e5b45e82961255e3f"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570316.json",
+      "sha256": "ad56123749f72060514fe29755e945767b9ef8330aa016964037b5c09135d527"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570316.json",
+      "sha256": "c5fe4e6791ca88ee893cfee9d4f653a53a6d57095147a9bac35dcfd55fc22a31"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570317.json",
+      "sha256": "5f7b1fc99b78f5c8f2d1ee5e88991cb19bf27a04fffe34284be61eb8c7eb7c65"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570317.json",
+      "sha256": "56769927be2fa045c79841fb0d0c7a2d30fbb71b4e5d4b11596a6aad54aeea18"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570318.json",
+      "sha256": "08402bca321a08d511f5cec098ea60b11b8687a7ebd7a95c1e4908c9a4dd7725"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570318.json",
+      "sha256": "b428c1a43a360b0c318af1d1157955e64550202e58ca84f2ab8a101eba30cda6"
+    }
+  ],
+  "health": {
+    "9015": {
+      "status": "ok",
+      "name": "Kingsrow Italian(x64) 1.19e",
+      "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+      "rules": "italian-draughts-8x8"
+    },
+    "9016": {
+      "status": "ok",
+      "model": "Ametista",
+      "version": "manual-v4",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+      "search": "search-v14",
+      "architecture": "original-risk-aware-pvs",
+      "threads": 1,
+      "compiledInference": true
+    },
+    "9018": {
+      "status": "ok",
+      "model": "Ametista",
+      "version": "manual-v4",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+      "search": "search-v17-contactguard",
+      "architecture": "original-risk-aware-pvs",
+      "threads": 1,
+      "compiledInference": true
+    },
+    "9041": {
+      "status": "ok",
+      "name": "Kingsrow Italian(x64)[2] 1.19e",
+      "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+      "rules": "italian-draughts-8x8"
+    },
+    "9042": {
+      "status": "ok",
+      "model": "Ametista",
+      "version": "manual-v4",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+      "search": "search-v14",
+      "architecture": "original-risk-aware-pvs",
+      "threads": 1,
+      "compiledInference": true
+    },
+    "9043": {
+      "status": "ok",
+      "model": "Ametista",
+      "version": "manual-v4",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+      "search": "search-v17-contactguard",
+      "architecture": "original-risk-aware-pvs",
+      "threads": 1,
+      "compiledInference": true
+    }
+  },
+  "services": [
+    {
+      "port": 9015,
+      "logicalProcessor": 0,
+      "processId": 36652,
+      "command": "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/kingsrow-build/bin/Kingsrow/release/Kingsrow.dll --urls http://127.0.0.1:9015 --Kingsrow:Dll C:/Users/filip/source/repos/weight-space-games/artifacts/kingsrow/runtime/app/engines/kr_italian64.dll --Logging:LogLevel:Default Warning",
+      "affinity": 1,
+      "workingSetBytes": 113614848
+    },
+    {
+      "port": 9016,
+      "logicalProcessor": 0,
+      "processId": 39904,
+      "command": "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-final-publish/Ametista.dll --urls http://127.0.0.1:9016 --Logging:LogLevel:Default Warning",
+      "affinity": 1,
+      "workingSetBytes": 60203008
+    },
+    {
+      "port": 9018,
+      "logicalProcessor": 0,
+      "processId": 17728,
+      "command": "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-contact-publish-telemetry/Ametista.ContactSearch.dll --urls http://127.0.0.1:9018 --Logging:LogLevel:Default Warning",
+      "affinity": 1,
+      "workingSetBytes": 82657280
+    },
+    {
+      "port": 9041,
+      "logicalProcessor": 4,
+      "processId": 43056,
+      "command": "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/kingsrow-build/bin/Kingsrow/release/Kingsrow.dll --urls http://127.0.0.1:9041 --Kingsrow:Dll C:/Users/filip/source/repos/weight-space-games/artifacts/kingsrow/runtime/app/engines/kr_italian64.dll --Logging:LogLevel:Default Warning",
+      "affinity": 16,
+      "workingSetBytes": 99762176
+    },
+    {
+      "port": 9042,
+      "logicalProcessor": 4,
+      "processId": 14584,
+      "command": "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-final-publish/Ametista.dll --urls http://127.0.0.1:9042 --Logging:LogLevel:Default Warning",
+      "affinity": 16,
+      "workingSetBytes": 52879360
+    },
+    {
+      "port": 9043,
+      "logicalProcessor": 4,
+      "processId": 48224,
+      "command": "\"C:\\Program Files\\dotnet\\dotnet.exe\" artifacts/ametista-contact-publish-telemetry/Ametista.ContactSearch.dll --urls http://127.0.0.1:9043 --Logging:LogLevel:Default Warning",
+      "affinity": 16,
+      "workingSetBytes": 51060736
+    }
+  ],
+  "searchThreadsPerEngine": 1,
+  "configuredSearchMs": 1000,
+  "maximumProcessBytes": 1073741824,
+  "logicalProcessors": [
+    0,
+    4
+  ],
+  "totalScheduledGames": 72,
+  "training": false,
+  "weightsChanged": false,
+  "firstConfirmationUnchanged": true,
+  "limitations": [
+    "Shared computer and changing load; no identical CPU-time assertion",
+    "Lane0 services already warm; lane4 services new; version order alternates within each lane",
+    "Free physical memory approximately653MiB before games, not proof of stable runtime memory availability"
+  ]
+}

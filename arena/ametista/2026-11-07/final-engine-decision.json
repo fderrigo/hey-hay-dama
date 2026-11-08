@@ -1,0 +1,44 @@
+{
+  "decidedAt": "2026-11-07T18:19:04.958496+00:00",
+  "retainedEngine": "Ametista",
+  "retainedSearch": "search-v14",
+  "retainedWeights": "manual-v4",
+  "originalOpalePreserved": true,
+  "rejectedForPromotion": [
+    "search-v17-contactguard",
+    "search-v18-human-outcome"
+  ],
+  "reason": [
+    "v17 confirmation scored below v14 on eighteen paired openings; no demonstrated improvement.",
+    "v18 exploratory control scored below v14 on three paired openings despite a small offline MSE improvement.",
+    "The human contribution increased median static evaluation cost on synthetic positions; this is not a causal explanation of outcomes."
+  ],
+  "firstConfirmation": {
+    "opale": "0W0D36L",
+    "ametista": "3W4D29L",
+    "generalImprovementCriterionMet": false
+  },
+  "secondConfirmation": {
+    "v14": "1W7D28L",
+    "v17": "0W6D30L"
+  },
+  "humanExploratory": {
+    "v14": "1W3D2L",
+    "v18": "1W1D4L",
+    "controlDeclaredAfterTwoCandidateLosses": true
+  },
+  "superiorityOverKingsrowDemonstrated": false,
+  "allVersionsPreserved": true,
+  "noFurtherTrainingOrMatchesPlanned": true,
+  "documents": {
+    "public": "arena/ametista/2026-11-07/RESULTS.md",
+    "editorial": "C:/Users/filip/source/repos/hey-hay-dama-editoriale/RACCONTO_AMETISTA.md"
+  },
+  "sourceReportsSha256": {
+    "final-comparison.json": "59632737808463fe1ba53ff1de1e3c410072ea8f2ab561ef3bb155f9a707cdb6",
+    "supplemental-confirmation-report.json": "5f3de94f88a150a0c801a6cd94aad27a735e7cc5d92b741b1277f4f0572cb475",
+    "human-comparison-report.json": "45e7f03927686a5f08afcde3c350073361b98377b4946ee2af2c67d39900c6d9",
+    "final-session-match-inventory.json": "ae15568624e2f0041f4906e632d14b746ed72f65445be25e362c47addc3e8f14",
+    "final-preservation-check.json": "a81854cb1cf1e82d9b370f252fe999e4feffa2f5f234d8dc9b3bcef64750c08b"
+  }
+}

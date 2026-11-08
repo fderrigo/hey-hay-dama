@@ -1,0 +1,285 @@
+{
+  "createdAt": "2026-11-07T16:37:53.284549+00:00",
+  "baselineVariant": "v14",
+  "candidateVariant": "v17",
+  "baseline": "manual-v4-search-v14-supplemental-confirmation",
+  "candidate": "manual-v4-search-v17-contactguard-confirmation",
+  "source": "benchmark",
+  "seeds": [
+    570301,
+    570302,
+    570303,
+    570304,
+    570305,
+    570306,
+    570307,
+    570308,
+    570309,
+    570310,
+    570311,
+    570312,
+    570313,
+    570314,
+    570315,
+    570316,
+    570317,
+    570318
+  ],
+  "schedule": [
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570301.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570301",
+      "variant": "v14",
+      "seed": 570301,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570301.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570301",
+      "variant": "v17",
+      "seed": 570301,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570302.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570302",
+      "variant": "v14",
+      "seed": 570302,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570302.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570302",
+      "variant": "v17",
+      "seed": 570302,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570303.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570303",
+      "variant": "v17",
+      "seed": 570303,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570303.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570303",
+      "variant": "v14",
+      "seed": 570303,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570304.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570304",
+      "variant": "v17",
+      "seed": 570304,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570304.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570304",
+      "variant": "v14",
+      "seed": 570304,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570305.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570305",
+      "variant": "v14",
+      "seed": 570305,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570305.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570305",
+      "variant": "v17",
+      "seed": 570305,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570306.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570306",
+      "variant": "v14",
+      "seed": 570306,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570306.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570306",
+      "variant": "v17",
+      "seed": 570306,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570307.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570307",
+      "variant": "v17",
+      "seed": 570307,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570307.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570307",
+      "variant": "v14",
+      "seed": 570307,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570308.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570308",
+      "variant": "v17",
+      "seed": 570308,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570308.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570308",
+      "variant": "v14",
+      "seed": 570308,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570309.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570309",
+      "variant": "v14",
+      "seed": 570309,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570309.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570309",
+      "variant": "v17",
+      "seed": 570309,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570310.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570310",
+      "variant": "v14",
+      "seed": 570310,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570310.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570310",
+      "variant": "v17",
+      "seed": 570310,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570311.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570311",
+      "variant": "v17",
+      "seed": 570311,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570311.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570311",
+      "variant": "v14",
+      "seed": 570311,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570312.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570312",
+      "variant": "v17",
+      "seed": 570312,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570312.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570312",
+      "variant": "v14",
+      "seed": 570312,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570313.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570313",
+      "variant": "v14",
+      "seed": 570313,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570313.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570313",
+      "variant": "v17",
+      "seed": 570313,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570314.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570314",
+      "variant": "v14",
+      "seed": 570314,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570314.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570314",
+      "variant": "v17",
+      "seed": 570314,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570315.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570315",
+      "variant": "v17",
+      "seed": 570315,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570315.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570315",
+      "variant": "v14",
+      "seed": 570315,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570316.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570316",
+      "variant": "v17",
+      "seed": 570316,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570316.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570316",
+      "variant": "v14",
+      "seed": 570316,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570317.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570317",
+      "variant": "v14",
+      "seed": 570317,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570317.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570317",
+      "variant": "v17",
+      "seed": 570317,
+      "logicalProcessor": 0
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570318.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v14-seed570318",
+      "variant": "v14",
+      "seed": 570318,
+      "logicalProcessor": 4
+    },
+    {
+      "config": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570318.json",
+      "output": "arena\\ametista\\2026-11-07\\supplemental-confirmation-v17-seed570318",
+      "variant": "v17",
+      "seed": 570318,
+      "logicalProcessor": 4
+    }
+  ],
+  "protocol": "supplemental-confirmation-protocol.md",
+  "selection": "manual before confirmation; no model changes after results",
+  "firstConfirmationRetained": true
+}

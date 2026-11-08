@@ -1,0 +1,134 @@
+[
+  {
+    "source": "artifacts/learning-20261106/manifest.json",
+    "published": "docs/evidence/learning-20261106/manifest.json",
+    "sha256": "c99a0b380d3a2db1bcc39d342f690212536ed24ee6ab97b8c7f1995bf81582ab",
+    "bytes": 1153
+  },
+  {
+    "source": "artifacts/learning-20261106/report.json",
+    "published": "docs/evidence/learning-20261106/report.json",
+    "sha256": "da4a9f6091fef41a0a911381a88298de2e2aa169c5d2acce114338f72d83e096",
+    "bytes": 3572
+  },
+  {
+    "source": "artifacts/opale-learning-20261106/manifest.json",
+    "published": "docs/evidence/opale-learning-20261106/manifest.json",
+    "sha256": "a08941b92b0fc329e2c33428faa88240f6dc7dd6f95b55c6244619f8d8b0a750",
+    "bytes": 1174
+  },
+  {
+    "source": "artifacts/opale-learning-20261106/report.json",
+    "published": "docs/evidence/opale-learning-20261106/report.json",
+    "sha256": "73c04b2485232bae982347cf30fd9a9aea4937bd6b80aec6888c8f2cf169c1ae",
+    "bytes": 2497
+  },
+  {
+    "source": "artifacts/opale-evolution-20261106/manifest.json",
+    "published": "docs/evidence/opale-evolution-20261106/manifest.json",
+    "sha256": "63d48dc9ff60af573125905ffdcac9804be3f1691e0deb42eff3ac3afd2a4eba",
+    "bytes": 628
+  },
+  {
+    "source": "artifacts/opale-evolution-20261106/report.json",
+    "published": "docs/evidence/opale-evolution-20261106/report.json",
+    "sha256": "beaa0ac6e0abf738e0775f765e53ba85089c9be9f0bfab20df39e14f226b2b7a",
+    "bytes": 411
+  },
+  {
+    "source": "artifacts/opale-evolution-v2-20261106/manifest.json",
+    "published": "docs/evidence/opale-evolution-v2-20261106/manifest.json",
+    "sha256": "0e6d3e002328e4bf385feecb7343aa83bf3ab62e47c3b6bc2175ecead5fd4cf9",
+    "bytes": 628
+  },
+  {
+    "source": "artifacts/opale-evolution-final-20261106/manifest.json",
+    "published": "docs/evidence/opale-evolution-final-20261106/manifest.json",
+    "sha256": "d7dfcd01618925a2f96f928da2c6aeb524ed7363091d2c3328ce9b48835d90a0",
+    "bytes": 628
+  },
+  {
+    "source": "artifacts/opale-original-probe-20261106/manifest.json",
+    "published": "docs/evidence/opale-original-probe-20261106/manifest.json",
+    "sha256": "f0ea190fa9cbdee4e71a66fdb06ba9c589d157c31c2fb67424197b9248799540",
+    "bytes": 329
+  },
+  {
+    "source": "artifacts/opale-original-probe-20261106/report.json",
+    "published": "docs/evidence/opale-original-probe-20261106/report.json",
+    "sha256": "67366e0eec471cb871412e00103c7eb0381c1e7a7b332f7138935a5f57c0a6f0",
+    "bytes": 801
+  },
+  {
+    "source": "artifacts/opale-probe-1705/manifest.json",
+    "published": "docs/evidence/opale-probe-1705/manifest.json",
+    "sha256": "489e37c80bc45a3f201304f147876df169ff12766bf0ae311eeb1143245c82a4",
+    "bytes": 345
+  },
+  {
+    "source": "artifacts/opale-probe-1705/report.json",
+    "published": "docs/evidence/opale-probe-1705/report.json",
+    "sha256": "ebc274b7a5a2229dd817822ba4452446a134180988fc1cb1d925a094c0a4f418",
+    "bytes": 818
+  },
+  {
+    "source": "artifacts/opale-winning-20261106/manifest.json",
+    "published": "docs/evidence/opale-winning-20261106/manifest.json",
+    "sha256": "21dbbff5f5d4fb6428b1131a45d36ea765f10d51a5abe2065a24c636e2404604",
+    "bytes": 437
+  },
+  {
+    "source": "artifacts/opale-winning-final-20261106/manifest.json",
+    "published": "docs/evidence/opale-winning-final-20261106/manifest.json",
+    "sha256": "21dbbff5f5d4fb6428b1131a45d36ea765f10d51a5abe2065a24c636e2404604",
+    "bytes": 437
+  },
+  {
+    "source": "artifacts/opale-winning-final-20261106/report.json",
+    "published": "docs/evidence/opale-winning-final-20261106/report.json",
+    "sha256": "9e6c4f58d65b02366f3c52e69b067446fc8505e24281622386fb692ef0b213e0",
+    "bytes": 93
+  },
+  {
+    "source": "artifacts/klinamite-training/progress.json",
+    "published": "docs/evidence/klinamite-training/progress.json",
+    "sha256": "b432325e59ab7104cc25ca256f7f7dc22434936a910829fcba19ddb89db7f4d5",
+    "bytes": 1528
+  },
+  {
+    "source": "artifacts/klinamite-winrate/report.json",
+    "published": "docs/evidence/klinamite-winrate/report.json",
+    "sha256": "d3e51360f0bd2a35c49b7017fa9e93f15a0660f8cf68af3a1c17ed607b2464fa",
+    "bytes": 761
+  },
+  {
+    "source": "artifacts/klinamite-winrate/progress.json",
+    "published": "docs/evidence/klinamite-winrate/progress.json",
+    "sha256": "d245ea1c33fdcec4d14e58d65f238fe17ac7fbbdf2ad0d169b66c69ba9dcb1be",
+    "bytes": 3541
+  },
+  {
+    "source": "artifacts/klinamite-evolution-smoke/report.json",
+    "published": "docs/evidence/klinamite-evolution-smoke/report.json",
+    "sha256": "d6b27b66c502436f9ab5409980c0f77d5886ff522dc94a1ee360bd6dc7012018",
+    "bytes": 788
+  },
+  {
+    "source": "artifacts/self-improvement/progress.json",
+    "published": "docs/evidence/self-improvement/progress.json",
+    "sha256": "02d5ef4a253aa6ff49e2c36870e74a82810ca68dbefdf66c0d16ccd30ed092cb",
+    "bytes": 36558
+  },
+  {
+    "source": "artifacts/self-improvement-smoke/report.json",
+    "published": "docs/evidence/self-improvement-smoke/report.json",
+    "sha256": "745ef51efb8737cc97e40625b543a25c8dd4128cf616f544ef8c34ae76184c76",
+    "bytes": 17805
+  },
+  {
+    "source": "artifacts/self-improvement-smoke/progress.json",
+    "published": "docs/evidence/self-improvement-smoke/progress.json",
+    "sha256": "158fffd87dd8c1b4dc0927c58a5468f7378394350e62bc34bc0b2d2700dd7e15",
+    "bytes": 15329
+  }
+]

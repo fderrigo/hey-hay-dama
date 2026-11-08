@@ -1,0 +1,26 @@
+{
+  "createdAt": "2026-11-07T12:41:07.536563+00:00",
+  "realGames": 0,
+  "weights": "manual-v2",
+  "comparisons": [
+    {
+      "order": "first",
+      "positions": 32,
+      "sameMovesScoresDepthNodes": true,
+      "v11CpuMs": 1812.5,
+      "v11WallMs": 2062.5561,
+      "v12CpuMs": 2453.125,
+      "v12WallMs": 3559.2379
+    },
+    {
+      "order": "reverse",
+      "positions": 32,
+      "sameMovesScoresDepthNodes": true,
+      "v11CpuMs": 2953.125,
+      "v11WallMs": 4291.9589,
+      "v12CpuMs": 2562.5,
+      "v12WallMs": 4375.2697
+    }
+  ],
+  "limitation": "Fixed-depth synthetic probes, warmup, tiered compilation off, concurrent load; not strength."
+}

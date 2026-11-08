@@ -1,0 +1,203 @@
+{
+  "candidate": "ametista",
+  "games": [
+    {
+      "matchId": "3acc7c8037694b39aab41f65187c239e",
+      "seed": 20261107,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 76,
+      "decisions": 35,
+      "searchedDecisions": 25,
+      "meanDepthSearchedOnly": 12.76,
+      "meanMsSearchedOnly": 610.36,
+      "meanNodesSearchedOnly": 190621.04,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": -1,
+        "kingDifference": 0
+      },
+      "finalMaterial": {
+        "ply": 76,
+        "menDifference": -2,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 92913664,
+      "opponentPeakBytes": 181682176
+    },
+    {
+      "matchId": "dd76ae738f0c4ab59456054f015472fb",
+      "seed": 20261107,
+      "candidateColor": "black",
+      "winner": -1,
+      "plies": 100,
+      "decisions": 47,
+      "searchedDecisions": 36,
+      "meanDepthSearchedOnly": 11.69,
+      "meanMsSearchedOnly": 627.08,
+      "meanNodesSearchedOnly": 311656.28,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 1,
+        "kingDifference": 0
+      },
+      "finalMaterial": {
+        "ply": 100,
+        "menDifference": 2,
+        "kingDifference": 3
+      },
+      "candidatePeakBytes": 99692544,
+      "opponentPeakBytes": 189321216
+    },
+    {
+      "matchId": "5f96d7a1ecbe4f0aba0cc343d498637b",
+      "seed": 20261108,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 60,
+      "decisions": 27,
+      "searchedDecisions": 19,
+      "meanDepthSearchedOnly": 12.37,
+      "meanMsSearchedOnly": 476.84,
+      "meanNodesSearchedOnly": 286621,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": -1,
+        "kingDifference": 0
+      },
+      "finalMaterial": {
+        "ply": 60,
+        "menDifference": -3,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 99692544,
+      "opponentPeakBytes": 189321216
+    },
+    {
+      "matchId": "d63901a91b1543df8746296514584dec",
+      "seed": 20261108,
+      "candidateColor": "black",
+      "winner": 0,
+      "plies": 177,
+      "decisions": 85,
+      "searchedDecisions": 78,
+      "meanDepthSearchedOnly": 17.67,
+      "meanMsSearchedOnly": 603.08,
+      "meanNodesSearchedOnly": 365635.42,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 1,
+        "kingDifference": 0
+      },
+      "finalMaterial": {
+        "ply": 177,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "candidatePeakBytes": 99692544,
+      "opponentPeakBytes": 189321216
+    },
+    {
+      "matchId": "2dd18a8f0d394feab4885cc966639edc",
+      "seed": 20261109,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 114,
+      "decisions": 54,
+      "searchedDecisions": 47,
+      "meanDepthSearchedOnly": 13.91,
+      "meanMsSearchedOnly": 616.19,
+      "meanNodesSearchedOnly": 461352.49,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "finalMaterial": {
+        "ply": 114,
+        "menDifference": 0,
+        "kingDifference": -2
+      },
+      "candidatePeakBytes": 99692544,
+      "opponentPeakBytes": 190537728
+    },
+    {
+      "matchId": "406d88339576403da618e494f4f728f0",
+      "seed": 20261109,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 117,
+      "decisions": 55,
+      "searchedDecisions": 47,
+      "meanDepthSearchedOnly": 15.21,
+      "meanMsSearchedOnly": 579.4,
+      "meanNodesSearchedOnly": 547578.51,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 0,
+        "kingDifference": 0
+      },
+      "finalMaterial": {
+        "ply": 117,
+        "menDifference": 0,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 99692544,
+      "opponentPeakBytes": 190619648
+    },
+    {
+      "matchId": "e57702fc1bee464ebda26f2de9eeec49",
+      "seed": 20261110,
+      "candidateColor": "white",
+      "winner": -1,
+      "plies": 164,
+      "decisions": 79,
+      "searchedDecisions": 72,
+      "meanDepthSearchedOnly": 17.56,
+      "meanMsSearchedOnly": 563.14,
+      "meanNodesSearchedOnly": 504477.1,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": -1,
+        "kingDifference": 0
+      },
+      "finalMaterial": {
+        "ply": 164,
+        "menDifference": 0,
+        "kingDifference": -2
+      },
+      "candidatePeakBytes": 99692544,
+      "opponentPeakBytes": 191565824
+    },
+    {
+      "matchId": "be67d19e0b0f4dea9392d45a31b51c66",
+      "seed": 20261110,
+      "candidateColor": "black",
+      "winner": 1,
+      "plies": 85,
+      "decisions": 39,
+      "searchedDecisions": 31,
+      "meanDepthSearchedOnly": 14.39,
+      "meanMsSearchedOnly": 540,
+      "meanNodesSearchedOnly": 381783.81,
+      "openingMaterial": {
+        "ply": 6,
+        "menDifference": 1,
+        "kingDifference": 0
+      },
+      "finalMaterial": {
+        "ply": 85,
+        "menDifference": 0,
+        "kingDifference": -1
+      },
+      "candidatePeakBytes": 99692544,
+      "opponentPeakBytes": 191565824
+    }
+  ],
+  "notes": [
+    "Only complete JSONL records; this is not an independent legality audit.",
+    "Time/depth means exclude depth-zero decisions, generally forced moves.",
+    "Peak working set is a process-lifetime upper bound, not a per-game isolated measurement.",
+    "Material differences are counts, not engine evaluation labels."
+  ]
+}

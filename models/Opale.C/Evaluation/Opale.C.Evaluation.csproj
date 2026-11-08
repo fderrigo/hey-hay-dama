@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Opale.C.csproj" />
+    <ProjectReference Include="../../../src/Dama.Competition/Dama.Competition.csproj" />
+    <ProjectReference Include="../../../src/Dama.Neural/Dama.Neural.csproj" />
+    <ProjectReference Include="../../Agata/Agata/Agata.csproj" />
+    <Compile Include="../Benchmark.cs" Link="Benchmark.cs" />
+  </ItemGroup>
+</Project>

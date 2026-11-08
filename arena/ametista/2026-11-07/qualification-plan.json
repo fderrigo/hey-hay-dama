@@ -1,0 +1,18 @@
+﻿{
+    "source":  "test",
+    "seeds":  [
+                  846201,
+                  846202,
+                  846203,
+                  846204
+              ],
+    "createdAt":  "2026-11-07T12:14:58.2688843Z",
+    "confirmationSetUntouched":  true,
+    "purpose":  "Check whether added complexity improves over the simpler baseline on fresh development openings",
+    "searchMs":  1000,
+    "gamesPerVersion":  8,
+    "automaticWeightUpdates":  false,
+    "baseline":  "manual-v2-search-v4",
+    "order":  "alternate version pairs on each seed using the same Kingsrow instance",
+    "candidate":  "choose manually after current development batches"
+}

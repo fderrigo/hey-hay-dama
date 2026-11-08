@@ -1,0 +1,18 @@
+{
+  "createdAt": "2026-11-07T13:52:43.293398+00:00",
+  "files": [
+    {
+      "path": "arena\\ametista\\2026-11-07\\changelog.md",
+      "beforeSha256": "2506d63ab197abc85c696961b944b7c4517ecf34a289438104a254407f3ce12b",
+      "afterSha256": "14f1c2002995dbbdd62475596be30198ca7d0be99dfbe6bc4b3eaec32ac6f756",
+      "method": "Preserve valid UTF-8 sequences; decode only invalid byte spans as Windows-1252"
+    },
+    {
+      "path": "C:\\Users\\filip\\source\\repos\\hey-hay-dama-editoriale\\AMETISTA_DIARIO_2026-11-07.md",
+      "beforeSha256": "2e365058d2da58281d270e6eca4f15e65501a39484d8d8c42029ca76868236f9",
+      "afterSha256": "6a6cfa9a0f259b340271ecf5a896317c215f8b50c1d10fa09c5d9add0ff25c13",
+      "method": "Preserve valid UTF-8 sequences; decode only invalid byte spans as Windows-1252"
+    }
+  ],
+  "gameDataChanged": false
+}

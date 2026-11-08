@@ -1,0 +1,402 @@
+{
+  "format": "ametista-relu/v1",
+  "version": "manual-v1",
+  "construction": "Independent hand-written relational channels, ReLU phase gates, value and instability heads. No training, imported weights, external data or automatic tuning.",
+  "inputs": 24,
+  "nodes": [
+    {
+      "name": "men\u002B",
+      "bias": 0,
+      "from": [
+        0
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 100,
+      "riskWeight": 0
+    },
+    {
+      "name": "men-",
+      "bias": 0,
+      "from": [
+        0
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -100,
+      "riskWeight": 0
+    },
+    {
+      "name": "kings\u002B",
+      "bias": 0,
+      "from": [
+        1
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 265,
+      "riskWeight": 0
+    },
+    {
+      "name": "kings-",
+      "bias": 0,
+      "from": [
+        1
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -265,
+      "riskWeight": 0
+    },
+    {
+      "name": "advance\u002B",
+      "bias": 0,
+      "from": [
+        2
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 2,
+      "riskWeight": 0
+    },
+    {
+      "name": "advance-",
+      "bias": 0,
+      "from": [
+        2
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -2,
+      "riskWeight": 0
+    },
+    {
+      "name": "center\u002B",
+      "bias": 0,
+      "from": [
+        3
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 5,
+      "riskWeight": 0
+    },
+    {
+      "name": "center-",
+      "bias": 0,
+      "from": [
+        3
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -5,
+      "riskWeight": 0
+    },
+    {
+      "name": "mobility\u002B",
+      "bias": 0,
+      "from": [
+        4
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 3,
+      "riskWeight": 0
+    },
+    {
+      "name": "mobility-",
+      "bias": 0,
+      "from": [
+        4
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -3,
+      "riskWeight": 0
+    },
+    {
+      "name": "blocked\u002B",
+      "bias": 0,
+      "from": [
+        5
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": -5,
+      "riskWeight": 0
+    },
+    {
+      "name": "blocked-",
+      "bias": 0,
+      "from": [
+        5
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": 5,
+      "riskWeight": 0
+    },
+    {
+      "name": "support\u002B",
+      "bias": 0,
+      "from": [
+        6
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 2,
+      "riskWeight": 0
+    },
+    {
+      "name": "support-",
+      "bias": 0,
+      "from": [
+        6
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -2,
+      "riskWeight": 0
+    },
+    {
+      "name": "isolated\u002B",
+      "bias": 0,
+      "from": [
+        7
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": -3,
+      "riskWeight": 0
+    },
+    {
+      "name": "isolated-",
+      "bias": 0,
+      "from": [
+        7
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": 3,
+      "riskWeight": 0
+    },
+    {
+      "name": "back-guard\u002B",
+      "bias": 0,
+      "from": [
+        8
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 3,
+      "riskWeight": 0
+    },
+    {
+      "name": "back-guard-",
+      "bias": 0,
+      "from": [
+        8
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -3,
+      "riskWeight": 0
+    },
+    {
+      "name": "free-promotion-cone\u002B",
+      "bias": 0,
+      "from": [
+        9
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 1.5,
+      "riskWeight": 0
+    },
+    {
+      "name": "free-promotion-cone-",
+      "bias": 0,
+      "from": [
+        9
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -1.5,
+      "riskWeight": 0
+    },
+    {
+      "name": "king-centrality\u002B",
+      "bias": 0,
+      "from": [
+        10
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 2,
+      "riskWeight": 0
+    },
+    {
+      "name": "king-centrality-",
+      "bias": 0,
+      "from": [
+        10
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -2,
+      "riskWeight": 0
+    },
+    {
+      "name": "threatened\u002B",
+      "bias": 0,
+      "from": [
+        11
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": -8,
+      "riskWeight": 0
+    },
+    {
+      "name": "threatened-",
+      "bias": 0,
+      "from": [
+        11
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": 8,
+      "riskWeight": 0
+    },
+    {
+      "name": "many-men",
+      "bias": -6,
+      "from": [
+        12
+      ],
+      "weights": [
+        1
+      ],
+      "valueWeight": 0,
+      "riskWeight": 0
+    },
+    {
+      "name": "late-king-centrality\u002B",
+      "bias": 0,
+      "from": [
+        10,
+        48
+      ],
+      "weights": [
+        1,
+        -64
+      ],
+      "valueWeight": 3,
+      "riskWeight": 0
+    },
+    {
+      "name": "late-king-centrality-",
+      "bias": 0,
+      "from": [
+        10,
+        48
+      ],
+      "weights": [
+        -1,
+        -64
+      ],
+      "valueWeight": -3,
+      "riskWeight": 0
+    },
+    {
+      "name": "own-immobility",
+      "bias": 3,
+      "from": [
+        14
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": -15,
+      "riskWeight": 1
+    },
+    {
+      "name": "enemy-immobility",
+      "bias": 3,
+      "from": [
+        15
+      ],
+      "weights": [
+        -1
+      ],
+      "valueWeight": 15,
+      "riskWeight": 1
+    },
+    {
+      "name": "contact-instability",
+      "bias": 0,
+      "from": [
+        16,
+        17
+      ],
+      "weights": [
+        1,
+        1
+      ],
+      "valueWeight": 0,
+      "riskWeight": 1
+    },
+    {
+      "name": "mobility-imbalance\u002B",
+      "bias": -3,
+      "from": [
+        14,
+        15
+      ],
+      "weights": [
+        1,
+        -1
+      ],
+      "valueWeight": 0,
+      "riskWeight": 1
+    },
+    {
+      "name": "mobility-imbalance-",
+      "bias": -3,
+      "from": [
+        14,
+        15
+      ],
+      "weights": [
+        -1,
+        1
+      ],
+      "valueWeight": 0,
+      "riskWeight": 1
+    }
+  ]
+}

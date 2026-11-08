@@ -1,0 +1,40 @@
+{
+  "deadline": "2026-11-07T18:28:21+00:00",
+  "source": "benchmark",
+  "b": {
+    "id": "kingsrow",
+    "name": "Kingsrow Italian",
+    "processId": 36652,
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "searchMs": 1000,
+    "endpoint": "http://127.0.0.1:9015/choose-move",
+    "version": "1.19e",
+    "protocolReserveMs": 100,
+    "expectedHealth": {
+      "name": "Kingsrow Italian(x64) 1.19e",
+      "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+      "rules": "italian-draughts-8x8"
+    }
+  },
+  "seeds": [
+    570313
+  ],
+  "a": {
+    "id": "ametista",
+    "name": "Ametista",
+    "processId": 17728,
+    "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+    "searchMs": 1000,
+    "protocolReserveMs": 100,
+    "endpoint": "http://127.0.0.1:9018/choose-move",
+    "version": "manual-v4-search-v17-contactguard-confirmation",
+    "expectedHealth": {
+      "model": "Ametista",
+      "search": "search-v17-contactguard",
+      "version": "manual-v4",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138"
+    }
+  },
+  "matchLock": "arena/kingsrow-challenge/matches-9015.lock",
+  "logicalProcessor": 0
+}

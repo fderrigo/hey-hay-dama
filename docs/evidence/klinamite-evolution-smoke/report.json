@@ -1,0 +1,18 @@
+{
+  "startedAt": "2026-11-06T18:03:01.351783+01:00",
+  "endedAt": "2026-11-06T18:03:07.3623659+01:00",
+  "candidatesEvaluated": 18,
+  "improvements": 2,
+  "bestFitness": 0.75,
+  "sigma": 1.2100000000000002,
+  "algorithm": "Outcome-only paired-colour evolution of direct neural weights; no datasets, pretrained weights, labels, search targets, or external supervision.",
+  "trainingSeed": 20261306,
+  "opponents": [
+    "opale",
+    "kimberlite",
+    "material-greedy",
+    "search-depth-3"
+  ],
+  "trajectories": "C:\\Users\\filip\\source\\repos\\weight-space-games\\artifacts\\klinamite-evolution-smoke\\trajectories-20261106-180301.jsonl",
+  "bestWeights": "C:\\Users\\filip\\source\\repos\\weight-space-games\\artifacts\\klinamite-evolution-smoke\\klinamite-v1.json"
+}

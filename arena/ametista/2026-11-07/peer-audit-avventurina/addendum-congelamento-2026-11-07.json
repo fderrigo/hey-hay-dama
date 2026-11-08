@@ -1,0 +1,144 @@
+{
+  "checkedAtUtc": "2026-11-07T13:32:23.189292+00:00",
+  "kind": "post-audit metadata addendum",
+  "originalAudit": "audit.json",
+  "originalAuditSha256": "7ce4a03457f02ee117280eaaaa11bf4792319ff8c0fb871f82fba96503ec4461",
+  "metadataPath": "models/Avventurina/results/conferma-a7/congelamento.json",
+  "metadataSha256": "a5dfa5f766fcbfb832d09f40b77ba3cb03a95e5339bb889d4e0b44f9988c9769",
+  "metadataJsonValid": false,
+  "metadataJsonError": "Invalid \\escape: line 16 column 34 (char 1119)",
+  "parseHandling": "If invalid, only the single backslash in the declared %TEMP% tablebase path was escaped in memory for comparison. Original file was not modified.",
+  "chatMessage": "AGENTE-B 2026-11-07 13:52:06 Europe/Rome",
+  "passedDeclarationConsistency": true,
+  "checks": [
+    {
+      "check": "hash declaration Avventurina.dll",
+      "passed": true,
+      "scope": "format and abbreviated chat prefix/suffix only; target file not read"
+    },
+    {
+      "check": "hash declaration Avventurina.Core.dll",
+      "passed": true,
+      "scope": "format and abbreviated chat prefix/suffix only; target file not read"
+    },
+    {
+      "check": "hash declaration appsettings.json",
+      "passed": true,
+      "scope": "format and abbreviated chat prefix/suffix only; target file not read"
+    },
+    {
+      "check": "hash declaration sources",
+      "passed": true,
+      "scope": "format and abbreviated chat prefix/suffix only; target file not read"
+    },
+    {
+      "check": "hash declaration tablebases",
+      "passed": true,
+      "scope": "format and abbreviated chat prefix/suffix only; target file not read"
+    },
+    {
+      "check": "tb-7001 version",
+      "passed": true
+    },
+    {
+      "check": "tb-7001 kingsrow hash",
+      "passed": true
+    },
+    {
+      "check": "tb-7001 topology declaration",
+      "passed": true
+    },
+    {
+      "check": "tb-7001 tablebase flag declaration",
+      "passed": true
+    },
+    {
+      "check": "tb-7001 declared freeze before start",
+      "passed": true
+    },
+    {
+      "check": "tb-7001 nominal budget declaration",
+      "passed": true
+    },
+    {
+      "check": "tb-7101 version",
+      "passed": true
+    },
+    {
+      "check": "tb-7101 kingsrow hash",
+      "passed": true
+    },
+    {
+      "check": "tb-7101 topology declaration",
+      "passed": true
+    },
+    {
+      "check": "tb-7101 tablebase flag declaration",
+      "passed": true
+    },
+    {
+      "check": "tb-7101 declared freeze before start",
+      "passed": true
+    },
+    {
+      "check": "tb-7101 nominal budget declaration",
+      "passed": true
+    },
+    {
+      "check": "tb-7201 version",
+      "passed": true
+    },
+    {
+      "check": "tb-7201 kingsrow hash",
+      "passed": true
+    },
+    {
+      "check": "tb-7201 topology declaration",
+      "passed": true
+    },
+    {
+      "check": "tb-7201 tablebase flag declaration",
+      "passed": true
+    },
+    {
+      "check": "tb-7201 declared freeze before start",
+      "passed": true
+    },
+    {
+      "check": "tb-7201 nominal budget declaration",
+      "passed": true
+    },
+    {
+      "check": "notb-7001 version",
+      "passed": true
+    },
+    {
+      "check": "notb-7001 kingsrow hash",
+      "passed": true
+    },
+    {
+      "check": "notb-7001 topology declaration",
+      "passed": true
+    },
+    {
+      "check": "notb-7001 tablebase flag declaration",
+      "passed": true
+    },
+    {
+      "check": "notb-7001 declared freeze before start",
+      "passed": true
+    },
+    {
+      "check": "notb-7001 nominal budget declaration",
+      "passed": true
+    }
+  ],
+  "notAttested": [
+    "Target binary/source/configuration/tablebase file hashes were not recomputed",
+    "Which binaries or tablebases were actually loaded by the match processes",
+    "The earlier chat contains abbreviated rather than full hashes",
+    "Actual equal 1000 ms search time, CPU isolation or no pondering",
+    "Tablebase provenance, completeness or originality",
+    "Freeze metadata did not form part of the original audit; its self-reported frozenAt is not an independent timestamp"
+  ]
+}

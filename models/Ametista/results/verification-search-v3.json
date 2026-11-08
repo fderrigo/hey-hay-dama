@@ -1,0 +1,22 @@
+{
+  "positions": 9015,
+  "transitions": 40898,
+  "legalTransitions": true,
+  "networkSymmetry": true,
+  "searchReferencePositions": 32,
+  "search": {
+    "move": {
+      "from": 20,
+      "to": 17,
+      "captures": 0,
+      "promotes": false,
+      "code": 564
+    },
+    "score": 7,
+    "depth": 11,
+    "nodes": 96248,
+    "milliseconds": 112,
+    "risk": 0
+  },
+  "realGames": 0
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-07T18:16:51.184191+00:00",
+  "frozenFileChecks": 113,
+  "distinctFrozenFiles": 96,
+  "originalOpaleFiles": 7,
+  "unchangedRegistryRecords": 309,
+  "unaccountedAmetistaKingsrowIdsDuringDuplicateAttempt": [],
+  "registryEntriesEnumerated": 57482,
+  "recentRegistryJsonInspected": 7,
+  "extraScanScope": "Files modified at or after17:50UTC; then filter record start17:50..17:53:30UTC and Ametista/Kingsrow participants.",
+  "note": "Initial unfiltered read-only scan was stopped by its owner after excessive I/O; no report or game was written by that attempt. Repeated the same preservation checks and bounded the additional registry scan by file mtime.",
+  "realGamesCreated": 0
+}

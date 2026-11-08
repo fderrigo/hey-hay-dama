@@ -1,0 +1,65 @@
+{
+  "finishedAt": "2026-11-06T17:52:46.9199925+00:00",
+  "games": 96,
+  "weightsUnchanged": true,
+  "results": [
+    {
+      "version": "opale-v1",
+      "opponent": "kimberlite",
+      "games": 24,
+      "wins": 9,
+      "draws": 3,
+      "losses": 12,
+      "interrupted": 0,
+      "winRate": 0.375,
+      "scoreRate": 0.4375
+    },
+    {
+      "version": "opale-c-v2",
+      "opponent": "kimberlite",
+      "games": 24,
+      "wins": 17,
+      "draws": 5,
+      "losses": 2,
+      "interrupted": 0,
+      "winRate": 0.7083333333333334,
+      "scoreRate": 0.8125
+    },
+    {
+      "version": "opale-v1",
+      "opponent": "agata",
+      "games": 24,
+      "wins": 2,
+      "draws": 5,
+      "losses": 17,
+      "interrupted": 0,
+      "winRate": 0.08333333333333333,
+      "scoreRate": 0.1875
+    },
+    {
+      "version": "opale-c-v2",
+      "opponent": "agata",
+      "games": 24,
+      "wins": 6,
+      "draws": 12,
+      "losses": 6,
+      "interrupted": 0,
+      "winRate": 0.25,
+      "scoreRate": 0.5
+    }
+  ],
+  "timing": {
+    "opale-v1": {
+      "moves": 1698,
+      "medianMs": 0.1608,
+      "p95Ms": 0.5332,
+      "maxMs": 2.4323
+    },
+    "opale-c-v2": {
+      "moves": 1884,
+      "medianMs": 1.0969,
+      "p95Ms": 3.4092,
+      "maxMs": 13.716
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "verifiedAt": "2026-11-07T13:23:19.8050917+00:00",
+  "source": "models/Avventurina/results/conferma-a7",
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "Manifest declares HTTP thinkTimeMs=1100, not a measured equal 1000 ms search time. Avventurina comments self-report internal times; Kingsrow has no internal-time telemetry in these data. HTTP latencies include overhead and can exceed both thresholds.",
+    "CPU affinity and four concurrent pairs are manifest declarations only. Physical-core isolation, identical effective CPU budget, no pondering and absence of external load cannot be reconstructed from trajectories.",
+    "Manifest has a Kingsrow DLL hash but no Avventurina source/binary/weights/tablebase hash. This audit reads no decision code, weights or tablebases and cannot certify frozen implementation, tablebase provenance/completeness, or runtime linkage of any hash.",
+    "Final registry records and their timestamps are consistent, but alone cannot prove that every Start preceded the first move: records do not contain an append-only event history.",
+    "Three tablebase batches represent 18 opening pairs; no-tablebase batch represents six. The latter shares only the tb-7001 openings; its aggregate cannot isolate a tablebase effect against all 36 tablebase games.",
+    "A win proves that win under the recorded conditions, not superiority. Any inference should treat opening pair as unit and disclose development/selection history, which these files do not establish."
+  ],
+  "games": 48,
+  "uniqueIds": 48,
+  "moves": 6045,
+  "registeredResultsMatch": true,
+  "openingPairs": 24,
+  "distinctOpeningSeeds": 18,
+  "dotNetRandomPrefixesCompatible": true,
+  "tablebase": {
+    "games": 36,
+    "wins": 2,
+    "draws": 11,
+    "losses": 23,
+    "interrupted": 0,
+    "score": 0.20833333333333334,
+    "openingPairs": 18,
+    "approximatePairedT95": [
+      0.12042435091666666,
+      0.29624231575000004
+    ]
+  },
+  "withoutTablebase": {
+    "games": 12,
+    "wins": 2,
+    "draws": 2,
+    "losses": 8,
+    "interrupted": 0,
+    "score": 0.25,
+    "openingPairs": 6,
+    "approximatePairedT95": [
+      0.015339057084959057,
+      0.4846609429150409
+    ]
+  },
+  "batches": [
+    {
+      "batch": "notb-7001",
+      "games": 12,
+      "wins": 2,
+      "draws": 2,
+      "losses": 8,
+      "interrupted": 0,
+      "score": 0.25,
+      "tablebasePieces": 0,
+      "httpThinkTimeMs": 1100,
+      "avventurinaHttpMs": {
+        "count": 686,
+        "min": 1,
+        "median": 883,
+        "max": 1352,
+        "over1000": 255,
+        "over1100": 1
+      },
+      "kingsrowHttpMs": {
+        "count": 689,
+        "min": 5,
+        "median": 997,
+        "max": 1064,
+        "over1000": 344,
+        "over1100": 0
+      },
+      "avventurinaSelfReportedMs": {
+        "count": 686,
+        "min": 0,
+        "median": 878,
+        "max": 1083,
+        "over1000": 149,
+        "over1100": 0
+      },
+      "forcedAvventurinaMoves": 87,
+      "pairScores": [
+        0.5,
+        0,
+        0.25,
+        0.5,
+        0,
+        0.25
+      ]
+    },
+    {
+      "batch": "tb-7001",
+      "games": 12,
+      "wins": 1,
+      "draws": 3,
+      "losses": 8,
+      "interrupted": 0,
+      "score": 0.20833333333333334,
+      "tablebasePieces": 5,
+      "httpThinkTimeMs": 1100,
+      "avventurinaHttpMs": {
+        "count": 674,
+        "min": 1,
+        "median": 894,
+        "max": 2180,
+        "over1000": 273,
+        "over1100": 4
+      },
+      "kingsrowHttpMs": {
+        "count": 678,
+        "min": 5,
+        "median": 1003,
+        "max": 2143,
+        "over1000": 374,
+        "over1100": 3
+      },
+      "avventurinaSelfReportedMs": {
+        "count": 674,
+        "min": 0,
+        "median": 884,
+        "max": 2177,
+        "over1000": 195,
+        "over1100": 3
+      },
+      "forcedAvventurinaMoves": 75,
+      "pairScores": [
+        0,
+        0.5,
+        0.25,
+        0.5,
+        0,
+        0
+      ]
+    },
+    {
+      "batch": "tb-7101",
+      "games": 12,
+      "wins": 0,
+      "draws": 5,
+      "losses": 7,
+      "interrupted": 0,
+      "score": 0.20833333333333334,
+      "tablebasePieces": 5,
+      "httpThinkTimeMs": 1100,
+      "avventurinaHttpMs": {
+        "count": 839,
+        "min": 1,
+        "median": 895,
+        "max": 2483,
+        "over1000": 325,
+        "over1100": 2
+      },
+      "kingsrowHttpMs": {
+        "count": 841,
+        "min": 5,
+        "median": 1002,
+        "max": 2585,
+        "over1000": 452,
+        "over1100": 3
+      },
+      "avventurinaSelfReportedMs": {
+        "count": 839,
+        "min": 0,
+        "median": 893,
+        "max": 2478,
+        "over1000": 210,
+        "over1100": 1
+      },
+      "forcedAvventurinaMoves": 83,
+      "pairScores": [
+        0.25,
+        0.25,
+        0,
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "batch": "tb-7201",
+      "games": 12,
+      "wins": 1,
+      "draws": 3,
+      "losses": 8,
+      "interrupted": 0,
+      "score": 0.20833333333333334,
+      "tablebasePieces": 5,
+      "httpThinkTimeMs": 1100,
+      "avventurinaHttpMs": {
+        "count": 673,
+        "min": 1,
+        "median": 833,
+        "max": 1109,
+        "over1000": 204,
+        "over1100": 1
+      },
+      "kingsrowHttpMs": {
+        "count": 677,
+        "min": 6,
+        "median": 999,
+        "max": 1152,
+        "over1000": 338,
+        "over1100": 2
+      },
+      "avventurinaSelfReportedMs": {
+        "count": 673,
+        "min": 0,
+        "median": 826,
+        "max": 1107,
+        "over1000": 121,
+        "over1100": 1
+      },
+      "forcedAvventurinaMoves": 79,
+      "pairScores": [
+        0.25,
+        0.25,
+        0.25,
+        0,
+        0,
+        0.5
+      ]
+    }
+  ],
+  "inputHashes": {
+    "models/Avventurina/results/conferma-a7/notb-7001/manifest.json": "e19f28fb4f75eb946e931113d53b9b35f00f8bf7a4102805d3d9c8d8691ef244",
+    "models/Avventurina/results/conferma-a7/notb-7001/summary.json": "269832f6363aba4d1db2a821d336f15951167f897bb88e503084a057db89cffa",
+    "models/Avventurina/results/conferma-a7/notb-7001/games.jsonl": "1e9d0750e0284748e0500a2bc44107d8f4348eae8a04dfe05784ca5b3d805613",
+    "src/Dama.Web/App_Data/competition/c9c69f1586354a22a81f1530754366b9.json": "f7ffe2dbdfa360d0b0b50e0a3dcc25887c00bb62567d823f3b391d1481dfbec9",
+    "src/Dama.Web/App_Data/competition/961daf379f1145088cbbbc0b960be81e.json": "13353e86796ee2465c5252a2a41702bb7883eda19161ed0b9300af2521bc5ded",
+    "src/Dama.Web/App_Data/competition/c44fba6de8654791b8cd4385e6c4befc.json": "b977dd7d7702be182342b77ba1483d2b223215cecb9e64c5df80b7406ff3a2bc",
+    "src/Dama.Web/App_Data/competition/714b4a9336be45ab96e099a3e2d9ab84.json": "1c21e9253af2347de1b302ffb16df56a9bbbb85acc1290699d5d13523a5b533a",
+    "src/Dama.Web/App_Data/competition/6325b0b89d3446c99d15292f15e96bd1.json": "1410f9b66e4f0889fa4037d1bfcac026cc970c3efbc2fcce8fd3cf0a7cfa6b5e",
+    "src/Dama.Web/App_Data/competition/98db55212e7847b5884d37b9e429c8d3.json": "111e5ebdfaceca378a3b8b648c491ff56f05052f964b68ea9b7b1b1a8fc60bf9",
+    "src/Dama.Web/App_Data/competition/ec05eddf53084b19ac4df26c7ac071ae.json": "93349976831a173b29da1267fb771f84b1103e6962959d2b71275245e3315004",
+    "src/Dama.Web/App_Data/competition/8d42dc168ad148bfa5a76e21b6d3f34d.json": "d18d5f447d36edc0d8b896256ad9e54373ff35abb6bd5378f9dbc93b482c24dc",
+    "src/Dama.Web/App_Data/competition/6e4ea7d5b84b40b8a88c6486ff8cc294.json": "11b9774b78ec93999b71f7d986790c1e1375ffa1503c9d736f2508b9e1b8a5df",
+    "src/Dama.Web/App_Data/competition/ab5f856d48174cd2aaf8fb0e17a06911.json": "f0cdccfd3d7217c0cfb11fe54a3425179ebd09d5c8fae07cca78a9d2be4d4e84",
+    "src/Dama.Web/App_Data/competition/16ea165ad149430b9b5319a2063d9a62.json": "2555ffb6ce3233c43be579552199f22ce81c704d7589bd5a075afd6609b35a32",
+    "src/Dama.Web/App_Data/competition/4c659fc97f5345569aecd6deb5aefc7e.json": "441c4ae17fe0aae7d475506afb3e64ed666afc2e0b2000b293ad8470b970ebe0",
+    "models/Avventurina/results/conferma-a7/tb-7001/manifest.json": "7457d7ed0c651910a51bf4d5a74e223b9b4b4e48870d3a37bdeb41b9c6f90038",
+    "models/Avventurina/results/conferma-a7/tb-7001/summary.json": "931e5505c004a9fba5f9593f561c768826fb9d985a210735a344edd353396446",
+    "models/Avventurina/results/conferma-a7/tb-7001/games.jsonl": "156dd596c4f6103fc13b71299090a048e12b51522606978e11bf75e55c956b25",
+    "src/Dama.Web/App_Data/competition/a58acdbc22ac4c75abf712f93313cef2.json": "bee6a8d3a644f5b1c2a565d1a01fdfc0cd7ad243462206b3304271e8e2b3c0ed",
+    "src/Dama.Web/App_Data/competition/ca74cb18f3cf417fb6293158882e0ad1.json": "128e911528ddfd281790e8ba38e2fc1366c14bdad0bb4dd0276f5f582376a786",
+    "src/Dama.Web/App_Data/competition/7f74ed6460a04b269de318e03011f1d0.json": "361f9ce2a352e992995ed2020c12446e858eef7b0b0b0f13b0de8b646482ef53",
+    "src/Dama.Web/App_Data/competition/a3a6f817ae0540789f3d1d9e4c48e91a.json": "f5258cff00fa471645ac49c78a398abd84782067507b91b19c3ca1bf418d17d5",
+    "src/Dama.Web/App_Data/competition/a1bf2c631e4c44ef83600303903355dd.json": "ca556bc5f9cb4da976f8178bfb43571288bf7f984f3181cfa5038a96b1984f6c",
+    "src/Dama.Web/App_Data/competition/2538e6dbdac246e28404d217d2978651.json": "1b83a4d681a7e3336576ec1a9dada75799f486a858dac10d80e72c431539f0a2",
+    "src/Dama.Web/App_Data/competition/3f9def6247f14e0a83d25c8ee20786e2.json": "f22082ede9c86eb1341d48d5a1254ad04105c99832adc5be35a9935d414bfe96",
+    "src/Dama.Web/App_Data/competition/1853aee318e5415eb12ca1b97f2e2c4d.json": "b2507392d16414aea9ccbd449346e9b42514abb309d9577a688338e56b8c75cb",
+    "src/Dama.Web/App_Data/competition/927ff21d3019438182216aa680e25f74.json": "2c5ef1c3e7eea5560bc2a285abd779c28509e2ac1c9ebd62466f2535fd73a75a",
+    "src/Dama.Web/App_Data/competition/c1149bc041334d1a8f431a6596b38bf4.json": "93df44122e0d5a5f18f895764c3a51747fe30ea377cbb9da29240079e938da51",
+    "src/Dama.Web/App_Data/competition/c62e0a1384a545bca22ce59146275316.json": "619f1bf0b49dca743fa4ca7379235ef55cf5d9ce7bae68e7ef376de21bf50e9e",
+    "src/Dama.Web/App_Data/competition/e633c50ba37d461eadbb43862bb98fe5.json": "4e1b8b256d2f4dc1800b56a8d5600dbc3402692f7e5646b824c68fb0ec660dfa",
+    "models/Avventurina/results/conferma-a7/tb-7101/manifest.json": "1168314f7cb2b3a4ff2b5ae7afe62905a973e12fa72fc96cd21136623ae54e76",
+    "models/Avventurina/results/conferma-a7/tb-7101/summary.json": "f2f5041b4a35ec1d77c109558c7c22a6fb54bfacfb3d1ff9b49ed049ae13ff42",
+    "models/Avventurina/results/conferma-a7/tb-7101/games.jsonl": "3f1e2a8488ebe7b8145fd295681adb83db1b1e589273208459a996075817f3bb",
+    "src/Dama.Web/App_Data/competition/ebfb491704594f54a16d7a07a1e354fb.json": "afc315622470bb178ac54a183c04efe89b13b76f42c49c0bab77f9f9d6efe429",
+    "src/Dama.Web/App_Data/competition/51d0916385204e678b3271bba30db611.json": "3bf95605bbdc8e0498ceb277ba0ebd8f8628c6439379d2ecd8d43604e5109439",
+    "src/Dama.Web/App_Data/competition/207894f9b301484ca9a2e2f0383bf4ad.json": "da16acd03e54750ab834c4a92c849892ca6337a3c0310a2c924a8071d135d18d",
+    "src/Dama.Web/App_Data/competition/1ae334971626475c9cbf589d61e4162e.json": "22eec95015549d886351aab7f1d0e5a900f335db221b29cbc01eab0506e28b15",
+    "src/Dama.Web/App_Data/competition/6eb9e87accc94ea0a32a600e5d8a498e.json": "2b6f2e63865da7faf5068fc3246ed3fc43b3c9cedfaef10dca0e28108113bfc5",
+    "src/Dama.Web/App_Data/competition/d26f4fca31fc4df7bca2d91d4e294f95.json": "e6290114247ec559277ff901e31fe92fccebed8fb759dc1e0823918511970707",
+    "src/Dama.Web/App_Data/competition/10828861c5d8472dba5633236a4d2e84.json": "b754cf99fcffe8e66843ad40573c18b76f05dfc1e63bb685b9790572847bf888",
+    "src/Dama.Web/App_Data/competition/3178d8fabc9f4a89872bb5058e0f3e16.json": "c619a9c087422b116648169d00feb0aa09d3b0d5875e31f82ef5f195effb4184",
+    "src/Dama.Web/App_Data/competition/1983fe6d61b64e7da6c9719f4f8fe734.json": "e1580c20f691ca50f03951607f12add8697191f73b63bc64b9f84dd7b3e7ba25",
+    "src/Dama.Web/App_Data/competition/2082869ec9604f948a1ea5d0303216b6.json": "fa6adad94c369ed99d2412de6dba2a0bcd00f086fd4d3f2d9e837c63935ff3ab",
+    "src/Dama.Web/App_Data/competition/2d57502f45c541d2bdb6e5e8088c94c5.json": "3e548a0ad7f8627f56ad765af2af913c34c880ff78d033502ec3ee28d9734f86",
+    "src/Dama.Web/App_Data/competition/d46d2a3e2b8c474ba64e354d805a7d38.json": "307f16c292f74c34d111d8abad92bb208a32e290bdab8e12bcb7b539ad7f807e",
+    "models/Avventurina/results/conferma-a7/tb-7201/manifest.json": "90022f7ba7d45fd7709383232535b164dda185713d1781aaa0d9347c09224baf",
+    "models/Avventurina/results/conferma-a7/tb-7201/summary.json": "931e5505c004a9fba5f9593f561c768826fb9d985a210735a344edd353396446",
+    "models/Avventurina/results/conferma-a7/tb-7201/games.jsonl": "0f79da68f3e306d9fed14bd3a258959cadc327bd6347c787925339dc6177d4b8",
+    "src/Dama.Web/App_Data/competition/231da575bd89403aaaa92f905ddcd868.json": "9d80f7be55bd8871ae35ec0cf71620bdd5c98906e0128af0fdb949b84cd20d9d",
+    "src/Dama.Web/App_Data/competition/d9cf899a3a1e446d965884e50b55d377.json": "58a9dcbf90371d46a54eeec1f40217384a36e91fec243e67f5d1d5c29bf3ce12",
+    "src/Dama.Web/App_Data/competition/981638fc4fe442c6b14345218034cb87.json": "84a010d1bb861a8793a4e1c44cda0c7cc6f05f42c65f7fb284db6a19aa45c265",
+    "src/Dama.Web/App_Data/competition/66f5a7306338439daa259f6d1d56fc9b.json": "297c72afbbebff53d8d04fe10872262cbebe6ec860689200c7eee7f8cd167343",
+    "src/Dama.Web/App_Data/competition/6f3cace409314c2db22333be648c3056.json": "338c3870335c1c47b93fccde5fe7261909f3aaedf81363977fc13d47db722d50",
+    "src/Dama.Web/App_Data/competition/570787602d434d3fa98471035422fa66.json": "689835ca5fd57311242834c53edb40e77b7cd65cac160d63be8274043aefc6db",
+    "src/Dama.Web/App_Data/competition/90c95642027249ab8f84c9483994a61b.json": "76325b7695053dc59e9311aae2ed0a1bb0ae9f41099e217a4b4bfe6db4546636",
+    "src/Dama.Web/App_Data/competition/53a03a9b45634f1ebb6d573d90e3077c.json": "f7606923cd6e3b5279ea362004629df7b61bf8e5c2a64c49e05d90f54baa5b9f",
+    "src/Dama.Web/App_Data/competition/14b8b77284634ea3ad34a1336f7cc6c3.json": "e4998ffeab7bc7fc0aa0cf1aad98d9159bba8b8a17ccee61139ba4917016ead1",
+    "src/Dama.Web/App_Data/competition/f96fe7d552d8466ab0cf9f795a50e91e.json": "4ac3d089f26c31ca5fad5e5f94062e1940fd38bef629115d222ecbf59b7a1cea",
+    "src/Dama.Web/App_Data/competition/c9708c9991984c7a98f64f51281116be.json": "c04261bbf8ac33577b8a8afdbc0647d565eb15b4dce2406318f6cd36a8531a18",
+    "src/Dama.Web/App_Data/competition/de305012b1084b958b1cdf7db5810214.json": "53daf0cbfa6422ccc311f722919e0a50a1bd3c4251ffe433418d846c0d155e8d"
+  }
+}

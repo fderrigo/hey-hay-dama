@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "auditedAt": "2026-11-06T18:16:34.261497+00:00",
+  "matches": 96,
+  "verifiedMoves": 7741,
+  "pairedComparisons": 48,
+  "distinctOpenings": 12,
+  "sharedRegistryMatches": 96,
+  "frozenHashesVerified": true,
+  "gamesPlayedDuringAudit": 0
+}

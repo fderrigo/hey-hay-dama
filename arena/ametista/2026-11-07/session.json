@@ -1,0 +1,64 @@
+{
+  "name": "Ametista",
+  "id": "ametista",
+  "startedAt": "2026-11-07T10:28:21Z",
+  "deadline": "2026-11-07T18:28:21Z",
+  "baseline": "Opale C manual v3",
+  "rulesPendingClarification": false,
+  "defaultConstraints": [
+    "manual weights",
+    "no automatic training or optimization",
+    "no pretrained weights",
+    "no Kingsrow code/weights/database copying"
+  ],
+  "baselineFiles": [
+    {
+      "path": "models/Opale.C/Benchmark.cs",
+      "sha256": "4e96c12d0f3c5ed09ae02ce7769faa00309eabad476495a394e1ec47182d7d99"
+    },
+    {
+      "path": "models/Opale.C/ManualBuilder.cs",
+      "sha256": "dbf36221c4a77288c72cb942b872927f7a86fe5775c20bec0d07e6d6fb4d2dcd"
+    },
+    {
+      "path": "models/Opale.C/Network.cs",
+      "sha256": "5ed923141053c65e77695c0ce1da140ccb1f9330fa14ccc9128d2cc74947bac5"
+    },
+    {
+      "path": "models/Opale.C/Program.cs",
+      "sha256": "81cc7d345371db3b508ffefd9a4e240baec04985a793b4409d662eb844572c4f"
+    },
+    {
+      "path": "models/Opale.C/Protocol.cs",
+      "sha256": "c4ab679b965dd5c9333ebb804262e14fb0dc485612316516bdbe95b1b6c7957c"
+    },
+    {
+      "path": "models/Opale.C/Verification.cs",
+      "sha256": "719df64bdad9446989d383ceba3d69a228aca69dd08d5ca810798a3dd0ed60ff"
+    },
+    {
+      "path": "models/Opale.C/Models/opale-c-v3.json",
+      "sha256": "3e25fd78df09920a87f2b0c6cdcc53084c5dcfbf7747dd64363a314fe8dfc1e9"
+    }
+  ],
+  "kingsrowReference": "arena/kingsrow/2026-11-07",
+  "developmentSeeds": [
+    20261107,
+    20261108,
+    20261109,
+    20261110
+  ],
+  "validationSeeds": [
+    812734,
+    912893,
+    722319,
+    164251,
+    725913,
+    652931,
+    413597,
+    991273,
+    582391
+  ],
+  "authorizedSearch": true,
+  "consultationChannel": "arena/kingsrow-challenge/chat.md"
+}

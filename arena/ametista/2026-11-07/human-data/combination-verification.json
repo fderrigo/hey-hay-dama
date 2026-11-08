@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": 34,
+  "scale": 100,
+  "manualZeroRecovery": true,
+  "perspectiveEquivalent": true,
+  "riskUnchanged": true,
+  "realGames": 0,
+  "training": false,
+  "command": "dotnet artifacts/ametista-human-publish/Ametista.HumanSearch.dll --verify-human"
+}

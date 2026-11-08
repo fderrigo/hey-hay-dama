@@ -1,0 +1,60 @@
+using System.Security.Cryptography;
+using System.Text.Json;
+using Ametista;
+using Dama.Engine;
+
+if(args.Length>0 && args[0] is "--write-weights" or "--verify") {
+    var root=new DirectoryInfo(AppContext.BaseDirectory);
+    while(root is not null&&!File.Exists(Path.Combine(root.FullName,"WeightSpaceGames.slnx"))) root=root.Parent;
+    if(root is null) throw new InvalidOperationException("Repository root not found.");
+    Directory.SetCurrentDirectory(root.FullName);
+}
+if(args is ["--write-weights",var file]) {
+    Directory.CreateDirectory(Path.GetDirectoryName(Path.GetFullPath(file))!);
+    File.WriteAllText(file,JsonSerializer.Serialize(Network.ManualV1(),Network.JsonOptions)); return;
+}
+if(args is ["--verify"]) { Verification.Run(); return; }
+var builder=WebApplication.CreateBuilder(args);
+builder.WebHost.ConfigureKestrel(o=>o.Limits.MaxRequestBodySize=64*1024);
+var weightsPath=builder.Configuration["weights"]??Path.Combine(AppContext.BaseDirectory,"Models","ametista-v1.json");
+var network=Network.Load(weightsPath);
+var sha=Convert.ToHexStringLower(SHA256.HashData(File.ReadAllBytes(weightsPath)));
+var search=new Search(network);
+var gate=new object();
+var gameHistory=new Dictionary<string,SortedDictionary<int,ulong>>();
+var app=builder.Build();
+app.MapGet("/health",()=>new {status="ok",model="Ametista",version=network.Definition.Version,sha256=sha,search="original-risk-aware-pvs",threads=1});
+app.MapPost("/choose-move",(Request r)=> {
+    if(r.ProtocolVersion!="dama-model/v1"||r.Rules!="italian-draughts-8x8"||r.Player is not("white" or "black")
+        ||r.Position?.Board is not {Length:32}||r.Position.Turn!=r.Player||r.Position.Board.Any(x=>x is < -2 or >2)
+        ||r.Position.Board.Count(x=>x>0)>12||r.Position.Board.Count(x=>x<0)>12||r.Position.Ply<0||r.Position.QuietKingPlyCount<0
+        ||r.LegalMoves is not {Length:>0 and <=256}||r.ThinkTimeMs is <100 or >30000||string.IsNullOrWhiteSpace(r.GameId)||r.GameId.Length>128)
+        return Results.BadRequest(new {error="Invalid request."});
+    var position=new Position(r.Position.Board,r.Player=="white"?1:-1,r.Position.Ply,r.Position.QuietKingPlyCount);
+    var legal=Rules.LegalMoves(position);
+    if(r.LegalMoves.Any(m=>m is null||string.IsNullOrWhiteSpace(m.Id)||m.Path is null||!legal.Any(l=>l.Path.Select(s=>s+1).SequenceEqual(m.Path))))
+        return Results.BadRequest(new {error="Invalid legal moves."});
+    lock(gate) {
+        if(!gameHistory.TryGetValue(r.GameId,out var timeline)) {
+            if(gameHistory.Count>=128) gameHistory.Remove(gameHistory.Keys.First());
+            gameHistory[r.GameId]=timeline=[];
+        }
+        foreach(var ply in timeline.Keys.Where(p=>p>=position.Ply).ToArray()) timeline.Remove(ply);
+        var board=Board.From(position); timeline[position.Ply]=board.Key;
+        var seen=timeline.Values.GroupBy(x=>x).ToDictionary(g=>g.Key,g=>g.Count());
+        var decision=search.Choose(board,r.GameId,Math.Max(10,r.ThinkTimeMs-100),seen);
+        var after=board.Apply(decision.Move);
+        var chosen=legal.FirstOrDefault(m=>Board.From(Rules.Apply(position,m))==after);
+        var supplied=chosen is null?null:r.LegalMoves.FirstOrDefault(m=>chosen.Path.Select(x=>x+1).SequenceEqual(m.Path));
+        if(supplied is null) return Results.UnprocessableEntity(new {error="Search and referee disagree."});
+        timeline[position.Ply+1]=after.Key;
+        return Results.Ok(new {protocolVersion="dama-model/v1",moveId=supplied.Id,
+            comment=$"Ametista {network.Definition.Version}: depth {decision.Depth}, nodes {decision.Nodes}, score {decision.Score}.",
+            diagnostics=new {decision.Depth,decision.Nodes,decision.Score,decision.Risk,decision.Milliseconds}});
+    }
+});
+app.Run();
+
+record PositionDto(int[] Board,string Turn,int Ply,int QuietKingPlyCount,int RepetitionCount);
+record MoveDto(string Id,int[] Path);
+record Request(string ProtocolVersion,string Rules,string GameId,string Player,PositionDto Position,MoveDto[] LegalMoves,int ThinkTimeMs);

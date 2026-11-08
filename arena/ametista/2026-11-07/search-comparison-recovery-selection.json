@@ -1,0 +1,131 @@
+{
+  "baseline": "manual-v4-search-v14",
+  "weightsSha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+  "candidate": "manual-v4-search-v16",
+  "selection": "manual",
+  "candidateBinary": "69AD33DE05484C70A939B008672700FC328F44F48A9F23AE61980D977246756C",
+  "source": "test",
+  "baselineVariant": "v14",
+  "reason": "v16 fewer nodes and CPU in both static orders; selective score differs in one fixture, strength requires games",
+  "schedule": [
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v14-seed375101.json",
+      "variant": "v14",
+      "seed": 375101,
+      "output": "arena/ametista/2026-11-07/search-comparison-v14-seed375101"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375101.json",
+      "variant": "v16",
+      "seed": 375101,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375101"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375102.json",
+      "variant": "v16",
+      "seed": 375102,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375102"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v14-seed375102.json",
+      "variant": "v14",
+      "seed": 375102,
+      "output": "arena/ametista/2026-11-07/search-comparison-v14-seed375102"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v14-seed375103.json",
+      "variant": "v14",
+      "seed": 375103,
+      "output": "arena/ametista/2026-11-07/search-comparison-v14-seed375103"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375103.json",
+      "variant": "v16",
+      "seed": 375103,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375103"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375104.json",
+      "variant": "v16",
+      "seed": 375104,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375104"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v14-seed375104.json",
+      "variant": "v14",
+      "seed": 375104,
+      "output": "arena/ametista/2026-11-07/search-comparison-v14-seed375104"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v14-seed375105.json",
+      "variant": "v14",
+      "seed": 375105,
+      "output": "arena/ametista/2026-11-07/search-comparison-v14-seed375105"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375105.json",
+      "variant": "v16",
+      "seed": 375105,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375105-recovery1"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375106.json",
+      "variant": "v16",
+      "seed": 375106,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375106"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v14-seed375106.json",
+      "variant": "v14",
+      "seed": 375106,
+      "output": "arena/ametista/2026-11-07/search-comparison-v14-seed375106"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v14-seed375107.json",
+      "variant": "v14",
+      "seed": 375107,
+      "output": "arena/ametista/2026-11-07/search-comparison-v14-seed375107"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375107.json",
+      "variant": "v16",
+      "seed": 375107,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375107"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375108.json",
+      "variant": "v16",
+      "seed": 375108,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375108"
+    },
+    {
+      "config": "arena/ametista/2026-11-07/search-comparison-v14-seed375108.json",
+      "variant": "v14",
+      "seed": 375108,
+      "output": "arena/ametista/2026-11-07/search-comparison-v14-seed375108"
+    }
+  ],
+  "candidateVariant": "v16",
+  "automaticWeightUpdates": false,
+  "createdAt": "2026-11-07T14:20:57.345033+00:00",
+  "baselineBinary": "CFE1962056FC09972470BBA7C2BFFAB334087BA6A56D787AB69051214F31C377",
+  "warmup": false,
+  "recovery": {
+    "originalSelection": "search-comparison-selection.json",
+    "originalAttempt": {
+      "config": "arena/ametista/2026-11-07/search-comparison-v16-seed375105.json",
+      "variant": "v16",
+      "seed": 375105,
+      "output": "arena/ametista/2026-11-07/search-comparison-v16-seed375105"
+    },
+    "reason": "35-second HTTP timeout on Kingsrow turn at ply148; process terminal confirmed; no performance outcome assigned",
+    "interruptedMatchId": "497fffcd785a4ed58ec869bdd3b90c71",
+    "repeatPolicy": "Repeat both colors with fresh IDs, retain original completed loss and interrupted game separately; no weights/binary/configuration changes",
+    "originalAttemptGames": 2,
+    "originalAttemptCompleted": 1,
+    "originalAttemptInterrupted": 1,
+    "plannedTotalStartsIncludingOriginalAttempt": 34,
+    "resumeIndex": 9,
+    "causalAttribution": "unknown; shared load is a possible confound, not established cause"
+  }
+}

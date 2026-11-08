@@ -1,0 +1,47 @@
+{
+  "startedAt": "2026-11-07T12:52:25.5998814+00:00",
+  "seed": 9202601,
+  "games": 54,
+  "openingPlies": 6,
+  "plyLimit": 400,
+  "thinkTimeMs": 1100,
+  "effectiveSearchMs": 1000,
+  "threads": 1,
+  "memoryLimitMiB": 1024,
+  "ponder": false,
+  "source": "benchmark",
+  "kingsrow": {
+    "id": "kingsrow",
+    "name": "Kingsrow Italian 1.19e",
+    "version": "1.19e",
+    "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+    "endpoint": "http://127.0.0.1:9026/choose-move"
+  },
+  "diaspro": {
+    "id": "diaspro",
+    "name": "Diaspro",
+    "version": "diaspro-v12",
+    "sha256": "d219a7783393847790a8fd2335535e0858603d4d9fe6789b1d708db3ec764845",
+    "endpoint": "http://127.0.0.1:9017/choose-move"
+  },
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition",
+  "rules": "italian-draughts-8x8",
+  "training": false,
+  "endgameDatabases": false,
+  "kingsrowOpeningBook": "bundled; engine defaults",
+  "diasproSearch": "iterative-alpha-beta",
+  "diasproArchitecture": "manual relational graph, alpha-beta and per-game episodic position memory",
+  "logicalProcessor": 2,
+  "buildConfiguration": "Release",
+  "diasproSources": {
+    "models/Diaspro/ManualWeights.cs": "01a8d4564afcfa7812ac2fa04816e3869c1553c72b0b346df5ad21e619894570",
+    "models/Diaspro/Network.cs": "3eaaf5fa2cfbd2764dbb87ec2e532f451c661d67c6a09f1df7e827ea7ff44cfe",
+    "models/Diaspro/FastRules.cs": "8141d369a78185c1461b53174f0824389212fbd03286749317e4e5381e39e026",
+    "models/Diaspro/Search.cs": "c6ea2ddb0ab4f9ce64912c151a2dabdfc5d8c11183835660f9a81321c19b3cb1",
+    "models/Diaspro/Policy.cs": "4fbb03d1dd947687d488caab3df709bbd505161dbdb17eaf090403d452305939",
+    "models/Diaspro/PositionMemory.cs": "b517de5282f23a125387f282a8bc789ea52061fde05b179f656d59dfc120c37a",
+    "models/Diaspro/Program.cs": "6aa7746a34d26b3f2f998bd984017d5ec25e3aadeb15fc527924b75e8e346c9e",
+    "experiments/Dama.DiasproMatch/Program.cs": "96ac9685b147936ca680133b9b3076dd7e9e75af4d788ca2e77a4b9ed4901f10",
+    "experiments/Dama.DiasproMatch/Audit.cs": "4e804e5cab9b63946696de44b6e8ca8ed97d1f6341477a73ee5d6b48c2ea8eef"
+  }
+}

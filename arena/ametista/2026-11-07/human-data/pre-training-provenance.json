@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-07T17:15:28.324329+00:00",
+  "inputPositionsSha256": "c0af0691f6557acd8a0d3e52f32f9e3fd7e944def23ab56eb8bc1eed523825c5",
+  "sourceHashes": {
+    "experiments\\Ametista.HumanData\\Program.cs": "65795bff2549b36519dc2ebb6a39b07be6a67f4f25061c62acb2508383aac74f",
+    "experiments\\Ametista.HumanData\\Ametista.HumanData.csproj": "3526466b3d3128280e67c5617817026e2f433766c25e98bbcbff413b753f68cd",
+    "experiments\\ametista_human_linear.py": "0754f91db41ba8d5dd7559c107bc695e7d5c0b5edf8ad49b374c758961b24ba3",
+    "src\\Dama.Engine\\Game.cs": "c6aaf25e9107e0d8d4499747c03fbd2607958d0ee518df3d354936ca8fc90e1e"
+  },
+  "note": "Pre-training snapshot; no weights learned yet. Source corpus and positions kept outside versioned publication artifacts. Overlap filter also excludes color-swapped rotated equivalent inputs."
+}

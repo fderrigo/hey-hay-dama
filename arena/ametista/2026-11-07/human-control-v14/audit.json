@@ -1,0 +1,21 @@
+{
+  "verifiedAt": "2026-11-07T17:59:33.3891857+00:00",
+  "games": 6,
+  "completed": 6,
+  "moves": 668,
+  "allRecorded": true,
+  "legalReplay": true,
+  "fullSchedule": true,
+  "pairedOpenings": true,
+  "availablePairsVerified": true,
+  "uniqueOpeningLines": 3,
+  "completePairs": 3,
+  "pairedScore": 0.4166666666666667,
+  "approximate95Lower": null,
+  "approximate95Upper": null,
+  "intervalMethod": "t approximation by opening pair; not reported below 18 complete pairs",
+  "bounded95Lower": null,
+  "bounded95Upper": null,
+  "boundedIntervalMethod": "two-sided Hoeffding on independent opening-pair scores in [0,1]; inference conditional on opening sampling",
+  "superioritySupported": false
+}

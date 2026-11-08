@@ -1,0 +1,336 @@
+{
+  "kind": "ametista-web-check",
+  "createdAt": "2026-11-07T14:55:11.6900582+00:00",
+  "realGamesCreated": 1,
+  "modelHealth": {
+    "status": "ok",
+    "model": "Ametista",
+    "version": "manual-v4",
+    "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+    "search": "search-v14",
+    "architecture": "original-risk-aware-pvs",
+    "threads": 1,
+    "compiledInference": true
+  },
+  "competitionDirectory": "C:\\Users\\filip\\source\\repos\\weight-space-games\\src\\Dama.Web\\App_Data\\competition",
+  "passed": true,
+  "matchId": "34cfd538503446bd8aa77cc30228ebe5",
+  "initialGame": {
+    "id": "34cfd538503446bd8aa77cc30228ebe5",
+    "access": "online",
+    "source": "test",
+    "createdAt": "2026-11-07T14:55:11.7954185\u002B00:00",
+    "updatedAt": "2026-11-07T14:55:11.7954192\u002B00:00",
+    "position": {
+      "board": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "turn": "white",
+      "ply": 0,
+      "quietKingPlyCount": 0,
+      "repetitionCount": 1
+    },
+    "white": {
+      "id": "ametista",
+      "name": "Ametista",
+      "isHuman": false,
+      "connected": true
+    },
+    "black": {
+      "id": "human",
+      "name": "Ametista-Verify",
+      "isHuman": true,
+      "connected": true
+    },
+    "status": "active",
+    "result": null,
+    "legalMoves": [
+      {
+        "id": "21-17",
+        "from": 21,
+        "to": 17,
+        "path": [
+          21,
+          17
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "21-18",
+        "from": 21,
+        "to": 18,
+        "path": [
+          21,
+          18
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "22-18",
+        "from": 22,
+        "to": 18,
+        "path": [
+          22,
+          18
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "22-19",
+        "from": 22,
+        "to": 19,
+        "path": [
+          22,
+          19
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "23-19",
+        "from": 23,
+        "to": 19,
+        "path": [
+          23,
+          19
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "23-20",
+        "from": 23,
+        "to": 20,
+        "path": [
+          23,
+          20
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "24-20",
+        "from": 24,
+        "to": 20,
+        "path": [
+          24,
+          20
+        ],
+        "captures": [],
+        "promotes": false
+      }
+    ],
+    "history": [],
+    "permissions": {
+      "isOwner": true,
+      "white": false,
+      "black": true,
+      "canMove": false,
+      "canAdvance": true,
+      "canJoin": false,
+      "canUndo": false
+    }
+  },
+  "registeredBeforeMove": true,
+  "advanceHttpStatus": 200,
+  "afterMove": {
+    "id": "34cfd538503446bd8aa77cc30228ebe5",
+    "access": "online",
+    "source": "test",
+    "createdAt": "2026-11-07T14:55:11.7954185\u002B00:00",
+    "updatedAt": "2026-11-07T14:55:13.2122681\u002B00:00",
+    "position": {
+      "board": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "turn": "black",
+      "ply": 1,
+      "quietKingPlyCount": 0,
+      "repetitionCount": 1
+    },
+    "white": {
+      "id": "ametista",
+      "name": "Ametista",
+      "isHuman": false,
+      "connected": true
+    },
+    "black": {
+      "id": "human",
+      "name": "Ametista-Verify",
+      "isHuman": true,
+      "connected": true
+    },
+    "status": "active",
+    "result": null,
+    "legalMoves": [
+      {
+        "id": "10-13",
+        "from": 10,
+        "to": 13,
+        "path": [
+          10,
+          13
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "10-14",
+        "from": 10,
+        "to": 14,
+        "path": [
+          10,
+          14
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "11-14",
+        "from": 11,
+        "to": 14,
+        "path": [
+          11,
+          14
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "11-15",
+        "from": 11,
+        "to": 15,
+        "path": [
+          11,
+          15
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "12-15",
+        "from": 12,
+        "to": 15,
+        "path": [
+          12,
+          15
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "12-16",
+        "from": 12,
+        "to": 16,
+        "path": [
+          12,
+          16
+        ],
+        "captures": [],
+        "promotes": false
+      },
+      {
+        "id": "9-13",
+        "from": 9,
+        "to": 13,
+        "path": [
+          9,
+          13
+        ],
+        "captures": [],
+        "promotes": false
+      }
+    ],
+    "history": [
+      {
+        "ply": 1,
+        "player": "white",
+        "moveId": "21-18",
+        "notation": "21-18",
+        "path": [
+          21,
+          18
+        ],
+        "captures": [],
+        "promotes": false,
+        "thinkingMs": 1195,
+        "comment": "Ametista manual-v4: depth 11, nodes 559360, score 2."
+      }
+    ],
+    "permissions": {
+      "isOwner": true,
+      "white": false,
+      "black": true,
+      "canMove": true,
+      "canAdvance": false,
+      "canJoin": false,
+      "canUndo": true
+    }
+  },
+  "legalModelMove": true
+}

@@ -1,0 +1,55 @@
+{
+  "complete": true,
+  "totals": {
+    "v4": {
+      "games": 8,
+      "wins": 0,
+      "draws": 0,
+      "losses": 8,
+      "points": 0,
+      "score": 0.0
+    },
+    "v13": {
+      "games": 8,
+      "wins": 1,
+      "draws": 0,
+      "losses": 7,
+      "points": 2,
+      "score": 0.125
+    }
+  },
+  "pairedComparisons": [
+    {
+      "seed": 846201,
+      "v4": 0.0,
+      "v13": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 846202,
+      "v13": 0.0,
+      "v4": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 846203,
+      "v4": 0.0,
+      "v13": 0.0,
+      "candidateMinusBaseline": 0.0
+    },
+    {
+      "seed": 846204,
+      "v13": 0.5,
+      "v4": 0.0,
+      "candidateMinusBaseline": 0.5
+    }
+  ],
+  "pending": [],
+  "realGamesCreated": 0,
+  "automaticallySelectedVersion": null,
+  "limitations": [
+    "Four opening pairs are development, not a confirmation of superiority.",
+    "All numbers are descriptive; no automatic model or weight selection.",
+    "Concurrent load and different hardware resources across agents remain relevant."
+  ]
+}

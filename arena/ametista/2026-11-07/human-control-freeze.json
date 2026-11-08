@@ -1,0 +1,76 @@
+{
+  "frozenAt": "2026-11-07T17:50:30.956562+00:00",
+  "files": [
+    {
+      "path": "models\\Ametista\\Board.cs",
+      "sha256": "dbb54412d33a4713e14504015bc15ba41e0eb6eb8a296b34c6e328eb2254bda2"
+    },
+    {
+      "path": "models\\Ametista\\InferenceCompiler.cs",
+      "sha256": "f706c929d31d48a1b9c42f0bcd538676473daa14870b37249318a5a5663a5699"
+    },
+    {
+      "path": "models\\Ametista\\Network.cs",
+      "sha256": "8ea978619f4331bbedb1acb32f2f234d40567a00cf4f6328880bcf40d49c2805"
+    },
+    {
+      "path": "models\\Ametista\\Program.cs",
+      "sha256": "f26856b3c39313ba1dc7d8629f18b86bdb28ffc9a2cce49cd59bb300f3a0f7bd"
+    },
+    {
+      "path": "models\\Ametista\\Search.cs",
+      "sha256": "04229220a3b48346ebf34440a2a9d92c21be4db54b800c00e147ec8bb527c342"
+    },
+    {
+      "path": "models\\Ametista\\Verification.cs",
+      "sha256": "9afbfc0965eb690482c4963d85ba54905772b50e0c6c23e08d1b66dca9b55965"
+    },
+    {
+      "path": "models\\Ametista\\Models\\ametista-v4.json",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138"
+    },
+    {
+      "path": "artifacts\\ametista-final-publish\\Ametista.dll",
+      "sha256": "8a9c454e0d42bbfafd72adfdbb00ff491a6f8906b88e54230aee9e68099473cd"
+    },
+    {
+      "path": "artifacts\\challenge-audit-v6\\bin\\Dama.Challenge\\release\\Dama.Challenge.dll",
+      "sha256": "7c0f78522c34241ea4e2c290df7054b2092017e316906c7e36a002b3b3666567"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\human-control-v14.json",
+      "sha256": "9ee778d5c8096df958f461577ab85f15ba2954b72fa767187207de41fc3b0302"
+    },
+    {
+      "path": "arena\\ametista\\2026-11-07\\human-control-extension.json",
+      "sha256": "420788cfbf913e88bb76c9e679a83409b0ff2329ff7a7cb0460a638af02ac89d"
+    },
+    {
+      "path": "experiments\\ametista_human_comparison.py",
+      "sha256": "24d6a5b63d288adaf7e361d1b4117b9a2a2d086681785bfd5f72e41144b2079c"
+    }
+  ],
+  "health": {
+    "a": {
+      "status": "ok",
+      "model": "Ametista",
+      "version": "manual-v4",
+      "sha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+      "search": "search-v14",
+      "architecture": "original-risk-aware-pvs",
+      "threads": 1,
+      "compiledInference": true
+    },
+    "b": {
+      "status": "ok",
+      "name": "Kingsrow Italian(x64) 1.19e",
+      "sha256": "91fbbd16ce36c2997493318b3ee9872bd564930d3fd6c2586d1bb82442e05de3",
+      "rules": "italian-draughts-8x8"
+    }
+  },
+  "controlGames": 6,
+  "source": "test",
+  "logicalProcessor": 0,
+  "deadline": "2026-11-07T18:20:00Z",
+  "reason": "Original manual baseline unchanged; control extension declared after two observed candidate losses, before candidate completion."
+}

@@ -1,0 +1,13 @@
+﻿{
+    "enabledOverride":  "Arena:Models:6:Enabled=true",
+    "webBuild":  "artifacts/ametista-web",
+    "deployment":  false,
+    "realGames":  0,
+    "ametista":  {
+                     "id":  "ametista",
+                     "name":  "Ametista",
+                     "description":  "Rete a pesi manuali con ricerca originale delle continuazioni e valutazione del rischio. Concorrente distinto da Opale."
+                 },
+    "endpoint":  "http://127.0.0.1:5323/api/models",
+    "checkedAt":  "2026-11-07T11:22:06.4611632Z"
+}

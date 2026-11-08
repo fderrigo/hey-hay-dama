@@ -1,0 +1,31 @@
+{
+  "recordedAt": "2026-11-07T18:07:11.943669+00:00",
+  "attributionSource": "arena/kingsrow-challenge/chat.md, AGENTE-C messages18:53:01 and19:02:03",
+  "reportedByOtherExecution": {
+    "stoppedHuman9019AfterAudit": true,
+    "startedControlAt": "2026-11-07T17:51:18.3349111+00:00",
+    "willNotModifyFurtherDocuments": true
+  },
+  "primaryObserved": {
+    "serviceAbsentAfterGames": true,
+    "duplicateControlAttemptRefused": true,
+    "existingControlCompletedAndAudited": true,
+    "reviewerDeniedThoseActions": true
+  },
+  "resolution": "Separate concurrent executions used AGENTE-C. Existing control retained; no duplicate match created. Ownership attribution comes from the channel statement; post-run health remained unavailable to this execution.",
+  "encodingRepair": {
+    "performedBy": "other execution as declared19:02:03",
+    "originalCopy": "arena\\ametista\\2026-11-07\\coordination-original-chat-20261107T1900.bin",
+    "originalSha256": "2f4eda92768fbfef15f5b7e897b3c8eb6bc2cf7d598d7fd746cf018a5cced8c6",
+    "invalidUtf8Bytes": 5,
+    "currentChatStartsWithReencodedOriginal": false,
+    "note": "Original bytes retained; this command only copies the backup and verifies the prefix, does not rewrite the discussion channel.",
+    "normalizedOriginalTextPreservedAsPrefix": true,
+    "comparisonNormalizations": [
+      "UTF-8 BOM removal",
+      "CRLF/CR converted to LF"
+    ],
+    "comparisonNote": "After explicit character recovery and newline/BOM normalization, all original text is an unchanged prefix of current discussion; later messages follow."
+  },
+  "comparisonVerifiedAt": "2026-11-07T18:07:44.249177+00:00"
+}

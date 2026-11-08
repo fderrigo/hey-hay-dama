@@ -1,0 +1,23 @@
+{
+  "ended": "2026-11-06T17:12:57.6641218+00:00",
+  "deadline": "2026-11-06T17:21:44+00:00",
+  "generation": 51,
+  "accepted": 11,
+  "totalGames": 1340,
+  "baseline": {
+    "Wins": 4,
+    "Draws": 5,
+    "Count": 20
+  },
+  "originalFinal": {
+    "Wins": 0,
+    "Draws": 0,
+    "Count": 0
+  },
+  "learnedFinal": {
+    "Wins": 0,
+    "Draws": 0,
+    "Count": 0
+  },
+  "bestValidation": 405
+}

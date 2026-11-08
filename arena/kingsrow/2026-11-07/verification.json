@@ -1,0 +1,14 @@
+{
+  "build": "solution Release: 0 warnings, 0 errors",
+  "httpContractChecks": 8,
+  "syntheticEngineFixtures": 10,
+  "opponentAvailabilityChecks": 3,
+  "browserChecks": 8,
+  "browserErrors": [],
+  "realMatchesInVerification": 0,
+  "sourceSnapshotsVerified": 3,
+  "postTournamentChanges": [
+    "HTTP input validation hardened without changing native search",
+    "Added audit command; no replayed matches"
+  ]
+}

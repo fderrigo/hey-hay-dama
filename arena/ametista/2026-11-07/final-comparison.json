@@ -1,0 +1,162 @@
+{
+  "complete": true,
+  "realGamesCreated": 0,
+  "opale": {
+    "games": 36,
+    "wins": 0,
+    "draws": 0,
+    "losses": 36,
+    "winRate": 0.0,
+    "score": 0.0,
+    "version": "manual-v3-preserved-control",
+    "weightsSha256": "3e25fd78df09920a87f2b0c6cdcc53084c5dcfbf7747dd64363a314fe8dfc1e9",
+    "superiorityOverKingsrowSupported": false
+  },
+  "ametista": {
+    "games": 36,
+    "wins": 3,
+    "draws": 4,
+    "losses": 29,
+    "winRate": 0.08333333333333333,
+    "score": 0.1388888888888889,
+    "version": "manual-v4-search-v14-final",
+    "weightsSha256": "7e8ea1c6a7c897e5d3d5c42a43511a26ad0ebd32db904fff670be488c7913138",
+    "superiorityOverKingsrowSupported": false
+  },
+  "inputSha256": {
+    "arena\\ametista\\2026-11-07\\confirmation-plan.json": "e26c2a6fcce14b6d0a051d303c79fbda693ffcacabf57c9366e7c0717048702d",
+    "arena\\ametista\\2026-11-07\\confirmation-opale\\manifest.json": "3aba4930c1efb967c2e06fc0e9e3a9d7ae0b07b65e4ea2fe9eaaddcca29b733d",
+    "arena\\ametista\\2026-11-07\\confirmation-opale\\games.jsonl": "8a6c9ebbea72ca6f6a74b5e52a32a3fa27916bf5041eec9368b6af2e47a3e852",
+    "arena\\ametista\\2026-11-07\\confirmation-opale\\audit.json": "b5b101e81dfc6a3253742bd2fb02901895523976cd5f04d6d906beb94d79532e",
+    "arena\\ametista\\2026-11-07\\confirmation-ametista\\manifest.json": "40b001666f62014c20e4d1b1645c819693417c1da9e4e09f7b04a1d67e46bd06",
+    "arena\\ametista\\2026-11-07\\confirmation-ametista\\games.jsonl": "130264266009c81f5f8ac308da0ac17be7ae5a6dd7d59782e23ae7d1d8b8ba49",
+    "arena\\ametista\\2026-11-07\\confirmation-ametista\\audit.json": "87d029f7ffcaad1599d1d3f513e5f371bf40c02fbd1e844d6fa93f293d6dc738"
+  },
+  "pairedScoreDifference": 0.1388888888888889,
+  "approximate95Interval": [
+    0.041433822245207766,
+    0.23634395553257004
+  ],
+  "bounded95Interval": [
+    -0.5013263053243915,
+    0.7791040831021694
+  ],
+  "measuredImprovementSupported": false,
+  "pairs": [
+    {
+      "seed": 812734,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 912893,
+      "opale": 0.0,
+      "ametista": 0.25,
+      "difference": 0.25
+    },
+    {
+      "seed": 722319,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 164251,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 725913,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 652931,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 413597,
+      "opale": 0.0,
+      "ametista": 0.5,
+      "difference": 0.5
+    },
+    {
+      "seed": 991273,
+      "opale": 0.0,
+      "ametista": 0.25,
+      "difference": 0.25
+    },
+    {
+      "seed": 582391,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 308417,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 647821,
+      "opale": 0.0,
+      "ametista": 0.5,
+      "difference": 0.5
+    },
+    {
+      "seed": 235687,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 864193,
+      "opale": 0.0,
+      "ametista": 0.25,
+      "difference": 0.25
+    },
+    {
+      "seed": 571249,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 439627,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 783451,
+      "opale": 0.0,
+      "ametista": 0.5,
+      "difference": 0.5
+    },
+    {
+      "seed": 126839,
+      "opale": 0.0,
+      "ametista": 0.0,
+      "difference": 0.0
+    },
+    {
+      "seed": 957263,
+      "opale": 0.0,
+      "ametista": 0.25,
+      "difference": 0.25
+    }
+  ],
+  "limitations": [
+    "Inference assumes independent sampled opening pairs; colors within a pair are not independent.",
+    "The t interval is approximate. The Hoeffding bound is conservative and uses range [-1,1].",
+    "Different execution times and concurrent system load can affect timed engine strength.",
+    "Improvement over Opale and superiority over Kingsrow are separate questions.",
+    "This report checks audited data; it does not certify runtime binary provenance or CPU timing."
+  ]
+}

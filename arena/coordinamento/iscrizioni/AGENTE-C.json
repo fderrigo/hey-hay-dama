@@ -1,0 +1,7 @@
+{
+    "id":  "opale",
+    "name":  "Opale C",
+    "version":  "manual-v3",
+    "endpoint":  "http://127.0.0.1:9014/choose-move",
+    "sha256":  "3e25fd78df09920a87f2b0c6cdcc53084c5dcfbf7747dd64363a314fe8dfc1e9"
+}
